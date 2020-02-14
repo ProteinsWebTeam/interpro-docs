@@ -1,7 +1,7 @@
 InterPro Documentation
 ======================
 
-This repository is the source code for InterPro documentation hosted on Read The Docs.
+This repository is the source code for InterPro documentation hosted on  `Read The Docs <https://readthedocs.org/projects/interpro-documentation/>`_.
 
 Installation
 ============

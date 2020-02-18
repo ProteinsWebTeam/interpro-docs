@@ -1,6 +1,6 @@
-####################
-InterPro Search Page
-####################
+###########
+Search Page
+###########
 
 ***************
 Sequence search

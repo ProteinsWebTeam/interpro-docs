@@ -9,34 +9,25 @@ InterPro Documentation
 
 .. toctree::
   :maxdepth: 2
-  :caption: Contents:
+  :caption: The InterPro website
 
   /banner
   /homepage
   /searchpage
+  /browse
+  /results
+  /release_notes
+  /download
+  /help
+  /about
 
+.. toctree::
+  :maxdepth: 2
+  :caption: About InterPro
 
-********
-InterPro
-********
-
-InterPro is a resource that provides functional analysis of protein sequences by
-classifying them into families and predicting the presence of domains and
-important sites. InterPro uses predictive models, known as signatures, to
-classify proteins. The signatures are provided by several different databases
-(referred to as member databases) that make up the InterPro consortium.
-
-************
-InterProScan
-************
-
-InterProScan is the software package that allows sequences to be scanned against
-InterPro's signatures (for more information about visit the
-`InterProScan repository <https://github.com/ebi-pf-team/interproscan/wiki>`_).
-
-****************
-InterPro website
-****************
+  /interpro
+  /interproscan
+  /member_databases
 
 
 ******************

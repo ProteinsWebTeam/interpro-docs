@@ -53,13 +53,13 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 html_theme_options = {
-    'prev_next_buttons_location': 'both',
+    'prev_next_buttons_location': 'bottom',
     'style_nav_header_background': '#046BA7',
     'logo_only': False,
     'style_external_links': True
 }
 
 html_use_smartypants = True
-html_logo = 'images/logo_white.svg'
+html_logo = 'images/interpro_logo_text.svg'
 html_title = 'InterPro Documentation'
 html_short_title = 'InterPro'

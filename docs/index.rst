@@ -15,6 +15,11 @@ InterPro Documentation
   /homepage
   /searchpage
   /browse
+  /entry
+  /protein
+  /taxonomy
+  /proteome
+  /set
   /results
   /release_notes
   /download

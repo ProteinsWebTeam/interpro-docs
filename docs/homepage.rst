@@ -52,7 +52,7 @@ Member database component
 This component shows icons for the :doc:`/member_databases`. The text under each
 icon shows the version of the member database and an estimate of the number of
 Entries from that resource in the current InterPro release. Each of
-the member database icons link to the :doc:`/browse` to show data
+the member database icons link to the :doc:`/browse` showing data
 filtered to match the selected Member Database.
 
 .. image:: images/homepage/homepage_member_database.png
@@ -64,7 +64,7 @@ Entry type component
 This component shows icons for :doc:`/entry_types`. An estimate of the number
 of entries corresponding to each type is shown under each icon. Clicking on an
 icon will display the :doc:`/browse` showing InterPro data filtered by the
-selected Entry type.
+selected Entry type
 
 .. image:: images/homepage/homepage_entry_type.png
   :alt: Homepage entry type component

@@ -28,7 +28,7 @@ InterPro Documentation
   /interpro
   /interproscan
   /member_databases
-
+  /entry_types
 
 ******************
 Indices and tables

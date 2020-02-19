@@ -1,10 +1,12 @@
+######################
 InterPro Documentation
-======================
+######################
 
 This repository is the source code for InterPro documentation hosted on  `Read The Docs <https://interpro-documentation.readthedocs.io/en/latest/>`_.
 
+************
 Installation
-============
+************
 
 .. code-block:: bash
 
@@ -18,9 +20,12 @@ Installation
   # build the docs
   sphinx-build docs build
 
-
+*****************
 How to Contribute
-=================
+*****************
 
+*******
 Contact
-=======
+*******
+
+

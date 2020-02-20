@@ -30,6 +30,7 @@ Browse page elements
 
     * :ref:`Entry_Filter`
     * :ref:`Protein_Filter`
+    * :ref:`Structure_Filter`
 
 .. _Data_Display:
 
@@ -164,7 +165,7 @@ display only items matching the selected database.
 Text filter
 ***********
 
-The text filter is located next to the :ref:`Data_View` selector. The text
+The text filter is situated next to the :ref:`Data_View` selector. The text
 filter searches the data with the entered text to display items matching
 the string.
 
@@ -200,7 +201,76 @@ described here.
 Entry Filters
 =============
 
+The Entry filters change depending on whether the selected database is InterPro
+or one of the :doc:`member_databases`.
+
+InterPro Entry Filters
+----------------------
+
+If the InterPro is the selected database, a set of three filters is displayed;
+InterPro Type, Integrated Database and GO Terms.
+
+.. image:: images/browse/interpro_entry_filter.png
+  :alt: InterPro Entry Filters
+
+* **InterPro Type**: Limits the data in the :ref:`Data_View` to the selected :doc:`entry_types`.
+* **Integrated Database**: Limits the data displayed in the :ref:`Data_View` to entries which have an integrated signature from the selected member database.
+* **Go Terms**: Filter by selected Go Terms from `InterPro2GO <https://www.ebi.ac.uk/GOA/InterPro2GO>`_.
+
+Member database Entry Filters
+-----------------------------
+
+The filters displayed when a member database is selected in the :ref:/memberdb_filter
+show some different filters.
+
+.. image:: images/browse/memberdb_entry_filter.png
+  :alt: MemberDB Entry Filters
+
+
+* **Member database entry type**: Member database entry types may correspond to :doc:`/entry_types`.
+* **InterPro state**: This filter can be used to view only those member databases entries which are integrated/not integrated into InterPro entries.
+
 .. _Protein_Filter:
 
 Protein Filters
 ===============
+
+Just as with :ref:`Entry_Filter`, Protein filters change based on the selection
+in the :ref:`MemberDB_Filter` component. The basic filters are displayed
+irrespective of which selection is made and an extra filter when the
+**All Proteins** option is selected.
+
+Database selected
+-----------------
+
+If a database has been selected then the following three filters are displayed.
+
+.. image:: images/browse/proteins_filter.png
+  :alt: Protein Filters
+
+* **UniProt Curation**: The `UniProtKB <https://www.uniprot.org/help/uniprotkb>`_ is split into two sections. The reviewed set are manually curated and the unreviewed set are derived from public databases automatically integrated into UniProt.
+* **Taxonomy**: This filter allows the displayed list of proteins to be limited to certain organisms.
+* **Sequence Status**: This filter allows proteins to be limited to complete proteins or fragments.
+
+All Proteins
+------------
+
+The **Matching Entries** filter is only displayed when the All Proteins option is selected in the :ref:`MemberDB_Filter`.
+
+.. image:: images/browse/all_proteins_filter.png
+  :alt: All Protein Filter
+
+* **Matching Entries**: This filter allows selection of proteins which do or do not contain matches to Entries in the InterPro dataset.
+
+.. _Structure_Filter:
+
+Structure Filters
+=================
+
+Structure filters do not vary depending on which option has been selected in the :ref:`MemberDB_Filter`.
+
+.. image:: images/browse/structure_filter.png
+  :alt: Structure Filter
+
+* **Experiment Type**: This filter allows selection of structures based on the type of experimental data the structure is based on.
+* **Resolution**: This filter allows structures to be selected based on the resolution of the structure.

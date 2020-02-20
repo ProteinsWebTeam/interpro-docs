@@ -72,11 +72,27 @@ selected Entry type
 Species component
 =================
 
+The Species component shows a set of icons corresponding to several keys
+Species. An estimate of the number of Entries and Proteins associated with
+each species is shown below the icon. Clicking on an icon will display the
+the associated :doc:`/taxonomy` for the selected organism. Clicking on the
+text below the icon will display the entry or protein table of the
+:doc:`/taxonomy`.
+
+
 .. image:: images/homepage/homepage_species.png
   :alt: Homepage species component
 
 Latest Entries component
 ========================
+
+The Latest Entries component shows a list of the latest entries. Each row in the
+component shows the entry type icon, followed by the name and accession of the
+Entry. The clickable icons beneath the text show the number of proteins,
+domain architectures, taxa, structures and member database which match to the
+Entry. Each of the icons is clickable and provides a shortcut to the
+corresponding section of the :doc:`/entry`.
+
 
 .. image:: images/homepage/homepage_latest_entries.png
   :alt: Homepage latest entries component

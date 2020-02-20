@@ -2,6 +2,14 @@
 InterPro Entry Types
 ####################
 
+All the different types of functional models in InterPro are referred to as
+Entries. These entries are subdivided into different entry types based on the
+criteria described below.
+
+Note that these definitions refer only to InterPro entries.
+:doc:`/member_databases` may have their own definitions of entry types which
+are likely to differ from types defined here.
+
 ******
 Domain
 ******

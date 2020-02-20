@@ -23,8 +23,11 @@ InterPro Documentation
   /results
   /release_notes
   /download
-  /help
-  /about
+  /protein_viewer
+  /taxonomy_viewer
+  /structure_viewer
+  /api
+  /faq
 
 .. toctree::
   :maxdepth: 2
@@ -33,6 +36,7 @@ InterPro Documentation
   /interpro
   /interproscan
   /member_databases
+  /data_types
   /entry_types
 
 ******************

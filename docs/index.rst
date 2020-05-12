@@ -11,6 +11,7 @@ InterPro Documentation
   :maxdepth: 2
   :caption: The InterPro website
 
+  /overview
   /banner
   /homepage
   /searchpage

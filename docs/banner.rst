@@ -19,8 +19,9 @@ Logo
   :alt: The InterPro Logo and spinner
 
 The InterPro 7 logo on the right-hand side of the website banner has a dual
-purpose. It links to the :doc:`/homepage` and also displays an animation whilst data
-is being loaded to indicate that the page being viewed has not fully loaded.
+purpose. It links to the :doc:`/homepage` and also displays an animation whilst
+data is being fetched from servers to indicate that the not all components on
+the page being viewed have completely loaded.
 
 
 **********

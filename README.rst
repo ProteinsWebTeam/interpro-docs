@@ -17,8 +17,10 @@ Installation
   python3 -m venv venv
   source ./venv/bin/activate
   pip install -r requirements.txt
-  # build the docs
+  # build the docs (this will have to be repeated on every edit)
   sphinx-build docs build
+  # or for a dynamic auto reloading
+  sphinx-autobuild docs build
 
 *****************
 How to Contribute
@@ -27,5 +29,3 @@ How to Contribute
 *******
 Contact
 *******
-
-

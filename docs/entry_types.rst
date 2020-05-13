@@ -92,3 +92,16 @@ PTM
 
 A short sequence that contains one or more conserved residues.
 Post-translational modification site.
+
+***********************
+Unintegrated signatures
+***********************
+
+.. image:: images/entry_types/unintegrated.png
+  :alt: Unintegrated entry type icon
+  :width: 75pt
+
+In addition to signatures that have been grouped into InterPro entries, you can
+also find unintegrated signatures that might not yet be curated or might not
+reach InterPro's standards for integration. However, they may provide
+information about a protein.

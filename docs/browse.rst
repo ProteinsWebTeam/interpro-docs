@@ -11,6 +11,9 @@ data in variety of different ways. The components on this page can be subdivided
 into those which are always displayed and those which depend on the type of data
 being viewed.
 
+The two key components on this page are the :ref:`Tabs` which show the details
+in the :ref:`Data_Display`.
+
 Browse page elements
 ====================
 

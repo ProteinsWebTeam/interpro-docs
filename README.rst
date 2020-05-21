@@ -21,6 +21,9 @@ Installation
   sphinx-build docs build
   # or for a dynamic auto reloading
   sphinx-autobuild docs build
+  # view documentation at
+  http://localhost:8000/
+
 
 *****************
 How to Contribute

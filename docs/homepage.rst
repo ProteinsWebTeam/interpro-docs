@@ -3,8 +3,7 @@ Homepage
 ########
 
 The contents of the InterPro homepage underneath the :doc:`/banner` can be split
-into a the following sections
-.
+into in the following sections:
 
 #. :ref:`Summary`
 #. :ref:`Search`
@@ -29,9 +28,9 @@ date is displayed under the graphic.
 Search
 ******
 
-The search section shows a multifunctional a search component. The tabs above the
-text entry area allow selection of one of the three types of search supported by
-InterPro. More details about searching are shown on the :doc:`/searchpage`.
+The search section shows a multifunctional search component. The tabs above the
+text entry area allows the selection of one of the three types of search supported by
+InterPro. More details about searching are available on the :doc:`/searchpage`.
 
 .. image:: images/homepage/homepage_search.png
   :alt: Homepage search component
@@ -50,7 +49,7 @@ Member database component
 =========================
 
 This component shows icons for the :doc:`/member_databases`. The text under each
-icon shows the version of the member database and an estimate of the number of
+icon provides information about the version of the member database and an estimate of the number of
 Entries from that resource in the current InterPro release. Each of
 the member database icons link to the :doc:`/browse` showing data
 filtered to match the selected Member Database.
@@ -64,7 +63,7 @@ Entry type component
 This component shows icons for :doc:`/entry_types`. An estimate of the number
 of entries corresponding to each type is shown under each icon. Clicking on an
 icon will display the :doc:`/browse` showing InterPro data filtered by the
-selected Entry type
+selected Entry type.
 
 .. image:: images/homepage/homepage_entry_type.png
   :alt: Homepage entry type component
@@ -72,7 +71,7 @@ selected Entry type
 Species component
 =================
 
-The Species component shows a set of icons corresponding to several keys
+The Species component shows a set of icons corresponding to several key
 Species. An estimate of the number of Entries and Proteins associated with
 each species is shown below the icon. Clicking on an icon will display the
 the associated :doc:`/taxonomy` for the selected organism. Clicking on the
@@ -103,11 +102,11 @@ corresponding section of the :doc:`/entry`.
 News and information
 ********************
 
-The final section of the homepage is comprises components linking to the
+The final section of the homepage comprises components linking to the
 articles from the
 `InterPro Blog <https://proteinswebteam.github.io/interpro-blog/>`_,
-technical aspects of the website, our
-`Twitter feed <https://twitter.com/InterProDB>`_ and our sources of funding.
+technical aspects of the website and our
+`Twitter feed <https://twitter.com/InterProDB>`_.
 
 Spotlight and Blog
 ==================
@@ -115,7 +114,7 @@ Spotlight and Blog
 This section shows a selection of articles from the
 `InterPro Blog <https://proteinswebteam.github.io/interpro-blog/>`_. We publish
 a range of articles on the Blog, from technical information about the resources
-run by the team through to protein focus articles which delve into details
+run by the team to protein focus articles which delivers details
 about interesting entries from InterPro data.
 
 .. image:: images/homepage/homepage_spotlight.png

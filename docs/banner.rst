@@ -9,7 +9,7 @@ The banner is visible at the top of all sections of the website and is
 intended to provide a convenient way to access many of key features of the
 website.
 
-We well describe various aspects of the navigation banner in this section.
+We will describe various aspects of the navigation banner in this section.
 
 ****
 Logo

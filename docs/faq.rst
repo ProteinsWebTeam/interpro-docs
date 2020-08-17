@@ -76,8 +76,8 @@ InterPro contains data for the following types of sites:
 |U| **Unintegrated**
 
 In addition to signatures that have been grouped into InterPro entries, you can also find 
-signatures from member databases that are ‘unintegrated’ in InterPro. These signatures 
-might not yet be curated or might not reach InterPro’s standards for integration. However, 
+signatures from member databases that are "unintegrated" in InterPro. These signatures 
+might not yet be curated or might not reach InterPro's standards for integration. However, 
 they can still provide important information about a protein of interest.
 
 .. |F| image:: /images/entry_types/family.png
@@ -169,7 +169,7 @@ How can I ensure privacy for my sequence searches?
 =================================================
 We adhere to EMBL standards on data privacy which can be found `here <https://www.ebi.ac.uk/data-protection/privacy-notice/embl-ebi-public-website>`_. 
 However, if you have privacy concerns about submitting sequences for analysis via the web, 
-the InterProScan software package can be downloaded for local installation from the EBI’s 
+the InterProScan software package can be downloaded for local installation from the EBI's 
 `downloads page <https://www.ebi.ac.uk/interpro/download/>`_.
 
 

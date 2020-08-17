@@ -2,7 +2,7 @@
 InterPro consortium member databases
 ################################
 
-InterPro is the world’s most comprehensive resource for protein family and domain information, 
+InterPro is the world's most comprehensive resource for protein family and domain information, 
 but InterPro is only possible due to the amazing classification work of our collaborators. 
 InterPro integrates protein signatures from 13 member databases, which use a variety of different 
 methods to classify proteins. Each of the databases has a particular focus (e.g. protein domains 

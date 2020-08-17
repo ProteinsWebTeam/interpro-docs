@@ -128,13 +128,13 @@ information about this data is available on the `train online course <https://ww
 Member database page
 ********************
 InterPro provides entry pages for each signature that a member database holds. This includes signatures 
-that have not yet been, or can’t be, integrated into InterPro (:ref:`unintegrated signatures <entry_types>`).
+that have not yet been, or can't be, integrated into InterPro (:ref:`unintegrated signatures <entry_types>`).
  
 Member database signature entries provide information about which database the signature is from, the 
 signature identifier, the type of entry as defined by the member database (e.g. family, domain or site), 
 and the short name given to the entry by the member database. The right hand side of the page provides 
 links to the InterPro entry in which this signature has been integrated, and an external link to the 
-signature on the member database’s website.
+signature on the member database's website.
 
 .. figure:: images/browse_pages/member_db_page.png
     :alt: Member database page
@@ -208,7 +208,7 @@ accession from the :ref:`proteins` tab in an entry page.
  
 The protein page provides the protein accession, the short name given to the protein by Uniprot, the length 
 of the protein sequence, species in which the protein is found, the proteome it belongs to and a brief 
-description of the protein’s function where known. All the :ref:`InterPro family entries <entry_types>` 
+description of the protein's function where known. All the :ref:`InterPro family entries <entry_types>` 
 this protein is matching are listed under "**Protein family membership**". An external link to the protein 
 entry in `UniprotKB <https://www.uniprot.org/>`_ is provided on the right hand side of the page.
 
@@ -256,7 +256,7 @@ InterPro provides entries for all the structures available in the `Protein Data 
 in a results list or by entering the protein structure identifier in the :ref:`quick_search` 
 box (magnifying glass symbol) or by performing a :ref:`text_search`.
  
-At the top of the structure page, general information about the structure is displayed: the structure’s 
+At the top of the structure page, general information about the structure is displayed: the structure's 
 accession number (PDB ID), resolution, release date, the method used to determine the structure 
 (e.g. "Xray") and the chains composing the structure. An external link to the structure entry in the 
 PDBe database is provided on the right hand side of the page.

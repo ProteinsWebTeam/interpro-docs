@@ -2,7 +2,7 @@
 InterProScan
 ############
 
-InterProScan is the software package that allows sequences to be scanned against InterPro’s 
+InterProScan is the software package that allows sequences to be scanned against InterPro's 
 member database signatures.
 
 Users who have novel nucleotide or protein sequences that they wish to functionally 

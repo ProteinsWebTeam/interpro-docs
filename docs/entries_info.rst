@@ -3,7 +3,7 @@ InterPro Entries : essential information
 ######
 
 An InterPro entry is created for each protein family, domain or important site signature that is integrated into 
-InterPro from one or more of it’s :ref:`13 member databases<databases>` . Where signatures from two or more member databases describe 
+InterPro from one or more of it's :ref:`13 member databases<databases>` . Where signatures from two or more member databases describe 
 the same family, domain or site, the member database signatures are brought together under one InterPro entry.
 
 An InterPro entry provides a written description of the family, domain or site and lists the contributing member 
@@ -34,7 +34,7 @@ conserved sites and sites of post-translational modification.
 their structure, even if sequence similarity is low. This entry type contains signatures from the CATH-Gene3D and 
 SUPERFAMILY member databases exclusively.
 
-|U| **Unintegrated** - member database signatures that might not yet be curated in InterPro, or might not reach InterPro’s 
+|U| **Unintegrated** - member database signatures that might not yet be curated in InterPro, or might not reach InterPro's 
 criteria for integration, but may still provide useful information.
 
 ****
@@ -51,8 +51,8 @@ in the corresponding `train online section <https://www.ebi.ac.uk/training/onlin
 ****
 Entry relationships
 ****
-InterPro entries that represent a subset of proteins from another InterPro entry are identified as ‘children’ of the 
-‘parent’ entry. InterPro displays these connections between entries in the ‘Family Relationships’ or ‘Domain Relationships’ 
+InterPro entries that represent a subset of proteins from another InterPro entry are identified as "children" of the 
+"parent" entry. InterPro displays these connections between entries in the "Family Relationships" or "Domain Relationships" 
 sections. Entries at the top of these hierarchies describe broad families or domains that share higher level structure and/or 
 function, while those entries at the bottom describe more specific functional subfamilies or structural/functional subclasses 
 of domains. More information is available in the corresponding `train online section <https://www.ebi.ac.uk/training/online/course/interpro-functional-and-structural-analysis-protei/relationships-between-interpro-entries/>`_.

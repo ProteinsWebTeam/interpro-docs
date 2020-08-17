@@ -1,10 +1,10 @@
 #############
-Release Notes
+Release notes
 #############
 
-This page shows various statistics about current and previous versions
-of InterPro
-`InterPro release notes page <https://www.ebi.ac.uk/interpro/release_notes/>`_
+InterPro is updated approximately every 8 weeks.
+The `release notes page <https://www.ebi.ac.uk/interpro/release_notes/>`_ provides 
+information about the current InterPro release.
 
 *******************
 General information
@@ -19,11 +19,9 @@ date together with changes made in this release.
 ****************
 Other statistics
 ****************
+A range of statistics covering member databases, GO annotation, information about Proteins, 
+Structures, Proteomes, Taxonomy and Sets are also available on this page. 
 
-We present a range of statistics covering member databases, GO annotation,
-information about Proteins, Structures, Proteomes, Taxonomy and Sets. More
-information about these data can be found in the :doc:`/browse` section of the
-website.
 
 .. image:: images/release_notes/release_notes_member_database.png
   :alt: Release notes member database statistics

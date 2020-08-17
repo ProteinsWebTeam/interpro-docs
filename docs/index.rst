@@ -9,39 +9,38 @@ InterPro Documentation
 
 .. toctree::
   :maxdepth: 2
-  :caption: The InterPro website
+  :caption: About InterPro
 
-  /overview
+  /interpro
+  /citing
+  /tutorials_webinars
+  /entries_info
+
+.. toctree::
+  :maxdepth: 2
+  :caption: The InterPro website
+  
   /banner
   /homepage
-  /searchpage
-  /browse
-  /entry
-  /protein
-  /taxonomy
-  /proteome
-  /set
-  /results
-  /release_notes
-  /download
+  /searchways
   /protein_viewer
-  /taxonomy_viewer
-  /structure_viewer
-  /api
+  /browse
+  /download
+  /release_notes
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Frequently asked questions
+
   /faq
 
 .. toctree::
   :maxdepth: 2
-  :caption: About InterPro
+  :caption: InterPro resources
 
-  /interpro
   /interproscan
-  /member_databases
-  /data_types
-  /entry_types
+  /databases
+  /team
+  /funding
+  /privacy
 
-******************
-Indices and tables
-******************
-
-* :ref:`genindex`

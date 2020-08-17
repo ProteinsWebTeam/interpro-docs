@@ -234,8 +234,9 @@ Yes, for now you can! There two ways to access the old (legacy) website:
 
 #. Navigate to this URL: `<https://www.ebi.ac.uk/interpro/legacy/>`_
 #. Click on the Settings link from the InterPro Menu section of the sidebar
- - Click on the “hamburger” icon above the magnifying glass icon to open the InterPro Menu sidebar.
- - Then click the See this page in the old website link to be taken to the nearest matching page in the legacy website.
+
+   a) Click on the “hamburger” icon above the magnifying glass icon to open the InterPro Menu sidebar.
+   b) Then click the See this page in the old website link to be taken to the nearest matching page in the legacy website.
 
 Please note that the legacy website isn't updated anymore and will be shut down after 
 October 8, 2020 .

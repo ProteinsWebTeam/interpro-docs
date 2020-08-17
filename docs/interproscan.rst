@@ -2,6 +2,8 @@
 InterProScan
 ############
 
+.. :ref:sequence_search searchways.html#sequence-search
+
 InterProScan is the software package that allows sequences to be scanned against InterPro's 
 member database signatures.
 

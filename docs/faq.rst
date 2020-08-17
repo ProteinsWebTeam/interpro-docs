@@ -2,6 +2,10 @@
 Frequently Asked Questions (FAQs)
 #################################
 
+.. :ref:go_publication citing.html#go-publication
+.. :ref:sequence_search searchways.html#sequence-search
+.. :ref:navigation_menu banner.html#navigation-menu
+
 *****************
 General Questions
 *****************

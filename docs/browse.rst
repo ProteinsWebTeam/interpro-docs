@@ -2,6 +2,12 @@
 Browsing entries in the InterPro website
 ###########
 
+.. :ref:overlapping entries_info.html#overlapping
+.. :ref:relationship entries_info.html#relationship
+.. :ref:entry_types entries_info.html#entry-types
+.. :ref:text_search searchways.html#text-search
+.. :ref:quick_search searchways.html#quick-search
+
 You can get to entry pages in InterPro in lots of different ways. Commonly this will involve clicking on 
 a link to an entry from one of the :doc:`search methods </searchways>`.  This section describes the 
 different types of entries and what you will find for each of their pages.

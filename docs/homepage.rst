@@ -2,6 +2,12 @@
 InterPro Homepage
 ########
 
+.. :ref:browse_feature searchways.html#browse-feature
+.. :ref:entry_types entries_info.html#entry-types
+.. :ref:taxonomy_page browse.html#taxonomy-page
+.. :ref:entries browse.html#entries
+.. :ref:proteins browse.html#proteins
+
 The InterPro homepage can be split into in the following sections:
 
   #. :ref:`Overview`
@@ -59,8 +65,8 @@ Member databases
 
 This section shows icons for the :doc:`/databases`, along with information about the version of the member 
 database and an estimate of the number of signatures from that resource which are in the current InterPro 
-release. Each of the member database icons links to the :ref:`<browse_feature>` feature showing data filtered to match the 
-selected member database.
+release. Each of the member database icons links to the :ref:`<browse_feature>` feature showing data 
+filtered to match the selected member database.
 
 |
 |
@@ -104,7 +110,7 @@ The Species component shows a set of icons corresponding to several key
 species and an estimate of the number of entries and proteins associated with
 each species. Clicking on an icon will display the associated :ref:`taxonomy_page` 
 for the selected organism. Clicking on the text below the icon will display 
-the :ref:`entries` or :ref:`proteins` table, respectively.
+the :ref:`entries` or :ref:`proteins` tabs, respectively.
 
 |
 |

@@ -2,6 +2,9 @@
 How to download InterPro data?
 #############
 
+.. :ref:navigation_menu banner.html#navigation-menu
+.. :ref:text_filter searchways.html#text-filter
+
 InterPro data and search tools are freely available for download. We provide bulk downloads, 
 data exports on each relevant InterPro page and an API to allow easy access for user scripts.
 
@@ -85,7 +88,7 @@ InterPro Application Programming Interface (API)
 *************
 The InterPro API provides programmatic access to all the InterPro entries and their related 
 entities in Json format.The API has six main endpoints, which corresponds to the 
-:doc:`InterPro data types </data_types>`: entry, protein, structure, taxonomy, proteome and 
+:doc:`InterPro data types </browse>`: entry, protein, structure, taxonomy, proteome and 
 set.
 
 An API call is formed of one or multiple endpoint blocks. An endpoint block consists of a 

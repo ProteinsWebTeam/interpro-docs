@@ -14,6 +14,7 @@ InterPro Documentation
   /interpro
   /citing
   /tutorials_webinars
+  /training
   /entries_info
 
 .. toctree::

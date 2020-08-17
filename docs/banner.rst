@@ -2,6 +2,11 @@
 InterPro website banner
 ######
 
+.. :ref:browse_feature searchways.html#browse-feature
+.. :ref:sequence_search_results searchways.html#sequence-search-results
+.. :ref:bulk_download download.html#bulk-download
+.. :ref:quick_search searchways.html#quick-search
+
 Every page in InterPro has an identical banner with some handy features described below.
 
 .. _navigation_banner:

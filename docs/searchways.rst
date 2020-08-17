@@ -1,6 +1,17 @@
 ###########
 How to search the InterPro website?
 ###########
+
+.. :ref:Search homepage.html#search
+.. :ref:navigation_menu banner.html#navigation-menu
+.. :ref:navigation_banner banner.html#navigation-banner
+.. :ref:memberdb_page browse.html#memberdb-page
+.. :ref:entry_page browse.html#entry-page
+.. :ref:protein_page browse.html#protein-page
+.. :ref:structure_page browse.html#structure-page
+.. :ref:taxonomy_page browse.html#taxonomy-page
+.. :ref:entry_types entries_info.html#entry-types
+
 A search can be performed on the :doc:`/homepage` using the :ref:`Search` component, by clicking on the Search tab in the 
 :ref:`navigation menu <navigation_menu>`, 
 or by clicking on the magnifying glass in the :ref:`navigation banner <navigation_banner>`. 
@@ -95,12 +106,14 @@ The text search will search the following information in the database:
 - InterPro, protein, protein structure or member database signature accession
 - GO terms
 - proteome identifier
+- set identifier
 
 Entering a **name**, or **keywords**, retrieves a list of all the InterPro entries and InterPro member database 
 signatures that contain these searched words in their title or description.
 
 Entering an **accession number** (e.g. IPR020422 (InterPro), O00167 (UniProt), PF02932 (member database), 
-GO:0007165 (GO term), 1t2v (structure), UP000005640 (proteome) retrieves a list containing the entry matching 
+GO:0007165 (GO term), 1t2v (structure), UP000005640 (proteome), 	
+cl00011 (set) retrieves a list containing the entry matching 
 that accession number and any member database signatures and InterPro entries linked to that accession number.
 
 Selecting the accession number or name of any entry in these lists opens the corresponding InterPro page 

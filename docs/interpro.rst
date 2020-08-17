@@ -2,6 +2,9 @@
 About InterPro
 ########
 
+.. :ref:bulk_download download.html#bulk-download
+.. :ref:api download.html#api
+
 InterPro is a resource that provides functional analysis of protein sequences 
 by classifying them into families and predicting the presence of domains and 
 important sites. To classify proteins in this way, InterPro uses predictive 
@@ -16,7 +19,7 @@ annotation of millions of GO terms across the protein sequence databases.
 
 InterPro integrates signatures from the following 13 member databases:
 CATH, CDD, HAMAP, MobiDB Lite, Panther, Pfam, PIRSF, PRINTS, Prosite, SFLD, SMART, 
-SUPERFAMILY AND TIGRfams (the :ref:`InterPro consortium member databases<databases>` section gives 
+SUPERFAMILY AND TIGRfams (the :doc:`InterPro consortium member databases </databases>` section gives 
 further information about the individual databases).
 
 The member databases use a variety of different methods to classify proteins. 
@@ -33,10 +36,11 @@ families, domains, important sites, perform a sequence search or browse through
 InterPro annotations. We have designed the website to be intuitive for new users 
 meaning it is not essential to read this documentation. However, in the following 
 sections you will find a wealth of specialised and powerful features that can be 
-easily overlooked. You may also want to check out our list of :ref:`training materials 
-and webinars <trainingMaterials>`.
+easily overlooked. You may also want to check out our list of :doc:`training materials 
+and webinars </tutorials_webinars>`.
 
-InterPro is updated approximately every 8 weeks. The `release notes <https://www.ebi.ac.uk/interpro/release_notes/>`_ page contain information about what has changed in each update.
+InterPro is updated approximately every 8 weeks. The `release notes page <https://www.ebi.ac.uk/interpro/release_notes/>`_ 
+contains information about what has changed in each release.
 
 All information in InterPro is freely available. You can download InterPro data 
 for local analyses from our :ref:`bulk_download`, or use the :ref:`InterPro API <api>`. Find out more 

@@ -2,8 +2,15 @@
 InterPro Entries : essential information
 ######
 
+.. :ref:memberdb_page browse.html#memberdb-page
+.. :ref:entry_page browse.html#entry-page
+.. :ref:protein_page browse.html#protein-page
+.. :ref:structure_page browse.html#structure-page
+.. :ref:taxonomy_page browse.html#taxonomy-page
+.. :ref:set_page browse.html#set-page
+
 An InterPro entry is created for each protein family, domain or important site signature that is integrated into 
-InterPro from one or more of it's :ref:`13 member databases<databases>` . Where signatures from two or more member databases describe 
+InterPro from one or more of it's :doc:`13 member databases </databases>` . Where signatures from two or more member databases describe 
 the same family, domain or site, the member database signatures are brought together under one InterPro entry.
 
 An InterPro entry provides a written description of the family, domain or site and lists the contributing member 

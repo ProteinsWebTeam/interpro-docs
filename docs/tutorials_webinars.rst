@@ -1,5 +1,3 @@
-.. _trainingMaterials:
-
 ########
 InterPro tutorials & Webinars
 ########

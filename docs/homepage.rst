@@ -4,14 +4,16 @@ InterPro Homepage
 
 The InterPro homepage can be split into in the following sections:
 
-  A. :ref:`Overview`
-  B. :ref:`Search`
-  C. :ref:`Data`
-  D. :ref:`News`
+  #. :ref:`Overview`
+  #. :ref:`Search`
+  #. :ref:`Data`
+  #. :ref:`News`
 
-.. image:: images/homepage/home_page.png
+.. figure:: images/homepage/home_page.png
   :alt: Homepage content
   :width: 300pt
+  
+  InterPro homepage
 
 .. _Overview:
 
@@ -19,7 +21,7 @@ The InterPro homepage can be split into in the following sections:
 InterPro resource overview
 ****************
 
-This section (section A in the figure above) gives an overview of the InterPro resource. 
+This section (section 1 in the figure above) gives an overview of the InterPro resource. 
 The release version and date is displayed under the graphic.
 
 .. .. image:: images/homepage/homepage_summary.png
@@ -31,7 +33,7 @@ The release version and date is displayed under the graphic.
 Search box
 ******
 
-The search section (section B in the figure above) shows a multifunctional search component, 
+The search section (section 2 in the figure above) shows a multifunctional search component, 
 which allows the selection of one of the five types of search supported by InterPro. More 
 details about searching are available on the :doc:`/searchways` section.
 
@@ -44,7 +46,7 @@ details about searching are available on the :doc:`/searchways` section.
 Data
 ****
 
-The data section (section C in the figure above) gives an overview of InterPro data with shortcuts 
+The data section (section 3 in the figure above) gives an overview of InterPro data with shortcuts 
 to different views of the data, and highlights the latest InterPro entries on the right hand side.
 
 Member databases
@@ -148,7 +150,7 @@ to the corresponding section of the  :ref:`entry_page`.
 News and information
 ********************
 
-The final section of the homepage (section D in the figure above) comprises components 
+The final section of the homepage (section 4 in the *InterPro homepage* figure above) comprises components 
 linking to the articles from the `InterPro Blog <https://proteinswebteam.github.io/interpro-blog/>`_, 
 technical aspects of the website and our `Twitter feed <https://twitter.com/InterProDB>`_.
 

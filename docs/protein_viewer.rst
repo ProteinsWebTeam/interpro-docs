@@ -7,7 +7,7 @@ A common element on several InterPro website pages is the protein sequence viewe
 track) and member database signatures matches to the protein or structure
 being looked at, represented by the grey bar at the top of the viewer. 
 
-.. image:: images/protein_viewer/protein_viewer.png
+.. image:: images/protein_viewer/pv_options.png
   :alt: Protein sequence viewer
 
 The matches are displayed in different categories classified by :ref:`entry_types`. 
@@ -25,21 +25,21 @@ Various options, make it easy to work with:
 7. The **Print** option allows the user to print the viewer, thus supporting the download in PDF format.
 8. **Collapse All** allows to collapse all the child tracks displayed in the viewer at once to only display the InterPro entry level. 
 
-.. image:: images/protein_viewer/protein_viewer_collapsed.png
+.. image:: images/protein_viewer/pv_collapsed_tracks.png
   :alt: Protein sequence viewer collapsed
 
 9. The tooltips are shown when hovering over each bubble. They can be disabled by unchecking the tooltip option.
 
-.. image:: images/protein_viewer/tooltip.png
+.. image:: images/protein_viewer/pv_tooltip.png
   :alt: Protein sequence viewer tooltip
 
 10. When zoomed in, panning can be achieved by either dragging the scale at the top or by dragging any track in the desired direction.
 
-.. image:: images/protein_viewer/panning.png
+.. image:: images/protein_viewer/pv_panning.png
   :alt: Protein sequence viewer panning
 
 11. Clicking on the header of a category (say Unintegrated) hides the tracks for the entire category.
 12. On the :ref:`protein_page`, clicking on the **Fetch conservation** button, will display the conservation information based on the Pfam signatures.
 
-.. image:: images/protein_viewer/conservation.png
+.. image:: images/protein_viewer/pv_conservation.png
   :alt: Protein sequence viewer conservation track

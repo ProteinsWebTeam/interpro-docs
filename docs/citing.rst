@@ -55,7 +55,7 @@ Methods Mol Biol. (2011) Database issue 694:37-47, PMID: `21082426 <https://euro
 
 `InterPro: the integrative protein signature database <https://dx.doi.org/10.1093%2Fnar%2Fgkn785>`_
 Hunter S, Apweiler R, Attwood TK, Bairoch A, Bateman A, Binns D, Bork P, Das U, Daugherty L, Duquenne L, Finn RD, Gough J, Haft D, Hulo N, Kahn D, Kelly E, Laugraud A, Letunic I, Lonsdale D, Lopez R, Madera M, Maslen J, McAnulla C, McDowall J, Mistry J, Mitchell A, Mulder N, Natale D, Orengo C, Quinn AF, Selengut JD, Sigrist CJ, Thimma M, Thomas PD, Valentin F, Wilson D, Wu CH, Yeats C.
-Nucleic Acids Res. (2009), Database issue 37:D211-5, PMID: `18940856 <https://europepmc.org/article/MED/18940856>`2_3
+Nucleic Acids Res. (2009), Database issue 37:D211-5, PMID: `18940856 <https://europepmc.org/article/MED/18940856>`_
 
 `The InterPro database and tools for protein domain analysis <https://doi.org/10.1002/0471250953.bi0207s21>`_
 Mulder NJ, Apweiler R.

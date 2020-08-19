@@ -83,8 +83,8 @@ followed by the predicted InterPro protein family membership when available ([1]
 
 The sequence submitted is shown in its full length at the top of the protein sequence viewer (grey bar) [2]. 
 The purple/grey bar below indicates the predicted hydrophobicity of the sequence residues [3]. 
-This is followed below by InterPro entries and signatures matches, displayed in categories classified by :doc:`InterPro 
-entry types </entry_types>`. Each coloured rectangle represents a domain, protein family, or important site that has been 
+This is followed below by InterPro entries and signatures matches, displayed in categories classified by :ref:`entry_types`. 
+Each coloured rectangle represents a domain, protein family, or important site that has been 
 matched to part or all the length of the submitted protein sequence. 
 
 - The top coloured rectangle represents the InterPro entry [4a, 5a].

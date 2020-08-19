@@ -5,6 +5,7 @@ InterPro homepage
 .. :ref:browse_feature searchways.html#browse-feature
 .. :ref:entry_types entries_info.html#entry-types
 .. :ref:taxonomy_page browse.html#taxonomy-page
+.. :ref:entry_page browse.html#entry-page
 .. :ref:entries browse.html#entries
 .. :ref:proteins browse.html#proteins
 
@@ -168,7 +169,7 @@ Here we show a list of the latest integrated InterPro entries with their entry t
 followed by their name and accession number. The clickable icons beneath the text 
 show the number of proteins, domain architectures, taxa, structures and member 
 databases matching the entry. Each of the icons is clickable and provides a shortcut 
-to the corresponding section of the  :ref:`entry_page`.
+to the corresponding section of the :ref:`entry_page`.
 
 |
 |

@@ -48,7 +48,7 @@ HAMAP
 
 |hamap| `<https://hamap.expasy.org/>`_
 
-.. |hamap| image:: images/member_databases/hamap_logo.png
+.. |hamap| image:: images/member_databases/HAMAP_logo.png
   :alt: HAMAP logo
   :width: 120px
 

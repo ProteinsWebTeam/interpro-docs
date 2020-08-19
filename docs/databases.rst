@@ -14,7 +14,7 @@ database entries are the same entity.
 CATH-Gene3D
 ****
 
-|cath| https://www.cathdb.info/
+|cath| `<https://www.cathdb.info/>`_
 
 .. |cath| image:: images/member_databases/cath_logo.png
   :alt: CATH logo
@@ -28,7 +28,7 @@ hidden Markov models libraries representing CATH and Pfam domains. CATH-Gene3D i
 ****
 CDD 
 ****
-|cdd| https://www.ncbi.nlm.nih.gov/cdd
+|cdd| `<https://www.ncbi.nlm.nih.gov/cdd>`_
 
 .. |cdd| image:: images/member_databases/cdd_logo.png
   :alt: CDD logo
@@ -46,7 +46,7 @@ models imported from a number of external source databases.
 HAMAP
 ****
 
-|hamap| https://hamap.expasy.org/
+|hamap| `<https://hamap.expasy.org/>`_
 
 .. |hamap| image:: images/member_databases/hamap_logo.png
   :alt: HAMAP logo
@@ -60,7 +60,7 @@ subfamilies. HAMAP is based at the SIB Swiss Institute of Bioinformatics, Geneva
 MobiDB Lite 
 ****
 
-|mobidb| http://old.protein.bio.unipd.it/mobidblite/
+|mobidb| `<http://old.protein.bio.unipd.it/mobidblite/>`_
 
 .. |mobidb| image:: images/member_databases/mobidb_logo.png
   :alt: MobiDB logo
@@ -75,7 +75,7 @@ giving the best possible picture of the “disorder landscape” of a given prot
 PANTHER
 ****
 
-|panther| http://www.pantherdb.org/
+|panther| `<http://www.pantherdb.org/>`_
 
 .. |panther| image:: images/member_databases/panther_logo.png
   :alt: PANTHER logo
@@ -91,7 +91,7 @@ protein sequences. PANTHER is based at University of Southern California, CA, US
 Pfam
 ****
 
-|pfam| https://pfam.xfam.org/
+|pfam| `<https://pfam.xfam.org/>`_
 
 .. |pfam| image:: images/member_databases/pfam_logo.gif
   :alt: Pfam logo
@@ -104,7 +104,7 @@ domains. Pfam is based at EMBL-EBI, Hinxton, UK.
 PIRSF
 ****
 
-|pirsf| https://proteininformationresource.org/pirsf/
+|pirsf| `<https://proteininformationresource.org/pirsf/>`_
 
 .. |pirsf| image:: images/member_databases/pirsf_logo.png
   :alt: PIRSF logo
@@ -118,7 +118,7 @@ at the Protein Information Resource, Georgetown University Medical Centre, Washi
 PRINTS
 ****
 
-|prints| http://130.88.97.239/PRINTS/index.php
+|prints| `<http://130.88.97.239/PRINTS/index.php>`_
 
 .. |prints| image:: images/member_databases/prints_logo.jpg
   :alt: PRINTS logo
@@ -131,7 +131,7 @@ a protein family or domain. PRINTS is based at the University of Manchester, UK.
 PROSITE profiles
 ****
 
-|prosite| https://prosite.expasy.org/
+|prosite| `<https://prosite.expasy.org/>`_
 
 .. |prosite| image:: images/member_databases/prosite_logo.gif
   :alt: PROSITE logo
@@ -145,7 +145,7 @@ based at the Swiss Institute of Bioinformatics (SIB), Geneva, Switzerland.
 SFLD
 ****
 
-|sfld| http://sfld.rbvi.ucsf.edu/archive/django/index.html
+|sfld| `<http://sfld.rbvi.ucsf.edu/archive/django/index.html>`_
 
 .. |sfld| image:: images/member_databases/sfld_logo.jpeg
   :alt: SFLD logo
@@ -158,7 +158,7 @@ sequence-structure features to specific chemical capabilities.
 SMART
 ****
 
-|smart| http://smart.embl-heidelberg.de/
+|smart| `<http://smart.embl-heidelberg.de/>`_
 
 .. |smart| image:: images/member_databases/smart_logo.png
   :alt: SMART logo
@@ -171,7 +171,7 @@ mobile domains and the analysis of domain architectures. SMART is based at EMBL,
 SUPERFAMILY
 ****
 
-|superfamily| http://supfam.org
+|superfamily| `<http://supfam.org>`_
 
 .. |superfamily| image:: images/member_databases/superfamily_logo.png
   :alt: SUPERFAMILY logo
@@ -185,7 +185,7 @@ aims to represent the entire SCOP superfamily that the domain belongs to. SUPERF
 TIGRFAMs
 ****
 
-|tigrfam| http://tigrfams.jcvi.org/cgi-bin/index.cgi
+|tigrfam| `<http://tigrfams.jcvi.org/cgi-bin/index.cgi>`_
 
 .. |tigrfam| image:: images/member_databases/tigrfam_logo.png
   :alt: TIRGFAMs logo

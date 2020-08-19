@@ -3,7 +3,7 @@ InterPro team
 ##############
 
 The InterPro database is maintained at the European Bioinformatics Institute in Cambridge, 
-UK by the following team (http://www.ebi.ac.uk/services/teams/interpro):
+UK by the following team (`<http://www.ebi.ac.uk/services/teams/interpro>`_):
 
 - Alex Bateman - Team Leader
 - Matthias Blum - Software developer

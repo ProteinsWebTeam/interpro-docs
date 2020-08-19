@@ -173,7 +173,7 @@ How can I ensure privacy for my sequence searches?
 =================================================
 We adhere to EMBL standards on data privacy which can be found `here <https://www.ebi.ac.uk/data-protection/privacy-notice/embl-ebi-public-website>`_. 
 However, if you have privacy concerns about submitting sequences for analysis via the web, 
-the InterProScan software package can be downloaded for local installation from the EBI's 
+the InterProScan software package can be downloaded for local installation from the 
 `downloads page <https://www.ebi.ac.uk/interpro/download/>`_.
 
 

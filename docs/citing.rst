@@ -6,6 +6,8 @@ Citing InterPro
 Latest publications
 ****
 
+If you find InterPro useful for your research, please cite the following publications:
+
 InterPro
 ====
 `InterPro in 2019: improving coverage, classification and access to protein sequence annotations <https://doi.org/10.1093/nar/gky1100>`_

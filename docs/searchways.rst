@@ -195,13 +195,16 @@ Member database filter
 
 .. figure:: images/browse/memberdb_filter.png
   :alt: Member database filter
-  :width: 250px
+  :width: 200px
   :align: left
 
 The "**Select your database**" option allows results to be retrieved from all or a selection of InterPro member 
 databases. Only the databases that contain signatures for the chosen data type are displayed as options. 
 Selecting "**InterPro**" automatically includes all 13 member databases. 
 
+|
+|
+|
 |
 |
 |

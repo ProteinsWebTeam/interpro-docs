@@ -115,7 +115,7 @@ Entering a **name**, or **keywords**, retrieves a list of all the InterPro entri
 signatures that contain these searched words in their title or description.
 
 Entering an **accession number** (e.g. IPR020422 (InterPro), O00167 (UniProt), PF02932 (member database), 
-GO:0007165 (GO term), 1t2v (structure), UP000005640 (proteome), 	
+GO\:0007165 (GO term), 1t2v (structure), UP000005640 (proteome), 	
 cl00011 (set) retrieves a list containing the entry matching 
 that accession number and any member database signatures and InterPro entries linked to that accession number.
 

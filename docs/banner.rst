@@ -15,8 +15,9 @@ Every page in InterPro has an identical banner with some handy features describe
 Navigation banner and menu
 ******
 
-.. image:: images/banner/navigation_bar_large.png
+.. figure:: images/banner/navigation_bar_large.png
   :alt: The InterPro Banner
+  :width: 800px
 
 The navigation banner contains: 
 

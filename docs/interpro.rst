@@ -28,8 +28,9 @@ structure, or full length protein families with shared function). We strive to
 integrate the signatures from the member databases into InterPro entries and 
 to identify where different member database entries are the same entity.
 
-.. image:: images/member_databases/member_db.png
+.. figure:: images/member_databases/member_db.png
   :alt: InterPro member databases
+  :width: 800px
 
 You can use the `InterPro website <https://www.ebi.ac.uk/interpro/>`_ to obtain information about individual protein 
 families, domains, important sites, perform a sequence search or browse through 

@@ -1,5 +1,5 @@
 ########
-InterPro Homepage
+InterPro homepage
 ########
 
 .. :ref:browse_feature searchways.html#browse-feature
@@ -10,16 +10,51 @@ InterPro Homepage
 
 The InterPro homepage can be split into in the following sections:
 
-  #. :ref:`Overview`
-  #. :ref:`Search`
-  #. :ref:`Data`
-  #. :ref:`News`
-
 .. figure:: images/homepage/home_page.png
   :alt: Homepage content
-  :width: 300pt
+  :width: 400px
+  :align: right
   
   InterPro homepage
+
+#. :ref:`Overview`
+#. :ref:`Search`
+#. :ref:`Data`
+#. :ref:`News`
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
 
 .. _Overview:
 
@@ -30,7 +65,7 @@ InterPro resource overview
 This section (section 1 in the figure above) gives an overview of the InterPro resource. 
 The release version and date is displayed under the graphic.
 
-.. .. image:: images/homepage/homepage_summary.png
+.. .. figure:: images/homepage/homepage_summary.png
 ..   :alt: Homepage summary component
 
 .. _Search:
@@ -43,7 +78,7 @@ The search section (section 2 in the figure above) shows a multifunctional searc
 which allows the selection of one of the five types of search supported by InterPro. More 
 details about searching are available on the :doc:`/searchways` section.
 
-.. .. image:: images/homepage/homepage_search.png
+.. .. figure:: images/homepage/homepage_search.png
 ..   :alt: Homepage search component
 
 .. _Data:
@@ -60,7 +95,7 @@ Member databases
 .. figure:: images/homepage/homepage_member_database.png
   :alt: Homepage member database component
   :align: left
-  :width: 250pt
+  :width: 350px
   :figclass: align-left
 
 This section shows icons for the :doc:`/databases`, along with information about the version of the member 
@@ -82,10 +117,10 @@ filtered to match the selected member database.
 
 Entry type component
 ====================
-.. image:: images/homepage/homepage_entry_type.png
+.. figure:: images/homepage/homepage_entry_type.png
   :alt: Homepage entry type component
   :align: left
-  :width: 250pt
+  :width: 350px
   
 This section shows the icon and number of entries for each of the InterPro entry types 
 Clicking on an icon will display the browse feature showing InterPro data filtered by the selected entry type.
@@ -101,10 +136,10 @@ selected entry type.
 
 Species component
 =================
-.. image:: images/homepage/homepage_species.png
+.. figure:: images/homepage/homepage_species.png
   :alt: Homepage species component
   :align: left
-  :width: 250pt
+  :width: 350px
 
 The Species component shows a set of icons corresponding to several key
 species and an estimate of the number of entries and proteins associated with
@@ -124,10 +159,10 @@ the :ref:`entries` or :ref:`proteins` tabs, respectively.
 
 Latest Entries component
 ========================
-.. image:: images/homepage/homepage_latest_entries.png
+.. figure:: images/homepage/homepage_latest_entries.png
   :alt: Homepage latest entries component
   :align: left
-  :width: 250pt
+  :width: 350px
 
 Here we show a list of the latest integrated InterPro entries with their entry type, 
 followed by their name and accession number. The clickable icons beneath the text 
@@ -160,11 +195,11 @@ The final section of the homepage (section 4 in the *InterPro homepage* figure a
 linking to the articles from the `InterPro Blog <https://proteinswebteam.github.io/interpro-blog/>`_, 
 technical aspects of the website and our `Twitter feed <https://twitter.com/InterProDB>`_.
 
-.. .. image:: images/homepage/homepage_spotlight.png
+.. .. figure:: images/homepage/homepage_spotlight.png
 ..   :alt: Homepage blog and spotlights
 ..   :width: 400pt
 
-.. .. image:: images/homepage/homepage_tools_libraries.png
+.. .. figure:: images/homepage/homepage_tools_libraries.png
 ..   :alt: Homepage tools and libraries
 ..   :width: 400pt
 

@@ -52,6 +52,7 @@ automatically.
 
 .. figure:: images/browse/your_downloads.png
     :alt: Your downloads page 
+    :width: 800px
 
 For Example, the image above shows **Protein** as the main data type selected and it will 
 only select proteins included in the database **UniProtKB/Swiss-Prot**; this selection is 

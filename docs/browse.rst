@@ -51,6 +51,7 @@ site based on one or more signatures provided by the :doc:`InterPro member datab
 
 .. figure:: images/browse_pages/interpro_entry_page.png
     :alt: InterPro entry page
+    :width: 800px
 
     InterPro entry page for IPR000562.
 
@@ -144,6 +145,7 @@ signature on the member database's website.
 
 .. figure:: images/browse_pages/member_db_page.png
     :alt: Member database page
+    :width: 800px
 
     InterPro member database page for Pfam signature PF00040.
 
@@ -163,6 +165,7 @@ the set to which the current entry belongs, clicking on the accession redirects 
 
 .. figure:: images/browse_pages/set_tab.png
     :alt: Member database set tab 
+    :width: 800px
 
 .. _signature:
 
@@ -180,6 +183,7 @@ amino acid are displayed in the bottom part.
 
 .. figure:: images/browse_pages/signature_tab.png
     :alt: Member database signature tab 
+    :width: 800px
 
 .. _alignment:
 
@@ -202,6 +206,7 @@ Scrolling up/down allows to move other sequences in the alignment into the visib
 
 .. figure:: images/browse_pages/alignment_tab.png
     :alt: Member database alignment tab 
+    :width: 800px
 
 .. _protein_page:
 
@@ -220,6 +225,7 @@ entry in `UniprotKB <https://www.uniprot.org/>`_ is provided on the right hand s
 
 .. figure:: images/browse_pages/protein_entry_page.png
     :alt: Protein entry page 
+    :width: 800px
 
     Protein entry page for D3ZTE0.
 
@@ -274,6 +280,7 @@ in the 3D structure viewer.
 
 .. figure:: images/browse_pages/structure_page.png
     :alt: Structure entry page 
+    :width: 800px
 
     Structure entry page for 1t2v.
 
@@ -295,6 +302,7 @@ in the visualization are also links, so you can jump to the page of a particular
 
 .. figure:: images/browse_pages/taxonomy_page.png
     :alt: Taxonomy entry page 
+    :width: 800px
 
     Taxonomy entry page for *Caenorhabditis elegans*
 
@@ -313,6 +321,7 @@ The following tabs may be available: :ref:`entries`, :ref:`proteins` and :ref:`s
 
 .. figure:: images/browse_pages/proteome_page.png
     :alt: Proteome entry page 
+    :width: 800px
 
     Proteome entry page for UP000001940
 
@@ -332,6 +341,7 @@ the signatures included in the set.
 
 .. figure:: images/browse_pages/set_page.png
     :alt: Set entry page 
+    :width: 800px
 
     Set entry page for cl00011 (CDD)
 
@@ -347,6 +357,7 @@ List of signatures included in the clan and their alignment with other signature
 
 .. figure:: images/browse_pages/alignment_clan.png
     :alt: Alignment clan
+    :width: 800px
 
     Alignment tab for cl00011 (CDD)
 

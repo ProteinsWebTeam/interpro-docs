@@ -52,6 +52,7 @@ against (by default they are all selected). The sequence search is performed usi
 
 .. figure:: images/search/seq.png
   :alt: Sequence search component
+  :width: 800px
 
 
 .. _sequence_search_results:
@@ -67,6 +68,7 @@ protein sequence viewer (more detailed information is provided for the :doc:`/pr
 
 .. figure:: images/search/InterPro_rtd_list_jobs.png
   :alt: Sequence search result
+  :width: 800px
 
   Summary of sequence searches jobs.
 
@@ -78,14 +80,15 @@ protein sequence viewer (more detailed information is provided for the :doc:`/pr
 
 On the search results page, some general information on the submitted sequence is provided, 
 followed by the predicted InterPro protein family membership when available ([1] in the figure above).
+
 The sequence submitted is shown in its full length at the top of the protein sequence viewer (grey bar) [2]. 
-The purple / yellow bar below indicates the predicted hydrophobicity of the sequence residues [3]. 
+The purple/grey bar below indicates the predicted hydrophobicity of the sequence residues [3]. 
 This is followed below by InterPro entries and signatures matches, displayed in categories classified by :doc:`InterPro 
-entry types </entry_types>`. Each coloured bubble represents a domain, protein family, or important site that has been 
+entry types </entry_types>`. Each coloured rectangle represents a domain, protein family, or important site that has been 
 matched to part or all the length of the submitted protein sequence. 
 
-- The top coloured bubble represents the InterPro entry [4a, 5a].
-- Directly below the InterPro entry, additional coloured bubbles display the member database signatures that contributed to that InterPro entry [4b, 5b]. 
+- The top coloured rectangle represents the InterPro entry [4a, 5a].
+- Directly below the InterPro entry, additional coloured rectangles display the member database signatures that contributed to that InterPro entry [4b, 5b]. 
 
 In the example above, four InterPro entries (1 family and 3 domain entries) have been found matching the 
 submitted sequence. The first InterPro entry is for a protein family [4a], containing one member database 
@@ -131,8 +134,9 @@ in which a protein has been found, or structures matching an entry. More informa
 Domain architecture search
 *******************
 
-.. image:: images/search/ida.png
+.. figure:: images/search/ida.png
   :alt: Domain Architecture search
+  :width: 800px
 
 This search option allows the retrieval of protein sequences that contain specific Pfam/InterPro domains 
 in a particular arrangement referred to as a "domain architecture". For example, protein sequences 
@@ -159,8 +163,9 @@ Pfam checkbox to InterPro and vice versa.
 Using Browse feature to search and filter InterPro
 *******************
 
-.. image:: images/search/browse_page.png
+.. figure:: images/search/browse_page.png
   :alt: Browse search
+  :width: 800px
 
 The browse search page can be accessed by clicking on the Browse tab in the :ref:`navigation menu <navigation_menu>`. 
 The browse search provides a powerful functionality to select subsets of data available in InterPro by 
@@ -175,8 +180,9 @@ Below we describe how to use the browse search feature:
 The browse page opens up with **6 data types** to allow browsing of Entries, Proteins, Structures, Taxonomies, 
 Proteomes or Sets.
 
-.. image:: images/browse/tabs.png
+.. figure:: images/browse/tabs.png
   :alt: Data types
+  :width: 800px
 
 2. Select any additional filters
 
@@ -187,9 +193,9 @@ The filters options displayed for each data type will vary as appropriate.
 Member database filter
 ======================
 
-.. image:: images/browse/memberdb_filter.png
+.. figure:: images/browse/memberdb_filter.png
   :alt: Member database filter
-  :width: 150px
+  :width: 250px
   :align: left
 
 The "**Select your database**" option allows results to be retrieved from all or a selection of InterPro member 
@@ -208,8 +214,9 @@ Selecting "**InterPro**" automatically includes all 13 member databases.
 Member databases can also be selected using the dropdown box located on the left side of the header of any result 
 table throughout the website. 
 
-.. image:: images/browse/memberdb_selector.png
+.. figure:: images/browse/memberdb_selector.png
   :alt: Member database selector
+  :width: 800px
 
 .. _text_filter:
 
@@ -238,8 +245,9 @@ If InterPro is the selected database, a set of three filters is displayed:
 - **Integrated Database**: limits the data displayed in the :ref:`data views <data_views>` to entries which have an integrated signature from the selected member database.
 - **Go Terms**: filters by selected Go terms from `InterPro2GO <https://www.ebi.ac.uk/GOA/InterPro2GO>`_.
 
-.. image:: images/browse/entry_filters.png
+.. figure:: images/browse/entry_filters.png
   :alt: Entry filters
+  :width: 800px
 
 Member database filters
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -250,6 +258,7 @@ for example, if a database contains both domains and family signatures you can f
 
 .. figure:: images/browse/member_db_filters.png
   :alt: Member database filters
+  :width: 800px
 
   Filters displayed when the Pfam database is selected.
 
@@ -269,6 +278,7 @@ If a member database has been selected, the following filters are displayed:
 
 .. figure:: images/browse/proteins_filter.png
   :alt: Proteins filters
+  :width: 800px
 
 All Proteins
 ^^^^^^^^^^^^
@@ -316,6 +326,7 @@ describes the contents of each column. Clicking on one of the rows redirects to 
 
 .. figure:: images/browse/entry_data.png
   :alt: Tabular entry view
+  :width: 800px
 
   Tabular view example for InterPro entry data type
 
@@ -332,6 +343,7 @@ summarising details of the entities being viewed. Clicking on one of the cards r
 
 .. figure:: images/browse/entry_grid.png
   :alt: Grid entry view
+  :width: 800px
 
   Grid view example for InterPro entry data type
 
@@ -349,5 +361,6 @@ also used in the :ref:`taxonomy_page`.
 
 .. figure:: images/browse/taxonomy_tree.png
   :alt: Tree view
+  :width: 800px
 
   Tree view example for Euryarchaeota phylum

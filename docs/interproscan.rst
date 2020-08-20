@@ -57,7 +57,9 @@ License
 The InterProScan software is distributed under the open source `Apache License <http://www.apache.org/licenses/LICENSE-2.0.txt>`_, 
 as are the included scanning tools (except SignalP and TMHMM). Therefore, you do not need a special license for commercial use but please cite the resource and keep the Copyright statement with your installation.
 
+*************
 Follow us & reporting bugs
+*************
 If you want to get updates on InterProScan, you can subscribe to the `interproscan-announce mailing list <http://listserver.ebi.ac.uk/mailman/listinfo/interproscan-announce>`_ 
 or just follow InterPro on Twitter `@InterProDB <https://twitter.com/InterProDB>`_.
 

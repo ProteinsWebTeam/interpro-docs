@@ -42,7 +42,7 @@ of single protein sequences in FASTA format with a maximum length of 40,000 amin
 Source code
 *************
 You can find, clone, and download the full InterProScan source code on the 
-`Github repository <https://github.com/ebi-pf-team/interproscan>`_
+`Github repository <https://github.com/ebi-pf-team/interproscan>`_.
 
 *************
 Previous releases

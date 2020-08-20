@@ -19,7 +19,7 @@ annotation of millions of GO terms across the protein sequence databases.
 
 InterPro integrates signatures from the following 13 member databases:
 CATH, CDD, HAMAP, MobiDB Lite, Panther, Pfam, PIRSF, PRINTS, Prosite, SFLD, SMART, 
-SUPERFAMILY AND TIGRfams (the :doc:`InterPro consortium member databases </databases>` section gives 
+SUPERFAMILY AND TIGRfams (the :doc:`InterPro consortium </databases>` section gives 
 further information about the individual databases).
 
 The member databases use a variety of different methods to classify proteins. 
@@ -44,5 +44,5 @@ InterPro is updated approximately every 8 weeks. The `release notes page <https:
 contains information about what has changed in each release.
 
 All information in InterPro is freely available. You can download InterPro data 
-for local analyses from our :ref:`bulk_download`, or use the :ref:`InterPro API <api>`. Find out more 
-about the project by exploring the latest papers described below.
+for local analyses from the :ref:`Download <bulk_download>` page, or use the :ref:`InterPro API <api>`. Find out more 
+about the project by exploring the :doc:`latest papers </citing>`.

@@ -251,8 +251,12 @@ Application Programming Interface (API)
 
 How do I get started using the REST API?
 =========================================
-Documentation for the API is available at our
+Documentation for the API is available at our |github|
 `GitHub repository <https://github.com/ProteinsWebTeam/interpro7-api/tree/master/docs>`_.
+
+.. |github| image:: images/icons/github.svg
+  :alt: Github icon
+  :width: 15pt
 
 If you'd like to see some example scripts in Perl, Python 2, Python 3 or
 Javascript we have a script generator. Please follow the steps below:
@@ -303,6 +307,9 @@ working as expected, otherwise you can see which resource has an issue.
 Additional help
 ***************
 
-Click `here <https://www.ebi.ac.uk/support/interpro>`_ to submit a ticket to our helpdesk 
+|send| `Submit a ticket <https://www.ebi.ac.uk/support/interpro>`_ to our helpdesk 
 if you cannot find the answer to your questions here.
 
+.. |send| image:: images/icons/send.svg
+  :alt: send icon
+  :width: 15pt

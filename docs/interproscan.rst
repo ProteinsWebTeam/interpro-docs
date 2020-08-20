@@ -41,7 +41,7 @@ of single protein sequences in FASTA format with a maximum length of 40,000 amin
 *************
 Source code
 *************
-You can find, clone, and download the full InterProScan source code on the 
+You can find, clone, and download the full InterProScan source code on the |github|
 `Github repository <https://github.com/ebi-pf-team/interproscan>`_.
 
 *************
@@ -60,9 +60,29 @@ as are the included scanning tools (except SignalP and TMHMM). Therefore, you do
 *************
 Follow us & reporting bugs
 *************
-If you want to get updates on InterProScan, you can subscribe to the `interproscan-announce mailing list <http://listserver.ebi.ac.uk/mailman/listinfo/interproscan-announce>`_ 
-or just follow InterPro on Twitter `@InterProDB <https://twitter.com/InterProDB>`_.
+If you want to get updates on InterProScan, you can subscribe to the |mailing| `interproscan-announce mailing list <http://listserver.ebi.ac.uk/mailman/listinfo/interproscan-announce>`_ 
+or just follow InterPro on Twitter |twitter| `@InterProDB <https://twitter.com/InterProDB>`_.
 
-If you want to submit a question or report a bug, please contact us by `email <interhelp@ebi.ac.uk>`_ 
-or contact us using the `EBI form <http://www.ebi.ac.uk/support/interproscan>`_, providing as much information as possible so that we can recreate the 
+If you want to submit a question or report a bug, please contact us by |email| `email <interhelp@ebi.ac.uk>`_ 
+or contact us using the |embl| `EBI form <http://www.ebi.ac.uk/support/interproscan>`_, providing as much information as possible so that we can recreate the 
 problem.
+
+.. |github| image:: images/icons/github.svg
+  :alt: Github icon
+  :width: 15pt
+
+.. |mailing| image:: images/icons/mailing-list.svg
+  :alt: mailing list icon
+  :width: 15pt
+
+.. |twitter| image:: images/icons/twitter.svg
+  :alt: twitter icon
+  :width: 15pt
+
+.. |email| image:: images/icons/envelope-square.svg
+  :alt: email icon
+  :width: 15pt
+
+.. |embl| image:: images/icons/embl.svg
+  :alt: EMBL icon
+  :width: 15pt

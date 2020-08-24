@@ -1,39 +1,86 @@
 ########
-Homepage
+InterPro homepage
 ########
 
-The contents of the InterPro homepage underneath the :doc:`/banner` can be split
-into in the following sections:
+.. :ref:browse_feature searchways.html#browse-feature
+.. :ref:entry_types entries_info.html#entry-types
+.. :ref:taxonomy_page browse.html#taxonomy-page
+.. :ref:entry_page browse.html#entry-page
+.. :ref:entries browse.html#entries
+.. :ref:proteins browse.html#proteins
 
-#. :ref:`Summary`
+The InterPro homepage can be split into in the following sections:
+
+.. figure:: images/homepage/home_page.png
+  :alt: Homepage content
+  :width: 400px
+  :align: right
+  
+  InterPro homepage
+
+#. :ref:`Overview`
 #. :ref:`Search`
 #. :ref:`Data`
 #. :ref:`News`
 
-.. _Summary:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Overview:
 
 ****************
-InterPro
+InterPro resource overview
 ****************
 
-This section gives an overview of the InterPro resource. The release version and
-date is displayed under the graphic.
+This section (section 1 in the figure above) gives an overview of the InterPro resource. 
+The release version and date is displayed under the graphic.
 
-.. image:: images/homepage/homepage_summary.png
-  :alt: Homepage summary component
+.. .. figure:: images/homepage/homepage_summary.png
+..   :alt: Homepage summary component
 
 .. _Search:
 
 ******
-Search
+Search box
 ******
 
-The search section shows a multifunctional search component. The tabs above the
-text entry area allows the selection of one of the three types of search supported by
-InterPro. More details about searching are available on the :doc:`/searchpage`.
+The search section (section 2 in the figure above) shows a multifunctional search component, 
+which allows the selection of one of the five types of search supported by InterPro. More 
+details about searching are available on the :doc:`/searchways` section.
 
-.. image:: images/homepage/homepage_search.png
-  :alt: Homepage search component
+.. .. figure:: images/homepage/homepage_search.png
+..   :alt: Homepage search component
 
 .. _Data:
 
@@ -41,60 +88,103 @@ InterPro. More details about searching are available on the :doc:`/searchpage`.
 Data
 ****
 
-The Data section is comprised of two components, the left component shows an
-overview of InterPro data and shortcuts to different views of our data. The
-component on the right shows the latest entries.
+The data section (section 3 in the figure above) gives an overview of InterPro data with shortcuts 
+to different views of the data, and highlights the latest InterPro entries on the right hand side.
 
-Member database component
-=========================
-
-This component shows icons for the :doc:`/member_databases`. The text under each
-icon provides information about the version of the member database and an estimate of the number of
-Entries from that resource in the current InterPro release. Each of
-the member database icons link to the :doc:`/browse` showing data
-filtered to match the selected Member Database.
-
-.. image:: images/homepage/homepage_member_database.png
+Member databases
+================
+.. figure:: images/homepage/homepage_member_database.png
   :alt: Homepage member database component
+  :align: left
+  :width: 350px
+  :figclass: align-left
+
+This section shows icons for the :doc:`/databases`, along with information about the version of the member 
+database and an estimate of the number of signatures from that resource which are in the current InterPro 
+release. Each of the member database icons links to the :ref:`<browse_feature>` feature showing data 
+filtered to match the selected member database.
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
 
 Entry type component
 ====================
-
-This component shows icons for :doc:`/entry_types`. An estimate of the number
-of entries corresponding to each type is shown under each icon. Clicking on an
-icon will display the :doc:`/browse` showing InterPro data filtered by the
-selected Entry type.
-
-.. image:: images/homepage/homepage_entry_type.png
+.. figure:: images/homepage/homepage_entry_type.png
   :alt: Homepage entry type component
+  :align: left
+  :width: 350px
+  
+This section shows the icon and number of entries for each of the InterPro entry types 
+Clicking on an icon will display the browse feature showing InterPro data filtered by the selected entry type.
+
+This component shows icons for :ref:`entry_types`. An estimate of the number
+of entries corresponding to each type is shown under each icon. Clicking on an
+icon will display the :ref:`browse feature component <browse_feature>` showing InterPro data filtered by the
+selected entry type.
+
+|
+|
+|
 
 Species component
 =================
+.. figure:: images/homepage/homepage_species.png
+  :alt: Homepage species component
+  :align: left
+  :width: 350px
 
 The Species component shows a set of icons corresponding to several key
-Species. An estimate of the number of Entries and Proteins associated with
-each species is shown below the icon. Clicking on an icon will display the
-the associated :doc:`/taxonomy` for the selected organism. Clicking on the
-text below the icon will display the entry or protein table of the
-:doc:`/taxonomy`.
+species and an estimate of the number of entries and proteins associated with
+each species. Clicking on an icon will display the associated :ref:`taxonomy_page` 
+for the selected organism. Clicking on the text below the icon will display 
+the :ref:`entries` or :ref:`proteins` tabs, respectively.
 
-
-.. image:: images/homepage/homepage_species.png
-  :alt: Homepage species component
+|
+|
+|
+|
+|
+|
+|
+|
+|
 
 Latest Entries component
 ========================
-
-The Latest Entries component shows a list of the latest entries. Each row in the
-component shows the entry type icon, followed by the name and accession of the
-Entry. The clickable icons beneath the text show the number of proteins,
-domain architectures, taxa, structures and member database which match to the
-Entry. Each of the icons is clickable and provides a shortcut to the
-corresponding section of the :doc:`/entry`.
-
-
-.. image:: images/homepage/homepage_latest_entries.png
+.. figure:: images/homepage/homepage_latest_entries.png
   :alt: Homepage latest entries component
+  :align: left
+  :width: 350px
+
+Here we show a list of the latest integrated InterPro entries with their entry type, 
+followed by their name and accession number. The clickable icons beneath the text 
+show the number of proteins, domain architectures, taxa, structures and member 
+databases matching the entry. Each of the icons is clickable and provides a shortcut 
+to the corresponding section of the :ref:`entry_page`.
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
 
 .. _News:
 
@@ -102,28 +192,27 @@ corresponding section of the :doc:`/entry`.
 News and information
 ********************
 
-The final section of the homepage comprises components linking to the
-articles from the
-`InterPro Blog <https://proteinswebteam.github.io/interpro-blog/>`_,
-technical aspects of the website and our
-`Twitter feed <https://twitter.com/InterProDB>`_.
+The final section of the homepage (section 4 in the *InterPro homepage* figure above) comprises components 
+linking to the articles from the `InterPro Blog <https://proteinswebteam.github.io/interpro-blog/>`_, 
+technical aspects of the website and our |twitter| `Twitter feed <https://twitter.com/InterProDB>`_.
 
-Spotlight and Blog
-==================
+.. |twitter| image:: images/icons/twitter.svg
+  :alt: twitter icon
+  :width: 15pt
 
-This section shows a selection of articles from the
-`InterPro Blog <https://proteinswebteam.github.io/interpro-blog/>`_. We publish
-a range of articles on the Blog, from technical information about the resources
-run by the team to protein focus articles which delivers details
-about interesting entries from InterPro data.
+.. .. figure:: images/homepage/homepage_spotlight.png
+..   :alt: Homepage blog and spotlights
+..   :width: 400pt
 
-.. image:: images/homepage/homepage_spotlight.png
-  :alt: Homepage blog and spotlights
+.. .. figure:: images/homepage/homepage_tools_libraries.png
+..   :alt: Homepage tools and libraries
+..   :width: 400pt
 
-Tools and libraries
-===================
+The **spotlight** section shows a selection of the latest articles from the 
+`InterPro Blog <https://proteinswebteam.github.io/interpro-blog/>`_. 
+We publish a range of articles on the blog, from technical information about 
+the resources run by the team to protein focus articles which deliver details about 
+interesting entries from InterPro data.
 
-This section details some of the tools and software we use in the website.
-
-.. image:: images/homepage/homepage_tools_libraries.png
-  :alt: Homepage tools and libraries
+The **tools and libraries** section provides quick access to some of the tools and software 
+used throughout the website.

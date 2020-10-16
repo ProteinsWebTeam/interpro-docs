@@ -35,6 +35,7 @@ entry page it appears in. Most entry data tabs will be described within the :ref
 - :ref:`Genome3d`
 - :ref:`signature`
 - :ref:`alignment`
+- :ref:`curation`
 - :ref:`sets`
 - :ref:`entries`
 - :ref:`sequence`
@@ -60,8 +61,9 @@ The InterPro entry type (homologous superfamily, family, domain, repeat or site)
 icon (e.g. a D with a green background for a domain). Member databases contributing signatures to the 
 entry are shown in a box on the right hand side of the page. :ref:`Overlapping homologous superfamilies 
 <overlapping>` and/or :ref:`Relationships to other entries <relationship>` are indicated where available. 
-Additional browse tabs provide further information on this entry, and are displayed when the information 
-is available.
+Clicking on the star symbol next to the entry name will save the entry as a Favourite. The full list of saved
+entries is available in the :ref:`favourite` in the homepage. Additional browse tabs provide further information 
+on this entry, and are displayed when the information is available.
 
 Types of data that may be available in the browse tabs of an InterPro entry page include:
 
@@ -142,6 +144,8 @@ signature identifier, the type of entry as defined by the member database (e.g. 
 and the short name given to the entry by the member database. The right hand side of the page provides 
 links to the InterPro entry in which this signature has been integrated, and an external link to the 
 signature on the member database's website.
+For signatures provided by the Pfam member database, a short extract of the wikipedia page is also displayed
+when available to complete the description.
 
 .. figure:: images/browse_pages/member_db_page.png
     :alt: Member database page
@@ -149,8 +153,8 @@ signature on the member database's website.
 
     InterPro member database page for Pfam signature PF00040.
 
-In addition to the :ref:`proteins`, :ref:`taxonomy`, :ref:`proteomes` and :ref:`structures` tabs member database 
-pages may also display information in the following additional tabs: :ref:`sets`, :ref:`signature` and :ref:`alignment`. 
+In addition to the :ref:`proteins`, :ref:`ida`, :ref:`taxonomy`, :ref:`proteomes` and :ref:`structures` tabs member database 
+pages may also display information in the following additional tabs: :ref:`sets`, :ref:`signature`, :ref:`alignment` and :ref:`curation`. 
 
 .. _sets:
 
@@ -206,6 +210,20 @@ Scrolling up/down allows to move other sequences in the alignment into the visib
 
 .. figure:: images/browse_pages/alignment_tab.png
     :alt: Member database alignment tab 
+    :width: 800px
+
+.. _curation:
+
+Curation
+========
+This section provides information about the curation of the signature. Currently, it is only available for the Pfam member database. 
+It is divided into 2 subsections:
+
+- **Curation**: details about Pfam curators and Sequence ontology
+- **HMM information**: displays the HMM building command used and offers the possibility to download the HMM profile defining the signature
+
+.. figure:: images/browse_pages/curation.png
+    :alt: Member database curation tab 
     :width: 800px
 
 .. _protein_page:
@@ -337,7 +355,8 @@ Set entry page
 
 Some InterPro member databases create groups of families that are evolutionarily related, called sets. This page offers 
 an overview of a specific set provided by a member database, it includes a short description and an interactive view of 
-the signatures included in the set.
+the signatures included in the set. For sets provided by the Pfam member database, an additional section provides literature 
+references, when available.
 
 .. figure:: images/browse_pages/set_page.png
     :alt: Set entry page 

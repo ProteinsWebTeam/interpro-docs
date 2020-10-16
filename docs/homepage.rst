@@ -186,6 +186,29 @@ to the corresponding section of the :ref:`entry_page`.
 |
 |
 
+.. _favourite:
+
+Favourites Entries component
+============================
+.. figure:: images/homepage/homepage_favourite_entries.png
+  :alt: Homepage favourite entries component
+  :align: left
+  :width: 350px
+
+This section provides a quick access to the list of favourite InterPro entries previously 
+selected by clicking on the star icon in an InterPro entry page.
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
 .. _News:
 
 ********************

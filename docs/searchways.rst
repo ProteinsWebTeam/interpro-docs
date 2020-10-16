@@ -112,7 +112,10 @@ The text search will search the following information in the database:
 - set identifier
 
 Entering a **name**, or **keywords**, retrieves a list of all the InterPro entries and InterPro member database 
-signatures that contain these searched words in their title or description.
+signatures that contain these searched words in their title or description. By default the term searched is highlited 
+in the results list and the description is shortened, clicking on the |toggle| symbol located on the left hand side of 
+the **Export** button removes the highlight and shows the full description text. The setting is saved and also applied 
+to other text searches throughout the website.
 
 Entering an **accession number** (e.g. IPR020422 (InterPro), O00167 (UniProt), PF02932 (member database), 
 GO\:0007165 (GO term), 1t2v (structure), UP000005640 (proteome), 	
@@ -227,6 +230,13 @@ Text filter
 ===========
 The "**Search entries**" box allows results to be filtered to match the text entered. For example, the text could 
 be a keyword that might be found in entry names. It also allows specific protein names or taxa to be entered.
+By default the term searched is highlighted in yellow in the results list, this can be disabled by clicking on the
+|toggle| symbol appearing between the text box and **Export** button once the search has started, the setting is saved and
+also applied to other text searches throughout the website.
+
+.. |toggle| image:: images/browse/toggle.png
+  :alt: toggle icon
+  :width: 15pt
 
 .. _data_type_filters:
 

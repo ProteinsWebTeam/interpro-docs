@@ -12,7 +12,7 @@ InterPro
 ====
 `The InterPro protein families and domains database: 20 years on <https://doi.org/10.1093/nar/gkaa977>`_
 Matthias Blum, Hsin-Yu Chang, Sara Chuguransky, Tiago Grego, Swaathi Kandasaamy, Alex Mitchell, Gift Nuka, Typhaine Paysan-Lafosse, Matloob Qureshi, Shriya Raj, Lorna Richardson, Gustavo A Salazar, Lowri Williams, Peer Bork, Alan Bridge, Julian Gough, Daniel H Haft, Ivica Letunic, Aron Marchler-Bauer, Huaiyu Mi, Darren A Natale, Marco Necci, Christine A Orengo, Arun P Pandurangan, Catherine Rivoire, Christian J A Sigrist, Ian Sillitoe, Narmada Thanki, Paul D Thomas, Silvio C E Tosatto, Cathy H Wu, Alex Bateman, Robert D Finn
-Nucleic Acids Research, gkaa977, PMID: `33156333 <https://europepmc.org/article/MED/33156333>`_
+Nucleic Acids Research (2020), gkaa977, PMID: `33156333 <https://europepmc.org/article/MED/33156333>`_
 
 InterProScan
 ====

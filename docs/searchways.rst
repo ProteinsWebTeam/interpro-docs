@@ -48,7 +48,10 @@ Sequence search
 
 A sequence can be submitted in FASTA format in the dedicated text area or by uploading a fasta file. 
 The “**Advanced options**” allows users to select the InterPro member databases of interest to search 
-against (by default they are all selected). The sequence search is performed using the :doc:`InterProScan software </interproscan>`.
+against (by default they are all selected). The sequence search is performed using the 
+:doc:`InterProScan software </interproscan>`. While the sequence search is running, the user can continue 
+to navigate through the website, other browser tabs or applications and will get a pop-up notification 
+when the job has been completed (this requires the browser notifications to be allowed).
 
 .. figure:: images/search/seq.png
   :alt: Sequence search component
@@ -64,7 +67,15 @@ the **Your InterProScan Searches** section. This page displays the protein seque
 performed in the last seven days, with the most recent one being displayed at the top. The status 
 column gives an indication of whether or not the search has completed (green tick symbol / searching). 
 Clicking on the text in the results column opens a page where the results are summarised in a 
-protein sequence viewer (more detailed information is provided for the :doc:`/protein_viewer`)
+protein sequence viewer (more detailed information is provided for the :doc:`/protein_viewer`).
+
+Previously ran searches can be imported either by typing the job ID in the **Import** text box, for searches 
+performed in the last seven days on our servers, or by uploading an :doc:`InterProScan </interproscan>` output 
+file in JSON format, the job is added to the Results table. If the second option is choosen and InterProScan was 
+run using nucleotide sequences, a job result is created for each Open Reading Frame (ORF) and ORFs from the same 
+nucleotide sequence are grouped accordingly. 
+This import feature can be used by users requiring to have InterProScan graphic output formats for publications 
+and other uses.
 
 .. figure:: images/search/InterPro_rtd_list_jobs.png
   :alt: Sequence search result
@@ -80,6 +91,9 @@ protein sequence viewer (more detailed information is provided for the :doc:`/pr
 
 On the search results page, some general information on the submitted sequence is provided, 
 followed by the predicted InterPro protein family membership when available ([1] in the figure above).
+The search can be saved by clicking on the **Save in Browser** button. The status will be changed to "**Imported file**".
+This means that the results will be available behind the usual seven days limit on the browser and machine the save 
+has been done, and will only be deleted if the user deletes the job by clicking on the bin icon.
 
 The sequence submitted is shown in its full length at the top of the protein sequence viewer (grey bar) [2]. 
 The purple/grey bar below indicates the predicted hydrophobicity of the sequence residues [3]. 

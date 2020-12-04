@@ -79,7 +79,7 @@ The search section (section 2 in the figure above) shows a multifunctional searc
 which allows the selection of one of the five types of search supported by InterPro. More 
 details about searching are available on the :doc:`/searchways` section.
 
-.. .. figure:: images/homepage/homepage_search.png
+.. figure:: images/homepage/homepage_search.png
 ..   :alt: Homepage search component
 
 .. _Data:
@@ -101,7 +101,7 @@ Member databases
 
 This section shows icons for the :doc:`/databases`, along with information about the version of the member 
 database and an estimate of the number of signatures from that resource which are in the current InterPro 
-release. Each of the member database icons links to the :ref:`<browse_feature>` feature showing data 
+release. Each of the member database icons links to the :ref:`browse feature<browse_feature>` showing data 
 filtered to match the selected member database.
 
 |
@@ -171,11 +171,6 @@ show the number of proteins, domain architectures, taxa, structures and member
 databases matching the entry. Each of the icons is clickable and provides a shortcut 
 to the corresponding section of the :ref:`entry_page`.
 
-|
-|
-|
-|
-|
 |
 |
 |

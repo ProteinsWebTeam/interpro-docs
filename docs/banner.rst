@@ -34,6 +34,8 @@ Quick search box
 The magnifying glass icon on the right side of the website banner can be clicked to show a text entry 
 component and performs a :ref:`quick_search`.
 
+.. _settings:
+
 Settings sidebar 
 ====================
 |hamburger| The hamburger icon on the right opens the settings sidebar.

@@ -88,11 +88,21 @@ protein sequences and what, if any, combinations arise with other entries.
 Taxonomy 
 ========
 List of species this entry is matching, based on data from `UniProt taxonomy 
-<https://www.uniprot.org/help/taxonomy>`_. The first section displays the "**Key species**", these are 12 
-model organisms commonly used in scientific research: *Oryza sativa subsp. japonica, Arabidopsis thaliana, 
-Homo sapiens, Danio rerio, Mus musculus, Drosophila melanogaster, Caenorhabditis elegans, Saccharomyces 
-cerevisiae, Schizosaccharomyces pombe, Escherichia coli, Escherichia virus T4, Halobacterium salinarum*.
-The second section shows the list of species the proteins matching this entry are found in.
+<https://www.uniprot.org/help/taxonomy>`_. For each organism, the taxonomy identifier and protein count information are provided. The ACTIONS column offers the possibility to:
+
+- View all the protein matches in the :ref:`proteins` tab
+- Download a FASTA file of the protein matches
+- View the taxonomy information in the :ref:`taxonomy_page`
+
+The information can be displayed in two different ways:
+
+- By "**Key species**", these are 12 model organisms commonly used in scientific research: *Oryza sativa subsp. japonica, Arabidopsis thaliana, Homo sapiens, Danio rerio, Mus musculus, Drosophila melanogaster, Caenorhabditis elegans, Saccharomyces cerevisiae, Schizosaccharomyces pombe, Escherichia coli, Escherichia virus T4, Halobacterium salinarum*.
+- List of all the species the proteins matching this entry are found in.
+
+The type of data displayed can be changed using the website settings, accessible through the InterPro banner 
+:ref:`settings`.
+
+
 
 .. _proteomes:
 
@@ -102,6 +112,8 @@ List of proteomes whose members are represented by proteins matching this entry.
 A proteome represents a set of proteins whose genomes have been fully sequenced.
 A given taxonomy node may have one or more proteomes, for example, to reflect different assemblies of a 
 genome. Proteome data is imported from `UniProt proteomes <https://www.uniprot.org/help/proteome>`_. 
+For each proteome, the same set of actions are available than the ones in :ref:`taxonomy`, the taxonomy 
+information being replaced by proteome information in the :ref:`proteome_page`.
 
 .. _structures:
 
@@ -239,16 +251,27 @@ The protein page provides the protein accession, the short name given to the pro
 of the protein sequence, species in which the protein is found, the proteome it belongs to and a brief 
 description of the protein's function where known. All the :ref:`InterPro family entries <entry_types>` 
 this protein is matching are listed under "**Protein family membership**". An external link to the protein 
-entry in `UniprotKB <https://www.uniprot.org/>`_ is provided on the right hand side of the page.
+entry in `UniprotKB <https://www.uniprot.org/>`_, as well as the export of the matches in TSV format and the possibility 
+to perform a `HMMER search <https://www.ebi.ac.uk/Tools/hmmer/search/phmmer>`_ are provided on the right hand side of the page.
 
 .. figure:: images/browse_pages/protein_entry_page.png
     :alt: Protein entry page 
     :width: 800px
 
-    Protein entry page for D3ZTE0.
+    Protein entry page for O00167.
 
 The protein entry page also displays the :doc:`protein sequence viewer </protein_viewer>` to show the 
 associated domains, sites etc.
+
+When available, different isoforms of the protein can be selected to compare their InterPro matches 
+with the consensus protein sequence. When an isoform is selected, a new :doc:`protein sequence viewer </protein_viewer>` 
+corresponding to the selection is displayed and the url is update to reflect the change.
+The isoform matches can also be viewed side by side with the consensus protein sequence by clicking on the split 
+icon |split| after selecting an isoform.
+
+.. |split| image:: images/browse_pages/split_icon.png
+  :alt: Split icon
+  :width: 15pt
 
 This page includes up to four tabs: :ref:`entries`, :ref:`structures`, :ref:`sequence` 
 and :ref:`similar_proteins`.
@@ -263,9 +286,9 @@ List of InterPro entries that include this entity.
 
 Sequence
 ========
-This tab shows the protein FASTA sequence. The sequence can be used to perform two types of search, 
-available on the right side of the screen: `InterProScan search 
-<https://www.ebi.ac.uk/interpro/search/sequence/>`_ or 
+This tab shows the protein FASTA sequence. The full sequence or part of the sequence (by selecting the region 
+of interest) can be used to perform two types of search, available on the right side of the screen: 
+`InterProScan search <https://www.ebi.ac.uk/interpro/search/sequence/>`_ or 
 `HMMER search <https://www.ebi.ac.uk/Tools/hmmer/search/phmmer>`_, which redirects to the corresponding 
 pages.
 

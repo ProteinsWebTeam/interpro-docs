@@ -188,9 +188,8 @@ the set to which the current entry belongs, clicking on the accession redirects 
 Signature
 ==========
 The signature representing the model that defines the entry is visualized in this page as a logo, 
-using `Skylign <http://www.skylign.org/>`_. Currently, the logo data is only displayed for the Pfam 
-member database, but we hope to integrate other member databases whose models can be represented in 
-this way in the future.
+using `Skylign <http://www.skylign.org/>`_. The logo data is displayed for the Pfam, PANTHER, PIRSF, 
+SFLD and TIGRFAM member databases.
 
 The visualization displays the amino acid conservation for each residue in the model. To navigate large 
 logos, the user can drag the rendered area to a desired position. Alternatively, the user can input a 

@@ -140,7 +140,7 @@ involved in protein:protein interactions.
 
 Genome3D
 ========
-Lists the structural models for this entry from the `Genome3D resource <http://www.genome3d.eu/>`_. More 
+Lists the structural models for this entry from the `Genome3D resource <http://www.genome3d.net/>`_. More 
 information about this data is available on the `train online course <https://www.ebi.ac.uk/training/online/course/genome3d-annotations-interpro>`_.
 
 .. _memberdb_page:

@@ -15,7 +15,6 @@ UK by the following team (`<http://www.ebi.ac.uk/services/teams/interpro>`_):
 - Typhaine Paysan-Lafosse - Bioinformatician
 - Matloob Qureshi - Web developer
 - Gustavo Salazar-Orejuela - Web developer
-- Lowri Williams - Biocurator
 
 *********************
 Previous contributors
@@ -28,4 +27,4 @@ We are grateful to all our past team members and leaders:
 Pesseat, Aurelien Luciani, Amaia Sangrador Vegas, Siew-Yit Yong, Louise Daugherty, Phil 
 Jones, Craig McAnulla, Antony Quinn, Sandra Orchard, Alex Kanapin, Wolfgang Fleischmann, 
 Evgueni Zdobnov, Margaret Biswas, Tom Oinn, Florence Servant, David Binns, David Lonsdale, 
-John Maslen, Paul Bradley.
+John Maslen, Paul Bradley, Lowri Williams.

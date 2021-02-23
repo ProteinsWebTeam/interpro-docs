@@ -56,6 +56,9 @@ The InterPro homepage can be split into in the following sections:
 |
 |
 |
+|
+|
+|
 
 .. _Overview:
 
@@ -63,8 +66,10 @@ The InterPro homepage can be split into in the following sections:
 InterPro resource overview
 ****************
 
-This section (section 1 in the figure above) gives an overview of the InterPro resource. 
-The release version and date is displayed under the graphic.
+This section (section 1 in the figure above) gives an overview of the InterPro resource and a link to
+the latest InterPro publication.
+The release version and date are displayed under the graphic, the user can click on it to access 
+the :doc:`Release notes </release_notes>`. 
 
 .. .. figure:: images/homepage/homepage_summary.png
 ..   :alt: Homepage summary component

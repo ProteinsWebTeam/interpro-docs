@@ -193,17 +193,20 @@ Favourites Entries component
 This section provides a quick access to the list of favourite InterPro entries previously 
 selected by clicking on the star icon in an InterPro entry page.
 
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+When a new version of InterPro has been released and one or more the Favourite entries 
+have been updated, a button "**Check for updates**" is displayed. 
+
+.. figure:: images/homepage/check_updates.png
+  :alt: Check for updates button
+  :align: center
+  :width: 150px
+
+When clicking on it, differences 
+for each updated entry are displayed in a github diff style. 
+The user can choose to apply the update or keep the previous annotation.
+
+.. figure:: images/homepage/favourite_entries_update.png
+  :alt: Favourite entries differences
 
 .. _recent:
 
@@ -211,14 +214,7 @@ Recent search component
 ============================
 .. figure:: images/homepage/homepage_recent_search.png
   :alt: Homepage recent search component
-  :align: left
   :width: 350px
-|
-|
-|
-|
-|
-| 
 
 When performing a Text search, the text is stored locally and accessible through this section, 
 so the user can retrieve the data of interest easily the next time they visit the website. 

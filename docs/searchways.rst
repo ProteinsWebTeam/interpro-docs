@@ -62,10 +62,12 @@ when the job has been completed (this requires the browser notifications to be a
 
 Sequence search results
 =======================
-Results of a protein sequence search are available under the **Results** tab in the navigation menu in 
-the **Your InterProScan Searches** section. This page displays the protein sequence searches you have 
+Results of a protein sequence search are available under the **Results** tab in the navigation menu under 
+**Your InterProScan Searches** section. This page displays the protein sequence searches you have 
 performed in the last seven days, with the most recent one being displayed at the top. The status 
-column gives an indication of whether or not the search has completed (green tick symbol / searching). 
+column gives an indication of whether or not the search has completed (green tick symbol / searching), if the 
+search has been saved locally (the results will still be available even after the seven days limit set up on 
+InterPro servers), or if the results have been imported (file symbol). 
 Clicking on the text in the results column opens a page where the results are summarised in a 
 protein sequence viewer (more detailed information is provided for the :doc:`/protein_viewer`).
 
@@ -194,8 +196,8 @@ Below we describe how to use the browse search feature:
 
 1. Select a data type
 
-The browse page opens up with **6 data types** to allow browsing of Entries, Proteins, Structures, Taxonomies, 
-Proteomes or Sets.
+The browse page opens up with **7 data types** to allow browsing of InterPro entries, Member databases signatures, 
+Proteins, Structures, Taxonomies, Proteomes or Sets.
 
 .. figure:: images/browse/tabs.png
   :alt: Data types
@@ -215,9 +217,11 @@ Member database filter
   :width: 200px
   :align: left
 
-The "**Select your database**" option allows results to be retrieved from all or a selection of InterPro member 
-databases. Only the databases that contain signatures for the chosen data type are displayed as options. 
-Selecting "**InterPro**" automatically includes all 13 member databases. 
+The "**Select your database**" option is available when Browsing by Member DB, Protein, Structure, Taxonomy and Set.
+It allows results to be retrieved from all or a selection of :doc:`InterPro member databases </databases>`. Only the databases that contain 
+signatures for the chosen data type are displayed as options. By default all the member databases are selected, expect 
+when Browsing by Member DB, where Pfam is the default option selected.
+
 
 |
 |
@@ -229,14 +233,7 @@ Selecting "**InterPro**" automatically includes all 13 member databases.
 |
 |
 |
-|
 
-Member databases can also be selected using the dropdown box located on the left side of the header of any result 
-table throughout the website. 
-
-.. figure:: images/browse/memberdb_selector.png
-  :alt: Member database selector
-  :width: 800px
 
 .. _text_filter:
 
@@ -259,76 +256,126 @@ Data-type specific filters
 
 .. _entry_filters:
 
-Entry filters
+InterPro entry filters
 -------------
-When the **Entry** data type is selected, depending on the member database chosen in the :ref:`member database filter <memberdbFilter>` component, 
-specific filters can be applied.
-
-InterPro filters
-^^^^^^^^^^^^^^^
-If InterPro is the selected database, a set of three filters is displayed:
-
-- **InterPro Type**: limits the data in the :ref:`data views <data_views>` to the selected :ref:`entry_types`.
-- **Integrated Database**: limits the data displayed in the :ref:`data views <data_views>` to entries which have an integrated signature from the selected member database.
-- **Go Terms**: filters by selected Go terms from `InterPro2GO <https://www.ebi.ac.uk/GOA/InterPro2GO>`_.
-
 .. figure:: images/browse/entry_filters.png
   :alt: Entry filters
-  :width: 800px
+  :width: 200px
+  :align: left
+
+When **Browse by InterPro** is selected, two filter types can be applied:
+
+- **InterPro Type**: limits the data in the :ref:`data views <data_views>` to the selected :ref:`entry_types`.
+- **Go Terms**: filters by selected Go terms from `InterPro2GO <https://www.ebi.ac.uk/GOA/InterPro2GO>`_.
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _memberdb_filters:
 
 Member database filters
-^^^^^^^^^^^^^^^^^^^^^^^
-On selecting a member database, a subsequent option box allows you to select all signatures from the selected 
-database or only those signatures that have been integrated into InterPro (**InterPro state**). You can also select 
-the types of signatures required (**Member Database Entry Type**). This is dependent on the database type selected, 
-for example, if a database contains both domains and family signatures you can filter the results for a specific type.
+-------------
 
 .. figure:: images/browse/member_db_filters.png
   :alt: Member database filters
-  :width: 800px
+  :width: 200px
+  :align: left
 
-  Filters displayed when the Pfam database is selected.
+When **Browse by Member DB** is selected and a member database has been choosen, subsequent filters can be applied:
+
+- **Member Database Entry Type**: select the types of signatures required. This is dependent on the database type selected. For example, if a database contains both domains and family signatures you can filter the results for a specific type.
+- **InterPro state**: select all signatures from the selected database or only those signatures that have been integrated into InterPro. 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
 
 Protein filters
 ---------------
-Just as with the :ref:`Entry <entry_filters>` data type, **Protein** filters change based on the selection in the 
+Just as with the :ref:`Member DB <memberdb_filters>` data type, **Protein** filters change based on the selection in the 
 :ref:`member database filter <memberdbFilter>` component. The basic filters are displayed irrespective of the 
 selection made and an extra filter when the "**All Proteins**" option is selected.
 
+.. figure:: images/browse/proteins_filter.png
+  :alt: Proteins filters
+  :width: 200px
+  :align: left
+
 Database selected
 ^^^^^^^^^^^^^^^^^
+
 If a member database has been selected, the following filters are displayed:
 
 - **UniProt Curation**: the `UniProtKB <https://www.uniprot.org/help/uniprotkb>`_ is split into two sections. The reviewed set is manually curated (SwissProt) and the unreviewed set is derived from public databases automatically integrated into UniProt (TrEMBL).
 - **Taxonomy**: this filter allows the displayed list of proteins to be limited to certain organisms.
 - **Sequence Status**: this filter allows proteins to be limited to complete proteins or fragments.
 
-.. figure:: images/browse/proteins_filter.png
-  :alt: Proteins filters
-  :width: 800px
-
 All Proteins
 ^^^^^^^^^^^^
+
 .. figure:: images/browse/all_proteins_filter.png
   :alt: Matching entries filter
-  :width: 250px
+  :width: 200px
   :align: right
 
-The **Matching Entries** filter is only displayed when the "**All Proteins**" option is selected in the 
-:ref:`member database filter <memberdbFilter>` component. This filter allows the selection of proteins 
-which do or do not contain matches to entries in the InterPro dataset.
+Additionally to the filters mentioned above, when the "**All Proteins**" option is selected in the 
+:ref:`member database filter <memberdbFilter>` component, the **Matching Entries** filter is displayed. 
+This filter allows the selection of proteins which do or do not contain matches to entries in the InterPro dataset.
+
+|
+|
 
 Structure filters
 -----------------
+.. figure:: images/browse/structure_filter.png
+  :alt: Structure filters
+  :width: 200px
+  :align: left
+  
 Structure filters do not vary depending on which option has been selected in the 
 :ref:`member database filter <memberdbFilter>` component.
 
 - **Experiment Type**: this filter allows selection of structures based on the type of experimental data the structure is based on.
 - **Resolution**: this filter allows structures to be selected based on the resolution of the structure.
 
-.. figure:: images/browse/structure_filter.png
-  :alt: Structure filters
-  :width: 400px
+|
+|
+|
+|
+|
 
 .. _data_views:
 

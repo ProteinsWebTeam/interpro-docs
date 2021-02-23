@@ -36,7 +36,6 @@ entry page it appears in. Most entry data tabs will be described within the :ref
 - :ref:`signature`
 - :ref:`alignment`
 - :ref:`curation`
-- :ref:`sets`
 - :ref:`entries`
 - :ref:`sequence`
 - :ref:`similar_proteins`
@@ -54,7 +53,7 @@ site based on one or more signatures provided by the :doc:`InterPro member datab
     :alt: InterPro entry page
     :width: 800px
 
-    InterPro entry page for IPR000562.
+    InterPro entry page for `IPR000562 <https://www.ebi.ac.uk/interpro/entry/InterPro/IPR000562/>`_.
 
 InterPro entry pages give a brief description of the entry, name and unique InterPro identifier. 
 The InterPro entry type (homologous superfamily, family, domain, repeat or site) is also indicated by an 
@@ -143,6 +142,10 @@ Genome3D
 Lists the structural models for this entry from the `Genome3D resource <http://www.genome3d.net/>`_. More 
 information about this data is available on the `train online course <https://www.ebi.ac.uk/training/online/course/genome3d-annotations-interpro>`_.
 
+The data can be filtered and sorted by UniProt accession (protein), resource (evidence) and confidence score. 
+The sort is possible by clicking on the arrow symbol of the corresponding column. The filtering is available 
+by clicking on the funnel symbol and selecting the filter to apply.
+
 .. _memberdb_page:
 
 ********************
@@ -153,9 +156,16 @@ that have not yet been, or can't be, integrated into InterPro (:ref:`unintegrate
  
 Member database signature entries provide information about which database the signature is from, the 
 signature identifier, the type of entry as defined by the member database (e.g. family, domain or site), 
-and the short name given to the entry by the member database. The right hand side of the page provides 
-links to the InterPro entry in which this signature has been integrated, and an external link to the 
-signature on the member database's website.
+and the short name given to the entry by the member database. 
+
+Some InterPro member databases create groups of families that are evolutionary related. Pfam calls them clans, 
+CDD uses the term superfamily and, for PIRSF and Panther the concept is associated with the parent families of 
+their hierarchy. We use the umbrella term Set to refer to all of them. When available, the set to which the signature 
+belongs to is indicated.
+
+The right hand side of the page provides links to the InterPro entry in which this signature has been integrated, and 
+an external link to the signature on the member database's website.
+
 For signatures provided by the Pfam member database, a short extract of the wikipedia page is also displayed
 when available to complete the description.
 
@@ -163,25 +173,10 @@ when available to complete the description.
     :alt: Member database page
     :width: 800px
 
-    InterPro member database page for Pfam signature PF00040.
+    InterPro member database page for Pfam signature `PF00040 <https://www.ebi.ac.uk/interpro/entry/pfam/PF00040/>`_.
 
 In addition to the :ref:`proteins`, :ref:`ida`, :ref:`taxonomy`, :ref:`proteomes` and :ref:`structures` tabs member database 
 pages may also display information in the following additional tabs: :ref:`sets`, :ref:`signature`, :ref:`alignment` and :ref:`curation`. 
-
-.. _sets:
-
-Sets
-====
-Some :doc:`InterPro member databases </member_databases>` create groups of families that are evolutionary 
-related. Pfam calls them clans, CDD uses the term superfamily and, for PIRSF and Panther the concept is 
-associated with the parent families of their hierarchy. We use the umbrella term Set to refer to all of 
-them.
-This tab is only available for entries whose member database has provided this classification. It displays 
-the set to which the current entry belongs, clicking on the accession redirects to the :ref:`set_page`.
-
-.. figure:: images/browse_pages/set_tab.png
-    :alt: Member database set tab 
-    :width: 800px
 
 .. _signature:
 
@@ -251,13 +246,14 @@ of the protein sequence, species in which the protein is found, the proteome it 
 description of the protein's function where known. All the :ref:`InterPro family entries <entry_types>` 
 this protein is matching are listed under "**Protein family membership**". An external link to the protein 
 entry in `UniprotKB <https://www.uniprot.org/>`_, as well as the export of the matches in TSV format and the possibility 
-to perform a `HMMER search <https://www.ebi.ac.uk/Tools/hmmer/search/phmmer>`_ are provided on the right hand side of the page.
+to perform a `HMMER search <https://www.ebi.ac.uk/Tools/hmmer/search/phmmer>`_ or an `InterProScan search <https://www.ebi.ac.uk/interpro/search/sequence/>`_
+are provided on the right hand side of the page.
 
 .. figure:: images/browse_pages/protein_entry_page.png
     :alt: Protein entry page 
     :width: 800px
 
-    Protein entry page for O00167.
+    Protein entry page for `O00167 <https://www.ebi.ac.uk/interpro/protein/UniProt/O00167/>`_.
 
 The protein entry page also displays the :doc:`protein sequence viewer </protein_viewer>` to show the 
 associated domains, sites etc.
@@ -279,7 +275,14 @@ and :ref:`similar_proteins`.
 
 Entries
 =======
-List of InterPro entries that include this entity. 
+List of InterPro entries that include this entity. The results can be filtered by member databases 
+using the dropdown box located on the left side of the header of the result table. 
+This functionality is available for all the tables presenting InterPro entries in the website.
+
+.. figure:: images/browse_pages/protein_entries_filter.png
+    :alt: InterPro matches corresponding to the protein 
+    :width: 800px
+
 
 .. _sequence:
 
@@ -322,7 +325,7 @@ in the 3D structure viewer.
     :alt: Structure entry page 
     :width: 800px
 
-    Structure entry page for 1t2v.
+    Structure entry page for `1t2v <https://www.ebi.ac.uk/interpro/structure/PDB/1t2v/>`_.
 
 More information is available on the corresponding `train online section 
 <https://www.ebi.ac.uk/training/online/course/interpro-functional-and-structural-analysis-protein-sequences/text-search/searching-protein>`_.
@@ -344,7 +347,7 @@ in the visualization are also links, so you can jump to the page of a particular
     :alt: Taxonomy entry page 
     :width: 800px
 
-    Taxonomy entry page for *Caenorhabditis elegans*
+    Taxonomy entry page for `Caenorhabditis elegans <https://www.ebi.ac.uk/interpro/taxonomy/uniprot/6239/>`_.
 
 The following tabs may be available: :ref:`entries`, :ref:`proteins`, :ref:`structures` 
 and :ref:`proteomes`.
@@ -363,7 +366,7 @@ The following tabs may be available: :ref:`entries`, :ref:`proteins` and :ref:`s
     :alt: Proteome entry page 
     :width: 800px
 
-    Proteome entry page for UP000001940
+    Proteome entry page for `UP000001940 <https://www.ebi.ac.uk/interpro/proteome/uniprot/UP000001940/>`_.
 
 The image shows the proteome page for *C. elegans*, whose proteome ID is UP000001940, and as you can see from the counters 
 in the tabs has 9K related InterPro entries, 27K proteins and 363 structures. Notice this data is for InterPro version 
@@ -375,10 +378,10 @@ in the tabs has 9K related InterPro entries, 27K proteins and 363 structures. No
 Set entry page
 **************
 
-Some InterPro member databases create groups of families that are evolutionarily related, called sets. This page offers 
-an overview of a specific set provided by a member database, it includes a short description and an interactive view of 
-the signatures included in the set. For sets provided by the Pfam member database, an additional section provides literature 
-references, when available.
+Some :doc:`InterPro member databases </databases>` create groups of families that are evolutionary 
+related, called sets. This page offers an overview of a specific set provided by a member database, it includes a short description 
+and an interactive view of the signatures included in the set. For sets provided by the Pfam member database, an additional section 
+provides literature references, when available.
 
 .. figure:: images/browse_pages/set_page.png
     :alt: Set entry page 

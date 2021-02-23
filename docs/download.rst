@@ -36,6 +36,8 @@ When the file to generate is too big (bigger than 10K entities) we recommend to 
 script to get the information from the API. See :ref:`your_downloads` for more information 
 on how to generate a script.
 
+|
+
 .. _your_downloads:
 
 *************

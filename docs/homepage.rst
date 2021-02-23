@@ -203,6 +203,28 @@ selected by clicking on the star icon in an InterPro entry page.
 |
 |
 |
+|
+
+.. _recent:
+
+Recent search component
+============================
+.. figure:: images/homepage/homepage_recent_search.png
+  :alt: Homepage recent search component
+  :align: left
+  :width: 350px
+|
+|
+|
+|
+|
+| 
+
+When performing a Text search, the text is stored locally and accessible through this section, 
+so the user can retrieve the data of interest easily the next time they visit the website. 
+Unwanted saved Text searches can be removed by clicking on the cross icon, The "Clear History" button 
+allows to clear the search history.
+
 
 .. _News:
 

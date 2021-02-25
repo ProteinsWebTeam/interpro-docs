@@ -44,4 +44,5 @@ InterPro Documentation
   /team
   /funding
   /privacy
+  /references
 

@@ -11,8 +11,8 @@ Proc. Natl. Acad. Sci. U. S. A. 117, 1496–1503 (2020).
 `Protein structure prediction guided by predicted inter-residue geometries <https://predictioncenter.org/casp14/doc/CASP14_Abstracts.pdf>`_.
 
 .. _ref_3:
-3. Hiranuma, N. et al. `Improved protein structure refinement guided by deep learning based accuracy estimation <https://doi.org/10.1101/2020.07.17.209643>`_. 
-Nat Commun (2021).
+3. Hiranuma, N. et al. `Improved protein structure refinement guided by deep learning based accuracy estimation <https://doi.org/10.1038/s41467-021-21511-x>`_. 
+Nature Communications 12, 1340 (2021).
 
 .. _ref_4:
 4.	Mariani, V., Biasini, M., Barbato, A. & Schwede, T. `lDDT: a local superposition-free score for comparing protein structures 

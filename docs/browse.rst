@@ -33,8 +33,8 @@ entry page it appears in. Most entry data tabs will be described within the :ref
 - :ref:`interactions`
 - :ref:`pathways`
 - :ref:`Genome3d`
-- :ref:`structure_model`
 - :ref:`signature`
+- :ref:`structure_model`
 - :ref:`alignment`
 - :ref:`curation`
 - :ref:`entries`
@@ -177,7 +177,25 @@ when available to complete the description.
     InterPro member database page for Pfam signature `PF00040 <https://www.ebi.ac.uk/interpro/entry/pfam/PF00040/>`_.
 
 In addition to the :ref:`proteins`, :ref:`ida`, :ref:`taxonomy`, :ref:`proteomes` and :ref:`structures` tabs member database 
-pages may also display information in the following additional tabs: :ref:`structure_model`, :ref:`signature`, :ref:`alignment` and :ref:`curation`. 
+pages may also display information in the following additional tabs: :ref:`signature`, :ref:`structure_model`, :ref:`alignment` and :ref:`curation`. 
+
+.. _signature:
+
+Signature
+==========
+The signature representing the model that defines the entry is visualized in this page as a logo, 
+using `Skylign <http://www.skylign.org/>`_. The logo data is displayed for the Pfam, PANTHER, PIRSF, 
+SFLD and TIGRFAM member databases.
+
+The visualization displays the amino acid conservation for each residue in the model. To navigate large 
+logos, the user can drag the rendered area to a desired position. Alternatively, the user can input a 
+residue number to be viewed. When selecting a particular residue in the logo, the probabilities of each 
+amino acid are displayed in the bottom part.
+
+.. figure:: images/browse_pages/signature_tab.png
+    :alt: Member database signature tab 
+    :width: 800px
+
 
 .. _structure_model:
 
@@ -222,23 +240,6 @@ located below the 3D viewer.
 3. The probability threshold of the residues being closer than 8Å can be changed using the slider. Decreasing the probability will increase the number of contacts.
 4. The highlighted column selected in step 1 will be shown in red on the structure model. The residues that are in contact will be shown in blue.
 
-
-.. _signature:
-
-Signature
-==========
-The signature representing the model that defines the entry is visualized in this page as a logo, 
-using `Skylign <http://www.skylign.org/>`_. The logo data is displayed for the Pfam, PANTHER, PIRSF, 
-SFLD and TIGRFAM member databases.
-
-The visualization displays the amino acid conservation for each residue in the model. To navigate large 
-logos, the user can drag the rendered area to a desired position. Alternatively, the user can input a 
-residue number to be viewed. When selecting a particular residue in the logo, the probabilities of each 
-amino acid are displayed in the bottom part.
-
-.. figure:: images/browse_pages/signature_tab.png
-    :alt: Member database signature tab 
-    :width: 800px
 
 .. _alignment:
 

@@ -33,6 +33,7 @@ entry page it appears in. Most entry data tabs will be described within the :ref
 - :ref:`interactions`
 - :ref:`pathways`
 - :ref:`Genome3d`
+- :ref:`structure_model`
 - :ref:`signature`
 - :ref:`alignment`
 - :ref:`curation`
@@ -176,7 +177,51 @@ when available to complete the description.
     InterPro member database page for Pfam signature `PF00040 <https://www.ebi.ac.uk/interpro/entry/pfam/PF00040/>`_.
 
 In addition to the :ref:`proteins`, :ref:`ida`, :ref:`taxonomy`, :ref:`proteomes` and :ref:`structures` tabs member database 
-pages may also display information in the following additional tabs: :ref:`sets`, :ref:`signature`, :ref:`alignment` and :ref:`curation`. 
+pages may also display information in the following additional tabs: :ref:`structure_model`, :ref:`signature`, :ref:`alignment` and :ref:`curation`. 
+
+.. _structure_model:
+
+Structural model
+==========
+
+The field of protein structure prediction has greatly advanced over recent years such that `deep-learning <https://en.wikipedia.org/wiki/Deep_learning>`_ 
+based methods are now able to predict high quality *de novo* protein structures. Structure models and contact maps have been 
+created for some of the Pfam families that do not have a structure in the PDB. They are available under the **Structural model** 
+tab of Pfam signature pages. The models are generated using the automated modeling pipeline [:ref:`1 <ref_1>`, :ref:`2 <ref_2>`] developed by the 
+`Baker <https://www.bakerlab.org/>`_ group and tested at `CASP14 <https://predictioncenter.org/casp14/>`_. The primary driving 
+force for model building are residue-residue geometry constraints derived from coevolutionary data (see figure below) in the 
+Pfam UniProt alignments, and top scoring structural templates from deep learning.
+
+.. figure:: images/browse_pages/aa_coevolution.gif
+    :alt: Amino acid contact    
+
+    Amino acids that are spatially close coevolve in order for a protein to adopt the correct 3D structure. The example on the left 
+    shows two shapes complementing each other (red and green). If one of them changes, the other has to change in order to maintain 
+    the contacts. By comparing the positions in the protein sequence alignment on the right, we can determine which pairs of positions 
+    might be in contact. Figure taken from `<http://gremlin.bakerlab.org/gremlin_faq.php>`_.
+
+An accurate contact prediction relies on there being a large number of sequences with sufficient diversity in the alignment, 
+so that residue-residue covariance can be distinguished from lineage effects. This means that structure prediction is not 
+possible for all Pfam families, as not all of them have the required number and diversity of sequences in the Pfam alignment. 
+
+For each structural model we used DeepAccNet [:ref:`3 <ref_3>`] to estimate its quality in terms of Local Distance Difference Test (lDDT) score [:ref:`4 <ref_4>`].
+
+The 3D structure of the model is displayed in the 3D viewer, and can be zoomed in and out, and rotated. The contact map information 
+is also displayed for the Pfam family SEED alignment. Hovering or clicking on a contact position highlights its connection to other 
+residues in the alignment as well as on the 3D structure. The model data can be downloaded by clicking on the **Download** button 
+located below the 3D viewer.
+
+.. figure:: images/browse_pages/structural_model.png
+    :alt: Contact map and structure prediction
+    :width: 800px
+
+    Contact map and structure prediction for Pfam entry `PF06980 <https://www.ebi.ac.uk/interpro/entry/pfam/PF06980/model/>`_.
+
+1. Hover or click on a circle to see the contact residues for the column under the circle
+2. Contacts for the column selected will be shown with connecting lines
+3. The probability threshold of the residues being closer than 8Å can be changed using the slider. Decreasing the probability will increase the number of contacts.
+4. The highlighted column selected in step 1 will be shown in red on the structure model. The residues that are in contact will be shown in blue.
+
 
 .. _signature:
 

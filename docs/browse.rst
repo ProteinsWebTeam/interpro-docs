@@ -205,7 +205,7 @@ Structural model
 The field of protein structure prediction has greatly advanced over recent years such that `deep-learning <https://en.wikipedia.org/wiki/Deep_learning>`_ 
 based methods are now able to predict high quality *de novo* protein structures. Structure models and contact maps have been 
 created for some of the Pfam families that do not have a structure in the PDB. They are available under the **Structural model** 
-tab of Pfam signature pages. The models are generated using the automated modeling pipeline [:ref:`1 <ref_1>`, :ref:`2 <ref_2>`] developed by the 
+tab of Pfam signature pages. The models are generated using the automated trRosetta modeling pipeline [:ref:`1 <ref_1>`, :ref:`2 <ref_2>`] developed by the 
 `Baker <https://www.bakerlab.org/>`_ group and tested at `CASP14 <https://predictioncenter.org/casp14/>`_. The primary driving 
 force for model building are residue-residue geometry constraints derived from coevolutionary data (see figure below) in the 
 Pfam UniProt alignments, and top scoring structural templates from deep learning.

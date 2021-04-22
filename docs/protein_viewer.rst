@@ -61,7 +61,7 @@ E. The tooltips are shown when hovering over each bar. They can be disabled by u
 
   Tooltip example.
 
-4. On the :ref:`protein_page`, clicking on the **Fetch conservation** button, will display the conservation information based on the Pfam signatures.
+4. On the :ref:`protein_page`, clicking on the **Fetch conservation** button, will display the conservation information based on the PANTHER signatures.
 
 .. figure:: images/protein_viewer/pv_conservation.png
   :alt: Protein sequence viewer conservation track

@@ -183,11 +183,11 @@ pages may also display information in the following additional tabs: :ref:`signa
 
 Signature
 ==========
-The signature representing the model that defines the entry is visualized in this page as a logo, 
+The signature representing the model that defines the entry is visualised in this page as a logo, 
 using `Skylign <http://www.skylign.org/>`_. The logo data is displayed for the Pfam, PANTHER, PIRSF, 
 SFLD and TIGRFAM member databases.
 
-The visualization displays the amino acid conservation for each residue in the model. To navigate large 
+The visualisation displays the amino acid conservation for each residue in the model. To navigate large 
 logos, the user can drag the rendered area to a desired position. Alternatively, the user can input a 
 residue number to be viewed. When selecting a particular residue in the logo, the probabilities of each 
 amino acid are displayed in the bottom part.
@@ -387,7 +387,7 @@ Taxonomy pages display the name, taxonomy ID, lineage and children nodes for a p
 reference to this taxon from another page throughout the website will link to this page.
 
 The overview also includes a graphical representation of the lineage of the selected taxon. The nodes 
-in the visualization are also links, so you can jump to the page of a particular taxon of interest.
+in the visualisation are also links, so you can jump to the page of a particular taxon of interest.
 
 .. figure:: images/browse_pages/taxonomy_page.png
     :alt: Taxonomy entry page 

@@ -6,6 +6,7 @@ Protein sequence viewer
 .. :ref:protein_page browse.html#protein-page
 .. :ref:structure_page browse.html#structure-page
 .. :ref:entry_types entries_info.html#entry-types
+.. :ref:signature browse.html#signature
 
 A common element on several InterPro website pages is the protein sequence viewer (in the 
 :ref:`sequence search result <sequence_search>`, on the :ref:`protein <protein_page>` and 
@@ -61,7 +62,12 @@ E. The tooltips are shown when hovering over each bar. They can be disabled by u
 
   Tooltip example.
 
-4. On the :ref:`protein_page`, clicking on the **Fetch conservation** button, will display the conservation information based on the PANTHER signatures.
+4. On the :ref:`protein_page`, clicking on the **Fetch conservation** button, will display the conservation information based on the PANTHER signatures. 
+The conservation scores are generated using the following process: 
+
+- The HMM model from the PANTHER database is run against the SwissProt database using hmmsearch, generating an HMM profile and a :ref:`logo <signature>` (graphical representation of the amino acid conservation).
+- The conservation score for each residue is determined, from the logo data, using the following formula: :math:`\frac {\sum (height\_arr)} {max\_height\_theory} \times 10`
+- The model is aligned against the protein sequence.
 
 .. figure:: images/protein_viewer/pv_conservation.png
   :alt: Protein sequence viewer conservation track

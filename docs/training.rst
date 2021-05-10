@@ -1,13 +1,12 @@
-################
-Upcoming courses
-################
-
+################################
+Upcoming courses and webinars
+################################
 
 If you would like us to train employees/students from your company/institution, `contact us <https://www.ebi.ac.uk/support/interpro>`_.
 
-################
+################################
 Previous courses
-################
+################################
 
 ******************************************
 Structural bioinformatics course (virtual)

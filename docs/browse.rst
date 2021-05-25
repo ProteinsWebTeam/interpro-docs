@@ -1,6 +1,6 @@
-###########
+########################################
 Browsing entries in the InterPro website
-###########
+########################################
 
 .. :ref:overlapping entries_info.html#overlapping
 .. :ref:relationship entries_info.html#relationship
@@ -200,7 +200,7 @@ amino acid are displayed in the bottom part.
 .. _structure_model:
 
 Structural model
-==========
+================
 
 The field of protein structure prediction has greatly advanced over recent years such that `deep-learning <https://en.wikipedia.org/wiki/Deep_learning>`_ 
 based methods are now able to predict high quality *de novo* protein structures. Structure models and contact maps have been 

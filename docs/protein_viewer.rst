@@ -1,6 +1,6 @@
-**************
+***********************
 Protein sequence viewer
-**************
+***********************
 
 .. :ref:sequence_search searchways.html#sequence-search
 .. :ref:protein_page browse.html#protein-page
@@ -30,9 +30,11 @@ Various options, make it easy to work with (as illustrated in the figure above):
 1. Clicking on the Full screen button at the top of the viewer will switch to full screen view.
 
 2. The viewer can be zoomed in and out by:
+
   a. Clicking the two buttons (+ and -) at the top right corner.
   b. Dragging the grey scale at the top to the desired positions on both left and right sides
   c. Pressing the [Ctrl] key and scroll through the viewer 
+
 3. More options that customise the viewer are grouped under **Options** dropdown.
 
 .. figure:: images/protein_viewer/pv_options_dropdown.png

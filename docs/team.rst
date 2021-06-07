@@ -11,7 +11,6 @@ UK by the following team (`<http://www.ebi.ac.uk/services/teams/interpro>`_):
 - Sara Chuguransky - Biocurator
 - Tiago Grego - Software developer
 - Swaathi Kandasaamy - Web developer
-- Gift Nuka - Software engineer
 - Typhaine Paysan-Lafosse - Bioinformatician
 - Matloob Qureshi - Web developer
 - Gustavo Salazar-Orejuela - Web developer
@@ -27,4 +26,4 @@ We are grateful to all our past team members and leaders:
 Pesseat, Aurelien Luciani, Amaia Sangrador Vegas, Siew-Yit Yong, Louise Daugherty, Phil 
 Jones, Craig McAnulla, Antony Quinn, Sandra Orchard, Alex Kanapin, Wolfgang Fleischmann, 
 Evgueni Zdobnov, Margaret Biswas, Tom Oinn, Florence Servant, David Binns, David Lonsdale, 
-John Maslen, Paul Bradley, Lowri Williams.
+John Maslen, Paul Bradley, Lowri Williams, Gift Nuka.

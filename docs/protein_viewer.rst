@@ -21,6 +21,9 @@ When zoomed in at the residue level and hovering, a tooltip shows hydrophobicity
 The color scale varies from -3 (colored as bright yellow) for hydrophilic residues and 3 (colored as 
 bright blue) for hydrophobic ones.
 
+
+.. protein used: https://www.ebi.ac.uk/interpro/protein/UniProt/A0R5X8/
+
 .. figure:: images/protein_viewer/pv_help.png
   :alt: Protein sequence viewer
   :width: 800px
@@ -64,7 +67,9 @@ E. The tooltips are shown when hovering over each bar. They can be disabled by u
 
   Tooltip example.
 
-4. On the :ref:`protein_page`, clicking on the **Fetch conservation** button, will display the conservation information based on the PANTHER signatures. 
+4. Residues annotations are provided by the CDD, SFLD and PIRSR databases.
+
+5. On the :ref:`protein_page`, clicking on the **Fetch conservation** button, will display the conservation information based on the PANTHER signatures. 
 The conservation scores are generated using the following process: 
 
 - The HMM model from the PANTHER database is run against the SwissProt database using hmmsearch, generating an HMM profile and a :ref:`logo <signature>` (graphical representation of the amino acid conservation).
@@ -75,7 +80,7 @@ The conservation scores are generated using the following process:
   :alt: Protein sequence viewer conservation track
   :width: 800px
 
-Clicking on the header of a category (say Unintegrated) hides the bars for the entire category.
+6. Clicking on the header of a category (say Unintegrated) hides the bars for the entire category.
 
 When zoomed in, panning can be achieved by either dragging the scale at the top or by dragging any bar in the desired direction (see figure below).
 

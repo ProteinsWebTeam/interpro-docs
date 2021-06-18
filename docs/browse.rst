@@ -222,11 +222,17 @@ An accurate contact prediction relies on there being a large number of sequences
 so that residue-residue covariance can be distinguished from lineage effects. This means that structure prediction is not 
 possible for all Pfam families, as not all of them have the required number and diversity of sequences in the Pfam alignment. 
 
-For each structural model we used DeepAccNet [:ref:`3 <ref_3>`] to estimate its quality in terms of Local Distance Difference Test (lDDT) score [:ref:`4 <ref_4>`].
+For each structural model we used DeepAccNet [:ref:`3 <ref_3>`] to estimate its quality in terms of Local Distance Difference Test 
+(lDDT) score [:ref:`4 <ref_4>`].
 
-The 3D structure of the model is displayed in the 3D viewer, and can be zoomed in and out, and rotated. The contact map information 
-is also displayed for the Pfam family SEED alignment. Hovering or clicking on a contact position highlights its connection to other 
-residues in the alignment as well as on the 3D structure. The model data can be downloaded by clicking on the **Download** button 
+The 3D structure of the model is displayed in the 3D viewer, and can be zoomed in and out, and rotated. The structure is coloured 
+by per-residue plDDT score with a rainbow gradient going from blue (high quality) to red (low quality). 
+
+Below the 3D viewer, the Heatmap visualisation displays the residue contacts using the distance metric. Hovering on the heatmap 
+highlights the contacts in the 3D structural model.
+
+The contact map information is displayed for the Pfam family SEED alignment. Hovering or clicking on a contact position highlights 
+its connection to other residues in the alignment as well as on the 3D structure. The model data can be downloaded by clicking on the **Download** button 
 located below the 3D viewer.
 
 .. figure:: images/browse_pages/structural_model.png
@@ -346,6 +352,7 @@ Similar proteins
 ================
 List of proteins that have the same domain architecture as this protein, including the Pfam/InterPro accession 
 for each domain.
+The list can be filtered to either show all the protein matches or only the reviewed proteins from `UniProt <https://www.uniprot.org/>`_.
 
 .. _structure_page:
 
@@ -362,7 +369,7 @@ accession number (PDB ID), resolution, release date, the method used to determin
 (e.g. "Xray") and the chains composing the structure. An external link to the structure entry in the 
 PDBe database is provided on the right hand side of the page.
 
-Following, the general information section, a 3D viewer shows an interactive view of the 3D structure. 
+Following, the general information section, a 3D viewer (powered by `Mol* <https://molstar.org/>`_) shows an interactive view of the 3D structure. 
 Below it, the :doc:`protein sequence viewer </protein_viewer>` has an extra category representing the secondary structure 
 information. Hovering over one of the tracks highlights the corresponding region of the protein structure 
 in the 3D structure viewer.

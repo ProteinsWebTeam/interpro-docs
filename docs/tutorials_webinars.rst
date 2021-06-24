@@ -20,6 +20,7 @@ Webinars
 
 Recorded webinars related to InterPro are available online:
 
+- `A guide to proteomics data analysis using UniProt and InterPro <https://www.ebi.ac.uk/training/events/guide-proteomics-data-analysis-using-uniprot-and-interpro/>`_
 - `Understanding InterPro families, domains and functions <https://www.ebi.ac.uk/training/online/course/understanding-interpro-families-domains-and-functions>`_
 - `Using the InterPro website in your research <https://www.ebi.ac.uk/training/online/course/using-interpro-website-your-research>`_
 - `Accessing InterPro programmatically <https://www.ebi.ac.uk/training/online/course/accessing-interpro-programmatically>`_

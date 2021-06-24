@@ -3,15 +3,14 @@ Upcoming courses and webinars
 ################################
 
 ************************************************************************
-A guide to proteomics data analysis using UniProt and InterPro (webinar)
+Structural bioinformatics course (virtual)
 ************************************************************************
 
-| **Date**:  Wednesday 23rd June 2021 15:30
+| **Date**:  Monday 11 - Friday 15 October 2021
 | **Venue**:  Virtual - EMBL-EBI
-| **Application deadline**:  Wednesday 23rd June 2021
-| `Details and registration <https://www.ebi.ac.uk/training/events/guide-proteomics-data-analysis-using-uniprot-and-interpro/>`_
+| **Application deadline**: Friday 9 July 2021
+| `Programme details and registration <https://www.ebi.ac.uk/training/events/structural-bioinformatics2021/>`_
 
-|
 If you would like us to train employees/students from your company/institution, `contact us <https://www.ebi.ac.uk/support/interpro>`_.
 
 ################

@@ -11,6 +11,7 @@ UK by the following team (`<http://www.ebi.ac.uk/services/teams/interpro>`_):
 - Sara Chuguransky - Biocurator
 - Tiago Grego - Software developer
 - Swaathi Kandasaamy - Web developer
+- Beatriz Lazaro Pinto - Biocurator
 - Typhaine Paysan-Lafosse - Bioinformatician
 - Matloob Qureshi - Web developer
 - Gustavo Salazar-Orejuela - Web developer

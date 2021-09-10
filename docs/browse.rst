@@ -275,7 +275,7 @@ located below the 3D viewer.
     :alt: Contact map and structure prediction
     :width: 800px
 
-    Contact map and structure prediction for Pfam entry `PF06980 <https://www.ebi.ac.uk/interpro/entry/pfam/PF06980/model/>`_.
+    Contact map and structure prediction for Pfam entry `PF06980 <https://www.ebi.ac.uk/interpro/entry/pfam/PF06980/trrosetta/>`_.
 
 1. Hover or click on a circle to see the contact residues for the column under the circle
 2. Contacts for the column selected will be shown with connecting lines

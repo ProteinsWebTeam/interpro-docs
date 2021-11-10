@@ -3,6 +3,21 @@ Upcoming courses and webinars
 ################################
 
 ************************************************************************
+Bioinformatics resources for protein biology (virtual)
+************************************************************************
+
+| **Date**:  21 February - 2 March 2022
+| **Venue**:  Virtual - EMBL-EBI
+| **Application deadline**: 7 January 2022
+| `Programme details and registration <https://www.ebi.ac.uk/training/events/bioinformatics-resources-protein-biology-2022/>`_
+
+If you would like us to train employees/students from your company/institution, `contact us <https://www.ebi.ac.uk/support/interpro>`_.
+
+################
+Previous courses
+################
+
+************************************************************************
 Structural bioinformatics course (virtual)
 ************************************************************************
 
@@ -10,12 +25,6 @@ Structural bioinformatics course (virtual)
 | **Venue**:  Virtual - EMBL-EBI
 | **Application deadline**: Friday 9 July 2021
 | `Programme details and registration <https://www.ebi.ac.uk/training/events/structural-bioinformatics2021/>`_
-
-If you would like us to train employees/students from your company/institution, `contact us <https://www.ebi.ac.uk/support/interpro>`_.
-
-################
-Previous courses
-################
 
 ******************************************
 Structural bioinformatics course (virtual)

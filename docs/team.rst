@@ -7,7 +7,6 @@ UK by the following team (`<http://www.ebi.ac.uk/services/teams/interpro>`_):
 
 - `Alex Bateman <http://www.ebi.ac.uk/about/people/alex-bateman>`_ - Team Leader
 - `Matthias Blum <http://www.ebi.ac.uk/about/people/matthias-blum>`_ - Software developer
-- `Hsin-Yu Chang <http://www.ebi.ac.uk/about/people/hsin-yu-chang>`_ - Biocurator
 - `Sara Chuguransky <http://www.ebi.ac.uk/about/people/sara-chuguransky>`_ - Biocurator
 - `Tiago Grego <http://www.ebi.ac.uk/about/people/tiago-grego>`_ - Software developer
 - `Swaathi Kandasaamy <http://www.ebi.ac.uk/about/people/swaathi-kandasaamy>`_ - Web developer
@@ -23,7 +22,7 @@ We are grateful to all our past team members and leaders:
 
 **Team Leaders**: Rob Finn, Sarah Hunter, Nicky Mulder and Rolf Apweiler.
 
-**Team Members**: Alex Mitchell, Lorna Richardson, Simon Potter, Matthew Fraser, Sebastien 
+**Team Members**: Hsin-Yu Chang, Alex Mitchell, Lorna Richardson, Simon Potter, Matthew Fraser, Sebastien 
 Pesseat, Aurelien Luciani, Amaia Sangrador Vegas, Siew-Yit Yong, Neil Rawlings, Louise Daugherty, 
 Phil Jones, Craig McAnulla, Antony Quinn, Sandra Orchard, Alex Kanapin, Wolfgang Fleischmann, 
 Evgueni Zdobnov, Margaret Biswas, Tom Oinn, Florence Servant, David Binns, David Lonsdale, 

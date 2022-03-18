@@ -22,8 +22,8 @@ We are grateful to all our past team members and leaders:
 
 **Team Leaders**: Rob Finn, Sarah Hunter, Nicky Mulder and Rolf Apweiler.
 
-**Team Members**: Hsin-Yu Chang, Alex Mitchell, Lorna Richardson, Simon Potter, Matthew Fraser, Sebastien 
-Pesseat, Aurelien Luciani, Amaia Sangrador Vegas, Siew-Yit Yong, Neil Rawlings, Louise Daugherty, 
-Phil Jones, Craig McAnulla, Antony Quinn, Sandra Orchard, Alex Kanapin, Wolfgang Fleischmann, 
-Evgueni Zdobnov, Margaret Biswas, Tom Oinn, Florence Servant, David Binns, David Lonsdale, 
-John Maslen, Paul Bradley, Lowri Williams, Gift Nuka.
+**Team Members**: Hsin-Yu Chang, Gift Nuka, Lowri Williams, Alex Mitchell, Lorna Richardson, Simon Potter, 
+Matthew Fraser, Sebastien Pesseat, Aurelien Luciani, Amaia Sangrador Vegas, Siew-Yit Yong, Neil Rawlings, 
+Louise Daugherty, Phil Jones, Craig McAnulla, Antony Quinn, Sandra Orchard, Alex Kanapin, Wolfgang Fleischmann, 
+Evgueni Zdobnov, Margaret Biswas, Tom Oinn, Florence Servant, David Binns, David Lonsdale, Rupinder Singh Mazara,
+Jennifer McDowell, Ujjwal Das, John Maslen, Paul Bradley.

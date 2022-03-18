@@ -171,7 +171,7 @@ mobile domains and the analysis of domain architectures. SMART is based at EMBL,
 SUPERFAMILY
 ****
 
-|superfamily| `<http://supfam.org>`_
+|superfamily| `<https://supfam.mrc-lmb.cam.ac.uk/>`_
 
 .. |superfamily| image:: images/member_databases/superfamily_logo.png
   :alt: SUPERFAMILY logo

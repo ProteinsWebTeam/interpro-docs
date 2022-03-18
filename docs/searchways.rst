@@ -167,10 +167,12 @@ Selecting "**Exact match**" performs the search to find proteins containing the 
 or an InterPro accession if a Pfam entry is integrated in it.
 
 Once a search is performed the corresponding results are displayed below the search component and show 
-the number of proteins followed by the corresponding domain architecture. Clicking on the number of p
-roteins redirects to the **Browse** tab in the :ref:`navigation menu <navigation_menu>` under the protein section, 
-showing the list of proteins which can be filtered to a specific member database, if required, as described 
-in the :ref:`browse feature <browse_feature>`.
+the number of proteins followed by the corresponding domain architecture. For each domain architecture,
+the domain size is displayed based on the real length of the domain, using a protein of reference. 
+When hovering over a domain, more details are available in a tooltip, including the domain’s position. 
+Clicking on the number of proteins redirects to the **Browse** tab in the :ref:`navigation menu <navigation_menu>` 
+under the protein section, showing the list of proteins which can be filtered to a specific member database, 
+if required, as described in the :ref:`browse feature <browse_feature>`.
 
 By default, Pfam entries are shown in the results. This can be changed to show InterPro entries by toggling the 
 Pfam checkbox to InterPro and vice versa.

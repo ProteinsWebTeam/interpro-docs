@@ -89,21 +89,31 @@ protein sequences and what, if any, combinations arise with other entries.
 Taxonomy 
 ========
 List of species this entry is matching, based on data from `UniProt taxonomy 
-<https://www.uniprot.org/help/taxonomy>`_. For each organism, the taxonomy identifier and protein count information are provided. The ACTIONS column offers the possibility to:
+<https://www.uniprot.org/help/taxonomy>`_. The information can be displayed in 4 different ways through the view options menu:
+
+.. figure:: images/browse_pages/taxonomy_subpage_view_options.png
+        :alt: Taxonomy subpage view options
+
+- Table with the list of all the species the proteins matching this entry are found in.
+- Taxonomy tree of all the species the proteins matching this entry are found in.
+- Sunburst view displays the taxonomy distribution of the proteins matching the entry, from the least specific at the centre to more specific going towards the outside.
+- Table with the number of proteins found for key species, these are 12 model organisms commonly used in scientific research: *Oryza sativa subsp. japonica, Arabidopsis thaliana, Homo sapiens, Danio rerio, Mus musculus, Drosophila melanogaster, Caenorhabditis elegans, Saccharomyces cerevisiae, Schizosaccharomyces pombe, Escherichia coli, Escherichia virus T4, Halobacterium salinarum*.
+
+Sunburst is the default view of the subpage. A range of options can be selected to customise the view:
+
+- The segment size can be adjusted based on the number of sequences matching a taxon (default) or by the number of species per taxon.
+- The sunburst depth can be adjusted between 2 to 8 rings.
+
+.. figure:: images/browse_pages/taxonomy_sunburst.png
+        :alt: Taxonomy sunburst view
+
+        Taxonomy sunburst view for `PF00120 <https://www.ebi.ac.uk/interpro/entry/integrated/pfam/PF00120/taxonomy/uniprot/#sunburst>`_
+
+In the table views, for each organism, the taxonomy identifier and protein count information are provided. The ACTIONS column offers the possibility to:
 
 - View all the protein matches in the :ref:`proteins` tab
 - Download a FASTA file of the protein matches
 - View the taxonomy information in the :ref:`taxonomy_page`
-
-The information can be displayed in two different ways:
-
-- By "**Key species**", these are 12 model organisms commonly used in scientific research: *Oryza sativa subsp. japonica, Arabidopsis thaliana, Homo sapiens, Danio rerio, Mus musculus, Drosophila melanogaster, Caenorhabditis elegans, Saccharomyces cerevisiae, Schizosaccharomyces pombe, Escherichia coli, Escherichia virus T4, Halobacterium salinarum*.
-- List of all the species the proteins matching this entry are found in.
-
-The type of data displayed can be changed using the website settings, accessible through the InterPro banner 
-:ref:`settings`.
-
-
 
 .. _proteomes:
 

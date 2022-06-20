@@ -146,7 +146,7 @@ tab of InterPro entry and Pfam signature pages. The models are generated using t
 sequence information, two-dimensional information about the distance between amino acids, and three-dimensional atomic structure all at once.
 
 .. figure:: images/browse_pages/rosettafold_network.jpg
-        :alt: RoseTTAFold
+        :alt: RoseTTAFold workflow and performances compared to other AI altgorithms
 
         (A)RoseTTAFold three-track neural network (B) and (C) structure prediction algorithms performances comparison [:ref:`1 <ref_1>`].
 ..
@@ -182,7 +182,7 @@ its connection to other residues in the alignment as well as on the 3D structure
 located below the 3D viewer.
 
 .. figure:: images/browse_pages/structural_model.png
-    :alt: Contact map and structure prediction
+    :alt: Contact map and structure prediction of a RoseTTAFold structural model
     :width: 800px
 
     Contact map and structure prediction for InterPro entry `IPR010727 <https://www.ebi.ac.uk/interpro/entry/InterPro/IPR010727/rosettafold/>`_.
@@ -216,7 +216,7 @@ The data can be downloaded in PDB or mmCIF format, by clicking on the correspond
     :alt: AlphaFold page
     :width: 800px
 
-    AlphaFold structure predictions tab for `IPR000562, UniProt P02751 <https://www.ebi.ac.uk/interpro/entry/interPro/IPR000562/alphafold/#table>`_.
+    AlphaFold structure predictions tab for `IPR000562, UniProt O60449 <https://www.ebi.ac.uk/interpro/entry/interPro/IPR000562/alphafold/#table>`_.
 
 On an InterPro entry page, below the 3D viewer, a table containing the list of UniProt accessions matching the InterPro 
 entry for which structure predictions have been generated is shown. For each protein it is possible to:
@@ -422,8 +422,10 @@ box (magnifying glass symbol) or by performing a :ref:`text_search`.
  
 At the top of the structure page, general information about the structure is displayed: the structure's 
 accession number (PDB ID), resolution, release date, the method used to determine the structure 
-(e.g. "Xray") and the chains composing the structure. An external link to the structure entry in the 
-PDBe database is provided on the right hand side of the page.
+(e.g. "Xray") and the chains composing the structure. External links to  `PDBe <https://www.ebi.ac.uk/pdbe/>`_, 
+`RCSB PDB <https://www.rcsb.org/>`_, `PDBsum <http://www.ebi.ac.uk/thornton-srv/databases/pdbsum/>`_, `CATH <https://cath-org.co.uk/>`_, 
+`SCOP <https://scop.mrc-lmb.cam.ac.uk/>`_, `ECOD <http://prodata.swmed.edu/ecod/>`_ and 
+`Proteopedia <https://proteopedia.org/wiki/index.php/Main_Page>`_ are provided on the right hand side of the page.
 
 Following, the general information section, a 3D viewer (powered by `Mol* <https://molstar.org/>`_) shows an interactive view 
 of the 3D structure. Hovering over a residue displays the name of the entry, the chain and residue information below the viewer. 
@@ -491,15 +493,17 @@ Set entry page
 **************
 
 Some :doc:`InterPro member databases </databases>` create groups of families that are evolutionary 
-related, called sets. This page offers an overview of a specific set provided by a member database, it includes a short description 
-and an interactive view of the signatures included in the set. For sets provided by the Pfam member database, an additional section 
+related, called sets. This page offers an overview of a specific set provided by a member database, 
+it includes a short description and an interactive view of the signatures included in the set. 
+For the interactive view, different label types can be choosen through the **Label Content** menu: 
+Accession, Name and Short name. For sets provided by the Pfam member database, an additional section 
 provides literature references, when available.
 
 .. figure:: images/browse_pages/set_page.png
     :alt: Set entry page 
     :width: 800px
 
-    Set entry page for cl00011 (CDD)
+    Set entry page for `cl00011 <https://www.ebi.ac.uk/interpro/set/all/cl00011/>`_ (CDD)
 
 The following tabs may be available: :ref:`entries`, :ref:`proteins`, :ref:`structures`, 
 :ref:`taxonomy`, :ref:`proteomes` and :ref:`alignment_clan`.
@@ -509,11 +513,12 @@ The following tabs may be available: :ref:`entries`, :ref:`proteins`, :ref:`stru
 Alignments
 ==========
 
-List of signatures included in the clan and their alignment with other signatures in the clan.
+List of signatures included in the set and their alignment with other signatures in the set.
 
 .. figure:: images/browse_pages/alignment_clan.png
-    :alt: Alignment clan
+    :alt: Sequence alignment of the different signatures in the set
     :width: 800px
 
-    Alignment tab for cl00011 (CDD)
+    Alignment tab for `cl00011 set <https://www.ebi.ac.uk/interpro/set/all/cl00011/alignments/#table>`_ (CDD)
+
 

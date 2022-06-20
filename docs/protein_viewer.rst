@@ -47,7 +47,7 @@ Various options, make it easy to work with (as illustrated in the figure above):
 
 A. **Colour By** allows to change the colours in which the InterPro entries and signatures bars based on accession, member database or domain relationship. 
 
-B. The labels on the right side of the viewer can be customised. The **Accession** labels are shown by default. To see names along with accession, the name checkbox should be ticked or if the user prefers to see the names alone, the respective options should be selected.
+B. The labels on the right side of the viewer can be customised. The **Accession** labels are shown by default. To see names and/or short names along with accession, the name/short name checkboxes should be ticked or if the user prefers to see the names/short names alone, the respective options should be selected.
 
 C. **Snapshot** has two options: **Save as image** allows to take a snapshot of the viewer and is saved as an image (.png). **Print** allows the user to print the viewer, thus supporting the download in PDF format.
 
@@ -88,4 +88,22 @@ When zoomed in, panning can be achieved by either dragging the scale at the top 
   :alt: Protein sequence viewer panning
   :width: 800px
 
+For some proteins, additional information are provided by resources other than the member 
+database consortium, they are displayed under the **Other features** category of the viewer.
+Available data include:
 
+- Disordered regions from `MobiDB <https://www.mobidb.org/>`_
+- Transmembrane regions from `Phobius <https://phobius.sbc.su.se/>`_ and/or `TMHMM <https://services.healthtech.dtu.dk/service.php?TMHMM-2.0>`_
+- Coiled regions from COILS
+- Cytoplasmic/non-cytoplasmic domains from Phobius
+- Signal peptide regions from `SignalP <https://services.healthtech.dtu.dk/service.php?SignalP-5.0>`_ and/or Phobius
+- Spurious protein from `AntiFam <https://www.ebi.ac.uk/research/bateman/software/antifam-tool-identify-spurious-proteins>`_
+
+When available, 3D structure and domain predictions from the `Genome3D consortium <http://genome3d.net/resource>`_ are displayed in the
+**Predicted 3D Structures** and **Predicted Domains** categories respectively.
+
+.. figure:: images/protein_viewer/pv_other_features.png
+  :alt: Protein sequence viewer Other features and Genome3D annotations for the protein O75069
+  :width: 800px
+
+  Protein sequence viewer Other features and Genome3D annotations for `O75069 <https://www.ebi.ac.uk/interpro/protein/reviewed/..%20figure::%20images/protein_viewer/pv_panning.png%20:alt:%20Protein%20sequence%20viewer%20panning%20:width:%20800px/>`_

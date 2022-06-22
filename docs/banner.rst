@@ -40,7 +40,7 @@ Settings sidebar
 ====================
 |hamburger| The hamburger icon on the right opens the settings sidebar.
 
-The settings sidebar provides another way to access different parts of the website and is the only way of accessing the settings page.
+The settings sidebar provides another way to access different parts of the website and is the only way of accessing the :doc:`settings page </settings>` .
 
 .. |hamburger| image:: /images/banner/navigation_hamburger.png
   :alt: hamburger icon

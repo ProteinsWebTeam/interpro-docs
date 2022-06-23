@@ -1,9 +1,9 @@
 #############
-Settings Page
+Settings page
 #############
 
 
-On this page, it is possible to select options that will persist beyond your current browsing session. Your  choices are saved in the browser using a technology called IndexedDB. This allows you, for example, to choose 50 as the number of results to be included on the website data tables, and then this value will be remembered and the next time you visit our website, it will use 50 records for all the data tables.
+On the `settings page <https://www.ebi.ac.uk/interpro/settings/>`, it is possible to select options that will persist beyond your current browsing session. Your  choices are saved in the browser using a technology called IndexedDB. This allows you, for example, to choose 50 as the number of results to be included on the website data tables, and then this value will be remembered and the next time you visit our website, it will use 50 records for all the data tables.
 
 All the settings are included on the same page and are organised in 7 sections. A menu on the left indicates which section you are currently displaying and allows you to jump directly to the one of your interest.
 

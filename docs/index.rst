@@ -28,6 +28,7 @@ InterPro Documentation
   /browse
   /download
   /release_notes
+  /settings
 
 .. toctree::
   :maxdepth: 2

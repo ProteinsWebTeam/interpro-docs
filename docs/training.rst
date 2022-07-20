@@ -8,7 +8,7 @@ Structural bioinformatics course (virtual)
 
 | **Date**:  Monday 17 - Friday 21 October 2021
 | **Venue**:  Virtual - EMBL-EBI
-| **Application deadline**: Friday 8 July 2021
+| **Application deadline**: Friday 29 July 2021
 | `Programme details <https://www.ebi.ac.uk/training/events/structural-bioinformatics-2022/>`_
 
 

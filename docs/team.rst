@@ -1,27 +1,56 @@
-##############
 InterPro team
-##############
+=============
 
-The InterPro database is maintained at the European Bioinformatics Institute in Cambridge, 
-UK by the following team (`<http://www.ebi.ac.uk/services/teams/interpro>`_):
+The `InterPro resource <https://www.ebi.ac.uk/interpro/>`_ is curated and maintained
+at the `European Bioinformatics Institute <http://www.ebi.ac.uk>`_ in Cambridge, UK.
+
+Team members
+------------
 
 - `Alex Bateman <http://www.ebi.ac.uk/about/people/alex-bateman>`_ - Team Leader
-- `Matthias Blum <http://www.ebi.ac.uk/about/people/matthias-blum>`_ - Software developer
+- `Matthias Blum <http://www.ebi.ac.uk/about/people/matthias-blum>`_ - Development Project Leader
 - `Sara Chuguransky <http://www.ebi.ac.uk/about/people/sara-chuguransky>`_ - Biocurator
 - `Tiago Grego <http://www.ebi.ac.uk/about/people/tiago-grego>`_ - Software developer
 - `Beatriz Lazaro Pinto <http://www.ebi.ac.uk/about/people/beatriz-lazaro-pinto>`_ - Biocurator
 - `Typhaine Paysan-Lafosse <http://www.ebi.ac.uk/about/people/typhaine-paysan-lafosse>`_ - Bioinformatician
 - `Gustavo Salazar-Orejuela <http://www.ebi.ac.uk/about/people/gustavo-salazar-orejuela>`_ - Web developer
 
-*********************
 Previous contributors
-*********************
-We are grateful to all our past team members and leaders:
+---------------------
 
-**Team Leaders**: Rob Finn, Sarah Hunter, Nicky Mulder and Rolf Apweiler.
-
-**Team Members**: Swaathi Kandasaamy, Matloob Qureshi, Hsin-Yu Chang, Gift Nuka, Lowri Williams, Alex Mitchell, Lorna Richardson, Simon Potter, 
-Matthew Fraser, Sebastien Pesseat, Aurelien Luciani, Amaia Sangrador Vegas, Siew-Yit Yong, Neil Rawlings, 
-Louise Daugherty, Phil Jones, Craig McAnulla, Antony Quinn, Sandra Orchard, Alex Kanapin, Wolfgang Fleischmann, 
-Evgueni Zdobnov, Margaret Biswas, Tom Oinn, Florence Servant, David Binns, David Lonsdale, Rupinder Singh Mazara,
-Jennifer McDowell, Ujjwal Das, John Maslen, Paul Bradley.
+- Rob Finn - Team leader
+- Sarah Hunter - Team leader
+- Nicky Mulder - Team leader
+- Rolf Apweiler - Team leader
+- Swaathi Kandasaamy - Web developer
+- Matloob Qureshi - Web developer
+- Hsin-Yu Chang - Biocurator
+- Gift Nuka - Biocurator
+- Lowri Williams - Biocurator
+- Alex Mitchell - Curation coordinator
+- Lorna Richardson - Curation coordinator
+- Simon Potter - Development coordinator
+- Matthew Fraser - Software developer
+- Sebastien Pesseat - Web developer
+- Aurelien Luciani - Web developer
+- Amaia Sangrador Vegas - Biocurator
+- Siew-Yit Yong - Software developer
+- Neil Rawlings - Biocurator
+- Louise Daugherty
+- Phil Jones
+- Craig McAnulla
+- Antony Quinn
+- Sandra Orchard
+- Alex Kanapin
+- Wolfgang Fleischmann
+- Evgueni Zdobnov
+- Margaret Biswas
+- Tom Oinn
+- Florence Servant
+- David Binns
+- David Lonsdale
+- Rupinder Singh Mazara
+- Jennifer McDowell
+- Ujjwal Das
+- John Maslen
+- Paul Bradley

@@ -74,6 +74,17 @@ Relationships between homologous superfamilies and either family or domain entri
 Jaccard and containment indexes. These relationships are shown in the Overlapping homologous superfamilies/Overlapping 
 entries section on the InterPro entry pages. More information is available in the corresponding `train online section <https://www.ebi.ac.uk/training/online/course/genome3d-annotations-interpro/homologous-superfamily-entry-type-in-interpro/what-are-overlapping-entries/>`_.
 
+****
+Ontologies
+****
+
+InterPro uses several standards and ontologies:
+
+- the `NCBI Taxonomy <//www.ncbi.nlm.nih.gov>`_  for taxa: the NCBI assigns unique taxonomic identifiers for all organisms (taxa) that are represented in UniProtKB. As these taxonomic identifiers are stable, InterPro uses them to let user search the resource by organism;
+- the `Gene Ontology (GO) <//www.geneontology.org>`_ for functions, processes, cellular components: InterPro2Go (https://doi.org/10.1093/database/bar068) is manually-created mappings between InterPro entries and GO terms. Where an InterPro entry hits a set of functionally similar proteins, GO terms describing the conserved function or location are associated with the InterPro entry.
+- the Nomenclature Committee of the `International Union of Biochemistry and Molecular Biology <//www.iubmb.org/>`_ (NC-IUBMB) via `IntEnz <https://www.ebi.ac.uk/intenz/>`_: Enzyme Commission (EC) numbers describe enzyme-catalyzed reactions and are available in UniProtKB (e.g. `P17050 <https://www.uniprot.org/uniprotkb/P17050/entry>`_). when an InterPro entry hits reviewed/Swiss-Prot proteins annotated with EC numbers, the EC numbers are assigned to the InterPro entry.
+- `Reactome <//reactome.org>`_ and `MetaCyc <//metacyc.org/>`_ for pathways. Where an InterPro entry hits a reviewed/Swiss-Prot protein involved in a pathway described by Reactome, the pathway is assigned to the InterPro entry. As reactions in MetaCyc include EC numbers, InterPro uses EC numbers assigned to an entry (as described above) and to a metabolic pathway to link InterPro entries and MetaCyc pathways.
+
 
 .. |F| image:: /images/entry_types/family.png
   :alt: Family entry type icon

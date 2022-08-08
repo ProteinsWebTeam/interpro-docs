@@ -3,12 +3,22 @@ Upcoming courses and webinars
 ################################
 
 ************************************************************************
+Introduction to InterPro workshop (virtual)
+************************************************************************
+
+| **Date**:  21 September 2021 15:30 (GMT-3)
+| **Venue**:  Virtual - 3rd Women in Bioinformatics & Data Science LA Conference
+| **Application deadline**: 15 September 2022
+| `Programme details <https://wbds.la/conferences/3WBDSLAC/workshops.html#>`_
+| `Registration <https://wbds.la/conferences/3WBDSLAC/registration.html>`_
+
+************************************************************************
 Structural bioinformatics course (virtual)
 ************************************************************************
 
-| **Date**:  Monday 17 - Friday 21 October 2021
+| **Date**:  Monday 17 - Friday 21 October 2022
 | **Venue**:  Virtual - EMBL-EBI
-| **Application deadline**: Friday 29 July 2021
+| **Application deadline**: Friday 29 July 2022
 | `Programme details <https://www.ebi.ac.uk/training/events/structural-bioinformatics-2022/>`_
 
 

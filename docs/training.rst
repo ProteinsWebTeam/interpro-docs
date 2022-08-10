@@ -6,7 +6,7 @@ Upcoming courses and webinars
 Introduction to InterPro workshop (virtual)
 ************************************************************************
 
-| **Date**:  21 September 2021 15:30 (GMT-3)
+| **Date**:  21 September 2022 15:30 (GMT-3)
 | **Venue**:  Virtual - 3rd Women in Bioinformatics & Data Science LA Conference
 | **Application deadline**: 15 September 2022
 | `Programme details <https://wbds.la/conferences/3WBDSLAC/workshops.html#>`_

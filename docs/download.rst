@@ -14,10 +14,11 @@ data exports on each relevant InterPro page and an API to allow easy access for 
 Download page
 *************
 This is available under the `Download <https://www.ebi.ac.uk/interpro/download/>`_ section 
-in the :ref:`navigation menu <navigation_menu>`. It provides a downloadable version of the :doc:`InterProScan software </interproscan>` as 
-well as various files containing 
-pre-calculated InterPro data for the current release that can be downloaded. Data from 
-previous releases are available in the `InterPro ftp <ftp://ftp.ebi.ac.uk/pub/databases/interpro/>`_. 
+in the :ref:`navigation menu <navigation_menu>`. This page is divided into multiple tabs.
+
+- The **InterPro** tab provides various files containing pre-calculated InterPro data for the current release that can be downloaded. Data from previous releases are available in the `InterPro ftp <https://ftp.ebi.ac.uk/pub/databases/interpro/>`_. 
+- The **InterProScan** tab provides a downloadable version of the :doc:`InterProScan software </interproscan>`.
+- The **Pfam** tab gives access various Pfam files. Data from previous Pfam releases are available in the `Pfam ftp <https://ftp.ebi.ac.uk/pub/databases/Pfam/>`_.
 
 *************
 Export button
@@ -63,6 +64,7 @@ and accession **IPR000001**. In other words this will generate the list of Swiss
 proteins that are matching IPR000001 (also available under the Proteins tab in the InterPro 
 entry page for `IPR000001 <https://www.ebi.ac.uk/interpro/entry/InterPro/IPR000001/protein/reviewed/#table>`_, 
 with the reviewed option selected).
+The results are stored in the browser (IndexedDB), allowing to retrieve previous searches.
 
 =============
 Output formats

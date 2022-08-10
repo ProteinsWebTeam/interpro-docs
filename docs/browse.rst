@@ -63,10 +63,15 @@ icon (e.g. a D with a green background for a domain). Member databases contribut
 entry are shown in a box on the right hand side of the page. :ref:`Overlapping homologous superfamilies 
 <overlapping>` and/or :ref:`Relationships to other entries <relationship>` are indicated where available. 
 Clicking on the star symbol next to the entry name will save the entry as a Favourite. The full list of saved
-entries is available in the :ref:`favourite` in the homepage. Additional browse tabs provide further information 
-on this entry, and are displayed when the information is available.
+entries is available in the :ref:`favourite` in the homepage. More information about the data provided in an 
+InterPro entry page can be found in the :doc:`InterPro Entries : essential information </entries_info>` section 
+of the documentation. 
 
-Types of data that may be available in the browse tabs of an InterPro entry page include:
+Additional tabs in the left-hand side menu provide further information about the entry, and are displayed when 
+the data is available. Types of data that may be available in the menu of an InterPro entry page include: :ref:`proteins`, :ref:`ida`, 
+:ref:`taxonomy`, :ref:`proteomes`, :ref:`structures`, :ref:`rosettafold`, :ref:`alphafold1`, :ref:`pathways`, :ref:`interactions`
+and :ref:`genome3d`.
+
 
 .. _proteins:
 
@@ -280,8 +285,9 @@ when available to complete the description.
 
     InterPro member database page for Pfam signature `PF00040 <https://www.ebi.ac.uk/interpro/entry/pfam/PF00040/>`_.
 
-In addition to the :ref:`proteins`, :ref:`taxonomy`, :ref:`proteomes` and :ref:`structures` tabs member database 
-pages may also display information in the following additional tabs: :ref:`ida`, :ref:`rosettafold`, :ref:`signature`, :ref:`alignment` and :ref:`curation`. 
+In addition to the :ref:`proteins`, :ref:`taxonomy`, :ref:`proteomes` and :ref:`structures` tabs, member database 
+pages may also display information in the following additional tabs: :ref:`ida`, :ref:`rosettafold`, :ref:`signature`, :ref:`alignment` 
+and :ref:`curation`. 
 
 .. _signature:
 
@@ -346,10 +352,10 @@ It is divided into 2 subsections:
 Protein entry page
 ******************
 The Protein entry page contains information on a specific protein provided by `UniProt <https://www.uniprot.org/>`_. 
-Protein pages can be accessed either by entering a UniProt accession in a :ref:`text_search` or by clicking on a protein
+Protein pages can be accessed either by entering a UniProt accession or identifier in a :ref:`text_search` or by clicking on a protein
 accession from the :ref:`proteins` tab in an entry page.
  
-The protein page provides the protein accession, the short name given to the protein by Uniprot, the length 
+The protein page provides the protein accession, the short name (identifier) given to the protein by Uniprot, the length 
 of the protein sequence, species in which the protein is found, the proteome it belongs to and a brief 
 description of the protein's function where known. All the :ref:`InterPro family entries <entry_types>` 
 this protein is matching are listed under "**Protein family membership**". An external link to the protein 
@@ -507,6 +513,9 @@ provides literature references, when available.
 
 The following tabs may be available: :ref:`entries`, :ref:`proteins`, :ref:`structures`, 
 :ref:`taxonomy`, :ref:`proteomes` and :ref:`alignment_clan`.
+
+For Pfam sets (also known as clans), the entries tab contains the list of Pfam entries included in the set 
+and links to the entries SEED alignment and domain architectures pages.
 
 .. _alignment_clan:
 

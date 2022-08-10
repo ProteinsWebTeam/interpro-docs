@@ -68,7 +68,7 @@ performed in the last seven days, with the most recent one being displayed at th
 column gives an indication of whether or not the search has completed (green tick symbol / searching), if the 
 search has been saved locally (the results will still be available even after the seven days limit set up on 
 InterPro servers), or if the results have been imported (file symbol). 
-Clicking on the text in the results column opens a page where the results are summarised in a 
+Clicking on the job id or on the text in the results column opens a page where the results are summarised in a 
 protein sequence viewer (more detailed information is provided for the :doc:`/protein_viewer`).
 
 Previously ran searches can be imported either by typing the job ID in the **Import** text box, for searches 
@@ -78,6 +78,8 @@ run using nucleotide sequences, a job result is created for each Open Reading Fr
 nucleotide sequence are grouped accordingly. 
 This import feature can be used by users requiring to have InterProScan graphic output formats for publications 
 and other uses.
+When a search has been run using a previous version of InterProScan, it can be re-run using the latest 
+version of the software.
 
 .. figure:: images/search/InterPro_rtd_list_jobs.png
   :alt: Sequence search result
@@ -112,6 +114,10 @@ signature, in this case from Prosite (PR01022) [4b]. The following three InterPr
 The top InterPro domain entry [5a] contains signatures from 3 member databases (Pfam, CDD and Prosite) 
 [5b] which all represent the same domain. The remaining two InterPro domains contain one member database signature.
 
+Additionally to the InterPro matches, information about the GO terms associated to the InterPro entries matching the protein are displayed below the
+sequence viewer when available. These GO terms are assigned manually to InterPro entries using on the `Gene Ontology <http://geneontology.org/>`_ 
+and reflect the Biological process, Molecular function or Cellular location the protein may have.
+
 .. _text_search:
 
 ***********
@@ -123,6 +129,8 @@ The text search will search the following information in the database:
 
 - name, keyword
 - InterPro, protein, protein structure or member database signature accession
+- Protein identifier
+- Gene identifier 
 - GO terms
 - proteome identifier
 - set identifier
@@ -133,19 +141,17 @@ in the results list and the description is shortened, clicking on the |toggle| s
 the **Export** button removes the highlight and shows the full description text. The setting is saved and also applied 
 to other text searches throughout the website.
 
-Entering an **accession number** (e.g. IPR020422 (InterPro), O00167 (UniProt), PF02932 (member database), 
-GO\:0007165 (GO term), 1t2v (structure), UP000005640 (proteome), 	
-cl00011 (set) retrieves a list containing the entry matching 
-that accession number and any member database signatures and InterPro entries linked to that accession number.
+Entering an **accession number** or an **identifier**  (e.g. IPR020422 (InterPro), O00167 (UniProt), PF02932 (member database), 
+GO\:0007165 (GO term), 1t2v (structure), UP000005640 (proteome), 	cl00011 (set), A4 (gene)) gives an exact match and a quick 
+access to the corresponding InterPro page. It also displays the list of the InterPro entries and any member 
+database signatures linked to that accession number/identifier.
 
-Selecting the accession number or name of any entry in these lists opens the corresponding InterPro page 
-(e.g. :ref:`member database signature <memberdb_page>`, :ref:`InterPro entry <entry_page>`, 
-:ref:`protein <protein_page>`, :ref:`structure <structure_page>`) under the **Browse** tab 
+Selecting the accession number or name of any entry in the list of entries opens the corresponding InterPro page 
+(e.g. :ref:`member database signature <memberdb_page>`, :ref:`InterPro entry <entry_page>`) under the **Browse** tab 
 in the :ref:`navigation menu <navigation_menu>`. An overview of the entry 
-is provided and sub-tabs allow specific information for the entry to be viewed, for example the species 
+is provided and tabs on the left hand-side menu allow specific information for the entry to be viewed, for example the species 
 in which a protein has been found, or structures matching an entry. More information on the
-:doc:`browsing an InterPro page </browse>` section. 
-
+:doc:`browsing an InterPro page </browse>` section.
 
 .. _domain_arch_search:
 

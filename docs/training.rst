@@ -7,10 +7,20 @@ Introduction to InterPro workshop (virtual)
 ************************************************************************
 
 | **Date**:  21 September 2022 15:30 (GMT-3)
+| **Speakers**: Typhaine Paysan-Lafosse ans Sara Chuguransky
 | **Venue**:  Virtual - 3rd Women in Bioinformatics & Data Science LA Conference
 | **Application deadline**: 15 September 2022
 | `Programme details <https://wbds.la/conferences/3WBDSLAC/workshops.html#>`_
 | `Registration <https://wbds.la/conferences/3WBDSLAC/registration.html>`_
+
+************************************************************************
+Finding Pfam's protein families data in the InterPro website (webinar)
+************************************************************************
+
+| **Date**:  28 September 2022 15:30 (BST)
+| **Speaker**: Typhaine Paysan-Lafosse
+| `Programme details and registration <https://www.ebi.ac.uk/training/events/finding-pfam-protein-families-data-interpro-website/>`_
+
 
 ************************************************************************
 Structural bioinformatics course (virtual)

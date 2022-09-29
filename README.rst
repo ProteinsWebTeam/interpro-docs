@@ -29,10 +29,10 @@ Installation
 How to Contribute
 *****************
 
-Please get in touch with us at interpro-help@ebi.ac.uk with details of how you'd like to help and we'll get back to you.
+Please get in touch with us at interhelp@ebi.ac.uk with details of how you'd like to help and we'll get back to you.
 
 *******
 Contact
 *******
 
-interpro-help@ebi.ac.uk
+interhelp@ebi.ac.uk

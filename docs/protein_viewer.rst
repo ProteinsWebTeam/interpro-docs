@@ -18,8 +18,8 @@ The purple/grey bar below the amino acids indicates the predicted hydrophobicity
 When zoomed in at the residue level and hovering, a tooltip shows hydrophobicity score, using the 
 `Wimley–White whole residue hydropathy scale <https://en.wikipedia.org/wiki/Hydrophobicity_scales>`_  
 (the more positive the value, the more hydrophobic is the amino acid). 
-The color scale varies from -3 (colored as bright yellow) for hydrophilic residues and 3 (colored as 
-bright blue) for hydrophobic ones.
+The color scale varies from -3 (colored as bright blue) for hydrophilic residues and 3 (colored as 
+bright yellow) for hydrophobic ones.
 
 
 .. protein used: https://www.ebi.ac.uk/interpro/protein/UniProt/A0R5X8/

@@ -49,7 +49,7 @@ Previous releases
 *************
 To ensure you have the latest data and software enhancements we always recommend you 
 download the latest version of InterProScan. However all previous releases are archived on 
-the `FTP site <ftp://ftp.ebi.ac.uk/pub/software/unix/iprscan/5/>`_.
+the `FTP site <https://ftp.ebi.ac.uk/pub/software/unix/iprscan/5/>`_.
 
 *************
 License

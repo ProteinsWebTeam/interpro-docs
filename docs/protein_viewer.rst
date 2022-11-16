@@ -10,7 +10,7 @@ Protein sequence viewer
 
 A common element on several InterPro website pages is the protein sequence viewer (in the 
 :ref:`sequence search result <sequence_search>`, on the :ref:`protein <protein_page>` and 
-:ref:`structure <structure_page>` pages). It summarises the InterPro entries (IPR) (top colored
+:ref:`structure <structure_page>` pages). It summarises the InterPro entries (IPR) (top coloured
 bar) and member database signatures matches to the protein or structure
 being looked at, represented by the grey bar at the top of the viewer, categorised by :ref:`entry_types`. 
 
@@ -18,7 +18,7 @@ The purple/grey bar below the amino acids indicates the predicted hydrophobicity
 When zoomed in at the residue level and hovering, a tooltip shows hydrophobicity score, using the 
 `Wimley–White whole residue hydropathy scale <https://en.wikipedia.org/wiki/Hydrophobicity_scales>`_  
 (the more positive the value, the more hydrophobic is the amino acid). 
-The color scale varies from -3 (colored as bright blue) for hydrophilic residues and 3 (colored as 
+The colour scale varies from -3 (coloured as bright blue) for hydrophilic residues and 3 (coloured as 
 bright yellow) for hydrophobic ones.
 
 
@@ -62,7 +62,7 @@ D. **Collapse All** allows to collapse all the signatures bars displayed in the 
 E. The tooltips are shown when hovering over each bar. They can be disabled by unchecking the **Tooltip Active** option.
 
 .. figure:: images/protein_viewer/pv_tooltip.png
-  :alt: Protein sequence viewer toolti
+  :alt: Protein sequence viewer tooltip
   :width: 800px
 
   Tooltip example.
@@ -98,6 +98,8 @@ Available data include:
 - Cytoplasmic/non-cytoplasmic domains from Phobius
 - Signal peptide regions from `SignalP <https://services.healthtech.dtu.dk/service.php?SignalP-5.0>`_ and/or Phobius
 - Spurious protein from `AntiFam <https://www.ebi.ac.uk/research/bateman/software/antifam-tool-identify-spurious-proteins>`_
+- `CATH-FunFams <https://github.com/UCLOrengoGroup/cath-funfam-docs>`_ is an automatically generated profile HMM database, with FunFams entries segregated by an entropy-based approach  that distinguishes different patterns of conserved residues, corresponding to differences in functional determinants
+- `Pfam-N annotations <https://xfam.wordpress.com/2022/10/20/a-new-version-of-pfam-n-is-available>`_ result from a deep learning methodology developed by the Google Research team led by Dr Lucy Colwell to increase the Pfam coverage of protein sequences
 
 When available, 3D structure and domain predictions from the `Genome3D consortium <http://genome3d.net/resource>`_ are displayed in the
 **Predicted 3D Structures** and **Predicted Domains** categories respectively.

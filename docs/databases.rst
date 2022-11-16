@@ -42,7 +42,7 @@ CDD content includes NCBI-curated domain models, which use 3D-structure informat
 domain boundaries and provide insights into sequence/structure/function relationships, as well as domain 
 models imported from a number of external source databases.
 
-**** 
+****
 HAMAP
 ****
 

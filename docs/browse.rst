@@ -36,6 +36,7 @@ entry page it appears in. Most entry data tabs will be described within the :ref
 - :ref:`pathways`
 - :ref:`Genome3d`
 - :ref:`signature`
+- :ref:`subfamilies`
 - :ref:`alignment`
 - :ref:`curation`
 - :ref:`entries`
@@ -86,8 +87,8 @@ only proteins that have been automatically annotated (**unreviewed**), or all pr
 Domain architectures
 ====================
 Provides information about the different domains arrangements for the proteins matching this entry based 
-on Pfam signatures. For InterPro entries, information is provided regarding how the domain is present in 
-protein sequences and what, if any, combinations arise with other entries.
+on Pfam signatures. For InterPro entries, it provides information about where the domain is located in 
+protein sequences and what, if any, combinations arise with other domains.
 
 .. _taxonomy:
 
@@ -146,24 +147,24 @@ RoseTTAFold
 The field of protein structure prediction has greatly advanced over recent years such that `deep-learning <https://en.wikipedia.org/wiki/Deep_learning>`_ 
 based methods are now able to predict high quality *de novo* protein structures. Structure models and contact maps have been 
 created for some of the Pfam families that do not have a structure in the PDB. They are available under the **RoseTTAFold** 
-tab of InterPro entry and Pfam signature pages. The models are generated using the automated RoseTTAFold modeling pipeline [:ref:`1 <ref_1>`] developed by the 
+tab of InterPro entry and Pfam signature pages. The models are generated using the automated RoseTTAFold modelling pipeline [:ref:`1 <ref_1>`] developed by the 
 `Baker <https://www.bakerlab.org/>`_ group. RoseTTAFold uses a three-track neural network that integrates and simultaneously processes one-dimensional protein 
 sequence information, two-dimensional information about the distance between amino acids, and three-dimensional atomic structure all at once.
 
 .. figure:: images/browse_pages/rosettafold_network.jpg
-        :alt: RoseTTAFold workflow and performances compared to other AI altgorithms
+        :alt: RoseTTAFold workflow and performances compared to other AI algorithms
 
         (A)RoseTTAFold three-track neural network (B) and (C) structure prediction algorithms performances comparison [:ref:`1 <ref_1>`].
 ..
     trRosetta
     The primary driving 
-    force for model building are residue-residue geometry constraints derived from coevolutionary data (see figure below) in the 
+    force for model building are residue-residue geometry constraints derived from co-evolutionary data (see figure below) in the 
     Pfam UniProt alignments, and top scoring structural templates from deep learning.
 
     .. figure:: images/browse_pages/aa_coevolution.gif
         :alt: Amino acid contact    
 
-        Amino acids that are spatially close coevolve in order for a protein to adopt the correct 3D structure. The example on the left 
+        Amino acids that are spatially close co-evolve in order for a protein to adopt the correct 3D structure. The example on the left 
         shows two shapes complementing each other (red and green). If one of them changes, the other has to change in order to maintain 
         the contacts. By comparing the positions in the protein sequence alignment on the right, we can determine which pairs of positions 
         might be in contact. Figure taken from `<http://gremlin.bakerlab.org/gremlin_faq.php>`_.
@@ -210,9 +211,9 @@ The structure is coloured by per-residue plDDT score, it can be zoomed in and ou
 Clicking on a residue induces a zoom in effect and displays contacts with surrounding residues, clicking on the blank area 
 around the structure zooms out.
 
-The protein accession and organism are displayed on the left hand side, togheter with links to the corresponding 
+The protein accession and organism are displayed on the left hand side, together with links to the corresponding 
 `AlphaFold <https://alphafold.ebi.ac.uk/>`_ and `UniProt <https://www.uniprot.org>`_ websites. The model confidence
-color scale, determined using the plDDT score, is also displayed, varying from dark blue (very high confidence) to 
+colour scale, determined using the plDDT score, is also displayed, varying from dark blue (very high confidence) to 
 orange (very low confidence).
 
 The data can be downloaded in PDB or mmCIF format, by clicking on the corresponding buttons below the 3D viewer.
@@ -230,6 +231,9 @@ entry for which structure predictions have been generated is shown. For each pro
 - Access the :ref:`taxonomy_page` by clicking on the species
 - Display the structure prediction on the current page by clicking on the **Show prediction** button
 
+On a protein entry page, below the 3D viewer, the :doc:`protein sequence viewer </protein_viewer>` displays the member database 
+signatures and InterPro entries matching the protein. Hovering over a match highlights the corresponding section in the 
+predicted structure 3D view.
 
 .. _pathways:
 
@@ -286,7 +290,7 @@ when available to complete the description.
     InterPro member database page for Pfam signature `PF00040 <https://www.ebi.ac.uk/interpro/entry/pfam/PF00040/>`_.
 
 In addition to the :ref:`proteins`, :ref:`taxonomy`, :ref:`proteomes` and :ref:`structures` tabs, member database 
-pages may also display information in the following additional tabs: :ref:`ida`, :ref:`rosettafold`, :ref:`signature`, :ref:`alignment` 
+pages may also display information in the following additional tabs: :ref:`ida`, :ref:`rosettafold`, :ref:`alphafold1`, :ref:`signature`, :ref:`alignment` 
 and :ref:`curation`. 
 
 .. _signature:
@@ -345,6 +349,13 @@ It is divided into 2 subsections:
 .. figure:: images/browse_pages/curation.png
     :alt: Member database curation tab 
     :width: 800px
+
+.. _subfamilies:
+
+Subfamilies
+===========
+This section provides a list of subfamilies derived from the signature and a link to get more information in the member database website. 
+Currently, this list is available for the PANTHER and CATH-Gene3D member databases.
 
 .. _protein_page:
 
@@ -501,7 +512,7 @@ Set entry page
 Some :doc:`InterPro member databases </databases>` create groups of families that are evolutionary 
 related, called sets. This page offers an overview of a specific set provided by a member database, 
 it includes a short description and an interactive view of the signatures included in the set. 
-For the interactive view, different label types can be choosen through the **Label Content** menu: 
+For the interactive view, different label types can be chosen through the **Label Content** menu: 
 Accession, Name and Short name. For sets provided by the Pfam member database, an additional section 
 provides literature references, when available.
 
@@ -511,10 +522,16 @@ provides literature references, when available.
 
     Set entry page for `cl00011 <https://www.ebi.ac.uk/interpro/set/all/cl00011/>`_ (CDD)
 
-The following tabs may be available: :ref:`entries`, :ref:`proteins`, :ref:`structures`, 
+The following tabs may be available: :ref:`set_entries`, :ref:`proteins`, :ref:`structures`, 
 :ref:`taxonomy`, :ref:`proteomes` and :ref:`alignment_clan`.
 
-For Pfam sets (also known as clans), the entries tab contains the list of Pfam entries included in the set 
+.. _set_entries:
+
+Entries
+=======
+Provides the list of signatures included in the set (accession, name and short name).
+
+For Pfam sets (also known as clans), the Entries tab contains the list of Pfam entries included in the set 
 and links to the entries SEED alignment and domain architectures pages.
 
 .. _alignment_clan:

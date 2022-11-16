@@ -12,7 +12,7 @@ Team members
 - `Sara Chuguransky <http://www.ebi.ac.uk/about/people/sara-chuguransky>`_ - Biocurator
 - `Tiago Grego <http://www.ebi.ac.uk/about/people/tiago-grego>`_ - Software developer
 - `Beatriz Lazaro Pinto <http://www.ebi.ac.uk/about/people/beatriz-lazaro-pinto>`_ - Biocurator
-- `Typhaine Paysan-Lafosse <http://www.ebi.ac.uk/about/people/typhaine-paysan-lafosse>`_ - Bioinformatician
+- `Typhaine Paysan-Lafosse <http://www.ebi.ac.uk/about/people/typhaine-paysan-lafosse>`_ - Senior bioinformatician
 - `Gustavo Salazar-Orejuela <http://www.ebi.ac.uk/about/people/gustavo-salazar-orejuela>`_ - Web developer
 
 Previous contributors

@@ -175,7 +175,7 @@ or an InterPro accession if a Pfam entry is integrated in it.
 Once a search is performed the corresponding results are displayed below the search component and show 
 the number of proteins followed by the corresponding domain architecture. For each domain architecture,
 the domain size is displayed based on the real length of the domain, using a protein of reference. 
-When hovering over a domain, more details are available in a tooltip, including the domain’s position. 
+When hovering over a domain, more details are available in a tooltip, including the domain's position. 
 Clicking on the number of proteins redirects to the **Browse** tab in the :ref:`navigation menu <navigation_menu>` 
 under the protein section, showing the list of proteins which can be filtered to a specific member database, 
 if required, as described in the :ref:`browse feature <browse_feature>`.
@@ -301,7 +301,7 @@ Member database filters
   :width: 200px
   :align: left
 
-When **Browse by Member DB** is selected and a member database has been choosen, subsequent filters can be applied:
+When **Browse by Member DB** is selected and a member database has been chosen, subsequent filters can be applied:
 
 - **Member Database Entry Type**: select the types of signatures required. This is dependent on the database type selected. For example, if a database contains both domains and family signatures you can filter the results for a specific type.
 - **InterPro state**: select all signatures from the selected database or only those signatures that have been integrated into InterPro. 

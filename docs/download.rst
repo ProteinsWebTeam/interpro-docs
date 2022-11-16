@@ -19,6 +19,7 @@ in the :ref:`navigation menu <navigation_menu>`. This page is divided into multi
 - The **InterPro** tab provides various files containing pre-calculated InterPro data for the current release that can be downloaded. Data from previous releases are available in the `InterPro ftp <https://ftp.ebi.ac.uk/pub/databases/interpro/>`_. 
 - The **InterProScan** tab provides a downloadable version of the :doc:`InterProScan software </interproscan>`.
 - The **Pfam** tab gives access various Pfam files. Data from previous Pfam releases are available in the `Pfam ftp <https://ftp.ebi.ac.uk/pub/databases/Pfam/>`_.
+- The **PRINTS** and **SFLD** tabs give access to the latest PRINTS and SFLD release files, available from the InterPro ftp.
 
 *************
 Export button
@@ -99,7 +100,7 @@ set.
 An API call is formed of one or multiple endpoint blocks. An endpoint block consists of a 
 data type, a source database and an accession (e.g. api/datatype/sourcedb/accession).
 
-For example the URL **/entry/interpro** provides a pageable list of all the interpro 
+For example the URL **/entry/interpro** provides a pageable list of all the InterPro 
 entries. And the URL **/protein/uniprot/p99999** returns all the details of the protein 
 identified with the UniProt accession P99999.
 

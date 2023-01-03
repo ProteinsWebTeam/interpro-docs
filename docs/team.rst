@@ -25,7 +25,7 @@ Previous contributors
 - Swaathi Kandasaamy - Web developer
 - Matloob Qureshi - Web developer
 - Hsin-Yu Chang - Biocurator
-- Gift Nuka - Biocurator
+- Gift Nuka - Software developer
 - Lowri Williams - Biocurator
 - Alex Mitchell - Curation coordinator
 - Lorna Richardson - Curation coordinator

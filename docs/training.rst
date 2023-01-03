@@ -6,7 +6,7 @@ Upcoming courses and webinars
 Bioinformatics resources for protein biology (virtual)
 ************************************************************************
 
-| **Date**:  25 February - 27 April 2023
+| **Date**:  25 - 27 April 2023
 | **Venue**:  Virtual - EMBL-EBI
 | **Application deadline**: 22 January 2023
 | `Programme details and registration <https://www.ebi.ac.uk/training/events/bioinformatics-resources-protein-biology-1/>`_

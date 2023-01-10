@@ -150,8 +150,21 @@ The game is available to play online by clicking on the image below, or you can 
   </div>
 
 |
-*********************
-Ask questions
-*********************
+*******************************
+Ask questions or give feedback
+*******************************
 
-Do you have questions about protein or protein classification or would like a printed copy of the game? `Send us your question(s) <https://www.ebi.ac.uk/about/contact/support/interpro>`_.
+Do you have questions about protein or protein classification? 
+
+Suggestions to improve the protein families game? 
+
+Would like a printed copy of the game? 
+
+`Send us your question(s) or requests <https://www.ebi.ac.uk/about/contact/support/interpro>`_.
+
+***********
+Translation
+***********
+
+We are looking for volunteers to help us translate the game in different languages to increase its accessibility.
+Please `contact us <typhaine@ebi.ac.uk>`_ if this is something you'd like to do.

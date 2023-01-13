@@ -48,9 +48,18 @@ Understanding the biology
 What is a protein?
 ==================
 
+.. figure:: images/protein_families_game/string_of_pearls.png
+  :alt: Protein amino acid illustration
+  :align: right
+  :width: 180px
+  
 A protein is a long molecule made up of small units known as amino acids. 
 You can visualise a protein as a pearl neckless where each pearl is an amino acid. These amino acids are found mainly in food. 
 The proteins we eat are digested by the body to have each amino acid separated and used by the body perform different functions.
+
+
+The image on the right is an illustration of the protein amino acid sequence chain.
+Source: http://xaktly.com/Proteins.html
 
 What are proteins made of?
 =========================
@@ -76,8 +85,7 @@ The tertiary and quaternary structure of the proteins provide them with differen
   :alt: Protein folding illustration
 ..   :width: 200px
 ..   :align: left
-
-Figure 1. Illustration of the protein folding process from the amino acid sequence to the quaternary structure.
+Illustration of the protein folding process from the amino acid sequence to the quaternary structure.
 Source: `https://cdn.kastatic.org/ <https://cdn.kastatic.org/ka-perseus-images/71225d815cafcc09102504abdf4e10927283be98.png>`_
 
 Where do proteins come from?
@@ -133,12 +141,12 @@ in diseases such as cancer, diabetes, and hormone resistance syndromes.
 
 .. figure:: images/protein_families_game/NR_family_members.png
   :alt: List of Nuclear hormone receptors
-Figure 2. List of a few members of the Nuclear hormone receptors family obtained from InterPro `IPR001723 
+List of a few members of the Nuclear hormone receptors family obtained from InterPro `IPR001723 
 <https://www.ebi.ac.uk/interpro/entry/InterPro/IPR001723/>`_.
 
 .. figure:: images/protein_families_game/hr_structures.png
   :alt: Example of hormone receptors structures
-Figure 2. 3D Structures of 4 Nuclear hormone receptors: Thyroid hormone (PDB `4lnw <https://www.ebi.ac.uk/interpro/structure/PDB/4lnw/>`_), 
+3D Structures of 4 Nuclear hormone receptors: Thyroid hormone (PDB `4lnw <https://www.ebi.ac.uk/interpro/structure/PDB/4lnw/>`_), 
 Vitamin D (PDB `3a40 <https://www.ebi.ac.uk/interpro/structure/PDB/3a40/>`_), 
 Retinoic acid (PDB `5k13 <https://www.ebi.ac.uk/interpro/structure/PDB/5k13/>`_)
 and Estrogen (PDB `6vjd <https://www.ebi.ac.uk/interpro/structure/PDB/6vjd/>`_) receptors.

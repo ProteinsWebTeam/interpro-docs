@@ -46,4 +46,5 @@ InterPro Documentation
   /funding
   /privacy
   /references
+  /protein_families_game
 

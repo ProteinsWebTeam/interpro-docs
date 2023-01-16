@@ -55,7 +55,7 @@ What is a protein?
   
 A protein is a long molecule made up of small units known as amino acids. 
 You can visualise a protein as a pearl neckless where each pearl is an amino acid. These amino acids are found mainly in food. 
-The proteins we eat are digested by the body to have each amino acid separated and used by the body perform different functions.
+The amino acids required to make proteins can be obtained from the proteins we eat, or produced by the body.
 
 
 The image on the right is an illustration of the protein amino acid sequence chain.
@@ -71,15 +71,16 @@ good diet with enough protein intake.
 How are proteins formed?
 ========================
 
-Each protein has its own sequence of amino acids. This sequence determines the shape and function of the protein.
-The primary structure of a protein is made of around 100 amino acids, but this number can vary. 
+The amino acids in a protein are ordered in a specific way.This sequence of amino acids determines the shape and function of the 
+protein and its called its primary structure. Proteins can vary in size ranging from 15 to 30,000 amino acids.
 
 One of the smallest proteins is called Aspartame (it is an artificial sweetener used as a sugar substitute in 
 foods and beverages) and is made of only 2 amino acids. 
 
-On the contrary, the Titin protein is a giant protein made of 30,000 amino acids, it plays an important role in muscle elasticity.
+On the contrary, the Titin protein is a giant protein made of 30,000 amino acids, that plays an important role in muscle elasticity.
 
-The tertiary and quaternary structure of the proteins provide them with different functions. 
+In addition to the primary structure, proteins have higher order structural levels such as the secondary, tertiary and quaternary 
+structure which define their three dimensional structure and provide them with different functions. 
 
 .. figure:: images/protein_families_game/protein_folding.png
   :alt: Protein folding illustration
@@ -128,7 +129,7 @@ sequence features they possess.
 
 Protein family
 --------------
-A protein family is a group of proteins that share a common evolutionary origin (they have a common parent protein), we can identify 
+A protein family is a group of proteins that share a common evolutionary origin (they have a common ancestor), we can identify 
 them as they have related functions and similarities in their amino acid sequence or structure. 
 
 **Example of a protein family: Nuclear hormone receptors**
@@ -178,7 +179,7 @@ The major types of globins include:
 ..   :width: 200px
 ..   :align: left
 
-Figure 4. Cartoon representation of the globins domains structures generated using `mol* <https://molstar.org/viewer/>`_.
+Cartoon representation of the globins domains structures generated using `mol* <https://molstar.org/viewer/>`_.
 They are all made of eight alpha helices.
 
 

@@ -57,7 +57,6 @@ A protein is a long molecule made up of small units known as amino acids.
 You can visualise a protein as a pearl neckless where each pearl is an amino acid. These amino acids are found mainly in food. 
 The amino acids required to make proteins can be obtained from the proteins we eat, or produced by the body.
 
-
 The image on the right is an illustration of the protein amino acid sequence chain.
 Source: http://xaktly.com/Proteins.html
 
@@ -71,7 +70,7 @@ good diet with enough protein intake.
 How are proteins formed?
 ========================
 
-The amino acids in a protein are ordered in a specific way.This sequence of amino acids determines the shape and function of the 
+The amino acids in a protein are ordered in a specific way. This sequence of amino acids determines the shape and function of the 
 protein and its called its primary structure. Proteins can vary in size ranging from 15 to 30,000 amino acids.
 
 One of the smallest proteins is called Aspartame (it is an artificial sweetener used as a sugar substitute in 

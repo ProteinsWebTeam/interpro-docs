@@ -8,7 +8,9 @@ Team members
 ------------
 
 - `Alex Bateman <http://www.ebi.ac.uk/about/people/alex-bateman>`_ - Team Leader
+- `Antonina Entcheva Andreeva <https://www.ebi.ac.uk/people/person/antonina-andreeva/>`_ - Biocurator
 - `Matthias Blum <http://www.ebi.ac.uk/about/people/matthias-blum>`_ - Development Project Leader
+- `Laise Cavalcanti Florentino <https://www.ebi.ac.uk/people/person/laise-cavalcanti-florentino/>`_ - Software Developer
 - `Sara Chuguransky <http://www.ebi.ac.uk/about/people/sara-chuguransky>`_ - Biocurator
 - `Tiago Grego <http://www.ebi.ac.uk/about/people/tiago-grego>`_ - Software developer
 - `Beatriz Lazaro Pinto <http://www.ebi.ac.uk/about/people/beatriz-lazaro-pinto>`_ - Biocurator

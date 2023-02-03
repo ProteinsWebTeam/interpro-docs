@@ -355,7 +355,8 @@ It is divided into 2 subsections:
 Subfamilies
 ===========
 This section provides a list of subfamilies derived from the signature and a link to get more information in the member database website. 
-Currently, this list is available for the PANTHER and CATH-Gene3D member databases.
+Currently, this list is available for the PANTHER and CATH-Gene3D member databases. For PANTHER subfamilies, the GO terms associated to them 
+are also displayed.
 
 .. _protein_page:
 
@@ -388,6 +389,9 @@ with the consensus protein sequence. When an isoform is selected, a new :doc:`pr
 corresponding to the selection is displayed and the url is update to reflect the change.
 The isoform matches can also be viewed side by side with the consensus protein sequence by clicking on the split 
 icon |split| after selecting an isoform.
+
+When available, GO terms associated to InterPro entries and PANTHER families are displayed at the bottom of the page. 
+GO terms provide information about Biological processes, Molecular function and Cellular components.
 
 .. |split| image:: images/browse_pages/split_icon.png
   :alt: Split icon

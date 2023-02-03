@@ -46,7 +46,7 @@ corresponding :doc:`InterPro page </browse>` under the **Browse** tab in the :re
 Sequence search
 ***************
 
-A sequence can be submitted in FASTA format in the dedicated text area or by uploading a fasta file. 
+A sequence or a batch of sequences can be submitted in FASTA format in the dedicated text area or by uploading a fasta file. 
 The “**Advanced options**” allows users to select the InterPro member databases of interest to search 
 against (by default they are all selected). The sequence search is performed using the 
 :doc:`InterProScan software </interproscan>`. While the sequence search is running, the user can continue 
@@ -78,8 +78,11 @@ run using nucleotide sequences, a job result is created for each Open Reading Fr
 nucleotide sequence are grouped accordingly. 
 This import feature can be used by users requiring to have InterProScan graphic output formats for publications 
 and other uses.
+
 When a search has been run using a previous version of InterProScan, it can be re-run using the latest 
 version of the software.
+When a batch of sequences has been submitted, group actions allow to Delete All, Re-run All, and Download All the 
+submitted sequences at once.
 
 .. figure:: images/search/InterPro_rtd_list_jobs.png
   :alt: Sequence search result

@@ -14,13 +14,15 @@ A common element on several InterPro website pages is the protein sequence viewe
 bar) and member database signatures matches to the protein or structure
 being looked at, represented by the grey bar at the top of the viewer, categorised by :ref:`entry_types`. 
 
-The purple/grey bar below the amino acids indicates the predicted hydrophobicity of the sequence residues. 
-When zoomed in at the residue level and hovering, a tooltip shows hydrophobicity score, using the 
-`Wimley–White whole residue hydropathy scale <https://en.wikipedia.org/wiki/Hydrophobicity_scales>`_  
-(the more positive the value, the more hydrophobic is the amino acid). 
-The colour scale varies from -3 (coloured as bright blue) for hydrophilic residues and 3 (coloured as 
-bright yellow) for hydrophobic ones.
+.. The purple/grey bar below the amino acids indicates the predicted hydrophobicity of the sequence residues. 
+.. When zoomed in at the residue level and hovering, a tooltip shows hydrophobicity score, using the 
+.. `Wimley–White whole residue hydropathy scale <https://en.wikipedia.org/wiki/Hydrophobicity_scales>`_  
+.. (the more positive the value, the more hydrophobic is the amino acid). 
+.. The colour scale varies from -3 (coloured as bright blue) for hydrophilic residues and 3 (coloured as 
+.. bright yellow) for hydrophobic ones.
 
+The AlphaFold confidence track is displayed in the protein sequence viewer in the :ref:`protein page <protein_page>` 
+and in the :ref:`AlphaFold subpage <alphafold1>` when a predicted structure is available.
 
 .. protein used: https://www.ebi.ac.uk/interpro/protein/UniProt/A0R5X8/
 

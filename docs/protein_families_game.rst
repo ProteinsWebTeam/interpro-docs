@@ -20,6 +20,7 @@ The game is available to play online by clicking on the image below, or you can 
   </div>
 
 |
+
 Game rules
 ==========
 
@@ -35,6 +36,7 @@ The video below explains how to interact with the different objects in the onlin
   </div>
 
 |
+
 Translation
 ===========
 

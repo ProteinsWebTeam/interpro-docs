@@ -56,7 +56,6 @@ The amino acids required to make proteins can be obtained from the proteins we e
 
 .. figure:: images/protein_families_game/string_of_pearls.png
   :alt: Protein amino acid illustration
-  :align: right
   :width: 180px
   
 The image above is an illustration of the protein amino acid sequence chain.

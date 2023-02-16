@@ -50,16 +50,16 @@ Understanding the biology
 What is a protein?
 ==================
 
+A protein is a long molecule made up of small units known as amino acids. 
+You can visualise a protein as a pearl neckless where each pearl is an amino acid. These amino acids are found mainly in food. 
+The amino acids required to make proteins can be obtained from the proteins we eat, or produced by the body.
+
 .. figure:: images/protein_families_game/string_of_pearls.png
   :alt: Protein amino acid illustration
   :align: right
   :width: 180px
   
-A protein is a long molecule made up of small units known as amino acids. 
-You can visualise a protein as a pearl neckless where each pearl is an amino acid. These amino acids are found mainly in food. 
-The amino acids required to make proteins can be obtained from the proteins we eat, or produced by the body.
-
-The image on the right is an illustration of the protein amino acid sequence chain.
+The image above is an illustration of the protein amino acid sequence chain.
 Source: http://xaktly.com/Proteins.html
 
 What are proteins made of?

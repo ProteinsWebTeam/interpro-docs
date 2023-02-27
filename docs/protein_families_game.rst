@@ -3,37 +3,97 @@
 Protein families card game
 ##########################
 
+*********************
+Protein families game
+*********************
+
+The Protein families game contains 42 cards divided in 7 families (6 protein cards each), the goal is to collect the maximum number 
+of families by asking the other players for the protein cards you are missing in your hand to complete your families. The game logic 
+is similar to the Happy families and Go Fish games.
+
+The game is available to play online by clicking on the image below, or you can `request a printed copy <https://www.ebi.ac.uk/about/contact/support/interpro>`_.
+
+.. raw:: html
+
+  <div style="position: center; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+  <iframe src="https://tabletopia.com/games/protein-families/680x340" width="680" height="340" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+  </div>
+
+|
+
+Game rules
+==========
+
+The game rules in English can be `downloaded <https://c.tabletopia.com/games/protein-families/rules/protein-families-game-rules-online/en>`_.
+
+The video below explains how to interact with the different objects in the online platform. 
+
+.. raw:: html
+
+
+  <div style="position: center; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/EjrKx9hLYR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+
+|
+
+Translation
+===========
+
+We are looking for volunteers to help us translate the game in different languages to increase its accessibility.
+Please `contact us <typhaine@ebi.ac.uk>`_ if this is something you'd like to do.
+
 *************************
 Understanding the biology
 *************************
 
-What are proteins?
+What is a protein?
 ==================
 
-A protein is a long chain-like molecule that is made up of small units known as amino acids, joined together by peptide bonds. 
+A protein is a long molecule made up of small units known as amino acids. 
 You can visualise a protein as a pearl neckless where each pearl is an amino acid. These amino acids are found mainly in food. 
-The proteins we eat are digested by our body to have each amino acid separated and used to form new proteins which are used by 
-the cells to do their work. 
+The amino acids required to make proteins can be obtained from the proteins we eat, or produced by the body.
+
+.. figure:: images/protein_families_game/string_of_pearls.png
+  :alt: Protein amino acid illustration
+  :width: 180px
+  
+The image above is an illustration of the protein amino acid sequence chain.
+Source: http://xaktly.com/Proteins.html
+
+What are proteins made of?
+=========================
 
 There are 20 amino acids. However, 9 of them are called "essentials" as they can't be produced by the human body and we obtain 
 them by eating certain protein-rich foods (meat, poultry, fish, dairy products, eggs, and soy), hence it is important to have a 
 good diet with enough protein intake. 
 
-The primary structure of a protein is made of approximately 100 amino acids, but this number can vary. One of the smallest proteins 
-is called Aspartame (it is an artificial sweetener used as a sugar substitute in foods and beverages) and is made of only 2 amino acids. 
-On the contrary, the Titin protein is a giant protein made of 30,000 amino acids, it plays an important role in muscle elasticity.
-The way amino acids are organised isn't random. Indeed, each sequence is very important, and if an amino acid is replaced by another one 
-(by mistake) the protein might not work properly. The chains of amino acids are determined by DNA. To summarise, DNA provides the building 
-instruction, the RNA is a copy of DNA which goes to the building site where the protein is built from the instructions using the amino acids.
-The tertiary and quaternary structure of the proteins provide them with different functions. 
+How are proteins formed?
+========================
 
-.. figure:: images/protein_families_game/protein_folding.jpeg
+The amino acids in a protein are ordered in a specific way. This sequence of amino acids determines the shape and function of the 
+protein and its called its primary structure. Proteins can vary in size ranging from 15 to 30,000 amino acids.
+
+One of the smallest proteins is called Aspartame (it is an artificial sweetener used as a sugar substitute in 
+foods and beverages) and is made of only 2 amino acids. 
+
+On the contrary, the Titin protein is a giant protein made of 30,000 amino acids, that plays an important role in muscle elasticity.
+
+In addition to the primary structure, proteins have higher order structural levels such as the secondary, tertiary and quaternary 
+structure which define their three dimensional structure and provide them with different functions. 
+
+.. figure:: images/protein_families_game/protein_folding.png
   :alt: Protein folding illustration
 ..   :width: 200px
 ..   :align: left
+Illustration of the protein folding process from the amino acid sequence to the quaternary structure.
+Source: `https://cdn.kastatic.org/ <https://cdn.kastatic.org/ka-perseus-images/71225d815cafcc09102504abdf4e10927283be98.png>`_
 
-Figure 1. Illustration of the protein folding process from the amino acid sequence (a) to the quaternary structure (d).
-Source: `OpenStax College - Anatomy and Physiology <https://openstax.org/books/anatomy-and-physiology/pages/2-5-organic-compounds-essential-to-human-functioning>`_
+Where do proteins come from?
+============================
+
+The way amino acids are organised in the protein isn't random. Indeed, each sequence is very important, and if an amino acid is replaced by another one 
+(by mistake) the protein might not work properly. The chains of amino acids forming proteins are determined by DNA.
 
 The video below explains how proteins are produced from the DNA sequence.
 
@@ -48,6 +108,14 @@ As you might have noticed, proteins are necessary for the body to work properly 
 They are always renewed and found in all living cells. They are essential for the cell function and responsible for diverse functions, 
 like cellular structure (collagen), molecule transport (hemoglobin), cell activity regulators (insulin), helping molecules transformation.
 
+What are proteins used for?
+===========================
+
+A human body needs proteins to perform many different functions. 
+Some proteins help control processes in the body. Others transport, or carry, substances from one place in the body to another. 
+Some proteins make up collagen, which helps give structure to cells. Antibodies, which fight infections and diseases, are proteins. 
+Enzymes are also proteins, they help the body digest food and build new cells.
+
 Why are proteins classified?
 ============================
 Proteins can be classified into groups when they have a similar chain of amino acids or a similar tertiary structure. 
@@ -61,7 +129,7 @@ sequence features they possess.
 
 Protein family
 --------------
-A protein family is a group of proteins that share a common evolutionary origin (they have a common parent protein), we can identify 
+A protein family is a group of proteins that share a common evolutionary origin (they have a common ancestor), we can identify 
 them as they have related functions and similarities in their amino acid sequence or structure. 
 
 **Example of a protein family: Nuclear hormone receptors**
@@ -74,12 +142,12 @@ in diseases such as cancer, diabetes, and hormone resistance syndromes.
 
 .. figure:: images/protein_families_game/NR_family_members.png
   :alt: List of Nuclear hormone receptors
-Figure 2. List of a few members of the Nuclear hormone receptors family obtained from InterPro `IPR001723 
+List of a few members of the Nuclear hormone receptors family obtained from InterPro `IPR001723 
 <https://www.ebi.ac.uk/interpro/entry/InterPro/IPR001723/>`_.
 
 .. figure:: images/protein_families_game/hr_structures.png
   :alt: Example of hormone receptors structures
-Figure 2. 3D Structures of 4 Nuclear hormone receptors: Thyroid hormone (PDB `4lnw <https://www.ebi.ac.uk/interpro/structure/PDB/4lnw/>`_), 
+3D Structures of 4 Nuclear hormone receptors: Thyroid hormone (PDB `4lnw <https://www.ebi.ac.uk/interpro/structure/PDB/4lnw/>`_), 
 Vitamin D (PDB `3a40 <https://www.ebi.ac.uk/interpro/structure/PDB/3a40/>`_), 
 Retinoic acid (PDB `5k13 <https://www.ebi.ac.uk/interpro/structure/PDB/5k13/>`_)
 and Estrogen (PDB `6vjd <https://www.ebi.ac.uk/interpro/structure/PDB/6vjd/>`_) receptors.
@@ -111,7 +179,7 @@ The major types of globins include:
 ..   :width: 200px
 ..   :align: left
 
-Figure 4. Cartoon representation of the globins domains structures generated using `mol* <https://molstar.org/viewer/>`_.
+Cartoon representation of the globins domains structures generated using `mol* <https://molstar.org/viewer/>`_.
 They are all made of eight alpha helices.
 
 
@@ -133,25 +201,14 @@ a single location is very convenient and time saving for the scientific communit
 information in different places. InterPro also provides a tool, called InterProScan, to help the function prediction of newly 
 discovered proteins.
 
-*********************
-Protein families game
-*********************
+*******************************
+Ask questions or give feedback
+*******************************
 
-The Protein families game contains 42 cards divided in 7 families (6 protein cards each), the goal is to collect the maximum number 
-of families by asking the other players for the protein cards you are missing in your hand to complete your families. The game logic 
-is similar to the Happy families and Go Fish games.
+Do you have questions about protein or protein classification? 
 
-The game is available to play online by clicking on the image below, or you can `request a printed copy <https://www.ebi.ac.uk/about/contact/support/interpro>`_.
+Suggestions to improve the protein families game? 
 
-.. raw:: html
+Would like a printed copy of the game? 
 
-  <div style="position: center; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-  <iframe src="https://tabletopia.com/games/protein-families/680x340" width="680" height="340" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
-  </div>
-
-|
-*********************
-Ask questions
-*********************
-
-Do you have questions about protein or protein classification or would like a printed copy of the game? `Send us your question(s) <https://www.ebi.ac.uk/about/contact/support/interpro>`_.
+`Send us your question(s) or requests <https://www.ebi.ac.uk/about/contact/support/interpro>`_.

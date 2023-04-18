@@ -298,8 +298,8 @@ and :ref:`curation`.
 Signature
 ==========
 The signature representing the model that defines the entry is visualised in this page as a logo, 
-using `Skylign <http://www.skylign.org/>`_. The logo data is displayed for the Pfam, PANTHER, PIRSF, 
-SFLD and TIGRFAM member databases.
+using `Skylign <http://www.skylign.org/>`_. The logo data is displayed for the NCBIfam, Pfam, PANTHER, 
+PIRSF, and SFLD member databases.
 
 The visualisation displays the amino acid conservation for each residue in the model. To navigate large 
 logos, the user can drag the rendered area to a desired position. Alternatively, the user can input a 

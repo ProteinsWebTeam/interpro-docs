@@ -16,6 +16,7 @@ Team members
 - `Beatriz Lazaro Pinto <http://www.ebi.ac.uk/about/people/beatriz-lazaro-pinto>`_ - Biocurator
 - `Typhaine Paysan-Lafosse <http://www.ebi.ac.uk/about/people/typhaine-paysan-lafosse>`_ - Senior bioinformatician
 - `Gustavo Salazar-Orejuela <http://www.ebi.ac.uk/about/people/gustavo-salazar-orejuela>`_ - Web developer
+- `Luis Sanchez Pulido <http://www.ebi.ac.uk/about/people/luis-sanchez-pulido>`_ - Biocurator
 
 Previous contributors
 ---------------------

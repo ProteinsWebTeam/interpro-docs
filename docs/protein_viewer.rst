@@ -24,7 +24,7 @@ being looked at, represented by the grey bar at the top of the viewer, categoris
 The AlphaFold confidence track is displayed in the protein sequence viewer in the :ref:`protein page <protein_page>` 
 and in the :ref:`AlphaFold subpage <alphafold1>` when a predicted structure is available.
 
-.. protein used: https://www.ebi.ac.uk/interpro/protein/UniProt/A0R5X8/
+.. protein used: https://www.ebi.ac.uk/interpro/protein/UniProt/A0Q9F3/
 
 .. figure:: images/protein_viewer/pv_help.png
   :alt: Protein sequence viewer
@@ -110,4 +110,4 @@ When available, 3D structure and domain predictions from the `Genome3D consortiu
   :alt: Protein sequence viewer Other features and Genome3D annotations for the protein O75069
   :width: 800px
 
-  Protein sequence viewer Other features and Genome3D annotations for `O75069 <https://www.ebi.ac.uk/interpro/protein/reviewed/..%20figure::%20images/protein_viewer/pv_panning.png%20:alt:%20Protein%20sequence%20viewer%20panning%20:width:%20800px/>`_
+  Protein sequence viewer Other features and Genome3D annotations for `O75069 <https://www.ebi.ac.uk/interpro/protein/UniProt/O75069//>`_

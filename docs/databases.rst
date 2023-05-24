@@ -72,6 +72,23 @@ tradeoff between quality and coverage. By combining them all into a consensus an
 giving the best possible picture of the “disorder landscape” of a given protein of interest. 
 
 ****
+NCBIfam
+****
+
+|ncbifam| `<https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/>`_
+
+.. |ncbifam| image:: images/member_databases/nih_nlm_logo.png
+  :alt: NCBIfam logo
+  :width: 120px
+
+NCBIfam is a collection of protein families, featuring curated multiple sequence alignments, 
+hidden Markov models (HMMs) and annotation, which provides a tool for identifying functionally 
+related proteins based on sequence homology. NCBIfam is maintained at 
+the National Center for Biotechnology Information (Bethesda, MD). NCBIfam includes models from TIGRFAMs, 
+another database of protein families developed at The Institute for Genomic Research, 
+then at the J. Craig Venter Institute (Rockville, MD, US).
+
+****
 PANTHER
 ****
 
@@ -118,7 +135,7 @@ at the Protein Information Resource, Georgetown University Medical Centre, Washi
 PRINTS
 ****
 
-|prints| `<http://130.88.97.239/PRINTS/index.php>`_
+|prints|
 
 .. |prints| image:: images/member_databases/prints_logo.jpg
   :alt: PRINTS logo
@@ -195,4 +212,6 @@ NCBIFAMs is a collection of protein families, featuring curated multiple sequenc
 Markov models (HMMs) and annotation, which provides a tool for identifying functionally related proteins 
 based on sequence homology. It includes TIGRFAMs, formerly based at the J. Craig Venter Institute, Rockville, MD, 
 US.
+
+
 

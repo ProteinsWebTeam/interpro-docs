@@ -115,7 +115,7 @@ Pfam
   :width: 120px
 
 Pfam is a large collection of multiple sequence alignments and hidden Markov models covering many common protein 
-domains. Pfam is based at EMBL-EBI, Hinxton, UK.
+domains. Pfam is based at EMBL-EBI, Hinxton, UK. Since 2022, Pfam annotations are hosted by the InterPro website.
 
 ****
 PIRSF
@@ -197,5 +197,21 @@ SUPERFAMILY
 SUPERFAMILY is a library of profile hidden Markov models that represent all proteins of known structure. 
 The library is based on the SCOP classification of proteins: each model corresponds to a SCOP domain and 
 aims to represent the entire SCOP superfamily that the domain belongs to. SUPERFAMILY is based at the University of Bristol, UK.
+
+****
+NCBIFAMs
+****
+
+|ncbifam| `<https://www.ncbi.nlm.nih.gov/protfam/>`_
+
+.. |ncbifam| image:: images/member_databases/nih_nlm_logo.png
+  :alt: NCBIFAMs logo
+  :width: 120px
+
+NCBIFAMs is a collection of protein families, featuring curated multiple sequence alignments, hidden 
+Markov models (HMMs) and annotation, which provides a tool for identifying functionally related proteins 
+based on sequence homology. It includes TIGRFAMs, formerly based at the J. Craig Venter Institute, Rockville, MD, 
+US.
+
 
 

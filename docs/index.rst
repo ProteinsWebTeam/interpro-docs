@@ -42,6 +42,7 @@ InterPro Documentation
 
   /interproscan
   /databases
+  /pfam
   /team
   /funding
   /privacy

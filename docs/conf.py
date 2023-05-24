@@ -60,6 +60,6 @@ html_theme_options = {
 }
 
 html_use_smartypants = True
-html_logo = 'images/interpro_logo_text.svg'
+html_logo = 'images/logos/interpro_logo_text.svg'
 html_title = 'InterPro Documentation'
 html_short_title = 'InterPro'

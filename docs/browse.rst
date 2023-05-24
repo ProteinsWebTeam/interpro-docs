@@ -272,7 +272,11 @@ Member database signature entries provide information about which database the s
 signature identifier, the type of entry as defined by the member database (e.g. family, domain or site), 
 and the short name given to the entry by the member database. 
 
-Some InterPro member databases create groups of families that are evolutionary related. Pfam calls them clans, 
+Some member databases provide a description giving information about the family/domain or site function, 
+when this is not the case and the signature is integrated in an InterPro entry, the InterPro description is
+displayed.
+
+Some member databases create groups of families that are evolutionary related. Pfam calls them clans, 
 CDD uses the term superfamily and, for PIRSF and Panther the concept is associated with the parent families of 
 their hierarchy. We use the umbrella term Set to refer to all of them. When available, the set to which the signature 
 belongs to is indicated.
@@ -300,6 +304,7 @@ Signature
 The signature representing the model that defines the entry is visualised in this page as a logo, 
 using `Skylign <http://www.skylign.org/>`_. The logo data is displayed for the NCBIfam, Pfam, PANTHER, 
 PIRSF, and SFLD member databases.
+
 
 The visualisation displays the amino acid conservation for each residue in the model. To navigate large 
 logos, the user can drag the rendered area to a desired position. Alternatively, the user can input a 

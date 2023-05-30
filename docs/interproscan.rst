@@ -21,7 +21,7 @@ For more information on downloading, installing and running InterProScan please 
 Web services
 *************
 Programmatic access to InterProScan is possible via a number of different web service protocols, that allow up to 
-30 sequences to be analysed per request.
+100 sequences to be analysed per request.
 
 REST
 =====

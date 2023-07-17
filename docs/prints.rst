@@ -1,6 +1,6 @@
-########
+############
 About PRINTS
-########
+############
 
 PRINTS is a compendium of protein fingerprints. A fingerprint is a group of conserved motifs used to characterise a protein family; 
 its diagnostic power is refined by iterative scanning of a SwissProt/TrEMBL composite. Usually the motifs do not overlap, but are 

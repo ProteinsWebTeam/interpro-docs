@@ -44,6 +44,7 @@ InterPro Documentation
   /databases
   /pfam
   /prints
+  /sfld
   /team
   /funding
   /privacy

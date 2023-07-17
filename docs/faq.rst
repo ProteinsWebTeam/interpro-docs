@@ -223,29 +223,29 @@ For the best user experience, we recommend the use of the browsers and versions 
 +------------------------+--------------------------+
 |        Browser         |         Version          |
 +========================+==========================+
-| Chrome                 | 61 - 103                 | 
+| Chrome                 | 61 - 117                 | 
 +------------------------+--------------------------+
-| Edge                   | 79 - 99                  |
+| Edge                   | 79 - 114                  |
 +------------------------+--------------------------+
-| Mozilla Firefox        | 60 - 100                 | 
+| Mozilla Firefox        | 60 - 117                 | 
 +------------------------+--------------------------+
-| Safari                 | 10.1 - 15.4              |
+| Safari                 | 10.1 - 17                |
 +------------------------+--------------------------+
-| Opera                  | 48 - 83                  |
+| Opera                  | 48 - 100                  |
 +------------------------+--------------------------+
 | Android                | 99, 4.4.3 - 4.4.4        | 
 +------------------------+--------------------------+
-| Chrome For Android     | 100                      | 
+| Chrome For Android     | 114                      | 
 +------------------------+--------------------------+
-| Firefox For Android    | 98                       | 
+| Firefox For Android    | 115                       | 
 +------------------------+--------------------------+
-| QQ Browser             | 10.4                     | 
+| QQ Browser             | 13.1                     | 
 +------------------------+--------------------------+
-| Opera Mobile           | 64                       |
+| Opera Mobile           | 73                       |
 +------------------------+--------------------------+
 | iOS Safari             | 10.3 - 15.4              | 
 +------------------------+--------------------------+
-| Samsung Internet       | 8.2 - 16.0               |
+| Samsung Internet       | 8.2 - 21                 |
 +------------------------+--------------------------+
 
 How do I view entry names instead of accessions in the graphical protein viewer?
@@ -277,7 +277,7 @@ Documentation for the API is available at our |github|
   :alt: Github icon
   :width: 15pt
 
-If you'd like to see some example scripts in Perl, Python 2, Python 3 or
+If you'd like to see some example scripts in Perl, Python 3 or
 Javascript we have a script generator. Please follow the steps below:
 
 #. Click on the `Results <https://www.ebi.ac.uk/interpro/result/download/>`_ tab in the :ref:`navigation menu <navigation_menu>`.

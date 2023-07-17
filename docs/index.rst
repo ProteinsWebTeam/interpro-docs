@@ -43,6 +43,8 @@ InterPro Documentation
   /interproscan
   /databases
   /pfam
+  /prints
+  /sfld
   /team
   /funding
   /privacy

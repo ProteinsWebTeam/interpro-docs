@@ -71,18 +71,18 @@ E. The tooltips are shown when hovering over each bar. They can be disabled by u
 
 4. Residues annotations are provided by the CDD, SFLD and PIRSR databases.
 
-5. On the :ref:`protein_page`, clicking on the **Fetch conservation** button, will display the conservation information based on the PANTHER signatures. 
-The conservation scores are generated using the following process: 
+.. 5. On the :ref:`protein_page`, clicking on the **Fetch conservation** button, will display the conservation information based on the PANTHER signatures. 
+.. The conservation scores are generated using the following process: 
 
-- The HMM model from the PANTHER database is run against the SwissProt database using hmmsearch, generating an HMM profile and a :ref:`logo <signature>` (graphical representation of the amino acid conservation).
-- The conservation score for each residue is determined, from the logo data, using the following formula: :math:`\frac {\sum (height\_arr)} {max\_height\_theory} \times 10`
-- The model is aligned against the protein sequence.
+.. - The HMM model from the PANTHER database is run against the SwissProt database using hmmsearch, generating an HMM profile and a :ref:`logo <signature>` (graphical representation of the amino acid conservation).
+.. - The conservation score for each residue is determined, from the logo data, using the following formula: :math:`\frac {\sum (height\_arr)} {max\_height\_theory} \times 10`
+.. - The model is aligned against the protein sequence.
 
-.. figure:: images/protein_viewer/pv_conservation.png
-  :alt: Protein sequence viewer conservation track
-  :width: 800px
+.. .. figure:: images/protein_viewer/pv_conservation.png
+..   :alt: Protein sequence viewer conservation track
+..   :width: 800px
 
-6. Clicking on the header of a category (say Unintegrated) hides the bars for the entire category.
+5. Clicking on the header of a category (say Unintegrated) hides the bars for the entire category.
 
 When zoomed in, panning can be achieved by either dragging the scale at the top or by dragging any bar in the desired direction (see figure below).
 
@@ -102,12 +102,18 @@ Available data include:
 - Spurious protein from `AntiFam <https://www.ebi.ac.uk/research/bateman/software/antifam-tool-identify-spurious-proteins>`_
 - `CATH-FunFams <https://github.com/UCLOrengoGroup/cath-funfam-docs>`_ is an automatically generated profile HMM database, with FunFams entries segregated by an entropy-based approach  that distinguishes different patterns of conserved residues, corresponding to differences in functional determinants
 - `Pfam-N annotations <https://xfam.wordpress.com/2022/10/20/a-new-version-of-pfam-n-is-available>`_ result from a deep learning methodology developed by the Google Research team led by Dr Lucy Colwell to increase the Pfam coverage of protein sequences
+- Eukaryotic linear motifs from `ELM <http://elm.eu.org/>`_
 
-When available, 3D structure and domain predictions from the `Genome3D consortium <http://genome3d.net/resource>`_ are displayed in the
-**Predicted 3D Structures** and **Predicted Domains** categories respectively.
+For some proteins, we also have annotations that are fetched directly from the resource API.
+These annotations are displayed under the **External Sources** category of the viewer. Note: by default this
+category is collapsed. Available data include:
 
-.. figure:: images/protein_viewer/pv_other_features.png
-  :alt: Protein sequence viewer Other features and Genome3D annotations for the protein O75069
+- 3D structure and domain predictions from the `Genome3D consortium <http://genome3d.net/resource>`_ 
+- Intrinsically disordered proteins from `DisProt <https://www.disprot.org/>`_
+- Tandem repeat from `RepeatsDB <https://repeatsdb.bio.unipd.it/>`_
+
+.. figure:: images/protein_viewer/pv_external_sources.png
+  :alt: Protein sequence viewer External Sources for the protein O75069
   :width: 800px
 
-  Protein sequence viewer Other features and Genome3D annotations for `O75069 <https://www.ebi.ac.uk/interpro/protein/UniProt/O75069//>`_
+  Protein sequence viewer External Sources for `O75069 <https://www.ebi.ac.uk/interpro/protein/UniProt/O75069//>`_

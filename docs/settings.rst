@@ -51,9 +51,11 @@ Cache settings
 
 .. figure:: images/settings/settings-5-cache.png
   :alt: The Cache settings
+  :align: left
 
 In order to speed up the website we keep a local cache in your browser. It includes the API responses, since the last release of InterPro, and it gets dropped when a new version is released. You can disable the cache or clear it if, for instance, you think it is corrupted and is not displaying the latest data.
 
+|
 
 Server settings
 ========================

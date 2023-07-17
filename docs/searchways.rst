@@ -103,23 +103,25 @@ This means that the results will be available behind the usual seven days limit 
 has been done, and will only be deleted if the user deletes the job by clicking on the bin icon.
 
 The sequence submitted is shown in its full length at the top of the protein sequence viewer (grey bar) [2]. 
-The purple/grey bar below indicates the predicted hydrophobicity of the sequence residues [3]. 
 This is followed below by InterPro entries and signatures matches, displayed in categories classified by :ref:`entry_types`. 
 Each coloured bar represents a domain, protein family, or important site that has been 
 matched to part or all the length of the submitted protein sequence. 
 
-- The top coloured bar represents the InterPro entry [4a, 5a].
-- Directly below the InterPro entry, additional coloured bars display the member database signatures that contributed to that InterPro entry [4b, 5b]. 
+- The top coloured bar represents the InterPro entry [3a, 4a].
+- Directly below the InterPro entry, additional coloured bars display the member database signatures that contributed to that InterPro entry [3b, 4b]. 
 
 In the example above, four InterPro entries (1 family and 3 domain entries) have been found matching the 
-submitted sequence. The first InterPro entry is for a protein family [4a], containing one member database 
-signature, in this case from Prosite (PR01022) [4b]. The following three InterPro matches are domains. 
-The top InterPro domain entry [5a] contains signatures from 3 member databases (Pfam, CDD and Prosite) 
-[5b] which all represent the same domain. The remaining two InterPro domains contain one member database signature.
+submitted sequence. The first InterPro entry is for a protein family [3a], containing two member database 
+signatures, in this case from Prosite (PR01022) and HAMAP (MF_00842)[3b]. The following three InterPro matches are domains. 
+The top InterPro domain entry [4a] contains signatures from 3 member databases (Pfam, CDD and Prosite) 
+[4b] which all represent the same domain. The remaining two InterPro domains contain one member database signature.
 
-Additionally to the InterPro matches, information about the GO terms associated to the InterPro entries matching the protein are displayed below the
-sequence viewer when available. These GO terms are assigned manually to InterPro entries using on the `Gene Ontology <http://geneontology.org/>`_ 
-and reflect the Biological process, Molecular function or Cellular location the protein may have.
+Looking at the **Other features** section, we also learn that the protein has a signal peptide at its N-terminal end.
+CDD also provides per residue annotations which are displayed in the corresponding category at the bottom of the viewer [5].
+
+Additionally to the InterPro matches, information about the GO terms associated to the InterPro entries and PANTHER signatures matching the protein 
+are displayed below the sequence viewer when available. The GO terms are assigned manually to InterPro entries using on 
+the `Gene Ontology <http://geneontology.org/>`_ and reflect the Biological process, Molecular function or Cellular location the protein may have.
 
 .. _text_search:
 

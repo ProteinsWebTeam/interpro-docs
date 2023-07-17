@@ -135,9 +135,9 @@ at the Protein Information Resource, Georgetown University Medical Centre, Washi
 PRINTS
 ****
 
-|prints|
+|prints_im| :doc:`https://interpro-documentation.readthedocs.io/en/latest/prints.html </prints>`
 
-.. |prints| image:: images/member_databases/prints_logo.jpg
+.. |prints_im| image:: images/member_databases/prints_logo.jpg
   :alt: PRINTS logo
   :width: 120px
 

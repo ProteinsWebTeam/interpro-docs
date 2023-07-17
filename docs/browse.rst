@@ -222,7 +222,7 @@ The data can be downloaded in PDB or mmCIF format, by clicking on the correspond
     :alt: AlphaFold page
     :width: 800px
 
-    AlphaFold structure predictions tab for `IPR000562, UniProt O60449 <https://www.ebi.ac.uk/interpro/entry/interPro/IPR000562/alphafold/#table>`_.
+    AlphaFold structure predictions tab for `IPR000562, UniProt O60449 <https://www.ebi.ac.uk/interpro/entry/InterPro/IPR000562/alphafold/?search=O60449#table>`_.
 
 On an InterPro entry page, below the 3D viewer, a table containing the list of UniProt accessions matching the InterPro 
 entry for which structure predictions have been generated is shown. For each protein it is possible to:

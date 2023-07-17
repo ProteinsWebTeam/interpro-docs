@@ -277,7 +277,7 @@ Documentation for the API is available at our |github|
   :alt: Github icon
   :width: 15pt
 
-If you'd like to see some example scripts in Perl, Python 2, Python 3 or
+If you'd like to see some example scripts in Perl, Python 3 or
 Javascript we have a script generator. Please follow the steps below:
 
 #. Click on the `Results <https://www.ebi.ac.uk/interpro/result/download/>`_ tab in the :ref:`navigation menu <navigation_menu>`.

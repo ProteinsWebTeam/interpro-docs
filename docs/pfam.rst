@@ -1,6 +1,6 @@
-########
+##########
 About Pfam
-########
+##########
 
 Pfam version 35.0 was produced at the `European Bioinformatics Institute <https://www.ebi.ac.uk/>`_ using a sequence database 
 called *Pfamseq*, which is based on `UniProt <http://www.uniprot.org/>`_ release 2021_03.

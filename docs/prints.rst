@@ -10,7 +10,7 @@ flexibly and powerfully than can single motifs, full diagnostic potency deriving
 PRINTS was previously hosted at the University of Manchester Bioinformatics Education and Research, but has been retired 
 and InterPro serves as an archive for this resource.
 
-For more information about PRINTS, have a look at their last publication: 
-Attwood TK, Bradley P, Flower DR, Gaulton A, Maudling N, Mitchell AL, Moulton G, Nordle A, Paine K, Taylor P, Uddin A, Zygouri C. 
-*PRINTS and its automatic supplement, prePRINTS.* Nucleic Acids Res. 2003 Jan 1;31(1):400-2. `doi: 10.1093/nar/gkg030 <https://doi.org/10.1093/nar/gkg030>`_. 
-PMID: `12520033 <https://europepmc.org/article/MED/12520033>`_.
+For more information about PRINTS, please refer to its latest publication: 
+
+  Attwood TK, Coletta A, Muirhead G, Pavlopoulou A, Philippou PB, Popov I, Romá-Mateo C, Theodosiou A, Mitchell AL. The PRINTS database: a fine-grained protein sequence annotation and analysis resource--its status in 2012. *Database (Oxford)*. 2012;2012 bas019. `doi:10.1093/database/bas019 <https://doi:10.1093/database/bas019>`_. PMID: `22508994 <https://europepmc.org/article/MED/22508994>`_.
+restructuredtext

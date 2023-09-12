@@ -6,7 +6,6 @@ PRINTS is a compendium of protein fingerprints. A fingerprint is a group of cons
 its diagnostic power is refined by iterative scanning of a SwissProt/TrEMBL composite. Usually the motifs do not overlap, but are 
 separated along a sequence, though they may be contiguous in 3D-space. Fingerprints can encode protein folds and functionalities more 
 flexibly and powerfully than can single motifs, full diagnostic potency deriving from the mutual context provided by motif neighbours.
-
 PRINTS was previously hosted at the University of Manchester Bioinformatics Education and Research, but has been retired 
 and InterPro serves as an archive for this resource.
 

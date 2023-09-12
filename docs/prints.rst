@@ -13,4 +13,3 @@ and InterPro serves as an archive for this resource.
 For more information about PRINTS, please refer to its latest publication: 
 
   Attwood TK, Coletta A, Muirhead G, Pavlopoulou A, Philippou PB, Popov I, Romá-Mateo C, Theodosiou A, Mitchell AL. The PRINTS database: a fine-grained protein sequence annotation and analysis resource--its status in 2012. *Database (Oxford)*. 2012;2012 bas019. `doi:10.1093/database/bas019 <https://doi:10.1093/database/bas019>`_. PMID: `22508994 <https://europepmc.org/article/MED/22508994>`_.
-restructuredtext

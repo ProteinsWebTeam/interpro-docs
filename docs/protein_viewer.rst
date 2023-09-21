@@ -21,8 +21,10 @@ being looked at, represented by the grey bar at the top of the viewer, categoris
 .. The colour scale varies from -3 (coloured as bright blue) for hydrophilic residues and 3 (coloured as 
 .. bright yellow) for hydrophobic ones.
 
-The AlphaFold confidence track is displayed in the protein sequence viewer in the :ref:`protein page <protein_page>` 
+The *AlphaFold confidence* track is displayed in the protein sequence viewer in the :ref:`protein page <protein_page>` 
 and in the :ref:`AlphaFold subpage <alphafold1>` when a predicted structure is available.
+
+The *Representative Domains* track is displayed in the protein sequence viewer in the :ref:`protein page <protein_page>`. This representation is generated automatically using the type of the member databases models, which might differ from the InterPro entries types.
 
 .. protein used: https://www.ebi.ac.uk/interpro/protein/UniProt/A0Q9F3/
 
@@ -55,11 +57,11 @@ C. **Snapshot** has two options: **Save as image** allows to take a snapshot of 
 
 D. **Collapse All** allows to collapse all the signatures bars displayed in the viewer at once to only display the InterPro entries bars. 
 
-.. figure:: images/protein_viewer/pv_collapsed_tracks.png
-  :alt: Protein sequence viewer collapsed
-  :width: 800px
+.. .. figure:: images/protein_viewer/pv_collapsed_tracks.png
+..   :alt: Protein sequence viewer collapsed
+..   :width: 800px
 
-  Collapsed categories view.
+..   Collapsed categories view.
 
 E. The tooltips are shown when hovering over each bar. They can be disabled by unchecking the **Tooltip Active** option.
 

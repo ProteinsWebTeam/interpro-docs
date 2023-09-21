@@ -30,7 +30,6 @@ entry page it appears in. Most entry data tabs will be described within the :ref
 - :ref:`taxonomy` 
 - :ref:`proteomes`
 - :ref:`structures`
-- :ref:`rosettafold`
 - :ref:`alphafold1`
 - :ref:`interactions`
 - :ref:`pathways`
@@ -70,7 +69,7 @@ of the documentation.
 
 Additional tabs in the left-hand side menu provide further information about the entry, and are displayed when 
 the data is available. Types of data that may be available in the menu of an InterPro entry page include: :ref:`proteins`, :ref:`ida`, 
-:ref:`taxonomy`, :ref:`proteomes`, :ref:`structures`, :ref:`rosettafold`, :ref:`alphafold1`, :ref:`pathways`, :ref:`interactions`
+:ref:`taxonomy`, :ref:`proteomes`, :ref:`structures`, :ref:`alphafold1`, :ref:`pathways`, :ref:`interactions`
 and :ref:`genome3d`.
 
 
@@ -138,65 +137,6 @@ Structures
 ==========
 List of structures from the `PDBe <https://www.ebi.ac.uk/pdbe/>`_ database that match to protein sequences 
 included in this entry.
-
-.. _rosettafold:
-
-RoseTTAFold
-================
-
-The field of protein structure prediction has greatly advanced over recent years such that `deep-learning <https://en.wikipedia.org/wiki/Deep_learning>`_ 
-based methods are now able to predict high quality *de novo* protein structures. Structure models and contact maps have been 
-created for some of the Pfam families that do not have a structure in the PDB. They are available under the **RoseTTAFold** 
-tab of InterPro entry and Pfam signature pages. The models are generated using the automated RoseTTAFold modelling pipeline [:ref:`1 <ref_1>`] developed by the 
-`Baker <https://www.bakerlab.org/>`_ group. RoseTTAFold uses a three-track neural network that integrates and simultaneously processes one-dimensional protein 
-sequence information, two-dimensional information about the distance between amino acids, and three-dimensional atomic structure all at once.
-
-.. figure:: images/browse_pages/rosettafold_network.jpg
-        :alt: RoseTTAFold workflow and performances compared to other AI algorithms
-
-        (A)RoseTTAFold three-track neural network (B) and (C) structure prediction algorithms performances comparison [:ref:`1 <ref_1>`].
-..
-    trRosetta
-    The primary driving 
-    force for model building are residue-residue geometry constraints derived from co-evolutionary data (see figure below) in the 
-    Pfam UniProt alignments, and top scoring structural templates from deep learning.
-
-    .. figure:: images/browse_pages/aa_coevolution.gif
-        :alt: Amino acid contact    
-
-        Amino acids that are spatially close co-evolve in order for a protein to adopt the correct 3D structure. The example on the left 
-        shows two shapes complementing each other (red and green). If one of them changes, the other has to change in order to maintain 
-        the contacts. By comparing the positions in the protein sequence alignment on the right, we can determine which pairs of positions 
-        might be in contact. Figure taken from `<http://gremlin.bakerlab.org/gremlin_faq.php>`_.
-
-An accurate contact prediction relies on there being a large number of sequences with sufficient diversity in the alignment, 
-so that residue-residue covariance can be distinguished from lineage effects. This means that structure prediction is not 
-possible for all Pfam families, as not all of them have the required number and diversity of sequences in the Pfam alignment. 
-
-For each structural model we used DeepAccNet [:ref:`2 <ref_2>`] to estimate its quality in terms of Local Distance Difference Test 
-(lDDT) score [:ref:`3 <ref_3>`].
-
-The 3D structure of the model is displayed in the 3D viewer, and can be zoomed in and out, and rotated. Clicking on a residue in the 
-viewer induces a zoom in effect and displays contacts with surrounding residues, clicking on the blank area around the structure zooms out. 
-The structure is coloured by per-residue plDDT score with a rainbow gradient going from blue (high confidence) to red (low confidence). 
-
-Below the 3D viewer, the Heatmap visualisation displays the residue contacts using the distance metric. Hovering on the heatmap 
-highlights the contacts in the 3D structural model.
-
-The contact map information is displayed for the Pfam family SEED alignment. Hovering or clicking on a contact position highlights 
-its connection to other residues in the alignment as well as on the 3D structure. The model data can be downloaded by clicking on the **Download** button 
-located below the 3D viewer.
-
-.. figure:: images/browse_pages/structural_model.png
-    :alt: Contact map and structure prediction of a RoseTTAFold structural model
-    :width: 800px
-
-    Contact map and structure prediction for InterPro entry `IPR010727 <https://www.ebi.ac.uk/interpro/entry/InterPro/IPR010727/rosettafold/>`_.
-
-1. Hover or click on a circle to see the contact residues for the column under the circle
-2. Contacts for the column selected will be shown with connecting lines
-3. The probability threshold of the residues being closer than 8Å can be changed using the slider. Decreasing the probability will increase the number of contacts.
-4. The highlighted column selected in step 1 will be shown in red on the structure model. The residues that are in contact will be shown in blue.
 
 .. _alphafold1:
 
@@ -294,7 +234,7 @@ when available to complete the description.
     InterPro member database page for Pfam signature `PF00040 <https://www.ebi.ac.uk/interpro/entry/pfam/PF00040/>`_.
 
 In addition to the :ref:`proteins`, :ref:`taxonomy`, :ref:`proteomes` and :ref:`structures` tabs, member database 
-pages may also display information in the following additional tabs: :ref:`ida`, :ref:`rosettafold`, :ref:`alphafold1`, :ref:`signature`, :ref:`alignment` 
+pages may also display information in the following additional tabs: :ref:`ida`, :ref:`alphafold1`, :ref:`signature`, :ref:`alignment` 
 and :ref:`curation`. 
 
 .. _signature:
@@ -457,7 +397,7 @@ Following, the general information section, a 3D viewer (powered by `Mol* <https
 of the 3D structure. Hovering over a residue displays the name of the entry, the chain and residue information below the viewer. 
 Clicking on a residue in the viewer induces a zoom in effect and displays contacts with surrounding residues, 
 clicking on the blank area around the structure zooms out.
-Below it, the :doc:`protein sequence viewer </protein_viewer>` has an extra category representing the secondary structure 
+Below it, the :doc:`protein sequence viewer </protein_viewer>` with the InterPro matches is displayed for each chain. It has an extra category representing the secondary structure 
 information. Hovering over one of the tracks highlights the corresponding region of the protein structure 
 in the 3D structure viewer.
 

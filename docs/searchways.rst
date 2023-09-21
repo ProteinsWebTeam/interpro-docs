@@ -242,10 +242,6 @@ when Browsing by Member DB, where Pfam is the default option selected.
 |
 |
 |
-|
-|
-|
-|
 
 
 .. _text_filter:
@@ -311,10 +307,6 @@ When **Browse by Member DB** is selected and a member database has been chosen, 
 - **Member Database Entry Type**: select the types of signatures required. This is dependent on the database type selected. For example, if a database contains both domains and family signatures you can filter the results for a specific type.
 - **InterPro state**: select all signatures from the selected database or only those signatures that have been integrated into InterPro. 
 
-|
-|
-|
-|
 |
 |
 |

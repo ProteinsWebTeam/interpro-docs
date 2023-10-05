@@ -20,7 +20,7 @@ in the :ref:`navigation menu <navigation_menu>`. This page is divided into multi
 - The **InterProScan** tab provides a downloadable version of the :doc:`InterProScan software </interproscan>`.
 - The **Pfam** tab gives access various Pfam files. Data from previous Pfam releases are available in the `Pfam ftp <https://ftp.ebi.ac.uk/pub/databases/Pfam/>`_.
 - The **PRINTS** and **SFLD** tabs give access to the latest PRINTS and SFLD release files, available from the InterPro ftp.
-- The **Antifam** tab give access to the latest Antifam release files. 
+- The **AntiFam** tab give access to the latest AntiFam release files. 
 
 *************
 Export button

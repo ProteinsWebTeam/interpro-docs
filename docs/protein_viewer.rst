@@ -101,7 +101,7 @@ Available data include:
 - Coiled regions from COILS
 - Cytoplasmic/non-cytoplasmic domains from Phobius
 - Signal peptide regions from `SignalP <https://services.healthtech.dtu.dk/service.php?SignalP-5.0>`_ and/or Phobius
-- Spurious protein from `AntiFam <https://www.ebi.ac.uk/research/bateman/software/antifam-tool-identify-spurious-proteins>`_
+- Spurious protein from :doc:`AntiFam </antifam>`
 - `CATH-FunFams <https://github.com/UCLOrengoGroup/cath-funfam-docs>`_ is an automatically generated profile HMM database, with FunFams entries segregated by an entropy-based approach  that distinguishes different patterns of conserved residues, corresponding to differences in functional determinants
 - `Pfam-N annotations <https://xfam.wordpress.com/2022/10/20/a-new-version-of-pfam-n-is-available>`_ result from a deep learning methodology developed by the Google Research team led by Dr Lucy Colwell to increase the Pfam coverage of protein sequences
 - Eukaryotic linear motifs from `ELM <http://elm.eu.org/>`_

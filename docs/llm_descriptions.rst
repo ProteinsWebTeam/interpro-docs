@@ -73,4 +73,5 @@ With the release of InterPro 97.0, we've successfully generated descriptions
 for approximately 5,500 unintegrated PANTHER families. We intend to further explore 
 leveraging Large Language Models to generate summaries for families 
 within other member databases and InterPro entries. 
-Please not that our approach to generate descriptions is subject to change in the future.
+
+**Please note that our approach to generate descriptions is subject to change in the future.**

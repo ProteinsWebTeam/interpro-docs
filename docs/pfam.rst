@@ -2,8 +2,8 @@
 About Pfam
 ##########
 
-Pfam version 35.0 was produced at the `European Bioinformatics Institute <https://www.ebi.ac.uk/>`_ using a sequence database 
-called *Pfamseq*, which is based on `UniProt <http://www.uniprot.org/>`_ release 2021_03.
+Pfam version 36.0 was produced at the `European Bioinformatics Institute <https://www.ebi.ac.uk/>`_ using a sequence database 
+called *Pfamseq*, which is based on `UniProt <http://www.uniprot.org/>`_ release 2022_05.
 
 Pfam is freely available under the `Creative Commons Zero <https://creativecommons.org/publicdomain/zero/1.0/>`_ ("CC0") licence.
 

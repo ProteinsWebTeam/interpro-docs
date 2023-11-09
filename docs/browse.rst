@@ -205,6 +205,7 @@ by clicking on the funnel symbol and selecting the filter to apply.
 ********************
 Member database page
 ********************
+
 InterPro provides entry pages for each signature that a member database holds. This includes signatures 
 that have not yet been, or can't be, integrated into InterPro (:ref:`unintegrated signatures <entry_types>`).
  
@@ -215,6 +216,11 @@ and the short name given to the entry by the member database.
 Some member databases provide a description giving information about the family/domain or site function, 
 when this is not the case and the signature is integrated in an InterPro entry, the InterPro description is
 displayed.
+
+To address the absence of annotations for certain member database signatures, we've employed AI 
+to automatically generate descriptions by extracting information from Swiss-Prot. 
+It's important to note that these descriptions have not undergone curator review, and we advise 
+regarding them as preliminary sources of information. :doc:`Read more on AI-generated descriptions. </llm_descriptions>`
 
 Some member databases create groups of families that are evolutionary related. Pfam calls them clans, 
 CDD uses the term superfamily and, for PIRSF and Panther the concept is associated with the parent families of 

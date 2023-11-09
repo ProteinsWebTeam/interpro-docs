@@ -17,15 +17,25 @@ Note that AntiFam models may hit proteins which are extended at the
 N-terminus due to the wrong initiator methionine being selected. Proteins
 which have known Pfam domains are unlikely to be spurious proteins.
 
-Release   # Entries
-   1.0        8
-   1.1       23    
-   2.0       49
-   3.0       54
-   4.0       67
-   5.0       72
-   6.0      250
-   7.0      263
++----------+-----------+
+| Release  | # Entries |
++==========+===========+
+|1.0       | 8         |
++----------+-----------+
+|1.1       | 23        |
++----------+-----------+
+|2.0       | 49        |
++----------+-----------+
+|3.0       | 54        |
++----------+-----------+
+|4.0       | 67        |
++----------+-----------+
+|5.0       | 72        |
++----------+-----------+
+|6.0       | 250       |
++----------+-----------+
+|7.0       | 263       |
++----------+-----------+
 
 AntiFam is freely available under the Creative commons Zero (CC0) licence.
 http://creativecommons.org/publicdomain/zero/1.0/
@@ -40,11 +50,11 @@ found in the file AntiFam.hmm.
 
 To use the hmm library you must first make index files with the following command
 
-  hmmpress AntiFam.hmm
+  ``hmmpress AntiFam.hmm``
 
 To search AntiFam against a set of sequences you run the following command
 
-  hmmsearch --cut_ga AntiFam.hmm yourseq.fasta
+  ``hmmsearch --cut_ga AntiFam.hmm yourseq.fasta``
 
 Any reported matches are very likely to be spurious gene predictions.
 
@@ -53,10 +63,11 @@ Superkingdom-specific sets
 ==========================
 
 AntiFam includes superkindom-specific sets of HMMs:
-AntiFam_Eukaryota.hmm
-AntiFam_Bacteria.hmm
-AntiFam_Archaea.hmm
-AntiFam_Virus.hmm
+
+- AntiFam_Eukaryota.hmm
+- AntiFam_Bacteria.hmm
+- AntiFam_Archaea.hmm
+- AntiFam_Virus.hmm
 
 These contain HMMs that we have found to identify spurious proteins in each of
 the superkingdoms, unidentified includes unclassified organisms. One HMM may
@@ -77,6 +88,6 @@ How to cite AntiFam
 
 If you use AntiFam in your work please cite the following paper:
 
-Ruth Y Eberhardt, Dan Haft, Marco Punta, Maria Martin, Claire O’Donovan, 
+Ruth Y Eberhardt, Dan Haft, Marco Punta, Maria Martin, Claire O'Donovan, 
 Alex Bateman. (2012) AntiFam: A tool to help identify spurious ORFs in protein
-annotation. Database:bas003. PMID:22434837.
+annotation. Database:bas003. PMID:`22434837 <https://europepmc.org/article/MED/22434837>`_.

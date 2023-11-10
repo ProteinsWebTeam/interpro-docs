@@ -129,17 +129,19 @@ the `Gene Ontology <http://geneontology.org/>`_ and reflect the Biological proce
 Text search
 ***********
 
-The text search is available by selecting the “**text search**” section under the Search tab in the website menu. 
-The text search will search the following information in the database:
+The text search is available by selecting the “By Text**” section under the **Search** tab in the website menu. 
+The text search allows to search the following information in the database:
 
-- name, keyword
-- InterPro, protein, protein structure or member database signature accession
-- InterPro or member database signature short name
-- Protein identifier
-- Gene identifier 
-- GO terms
-- Proteome identifier
-- Set/Clan identifier
+- Name or keyword (e.g. `Afadin <https://www.ebi.ac.uk/interpro/search/text/Afadin/?page=1#table>`_)
+- InterPro accession (e.g. `IPR000562 <https://www.ebi.ac.uk/interpro/search/text/IPR000562/?page=1#table>`_)
+- Member database signature accession (e.g. `PF00040 <https://www.ebi.ac.uk/interpro/search/text/PF00040/?page=1#table>`_)
+- Protein accession (e.g. `P04937 <https://www.ebi.ac.uk/interpro/search/text/P04937/?page=1#table>`_) or identifier/short name (e.g. `FINC_RAT <https://www.ebi.ac.uk/interpro/search/text/FINC_RAT/?page=1#table>`_)
+- PDB structure (e.g. `6AR9 <https://www.ebi.ac.uk/interpro/search/text/6AR9/?page=1#table>`_)
+- Gene name (e.g. `BRCA2 <https://www.ebi.ac.uk/interpro/search/text/BRCA2/?page=1#table>`_)
+- GO terms (e.g. `GO:0005911 <https://www.ebi.ac.uk/interpro/search/text/GO:0005911/?page=1#table>`_)
+- Proteome accession (e.g. `UP000000304 <https://www.ebi.ac.uk/interpro/search/text/UP000000304/?page=1#table>`_)
+- Taxonomy accession (e.g. `7240 <https://www.ebi.ac.uk/interpro/search/text/7240/?page=1#table>`_)
+- Set/Clan accession (e.g. `CL0451 <https://www.ebi.ac.uk/interpro/search/text/CL0451/?page=1#table>`_)
 
 Entering a **name**, or **keywords**, retrieves a list of all the InterPro entries and InterPro member database 
 signatures that contain these searched words in their title or description. By default the term searched is highlighted 
@@ -147,8 +149,7 @@ in the results list and the description is shortened, clicking on the |toggle| s
 the **Export** button removes the highlight and shows the full description text. The setting is saved and also applied 
 to other text searches throughout the website.
 
-Entering an **accession number** or an **identifier**  (e.g. IPR020422 (InterPro), O00167 (UniProt), PF02932 (member database), 
-GO\:0007165 (GO term), 1t2v (structure), UP000005640 (proteome), 	cl00011 (set), A4 (gene)) gives an exact match and a quick 
+Entering an **accession number** gives an exact match and a quick 
 access to the corresponding InterPro page. It also displays the list of the InterPro entries and any member 
 database signatures linked to that accession number/identifier.
 

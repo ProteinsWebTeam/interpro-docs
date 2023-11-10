@@ -50,7 +50,7 @@ Other entry and page types
 ****
 In addition to the main :ref:`InterPro Entries <entry_page>`, which bring together protein signatures from the member databases consortium, 
 InterPro also provides entry pages for the individual :ref:`member database signatures <memberdb_page>` and for :ref:`proteins <protein_page>`, 
-:ref:`structures <structure_page>`, :ref:`taxons <taxonomy_page>`, :ref:`proteomes <proteome_page>` and :ref:`sets <set_page>` integrated or used by 
+:ref:`structures <structure_page>`, :ref:`taxons <taxonomy_page>`, :ref:`proteomes <proteome_page>` and :ref:`sets/clans <set_page>` integrated or used by 
 InterPro. These entry pages also have further information available that can be viewed by :doc:`/browse`. More information is available 
 in the corresponding `train online section <https://www.ebi.ac.uk/training/online/course/interpro-functional-and-structural-analysis-protei/what-interpro-entry>`_.
 

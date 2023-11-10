@@ -1,10 +1,10 @@
-########
+#############################
 InterPro tutorials & Webinars
-########
+#############################
 
-****
+*********
 Tutorials
-****
+*********
 
 Tutorials related to InterPro are available online:
 
@@ -14,12 +14,12 @@ Tutorials related to InterPro are available online:
 - `A case study of 3 protein family building methodologies <https://www.ebi.ac.uk/training/online/course/interpro-case-study-3-protein-family-building-methodologies>`_
 - `Genome3D annotations in InterPro <https://www.ebi.ac.uk/training/online/course/genome3d-annotations-interpro>`_
 
-****
+********
 Webinars
-****
-
+********
 Recorded webinars related to InterPro are available online:
 
+- `Exploring protein families and domains using InterPro <https://www.ebi.ac.uk/training/events/exploring-protein-families-and-domains-using-interpro/>`_
 - `Finding Pfam's protein families data in the InterPro website <https://www.ebi.ac.uk/training/events/finding-pfam-protein-families-data-interpro-website>`_
 - `A guide to proteomics data analysis using UniProt and InterPro <https://www.ebi.ac.uk/training/events/guide-proteomics-data-analysis-using-uniprot-and-interpro/>`_
 - `Understanding InterPro families, domains and functions <https://www.ebi.ac.uk/training/online/course/understanding-interpro-families-domains-and-functions>`_

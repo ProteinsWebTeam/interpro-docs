@@ -11,7 +11,7 @@ General Questions
 *****************
 
 Why is InterPro useful?
-========================
+=======================
 InterPro combines signatures from multiple, diverse databases into a single searchable 
 resource, reducing redundancy and helping users interpret their sequence analysis results. 
 By uniting the member databases, InterPro capitalises on their individual strengths, 
@@ -28,7 +28,7 @@ InterPro provides an easy route to many kinds of protein analysis, for example:
 - Annotation of genomes with protein family information as well as GO terms.
 
 Who uses InterPro?
-========================
+==================
 InterPro is used by research scientists interested in the large-scale analysis of whole 
 proteomes, genomes and metagenomes, as well as researchers seeking to characterise 
 individual protein sequences. Within the EMBL-EBI, InterPro is used to help annotate 
@@ -178,7 +178,7 @@ the InterProScan software package can be downloaded for local installation from 
 
 
 Can I access InterProScan programmatically?
-=================================================
+===========================================
 InterProScan can be accessed programmatically via Web services that allow up to
 one sequence per request, and up to 25 requests in parallel (both
 `SOAP <https://www.ebi.ac.uk/seqdb/confluence/pages/viewpage.action?pageId=68165103>`_
@@ -187,7 +187,6 @@ and `REST <https://www.ebi.ac.uk/seqdb/confluence/pages/viewpage.action?pageId=6
 
 How do I interpret my InterProScan results?
 ===========================================
-
 Please see the :ref:`sequence_search` section.
 
 Can I trust my sequence search results?
@@ -260,7 +259,7 @@ The taxonomy tree viewer can be navigated by clicking on nodes or using keyboard
 arrow keys.
 
 I have selected a node in the Taxonomy tree viewer, how do I see data matching my selected taxonomy?
-====================================================================================================
+=======================================================================================================
 The information bar above the taxonomy viewer contains links on the right which
 lead to data filtered to match the selected taxonomy node.
 
@@ -269,7 +268,7 @@ Application Programming Interface (API)
 ***************************************
 
 How do I get started using the REST API?
-=========================================
+========================================
 Documentation for the API is available at our |github|
 `GitHub repository <https://github.com/ProteinsWebTeam/interpro7-api/tree/master/docs>`_.
 

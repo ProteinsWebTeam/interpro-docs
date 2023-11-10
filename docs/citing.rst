@@ -1,15 +1,15 @@
-########
+###############
 Citing InterPro
-########
+###############
 
-****
+*******************
 Latest publications
-****
+*******************
 
 If you find InterPro useful for your research, please cite the following publications:
 
 InterPro
-====
+========
 `InterPro in 2022 <https://doi.org/10.1093/nar/gkac993>`_
 Typhaine Paysan-Lafosse, Matthias Blum, Sara Chuguransky, Tiago Grego, Beatriz Lázaro Pinto, Gustavo A Salazar, 
 Maxwell L Bileschi, Peer Bork, Alan Bridge, Lucy Colwell, Julian Gough, Daniel H Haft, Ivica Letunić, Aron Marchler-Bauer, 
@@ -18,15 +18,15 @@ Narmada Thanki, Paul D Thomas, Silvio C E Tosatto, Cathy H Wu, Alex Bateman, Nuc
 
 
 InterProScan
-====
+============
 `InterProScan 5: genome-scale protein function classification <https://doi.org/10.1093/bioinformatics/btu031>`_
 Philip Jones, David Binns, Hsin-Yu Chang, Matthew Fraser, Weizhong Li, Craig McAnulla, Hamish McWilliam, John Maslen, Alex Mitchell, Gift Nuka, Sebastien Pesseat, Antony F. Quinn, Amaia Sangrador-Vegas, Maxim Scheremetjew, Siew-Yit Yong, Rodrigo Lopez, Sarah Hunter
 Bioinformatics (2014), PMID: `24451626 <https://europepmc.org/article/MED/24451626>`_
 
 
-****
+*************************
 All previous publications
-****
+*************************
 
 `The InterPro protein families and domains database: 20 years on <https://doi.org/10.1093/nar/gkaa977>`_
 Matthias Blum, Hsin-Yu Chang, Sara Chuguransky, Tiago Grego, Swaathi Kandasaamy, Alex Mitchell, Gift Nuka, Typhaine Paysan-Lafosse, Matloob Qureshi, Shriya Raj, Lorna Richardson, Gustavo A Salazar, Lowri Williams, Peer Bork, Alan Bridge, Julian Gough, Daniel H Haft, Ivica Letunic, Aron Marchler-Bauer, Huaiyu Mi, Darren A Natale, Marco Necci, Christine A Orengo, Arun P Pandurangan, Catherine Rivoire, Christian J A Sigrist, Ian Sillitoe, Narmada Thanki, Paul D Thomas, Silvio C E Tosatto, Cathy H Wu, Alex Bateman, Robert D Finn

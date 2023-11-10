@@ -1,6 +1,6 @@
-########
+##############
 About InterPro
-########
+##############
 
 .. :ref:bulk_download download.html#bulk-download
 .. :ref:api download.html#api
@@ -20,7 +20,7 @@ annotation of millions of GO terms across the protein sequence databases.
 InterPro integrates signatures from the following 13 member databases:
 
 CATH, CDD, HAMAP, MobiDB Lite, Panther, Pfam, PIRSF, PRINTS, Prosite, SFLD, SMART, 
-SUPERFAMILY AND NCBIFAMs (the :doc:`InterPro consortium </databases>` section gives 
+SUPERFAMILY AND NCBIfam (the :doc:`InterPro consortium </databases>` section gives 
 further information about the individual databases).
 
 The member databases use a variety of different methods to classify proteins. 

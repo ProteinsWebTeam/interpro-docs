@@ -1,6 +1,6 @@
-######
+########################################
 InterPro Entries : essential information
-######
+########################################
 
 .. :ref:memberdb_page browse.html#memberdb-page
 .. :ref:entry_page browse.html#entry-page
@@ -22,9 +22,9 @@ be easily viewed by :doc:`/browse`.
 
 .. _entry_types:
 
-****
+********************
 InterPro entry types 
-****
+********************
 
 InterPro entries are created for protein families, domains, sites, repeats and homologous superfamilies, defined as follows:
 
@@ -45,9 +45,9 @@ SUPERFAMILY member databases exclusively.
 |U| **Unintegrated** - member database signatures that might not yet be curated in InterPro, or might not reach InterPro's 
 criteria for integration, but may still provide useful information.
 
-****
+**************************
 Other entry and page types
-****
+**************************
 In addition to the main :ref:`InterPro Entries <entry_page>`, which bring together protein signatures from the member databases consortium, 
 InterPro also provides entry pages for the individual :ref:`member database signatures <memberdb_page>` and for :ref:`proteins <protein_page>`, 
 :ref:`structures <structure_page>`, :ref:`taxons <taxonomy_page>`, :ref:`proteomes <proteome_page>` and :ref:`sets/clans <set_page>` integrated or used by 
@@ -56,9 +56,9 @@ in the corresponding `train online section <https://www.ebi.ac.uk/training/onlin
 
 .. _relationship:
 
-****
+*******************
 Entry relationships
-****
+*******************
 InterPro entries that represent a subset of proteins from another InterPro entry are identified as "children" of the 
 "parent" entry. InterPro displays these connections between entries in the "Family Relationships" or "Domain Relationships" 
 sections. Entries at the top of these hierarchies describe broad families or domains that share higher level structure and/or 
@@ -67,16 +67,16 @@ of domains. More information is available in the corresponding `train online sec
 
 .. _overlapping:
 
-****
+*******************
 Overlapping entries
-****
+*******************
 Relationships between homologous superfamilies and either family or domain entries are generated automatically using the 
 Jaccard and containment indexes. These relationships are shown in the Overlapping homologous superfamilies/Overlapping 
 entries section on the InterPro entry pages. More information is available in the corresponding `train online section <https://www.ebi.ac.uk/training/online/course/genome3d-annotations-interpro/homologous-superfamily-entry-type-in-interpro/what-are-overlapping-entries/>`_.
 
-****
+**********
 Ontologies
-****
+**********
 
 InterPro uses several standards and ontologies:
 

@@ -12,7 +12,7 @@ All the settings are included on the same page and are organised in 7 sections. 
 
 
 Navigation settings
-========================
+===================
 
 - **Number of results per page**: Choose how many items should be listed in all the website data tables. The default is 20, we recommend using 20, 50, or 100 in order to get a more significant benefit from the server caching strategy.
 - **Time (sec) to retry timed out queries**: Certain combinations of filters can create expensive, non-previously cached API queries. When the InterPro API times out, it keeps processing the query and once it is resolved, saves the result in the cache for future requests. This setting defines how long to wait before checking again if the result is ready, the default value is 10 seconds.
@@ -22,7 +22,7 @@ Navigation settings
 
 
 Notification settings
-========================
+=====================
 
 .. figure:: images/settings/settings-3-notifications.png
   :alt: The Notification settings
@@ -32,22 +32,24 @@ Notification settings
 
 
 User interface settings
-========================
+=======================
 
 .. figure:: images/settings/settings-4-ui.png
   :alt: The User interface settings
 
 - **Low graphics mode**: if you are visiting the InterPro website from a not too powerful device, you might benefit from selecting low graphics mode, which disables some animations and other visual effects that might cause poor performance on low-end devices.
 - **Colour Domains**: defines the colouring strategy for the Protein sequence viewer. There are 3 options: 
-- **Accession**: a unique colour for each accession in the graphic.
-- **Member database**: all entries of the same member database will have the same colour.
-- **Domain relationship**: InterPro entries will follow the accession strategy, but integrated signatures will be painted in the same colour as the linked InterPro entry.
+
+  - **Accession**: a unique colour for each accession in the graphic.
+  - **Member database**: all entries of the same member database will have the same colour.
+  - **Domain relationship**: InterPro entries will follow the accession strategy, but integrated signatures will be painted in the same colour as the linked InterPro entry.
+
 - **Label Content**: applies to the Protein sequence viewer and the set's visualisation. You can choose the content of the labels of each entry by selecting at least 1 label from accession, name, or short name.
 - **Display structure viewer all the time**: on some low-end devices, small screens, or under network or battery constraints, we might decide to not display the structure viewer by default. It will still be available on demand. With this option, you can set it to always display the viewer.
 
 
 Cache settings
-========================
+==============
 
 .. figure:: images/settings/settings-5-cache.png
   :alt: The Cache settings
@@ -58,7 +60,7 @@ In order to speed up the website we keep a local cache in your browser. It inclu
 |
 
 Server settings
-========================
+===============
 
 .. figure:: images/settings/settings-6-server.png
   :alt: The Server settings
@@ -67,6 +69,6 @@ To get all the data displayed, the InterPro website queries different API server
 
 
 Developer Information
-========================
+=====================
 Information on the current build of the website. It is read-only but can help to investigate any errors in the website. 
 

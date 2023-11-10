@@ -1,6 +1,6 @@
-########
+#################
 InterPro homepage
-########
+#################
 
 .. :ref:browse_feature searchways.html#browse-feature
 .. :ref:entry_types entries_info.html#entry-types
@@ -62,9 +62,9 @@ The InterPro homepage can be split into in the following sections:
 
 .. _Overview:
 
-****************
+**************************
 InterPro resource overview
-****************
+**************************
 
 This section (section 1 in the figure above) gives an overview of the InterPro resource and a link to
 the latest InterPro publication.
@@ -76,9 +76,9 @@ the :doc:`Release notes </release_notes>`.
 
 .. _Search:
 
-******
+**********
 Search box
-******
+**********
 
 The search section (section 2 in the figure above) shows a multifunctional search component, 
 which allows the selection of one of the five types of search supported by InterPro. More 
@@ -216,7 +216,7 @@ The user can choose to apply the update or keep the previous annotation.
 .. _recent:
 
 Recent search component
-============================
+=======================
 .. figure:: images/homepage/homepage_recent_search.png
   :alt: Homepage recent search component
   :width: 350px

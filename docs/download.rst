@@ -1,6 +1,6 @@
-#############
+##############################
 How to download InterPro data?
-#############
+##############################
 
 .. :ref:navigation_menu banner.html#navigation-menu
 .. :ref:text_filter searchways.html#text-filter
@@ -43,9 +43,9 @@ on how to generate a script.
 
 .. _your_downloads:
 
-*************
+**************
 Your downloads
-*************
+**************
 
 This page is accessible through the **Results** tab in the :ref:`navigation menu <navigation_menu>`, 
 under "**Your downloads**" section.
@@ -68,9 +68,8 @@ entry page for `IPR000001 <https://www.ebi.ac.uk/interpro/entry/InterPro/IPR0000
 with the reviewed option selected).
 The results are stored in the browser (IndexedDB), allowing to retrieve previous searches.
 
-=============
 Output formats
-=============
+==============
 The following output formats are currently supported, if the number of entities selected 
 is lower than 10K: 
 
@@ -81,18 +80,17 @@ is lower than 10K:
 After selecting the output format, clicking on the **Download** button at the bottom of the 
 page will start the downloading.
 
-=============
 Programming scripts
-=============
+===================
 The script can be generated in 4 different languages: Python 2, Python 3, JavaScript and 
 Perl, it allows the download of the filtered data directly from the :ref:`InterPro API <api>` 
 and can be integrated in the users own program.
 
 .. _api:
 
-*************
+************************************************
 InterPro Application Programming Interface (API)
-*************
+************************************************
 The InterPro API provides programmatic access to all the InterPro entries and their related 
 entities in Json format.The API has six main endpoints, which corresponds to the 
 :doc:`InterPro data types </browse>`: entry, protein, structure, taxonomy, proteome and 

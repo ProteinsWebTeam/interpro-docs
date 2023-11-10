@@ -1,6 +1,6 @@
-########
+#####################
 Literature references
-########
+#####################
 .. _ref_1:
 1. Baek M, DiMaio F, Anishchenko I, et al. `Accurate prediction of protein structures and interactions using a three-track neural network <https://doi/10.1126/science.abj8754>`_.
 Science 373, 871-876 (2021).

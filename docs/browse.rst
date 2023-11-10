@@ -20,7 +20,7 @@ There are 7 categories of entry pages in InterPro:
 - :ref:`Structure <structure_page>`
 - :ref:`Taxonomy <taxonomy_page>`
 - :ref:`Proteome <proteome_page>`
-- :ref:`Set <set_page>`
+- :ref:`Set/Clan <set_page>`
 
 The following entry data tabs are available when appropriate. We describe each in detail in the first 
 entry page it appears in. Most entry data tabs will be described within the :ref:`entry_page`.
@@ -44,9 +44,9 @@ entry page it appears in. Most entry data tabs will be described within the :ref
 
 .. _entry_page:
 
-********************
+*******************
 InterPro entry page
-********************
+*******************
 
 An InterPro entry represents a unique protein homologous superfamily, family, domain, repeat or important 
 site based on one or more signatures provided by the :doc:`InterPro member databases </databases>`.
@@ -59,11 +59,16 @@ site based on one or more signatures provided by the :doc:`InterPro member datab
 
 InterPro entry pages give a brief description of the entry, name and unique InterPro identifier. 
 The InterPro entry type (homologous superfamily, family, domain, repeat or site) is also indicated by an 
-icon (e.g. a D with a green background for a domain). Member databases contributing signatures to the 
-entry are shown in a box on the right hand side of the page. :ref:`Overlapping homologous superfamilies 
-<overlapping>` and/or :ref:`Relationships to other entries <relationship>` are indicated where available. 
+icon (e.g. a D with a green background for a domain). 
+
 Clicking on the star symbol next to the entry name will save the entry as a Favourite. The full list of saved
 entries is available in the :ref:`favourite` in the homepage. More information about the data provided in an 
+
+On the right hand side of the **Add your annotation** button on the right hand side allows the user to suggest updates to the InterPro annotation and the page member databases contributing signatures to the 
+entry are shown in a box. 
+
+:ref:`Overlapping homologous superfamilies <overlapping>` and/or :ref:`Relationships to other entries <relationship>` are indicated where available. 
+
 InterPro entry page can be found in the :doc:`InterPro Entries : essential information </entries_info>` section 
 of the documentation. 
 
@@ -224,11 +229,11 @@ regarding them as preliminary sources of information. :doc:`Read more on AI-gene
 
 Some member databases create groups of families that are evolutionary related. Pfam calls them clans, 
 CDD uses the term superfamily and, for PIRSF and Panther the concept is associated with the parent families of 
-their hierarchy. We use the umbrella term Set to refer to all of them. When available, the set to which the signature 
+their hierarchy. We use the umbrella term Clan to refer to Pfam groups and Set to refer to the other groups. When available, the set/clan to which the signature 
 belongs to is indicated.
 
 The right hand side of the page provides links to the InterPro entry in which this signature has been integrated, and 
-an external link to the signature on the member database's website.
+an external link to the signature on the member database's website when available. For Pfam signatures, the **Add your annotation** button allows the user to suggest updates to the Pfam annotation.
 
 For signatures provided by the Pfam member database, a short extract of the wikipedia page is also displayed
 when available to complete the description.
@@ -246,7 +251,7 @@ and :ref:`curation`.
 .. _signature:
 
 Signature
-==========
+=========
 The signature representing the model that defines the entry is visualised in this page as a logo, 
 using `Skylign <http://www.skylign.org/>`_. The logo data is displayed for the NCBIfam, Pfam, PANTHER, 
 PIRSF, and SFLD member databases.
@@ -267,7 +272,7 @@ amino acid are displayed in the bottom part.
 .. _alignment:
 
 Alignment
-==========
+=========
 This section allows users to view and download any available alignment file that is associated with the 
 current member database signature. Currently, the alignment files are only available for the Pfam member 
 database, but hopefully we will be able to include alignments for other member databases in the future.
@@ -460,15 +465,15 @@ in the tabs has 9K related InterPro entries, 27K proteins and 363 structures. No
 
 .. _set_page:
 
-**************
-Set entry page
-**************
+*******************
+Set/Clan entry page
+*******************
 
 Some :doc:`InterPro member databases </databases>` create groups of families that are evolutionary 
-related, called sets. This page offers an overview of a specific set provided by a member database, 
-it includes a short description and an interactive view of the signatures included in the set. 
+related, called sets/clans. This page offers an overview of a specific set/clan provided by a member database, 
+it includes a short description and an interactive view of the signatures included in the set/clan. 
 For the interactive view, different label types can be chosen through the **Label Content** menu: 
-Accession, Name and Short name. For sets provided by the Pfam member database, an additional section 
+Accession, Name and Short name. For clans provided by the Pfam member database, an additional section 
 provides literature references, when available.
 
 .. figure:: images/browse_pages/set_page.png
@@ -484,9 +489,9 @@ The following tabs may be available: :ref:`set_entries`, :ref:`proteins`, :ref:`
 
 Entries
 =======
-Provides the list of signatures included in the set (accession, name and short name).
+Provides the list of signatures included in the set/clan (accession, name and short name).
 
-For Pfam sets (also known as clans), the Entries tab contains the list of Pfam entries included in the set 
+For Pfam clans, the Entries tab contains the list of Pfam entries included in the clan
 and links to the entries SEED alignment and domain architectures pages.
 
 .. _alignment_clan:
@@ -494,7 +499,7 @@ and links to the entries SEED alignment and domain architectures pages.
 Alignments
 ==========
 
-List of signatures included in the set and their alignment with other signatures in the set.
+List of signatures included in the set/clan and their alignment with other signatures in the set/clan.
 
 .. figure:: images/browse_pages/alignment_clan.png
     :alt: Sequence alignment of the different signatures in the set

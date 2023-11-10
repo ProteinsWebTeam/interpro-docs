@@ -1,6 +1,6 @@
-################################
+####################################
 InterPro consortium member databases
-################################
+####################################
 
 InterPro is the world's most comprehensive resource for protein family and domain information, 
 but InterPro is only possible due to the amazing classification work of our collaborators. 
@@ -10,9 +10,9 @@ defined from structure, or full length protein families with shared function). W
 the signatures from the member databases into InterPro entries to identify where different member 
 database entries are the same entity.
 
-****
+***********
 CATH-Gene3D
-****
+***********
 
 |cath| `<https://www.cathdb.info/>`_
 
@@ -25,9 +25,9 @@ Protein families are formed using a Markov clustering algorithm, followed by mul
 according to sequence identity. Mapping of predicted structure and sequence domains is undertaken using 
 hidden Markov models libraries representing CATH and Pfam domains. CATH-Gene3D is based at University College, London, UK. 
 
-****
+***
 CDD 
-****
+***
 |cdd| `<https://www.ncbi.nlm.nih.gov/cdd>`_
 
 .. |cdd| image:: images/member_databases/cdd_logo.png
@@ -42,9 +42,9 @@ CDD content includes NCBI-curated domain models, which use 3D-structure informat
 domain boundaries and provide insights into sequence/structure/function relationships, as well as domain 
 models imported from a number of external source databases.
 
-****
+*****
 HAMAP
-****
+*****
 
 |hamap| `<https://hamap.expasy.org/>`_
 
@@ -56,9 +56,9 @@ HAMAP stands for High-quality Automated and Manual Annotation of Proteins. HAMAP
 created by expert curators. They identify proteins that are part of well-conserved protein families or 
 subfamilies. HAMAP is based at the SIB Swiss Institute of Bioinformatics, Geneva, Switzerland.
 
-****
+***********
 MobiDB Lite 
-****
+***********
 
 |mobidb| `<http://old.protein.bio.unipd.it/mobidblite/>`_
 
@@ -71,9 +71,9 @@ three levels of annotation: manually curated, indirect and predicted. The differ
 tradeoff between quality and coverage. By combining them all into a consensus annotation, MobiDB aims at 
 giving the best possible picture of the “disorder landscape” of a given protein of interest. 
 
-****
+*******
 NCBIfam
-****
+*******
 
 |ncbifam| `<https://www.ncbi.nlm.nih.gov/genome/annotation_prok/evidence/>`_
 
@@ -84,13 +84,13 @@ NCBIfam
 NCBIfam is a collection of protein families, featuring curated multiple sequence alignments, 
 hidden Markov models (HMMs) and annotation, which provides a tool for identifying functionally 
 related proteins based on sequence homology. NCBIfam is maintained at 
-the National Center for Biotechnology Information (Bethesda, MD). NCBIfam includes models from TIGRFAMs, 
+the National Center for Biotechnology Information (Bethesda, MD). NCBIfam includes models from TIGRFAM, 
 another database of protein families developed at The Institute for Genomic Research, 
 then at the J. Craig Venter Institute (Rockville, MD, US).
 
-****
+*******
 PANTHER
-****
+*******
 
 |panther| `<http://www.pantherdb.org/>`_
 
@@ -117,9 +117,9 @@ Pfam
 Pfam is a large collection of multiple sequence alignments and hidden Markov models covering many common protein 
 domains. Pfam is based at EMBL-EBI, Hinxton, UK. Since 2022, Pfam annotations are hosted by the InterPro website.
 
-****
+*****
 PIRSF
-****
+*****
 
 |pirsf| `<https://proteininformationresource.org/pirsf/>`_
 
@@ -144,9 +144,9 @@ PRINTS
 PRINTS is a compendium of protein fingerprints. A fingerprint is a group of conserved motifs used to characterise 
 a protein family or domain. PRINTS is based at the University of Manchester, UK.
 
-****
+****************
 PROSITE profiles
-****
+****************
 
 |prosite| `<https://prosite.expasy.org/>`_
 
@@ -171,9 +171,9 @@ SFLD
 SFLD (Structure-Function Linkage Database) is a hierarchical classification of enzymes that relates specific 
 sequence-structure features to specific chemical capabilities.
 
-****
+*****
 SMART
-****
+*****
 
 |smart| `<http://smart.embl-heidelberg.de/>`_
 
@@ -184,9 +184,9 @@ SMART
 SMART (a Simple Modular Architecture Research Tool) allows the identification and annotation of genetically 
 mobile domains and the analysis of domain architectures. SMART is based at EMBL, Heidelberg, Germany.
 
-****
+***********
 SUPERFAMILY
-****
+***********
 
 |superfamily| `<https://supfam.mrc-lmb.cam.ac.uk/>`_
 
@@ -197,21 +197,6 @@ SUPERFAMILY
 SUPERFAMILY is a library of profile hidden Markov models that represent all proteins of known structure. 
 The library is based on the SCOP classification of proteins: each model corresponds to a SCOP domain and 
 aims to represent the entire SCOP superfamily that the domain belongs to. SUPERFAMILY is based at the University of Bristol, UK.
-
-****
-NCBIFAMs
-****
-
-|ncbifam| `<https://www.ncbi.nlm.nih.gov/protfam/>`_
-
-.. |ncbifam| image:: images/member_databases/nih_nlm_logo.png
-  :alt: NCBIFAMs logo
-  :width: 120px
-
-NCBIFAMs is a collection of protein families, featuring curated multiple sequence alignments, hidden 
-Markov models (HMMs) and annotation, which provides a tool for identifying functionally related proteins 
-based on sequence homology. It includes TIGRFAMs, formerly based at the J. Craig Venter Institute, Rockville, MD, 
-US.
 
 
 

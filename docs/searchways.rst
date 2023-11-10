@@ -1,6 +1,6 @@
-###########
+###################################
 How to search the InterPro website?
-###########
+###################################
 
 .. :ref:Search homepage.html#search
 .. :ref:navigation_menu banner.html#navigation-menu
@@ -25,9 +25,9 @@ There are five different types of search available in InterPro:
 
 .. _quick_search:
 
-**************
+************
 Quick search
-**************
+************
 
 .. figure:: images/banner/navigation_search_box.png
   :alt: Quick search component
@@ -134,14 +134,15 @@ The text search will search the following information in the database:
 
 - name, keyword
 - InterPro, protein, protein structure or member database signature accession
+- InterPro or member database signature short name
 - Protein identifier
 - Gene identifier 
 - GO terms
-- proteome identifier
-- set identifier
+- Proteome identifier
+- Set/Clan identifier
 
 Entering a **name**, or **keywords**, retrieves a list of all the InterPro entries and InterPro member database 
-signatures that contain these searched words in their title or description. By default the term searched is highlited 
+signatures that contain these searched words in their title or description. By default the term searched is highlighted 
 in the results list and the description is shortened, clicking on the |toggle| symbol located on the left hand side of 
 the **Export** button removes the highlight and shows the full description text. The setting is saved and also applied 
 to other text searches throughout the website.
@@ -152,17 +153,16 @@ access to the corresponding InterPro page. It also displays the list of the Inte
 database signatures linked to that accession number/identifier.
 
 Selecting the accession number or name of any entry in the list of entries opens the corresponding InterPro page 
-(e.g. :ref:`member database signature <memberdb_page>`, :ref:`InterPro entry <entry_page>`) under the **Browse** tab 
-in the :ref:`navigation menu <navigation_menu>`. An overview of the entry 
+(e.g. :ref:`member database signature <memberdb_page>`, :ref:`InterPro entry <entry_page>`). An overview of the entry 
 is provided and tabs on the left hand-side menu allow specific information for the entry to be viewed, for example the species 
 in which a protein has been found, or structures matching an entry. More information on the
 :doc:`browsing an InterPro page </browse>` section.
 
 .. _domain_arch_search:
 
-*******************
+**************************
 Domain architecture search
-*******************
+**************************
 
 .. figure:: images/search/ida.png
   :alt: Domain Architecture search
@@ -191,9 +191,9 @@ Pfam checkbox to InterPro and vice versa.
 
 .. _browse_feature:
 
-*******************
+**************************************************
 Using Browse feature to search and filter InterPro
-*******************
+**************************************************
 
 .. figure:: images/search/browse_page.png
   :alt: Browse search
@@ -266,7 +266,7 @@ Data-type specific filters
 .. _entry_filters:
 
 InterPro entry filters
--------------
+----------------------
 .. figure:: images/browse/entry_filters.png
   :alt: Entry filters
   :width: 200px
@@ -295,7 +295,7 @@ When **Browse by InterPro** is selected, two filter types can be applied:
 .. _memberdb_filters:
 
 Member database filters
--------------
+-----------------------
 
 .. figure:: images/browse/member_db_filters.png
   :alt: Member database filters

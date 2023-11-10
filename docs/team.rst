@@ -1,11 +1,13 @@
+#############
 InterPro team
-=============
+#############
 
 The `InterPro resource <https://www.ebi.ac.uk/interpro/>`_ is curated and maintained
 at the `European Bioinformatics Institute <http://www.ebi.ac.uk>`_ in Cambridge, UK.
 
+************
 Team members
-------------
+************
 
 - `Alex Bateman <http://www.ebi.ac.uk/about/people/alex-bateman>`_ - Team Leader
 - `Antonina Entcheva Andreeva <https://www.ebi.ac.uk/people/person/antonina-andreeva/>`_ - Biocurator
@@ -18,8 +20,9 @@ Team members
 - `Gustavo Salazar-Orejuela <http://www.ebi.ac.uk/about/people/gustavo-salazar-orejuela>`_ - Web developer
 - `Luis Sanchez Pulido <http://www.ebi.ac.uk/about/people/luis-sanchez-pulido>`_ - Biocurator
 
+*********************
 Previous contributors
----------------------
+*********************
 
 - Rob Finn - Team leader
 - Sarah Hunter - Team leader

@@ -14,49 +14,49 @@ Team members
 - `Matthias Blum <http://www.ebi.ac.uk/about/people/matthias-blum>`_ - Development Project Leader
 - `Laise Cavalcanti Florentino <https://www.ebi.ac.uk/people/person/laise-cavalcanti-florentino/>`_ - Software Developer
 - `Sara Chuguransky <http://www.ebi.ac.uk/about/people/sara-chuguransky>`_ - Biocurator
-- `Tiago Grego <http://www.ebi.ac.uk/about/people/tiago-grego>`_ - Software developer
+- `Tiago Grego <http://www.ebi.ac.uk/about/people/tiago-grego>`_ - Software Developer
 - `Beatriz Lazaro Pinto <http://www.ebi.ac.uk/about/people/beatriz-lazaro-pinto>`_ - Biocurator
-- `Typhaine Paysan-Lafosse <http://www.ebi.ac.uk/about/people/typhaine-paysan-lafosse>`_ - Senior bioinformatician
-- `Gustavo Salazar-Orejuela <http://www.ebi.ac.uk/about/people/gustavo-salazar-orejuela>`_ - Web developer
+- `Typhaine Paysan-Lafosse <http://www.ebi.ac.uk/about/people/typhaine-paysan-lafosse>`_ - Senior Bioinformatician
+- `Gustavo Salazar-Orejuela <http://www.ebi.ac.uk/about/people/gustavo-salazar-orejuela>`_ - Senior Software Developer
 - `Luis Sanchez Pulido <http://www.ebi.ac.uk/about/people/luis-sanchez-pulido>`_ - Biocurator
 
 *********************
 Previous contributors
 *********************
 
-- Rob Finn - Team leader
-- Sarah Hunter - Team leader
-- Nicky Mulder - Team leader
-- Rolf Apweiler - Team leader
-- Swaathi Kandasaamy - Web developer
-- Matloob Qureshi - Web developer
+- Rob Finn - Team Leader
+- Sarah Hunter - Team Leader
+- Nicky Mulder - Team Leader
+- Rolf Apweiler - Team Leader
+- Swaathi Kandasaamy - Web Developer
+- Matloob Qureshi - Lead Web Developer
 - Hsin-Yu Chang - Biocurator
-- Gift Nuka - Software developer
+- Gift Nuka - Senior Software Developer
 - Lowri Williams - Biocurator
-- Alex Mitchell - Curation coordinator
-- Lorna Richardson - Curation coordinator
-- Simon Potter - Development coordinator
-- Matthew Fraser - Software developer
-- Sebastien Pesseat - Web developer
-- Aurelien Luciani - Web developer
+- Alex Mitchell - Curation Coordinator
+- Lorna Richardson - Curation Coordinator
+- Simon Potter - Development Coordinator
+- Matthew Fraser - Software Developer
+- Sebastien Pesseat - Web Developer
+- Aurelien Luciani - Web Developer
 - Amaia Sangrador Vegas - Biocurator
-- Siew-Yit Yong - Software developer
+- Siew-Yit Yong - Bioinformatician/Production Manager
 - Neil Rawlings - Biocurator
-- Louise Daugherty
-- Phil Jones
-- Craig McAnulla
-- Antony Quinn
-- Sandra Orchard
-- Alex Kanapin
-- Wolfgang Fleischmann
-- Evgueni Zdobnov
+- Louise Daugherty - Biocurator
+- Phil Jones - Senior Software Developer
+- Craig McAnulla - Senior Bioinformatician
+- Antony Quinn - Senior Software Developer
+- Sandra Orchard - Biocurator
+- Alex Kanapin - Senior Software Developer
+- Wolfgang Fleischmann - Group Coordinator
+- Evgeny Zdobnov - Software Developer
 - Margaret Biswas
 - Tom Oinn
 - Florence Servant
-- David Binns
-- David Lonsdale
-- Rupinder Singh Mazara
+- David Binns - Software Developer
+- David Lonsdale - Curation Coordinator
+- Rupinder Singh Mazara - Software Developer
 - Jennifer McDowell
-- Ujjwal Das
-- John Maslen
+- Ujjwal Das - Database Production Manager
+- John Maslen - Senior Software Developer
 - Paul Bradley

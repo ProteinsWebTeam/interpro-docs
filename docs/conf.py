@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'InterPro'
-copyright = '2023, InterPro Team'
+copyright = '2024, InterPro Team'
 author = 'InterPro Team'
 
 

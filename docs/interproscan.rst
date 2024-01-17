@@ -69,18 +69,3 @@ problem.
   :alt: Github icon
   :width: 15pt
 
-.. |mailing| image:: images/icons/mailing-list.svg
-  :alt: mailing list icon
-  :width: 15pt
-
-.. |twitter| image:: images/icons/twitter.svg
-  :alt: twitter icon
-  :width: 15pt
-
-.. |email| image:: images/icons/envelope-square.svg
-  :alt: email icon
-  :width: 15pt
-
-.. |embl| image:: images/icons/embl.svg
-  :alt: EMBL icon
-  :width: 15pt

@@ -27,7 +27,7 @@ Navigation menu tabs
 ====================
 :doc:`Home </homepage>`, :doc:`Search </searchways>`, :ref:`Browse <browse_feature>`, 
 :ref:`Results <sequence_search_results>`, :doc:`/release_notes`, :ref:`Download <bulk_download>`, 
-Help and About  
+Help, About and Contact us.
 
 Quick search box
 ================

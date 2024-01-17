@@ -82,7 +82,8 @@ and other uses.
 When a search has been run using a previous version of InterProScan, it can be re-run using the latest 
 version of the software.
 When a batch of sequences has been submitted, group actions allow to Delete All, Re-run All, and Download All the 
-submitted sequences at once.
+submitted sequences at once. If the search has been run in the last seven days, the results can be downloaded in JSON, XML
+and TSV formats, thereafter, if the search has been saved locally, the results are only available in JSON format.
 
 .. figure:: images/search/InterPro_rtd_list_jobs.png
   :alt: Sequence search result
@@ -96,6 +97,8 @@ submitted sequences at once.
 
   Example of protein sequence viewer as displayed in the search result page.
 
+.. Example protein used: P02936
+
 On the search results page, some general information on the submitted sequence is provided, 
 followed by the predicted InterPro protein family membership when available ([1] in the figure above).
 The search can be saved by clicking on the **Save in Browser** button. The status will be changed to "**Imported file**".
@@ -103,21 +106,22 @@ This means that the results will be available behind the usual seven days limit 
 has been done, and will only be deleted if the user deletes the job by clicking on the bin icon.
 
 The sequence submitted is shown in its full length at the top of the protein sequence viewer (grey bar) [2]. 
-This is followed below by InterPro entries and signatures matches, displayed in categories classified by :ref:`entry_types`. 
+This is followed by a summary of the representative domains composing the protein, when available [3]. 
+InterPro entries and signatures matches are displayed in categories classified by :ref:`entry_types`. 
 Each coloured bar represents a domain, protein family, or important site that has been 
 matched to part or all the length of the submitted protein sequence. 
 
-- The top coloured bar represents the InterPro entry [3a, 4a].
-- Directly below the InterPro entry, additional coloured bars display the member database signatures that contributed to that InterPro entry [3b, 4b]. 
+- The top coloured bar represents the InterPro entry [4a, 5a].
+- Directly below the InterPro entry, additional coloured bars display the member database signatures that contributed to that InterPro entry [4b, 5b]. 
 
 In the example above, four InterPro entries (1 family and 3 domain entries) have been found matching the 
-submitted sequence. The first InterPro entry is for a protein family [3a], containing two member database 
-signatures, in this case from Prosite (PR01022) and HAMAP (MF_00842)[3b]. The following three InterPro matches are domains. 
-The top InterPro domain entry [4a] contains signatures from 3 member databases (Pfam, CDD and Prosite) 
-[4b] which all represent the same domain. The remaining two InterPro domains contain one member database signature.
+submitted sequence. The first InterPro entry is for a protein family [4a], containing two member database 
+signatures, in this case from Prosite (PR01022) and HAMAP (MF_00842)[4b]. The following three InterPro matches are domains. 
+The top InterPro domain entry [5a] contains signatures from 3 member databases (Pfam, CDD and Prosite) 
+[5b] which all represent the same domain. The remaining two InterPro domains contain one member database signature.
 
 Looking at the **Other features** section, we also learn that the protein has a signal peptide at its N-terminal end.
-CDD also provides per residue annotations which are displayed in the corresponding category at the bottom of the viewer [5].
+CDD also provides per residue annotations which are displayed in the corresponding category at the bottom of the viewer [6].
 
 Additionally to the InterPro matches, information about the GO terms associated to the InterPro entries and PANTHER signatures matching the protein 
 are displayed below the sequence viewer when available. The GO terms are assigned manually to InterPro entries using on 
@@ -188,6 +192,8 @@ if required, as described in the :ref:`browse feature <browse_feature>`.
 
 By default, Pfam entries are shown in the results. This can be changed to show InterPro entries by toggling the 
 Pfam checkbox to InterPro and vice versa.
+
+The domain architectures can be downloaded in JSON and TSV formats through the **Export** button.
 
 
 .. _browse_feature:

@@ -15,10 +15,11 @@ Team members
 - `Laise Cavalcanti Florentino <https://www.ebi.ac.uk/people/person/laise-cavalcanti-florentino/>`_ - Software Developer
 - `Sara Chuguransky <http://www.ebi.ac.uk/about/people/sara-chuguransky>`_ - Biocurator
 - `Tiago Grego <http://www.ebi.ac.uk/about/people/tiago-grego>`_ - Software Developer
+- `Emma Hobbs <https://www.embl.org/people/person/CP-60043055/>`_ - Bioinformatics Developer
 - `Beatriz Lazaro Pinto <http://www.ebi.ac.uk/about/people/beatriz-lazaro-pinto>`_ - Biocurator
-- `Typhaine Paysan-Lafosse <http://www.ebi.ac.uk/about/people/typhaine-paysan-lafosse>`_ - Senior Bioinformatician
+- `Typhaine Paysan-Lafosse <http://www.ebi.ac.uk/about/people/typhaine-paysan-lafosse>`_ - Curation Project Leader
 - `Gustavo Salazar-Orejuela <http://www.ebi.ac.uk/about/people/gustavo-salazar-orejuela>`_ - Senior Software Developer
-- `Luis Sanchez Pulido <http://www.ebi.ac.uk/about/people/luis-sanchez-pulido>`_ - Biocurator
+
 
 *********************
 Previous contributors
@@ -28,6 +29,7 @@ Previous contributors
 - Sarah Hunter - Team Leader
 - Nicky Mulder - Team Leader
 - Rolf Apweiler - Team Leader
+- Luis Sanchez Pulido - Biocurator
 - Swaathi Kandasaamy - Web Developer
 - Matloob Qureshi - Lead Web Developer
 - Hsin-Yu Chang - Biocurator

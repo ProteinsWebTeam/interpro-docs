@@ -234,11 +234,11 @@ News and information
 ********************
 
 The final section of the homepage (section 4 in the *InterPro homepage* figure above) comprises components 
-linking to the articles from the `InterPro Blog <https://proteinswebteam.github.io/interpro-blog/>`_, 
-technical aspects of the website and our |twitter| `Twitter feed <https://twitter.com/InterProDB>`_.
+linking to our |x| `X feed <https://twitter.com/InterProDB>`_, the articles from the `InterPro Blog <https://proteinswebteam.github.io/interpro-blog/>`_ and
+technical aspects of the website.
 
-.. |twitter| image:: images/icons/twitter.svg
-  :alt: twitter icon
+.. |x| image:: images/icons/x-logo.svg
+  :alt: x icon
   :width: 15pt
 
 .. .. figure:: images/homepage/homepage_spotlight.png

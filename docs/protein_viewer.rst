@@ -24,7 +24,7 @@ being looked at, represented by the grey bar at the top of the viewer, categoris
 The *AlphaFold confidence* track is displayed in the protein sequence viewer in the :ref:`protein page <protein_page>` 
 and in the :ref:`AlphaFold subpage <alphafold1>` when a predicted structure is available.
 
-The *Representative Domains* track is generated automatically using the type of the member databases models, which might differ from the InterPro entries types.
+The *Representative Domains* track is displayed in the protein sequence viewer in the :ref:`protein page <protein_page>`. This representation is generated automatically using the type of the member databases models, which might differ from the InterPro entries types. When multiple models are overlapping, the representative domain is chosen by selecting the model covering the longest region of the protein. Be aware that in case of models made of multiple fragments, not all the fragments are necessarily chosen as representative, they are considered as individual entities for the selection.
 
 .. protein used: https://www.ebi.ac.uk/interpro/protein/UniProt/A0Q9F3/
 

@@ -11,7 +11,7 @@ The Protein families game contains 42 cards divided in 7 families (6 protein car
 of families by asking the other players for the protein cards you are missing in your hand to complete your families. The game logic 
 is similar to the Happy families and Go Fish games.
 
-The game is available to play online by clicking on the image below, or you can `request a printed copy <https://www.ebi.ac.uk/about/contact/support/interpro>`_.
+The game is available to play online by clicking on the image below, or you can put a `request to organise the Protein families game activity in person <https://www.ebi.ac.uk/about/contact/support/interpro>`_.
 
 .. raw:: html
 
@@ -209,6 +209,6 @@ Do you have questions about protein or protein classification?
 
 Suggestions to improve the protein families game? 
 
-Would like a printed copy of the game? 
+Would like us to run the Protein families game activity at your school or get a printed copy?
 
 `Send us your question(s) or requests <https://www.ebi.ac.uk/about/contact/support/interpro>`_.

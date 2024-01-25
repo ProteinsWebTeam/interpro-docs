@@ -24,7 +24,7 @@ being looked at, represented by the grey bar at the top of the viewer, categoris
 The *AlphaFold confidence* track is displayed in the protein sequence viewer in the :ref:`protein page <protein_page>` 
 and in the :ref:`AlphaFold subpage <alphafold1>` when a predicted structure is available.
 
-The *Representative Domains* track is displayed in the protein sequence viewer in the :ref:`protein page <protein_page>`. This representation is generated automatically using the type of the member databases models, which might differ from the InterPro entries types.
+The *Representative Domains* track is displayed in the protein sequence viewer in the :ref:`protein page <protein_page>`. This representation is generated automatically using the type of the member databases models, which might differ from the InterPro entries types. When multiple models are overlapping, the representative domain is chosen by selecting the model covering the longest region of the protein. Be aware that in case of models made of multiple fragments, not all the fragments are necessarily chosen as representative, they are considered as individual entities for the selection.
 
 .. protein used: https://www.ebi.ac.uk/interpro/protein/UniProt/A0Q9F3/
 
@@ -53,7 +53,7 @@ A. **Colour By** allows to change the colours in which the InterPro entries and 
 
 B. The labels on the right side of the viewer can be customised. The **Accession** labels are shown by default. To see names and/or short names along with accession, the name/short name checkboxes should be ticked or if the user prefers to see the names/short names alone, the respective options should be selected.
 
-C. **Snapshot** has two options: **Save as image** allows to take a snapshot of the viewer and is saved as an image (.png). **Print** allows the user to print the viewer, thus supporting the download in PDF format.
+C. **Snapshot** has two options: **Save as image** allows to take a snapshot of the viewer and is saved as an image (.png).
 
 D. **Collapse All** allows to collapse all the signatures bars displayed in the viewer at once to only display the InterPro entries bars. 
 

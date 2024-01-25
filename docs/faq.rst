@@ -65,7 +65,7 @@ superfamilies usually comprise signatures from the SUPERFAMILY and CATH-Gene3D d
 |R| **Repeat**
 
 A short sequence that is typically repeated within a protein. Repeats are often relatively 
-short <50 amino acids in length.  Common repeats examples are Leucine Rich Repeats or WD40 
+short <50 amino acids in length. Common repeats examples are Leucine Rich Repeats or WD40 
 repeats.
 
 |S| **Site**
@@ -84,7 +84,7 @@ signatures from member databases that are "unintegrated" in InterPro. These sign
 might not yet be curated or might not reach InterPro's standards for integration. However, 
 they can still provide important information about a protein of interest.
 
-.. |F| image:: /images/entry_types/family.png
+.. |F| image:: images/entry_types/family.png
   :alt: Family entry type icon
   :width: 15pt
 

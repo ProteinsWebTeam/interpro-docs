@@ -52,8 +52,8 @@ provides significant funding for Pfam (grant 221320/Z/20/Z). The current grant r
   :width: 100px
   :align: left
 
-BBSRC is supporting Pfam activities (BB/S020381/1) from November 2019 to October 2023 and has previously supported Pfam 
-activities via grants BB/L024136/1 and BB/N00521X/1.
+BBSRC is supporting Pfam activities (BB/X012492/1) from January 2024 to December 2027, and has previously supported Pfam 
+activities via grants BB/L024136/1, BB/N00521X/1, and BB/S020381/1.
 
 .. figure:: images/logos/hhmi_logo.jpg
   :alt: HHMI logo

@@ -196,7 +196,5 @@ SUPERFAMILY
 
 SUPERFAMILY is a library of profile hidden Markov models that represent all proteins of known structure. 
 The library is based on the SCOP classification of proteins: each model corresponds to a SCOP domain and 
-aims to represent the entire SCOP superfamily that the domain belongs to. SUPERFAMILY is based at the University of Bristol, UK.
-
-
-
+aims to represent the entire SCOP superfamily that the domain belongs to. 
+SUPERFAMILY is based at the MRC Laboratory of Molecular Biology, Cambridge, UK.

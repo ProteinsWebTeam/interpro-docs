@@ -170,12 +170,13 @@ Latest Entries component
   :align: left
   :width: 350px
 
-Here we show a list of the latest integrated InterPro entries with their entry type, 
+Here we show a list of the latest InterPro entries with their entry type, 
 followed by their name and accession number. The clickable icons beneath the text 
 show the number of proteins, domain architectures, taxa, structures and member 
 databases matching the entry. Each of the icons is clickable and provides a shortcut 
 to the corresponding section of the :ref:`entry_page`.
 
+|
 |
 |
 |
@@ -234,26 +235,18 @@ News and information
 ********************
 
 The final section of the homepage (section 4 in the *InterPro homepage* figure above) comprises components 
-linking to our |x| `X feed <https://twitter.com/InterProDB>`_, the articles from the `InterPro Blog <https://proteinswebteam.github.io/interpro-blog/>`_ and
+linking to the InterPro |xlogo| `feed <https://twitter.com/InterProDB>`_, the articles from the `InterPro Blog <https://proteinswebteam.github.io/interpro-blog/>`_ and
 technical aspects of the website.
 
-.. |x| image:: images/icons/x-logo.svg
-  :alt: x icon
-  :width: 15pt
+.. |xlogo| image:: images/icons/x-logo.svg
+  :alt: X icon
+  :width: 13pt
 
-.. .. figure:: images/homepage/homepage_spotlight.png
-..   :alt: Homepage blog and spotlights
-..   :width: 400pt
-
-.. .. figure:: images/homepage/homepage_tools_libraries.png
-..   :alt: Homepage tools and libraries
-..   :width: 400pt
-
-The **spotlight** section shows a selection of the latest articles from the 
+The **Spotlight** section shows a selection of the latest articles from the 
 `InterPro Blog <https://proteinswebteam.github.io/interpro-blog/>`_. 
 We publish a range of articles on the blog, from technical information about 
 the resources run by the team to protein focus articles which deliver details about 
 interesting entries from InterPro data.
 
-The **tools and libraries** section provides quick access to some of the tools and software 
+The **Tools and libraries** section provides quick access to some of the tools and software 
 used throughout the website.

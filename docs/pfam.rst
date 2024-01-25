@@ -65,4 +65,4 @@ The Howard Hughes Medical Institute supports the Eddy group.
 |
 Many organisations have supported Pfam activities in the past.
 
-For more information, please contact the `Pfam helpdesk <https://www.ebi.ac.uk/support/interpro>`_.
+For more information, please contact the `Pfam helpdesk <https://www.ebi.ac.uk/support/pfam>`_.

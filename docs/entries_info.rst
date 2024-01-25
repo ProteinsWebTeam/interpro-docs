@@ -86,7 +86,7 @@ InterPro uses several standards and ontologies:
 - `Reactome <//reactome.org>`_ and `MetaCyc <//metacyc.org/>`_ for pathways. Where an InterPro entry hits a reviewed/Swiss-Prot protein involved in a pathway described by Reactome, the pathway is associated to the InterPro entry. As reactions in MetaCyc include EC numbers, InterPro uses EC numbers assigned to an entry (as described above) and to a metabolic pathway to link InterPro entries and MetaCyc pathways.
 
 
-.. |F| image:: /images/entry_types/family.png
+.. |F| image:: images/entry_types/family.png
   :alt: Family entry type icon
   :width: 15pt
 

@@ -8,7 +8,7 @@ called *Pfamseq*, which is based on `UniProt <http://www.uniprot.org/>`_ release
 Pfam is freely available under the `Creative Commons Zero <https://creativecommons.org/publicdomain/zero/1.0/>`_ ("CC0") licence.
 
 Pfam is powered by the `HMMER3 <http://hmmer.org/>`_ package written by `Sean Eddy and his group <http://eddylab.org/>`_ 
-at `HHMI <https://www.hhmi.org/>`_/ `Harvard University <https://www.mcb.harvard.edu/mcb/home/>`_, and built by the `Xfam consortium <http://xfam.org/>`_.
+at `HHMI <https://www.hhmi.org/>`_/ `Harvard University <https://www.mcb.harvard.edu/mcb/home/>`_.
 
 .. |embl_logo| image:: images/logos/EMBL-EBI_logo.jpeg
   :alt: EMBL logo

@@ -42,9 +42,6 @@ conserved sites and sites of post-translational modification.
 their structure, even if sequence similarity is low. This entry type contains signatures from the CATH-Gene3D and 
 SUPERFAMILY member databases exclusively.
 
-|U| **Unintegrated** - member database signatures that might not yet be curated in InterPro, or might not reach InterPro's 
-criteria for integration, but may still provide useful information.
-
 **************************
 Other entry and page types
 **************************

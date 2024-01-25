@@ -209,6 +209,6 @@ Do you have questions about protein or protein classification?
 
 Suggestions to improve the protein families game? 
 
-Would like us to run the Protein families game activity at your school or get a printed copy?
+Would like us to run the Protein families game activity in your school or get a printed copy?
 
 `Send us your question(s) or requests <https://www.ebi.ac.uk/about/contact/support/interpro>`_.

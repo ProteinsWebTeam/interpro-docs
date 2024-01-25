@@ -20,7 +20,6 @@ Team members
 - `Typhaine Paysan-Lafosse <http://www.ebi.ac.uk/about/people/typhaine-paysan-lafosse>`_ - Curation Project Leader
 - `Gustavo Salazar-Orejuela <http://www.ebi.ac.uk/about/people/gustavo-salazar-orejuela>`_ - Senior Software Developer
 
-
 *********************
 Previous contributors
 *********************

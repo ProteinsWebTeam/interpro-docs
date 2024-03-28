@@ -444,8 +444,13 @@ The following tabs may be available: :ref:`entries`, :ref:`proteins` and :ref:`s
     Proteome entry page for `UP000001940 <https://www.ebi.ac.uk/interpro/proteome/uniprot/UP000001940/>`_.
 
 The image shows the proteome page for *C. elegans*, whose proteome ID is UP000001940, and as you can see from the counters 
-in the tabs has 9K related InterPro entries, 27K proteins and 363 structures. Notice this data is for InterPro version 
-81.0, and it is used here just as an example.
+in the tabs, has 10K related InterPro entries, 27K proteins and 469 structures. Links to the 
+corresponding proteome pages in UniProt and Rfam can be found at the right hand side and a description of the organism 
+(provided by UniProt) is displayed below. Notice this data is for InterPro version 99.0, and it is used here just as an example.
+
+When selecting the tab *Entries*, a list of the InterPro entries matching any sequence in the proteome is displayed. The list 
+of entries of any of the member databases is shown instead by selecting the database (provided it contains any instance) in the 
+dropdown list that appears after clicking the box on top of the list.
 
 .. _set_page:
 

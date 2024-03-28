@@ -448,7 +448,7 @@ in the tabs, has 10K related InterPro entries, 27K proteins and 469 structures. 
 corresponding proteome pages in UniProt and Rfam can be found at the right hand side and a description of the organism 
 (provided by UniProt) is displayed below. Notice this data is for InterPro version 99.0, and it is used here just as an example.
 
-When selecting the tab *Entries*, a list of the InterPro entries matching any sequence in the proteome is displayed. The list 
+When selecting the tab **Entries**, a list of the InterPro entries matching any sequence in the proteome is displayed. The list 
 of entries of any of the member databases is shown instead by selecting the database (provided it contains any instance) in the 
 dropdown list that appears after clicking the box on top of the list.
 

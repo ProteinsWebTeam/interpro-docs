@@ -63,8 +63,11 @@ icon (e.g. a D with a green background for a domain).
 Clicking on the star symbol next to the entry name will save the entry as a Favourite. The full list of saved
 entries is available in the :ref:`favourite` in the homepage. More information about the data provided in an 
 
-On the right hand side of the **Add your annotation** button on the right hand side allows the user to suggest updates to the InterPro annotation and the page member databases contributing signatures to the 
-entry are shown in a box. 
+On the right hand side, the **Add your annotation** button allows the user to suggest updates to the InterPro annotation and the page member 
+databases contributing signatures to the entry are shown in a box. Below, the **Contributing Member Database Entry** or entries integrated into 
+the InterPro entry are listed with links to the corresponding :ref:`member database pages <memberdb_page>`. At the bottom of this column, if 
+any experimentally solved structure is available, a **Representative structure** shows a small static 3D representation, the corresponding PDB ID and name and a link to the 
+:ref:`structure entry page <structure_page>`.
 
 :ref:`Overlapping homologous superfamilies <overlapping>` and/or :ref:`Relationships to other entries <relationship>` are indicated where available. 
 
@@ -75,6 +78,21 @@ Additional tabs in the left-hand side menu provide further information about the
 the data is available. Types of data that may be available in the menu of an InterPro entry page include: :ref:`proteins`, :ref:`ida`, 
 :ref:`taxonomy`, :ref:`proteomes`, :ref:`structures`, :ref:`alphafold1`, :ref:`pathways` and :ref:`interactions`.
 
+Althought most InterPro entries remain carefully reviewed by our curators, some type Family entries are AI-generated from PANTHER, NCBIfam or CATH-Gene3D 
+signatures which cover approximately the whole protein length. For these entries, the name, short-name and description have been generated automatically 
+using a Large Language Model. All AI-generated content is flagged as such with an |AI_tag| tag. Please consider this content has been subjected to curator
+review when interpreting related results. More information on AI-generated content can be found in :doc:`AI-generated content </llm_descriptions>`.
+
+.. |AI_tag| image:: images/browse_pages/ai_tag.png
+  :alt: AI tag
+  :width: 18pt
+
+.. figure:: images/browse_pages/interpro_AI-generated_entry_page.png
+    :alt: InterPro AI-generated entry page
+    :width: 800px
+
+    InterPro AI-generated entry page for `IPR051632 <https://www.ebi.ac.uk/interpro/entry/InterPro/IPR051632/>`_. 
+    Name, short-name and description have been generated using a Large Language Model and are flaggged accordingly.
 
 .. _proteins:
 
@@ -83,6 +101,11 @@ Proteins
 List of proteins that are included in this entry displayed in a table.
 There is an the option to display only proteins that have been manually curated in UniprotKB (**reviewed**), 
 only proteins that have been automatically annotated (**unreviewed**), or all proteins (**both**, default).
+
+For each protein, the table displays the UniProt ID, name, corresponding gene, the organism where it is found, 
+a link to the protein :ref:`AlphaFold structure prediction page <alphafold1>` and a small protein viewer that 
+highlights the region of the protein matched by the InterPro entry.
+
 
 .. _ida:
 
@@ -123,6 +146,10 @@ In the table views, for each organism, the taxonomy identifier and protein count
 - View all the protein matches in the :ref:`proteins` tab
 - Download a FASTA file of the protein matches
 - View the taxonomy information in the :ref:`taxonomy_page`
+
+If the first option is selected, a table with all the corresponding proteins is displayed. For each protein, we can see the UniProt ID, name, corresponding 
+gene, the organism where it is found, a link to the protein :ref:`AlphaFold structure prediction page <alphafold1>` and a small protein viewer that highlights 
+the region of the protein matched by the InterPro entry.
 
 .. _proteomes:
 
@@ -200,7 +227,13 @@ Member database page
 
 InterPro provides entry pages for each signature that a member database holds. This includes signatures 
 that have not yet been, or can't be, integrated into InterPro (:ref:`unintegrated signatures <entry_types>`).
- 
+
+.. figure:: images/browse_pages/member_db_page_mbdb_desc.png
+    :alt: Member database page
+    :width: 800px
+
+    InterPro member database page for NCBIfam signature `NF012196 <https://www.ebi.ac.uk/interpro/entry/integrated/ncbifam/NF012196/>`_.
+
 Member database signature entries provide information about which database the signature is from, the 
 signature identifier, the type of entry as defined by the member database (e.g. family, domain or site), 
 and the short name given to the entry by the member database. 
@@ -209,18 +242,35 @@ Some member databases provide a description giving information about the family/
 when this is not the case and the signature is integrated in an InterPro entry, the InterPro description is
 displayed.
 
-To address the absence of annotations for certain member database signatures, we've employed AI 
-to automatically generate descriptions by extracting information from Swiss-Prot. 
-It's important to note that these descriptions have not undergone curator review, and we advise 
-regarding them as preliminary sources of information. :doc:`Read more on AI-generated descriptions. </llm_descriptions>`
+.. figure:: images/browse_pages/member_db_page_IP_desc.png
+    :alt: Member database page
+    :width: 800px
+
+    InterPro member database page for CATH-Gene3D signature `G3DSA:1.10.10.10 <https://www.ebi.ac.uk/interpro/entry/cathgene3d/G3DSA:1.10.10.10/>`_.
+
+
+To address the absence of annotations for certain member database signatures that are not integrated 
+into any InterPro entry, we've employed AI to automatically generate descriptions by extracting information 
+from Swiss-Prot. It's important to note that these descriptions have not undergone curator review, and we 
+advise regarding them as preliminary sources of information. 
+:doc:`Read more on AI-generated descriptions. </llm_descriptions>`
+
+.. figure:: images/browse_pages/member_db_page_AI_desc.png
+    :alt: Member database page
+    :width: 800px
+
+    InterPro member database page for PANTHER signature `PTHR13944 <https://www.ebi.ac.uk/interpro/entry/panther/PTHR13944/>`_. 
+    AI-generated content is accordingly flagged with an |AI_tag| tag.
 
 Some member databases create groups of families that are evolutionary related. Pfam calls them clans, 
 CDD uses the term superfamily and, for PIRSF and Panther the concept is associated with the parent families of 
 their hierarchy. We use the umbrella term Clan to refer to Pfam groups and Set to refer to the other groups. When available, the set/clan to which the signature 
 belongs to is indicated.
 
-The right hand side of the page provides links to the InterPro entry in which this signature has been integrated, and 
-an external link to the signature on the member database's website when available. For Pfam signatures, the **Add your annotation** button allows the user to suggest updates to the Pfam annotation.
+The right hand side of the page provides links to the InterPro entry in which this signature has been integrated, and an external link to the signature 
+on the member database's website when available. At the bottom of this column, if any experimentally solved structure is available, a **Representative 
+structure** shows a small static 3D representation, the corresponding PDB ID and name and a link to the :ref:`structure entry page <structure_page>`. 
+For Pfam signatures, the **Add your annotation** button allows the user to suggest updates to the Pfam annotation.
 
 For signatures provided by the Pfam member database, a short extract of the wikipedia page is also displayed
 when available to complete the description.
@@ -369,7 +419,9 @@ Similar proteins
 ================
 List of proteins that have the same domain architecture as this protein, including the Pfam/InterPro accession 
 for each domain.
-The list can be filtered to either show all the protein matches or only the reviewed proteins from `UniProt <https://www.uniprot.org/>`_.
+The list can be filtered to either show all the protein matches or only the reviewed proteins from 
+`UniProt <https://www.uniprot.org/>`_. For each protein the UniProt ID, name, length, corresponding gene, the 
+organism where it is found and a link to the protein :ref:`AlphaFold structure prediction page <alphafold1>`.
 
 .. _structure_page:
 

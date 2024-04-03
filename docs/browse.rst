@@ -64,10 +64,14 @@ Clicking on the star symbol next to the entry name will save the entry as a Favo
 entries is available in the :ref:`favourite` in the homepage. More information about the data provided in an 
 
 On the right hand side, the **Add your annotation** button allows the user to suggest updates to the InterPro annotation and the page member 
-databases contributing signatures to the entry are shown in a box. Below, the **Contributing Member Database Entry** or entries integrated into 
+databases contributing signatures to the entry are shown in a box. Below, the **Contributing Member Database Entry** integrated into 
 the InterPro entry are listed with links to the corresponding :ref:`member database pages <memberdb_page>`. At the bottom of this column, if 
 any experimentally solved structure is available, a **Representative structure** shows a small static 3D representation, the corresponding PDB ID 
-and name, and a link to the :ref:`structure entry page <structure_page>`.
+and name, and a link to the :ref:`structure entry page <structure_page>`. The chosen representative structure is picked from structures that match the entry and have a 
+resolution of less than 2 Angstroms. In this refined dataset, the representative 
+structure is identified as the one exhibiting the highest coverage ratio for the entry, 
+where a minimum of 50% of the residues in the structure are covered by the entry.
+
 
 :ref:`Overlapping homologous superfamilies <overlapping>` and/or :ref:`Relationships to other entries <relationship>` are indicated where available. 
 
@@ -78,12 +82,11 @@ Additional tabs in the left-hand side menu provide further information about the
 the data is available. Types of data that may be available in the menu of an InterPro entry page include: :ref:`proteins`, :ref:`ida`, 
 :ref:`taxonomy`, :ref:`proteomes`, :ref:`structures`, :ref:`alphafold1`, :ref:`pathways` and :ref:`interactions`.
 
-Althought most InterPro entries remain carefully reviewed by our curators, some type Family entries are AI-generated from PANTHER, NCBIfam or CATH-Gene3D 
-signatures which cover approximately the whole protein length. For these entries, the name, short-name and description have been generated automatically 
-using a Large Language Model. All AI-generated content is flagged as such with an |AI_tag| tag. Please consider this content has not been subjected to 
+Although most InterPro entries remain carefully reviewed by our curators, some type Family entries containing signatures from PANTHER, NCBIfam or CATH-Gene3D which cover approximately the whole protein length are AI-generated. For these entries, the name, short-name and description have been generated automatically 
+using a Large Language Model. All AI-generated content is flagged as such with an |AI_tag| tag. Please consider that this content has not been subjected to 
 curator review when interpreting related results. More information on AI-generated content can be found in :doc:`AI-generated content </llm_descriptions>`.
 
-.. |AI_tag| image:: images/browse_pages/ai_tag.png
+.. |AI_tag| image:: images/icons/ai_tag.png
   :alt: AI tag
   :width: 18pt
 
@@ -102,9 +105,10 @@ List of proteins that are included in this entry displayed in a table.
 There is an option to display only proteins that have been manually curated in UniprotKB (**reviewed**), 
 only proteins that have been automatically annotated (**unreviewed**), or all proteins (**both**, default).
 
-For each protein, the table displays the UniProt ID, name, corresponding gene, the organism where it is found, 
-a link to the protein :ref:`AlphaFold structure prediction page <alphafold1>` and a small protein viewer that 
-highlights the region of the protein matched by the InterPro entry.
+For each protein, the table displays the UniProt ID, name, corresponding gene, the 
+organism where it is found, a link to the :ref:`AlphaFold structure prediction page <alphafold1>` 
+and a small protein viewer that highlights the region of the protein matched by the 
+InterPro entry.
 
 
 .. _ida:
@@ -148,7 +152,7 @@ In the table views, for each organism, the taxonomy identifier and protein count
 - View the taxonomy information in the :ref:`taxonomy_page`
 
 If the first option is selected, a table with all the corresponding proteins is displayed. For each protein, we can see the UniProt ID, name, corresponding 
-gene, the organism where it is found, a link to the protein :ref:`AlphaFold structure prediction page <alphafold1>` and a small protein viewer that highlights 
+gene, the organism where it is found, a link to the protein :ref:`AlphaFold structure prediction <alphafold1>` and a small protein viewer that highlights 
 the region of the protein matched by the InterPro entry.
 
 .. _proteomes:
@@ -243,7 +247,7 @@ when this is not the case and the signature is integrated in an InterPro entry, 
 displayed.
 
 .. figure:: images/browse_pages/member_db_page_IP_desc.png
-    :alt: Member database page
+    :alt: Member database page using InterPro description
     :width: 800px
 
     InterPro member database page for CATH-Gene3D signature `G3DSA:1.10.10.10 <https://www.ebi.ac.uk/interpro/entry/cathgene3d/G3DSA:1.10.10.10/>`_.
@@ -256,7 +260,7 @@ advise regarding them as preliminary sources of information.
 :doc:`Read more on AI-generated descriptions. </llm_descriptions>`
 
 .. figure:: images/browse_pages/member_db_page_AI_desc.png
-    :alt: Member database page
+    :alt: Member database page using AI-generated content
     :width: 800px
 
     InterPro member database page for PANTHER signature `PTHR13944 <https://www.ebi.ac.uk/interpro/entry/panther/PTHR13944/>`_. 
@@ -276,7 +280,7 @@ For signatures provided by the Pfam member database, a short extract of the wiki
 when available to complete the description.
 
 .. figure:: images/browse_pages/member_db_page.png
-    :alt: Member database page
+    :alt: Pfam member database page with Wikipedia article
     :width: 800px
 
     InterPro member database page for Pfam signature `PF00040 <https://www.ebi.ac.uk/interpro/entry/pfam/PF00040/>`_.
@@ -383,7 +387,7 @@ icon |split| after selecting an isoform.
 When available, GO terms associated to InterPro entries and PANTHER families are displayed at the bottom of the page. 
 GO terms provide information about Biological processes, Molecular function and Cellular components.
 
-.. |split| image:: images/browse_pages/split_icon.png
+.. |split| image:: images/icons/split_icon.png
   :alt: Split icon
   :width: 15pt
 
@@ -485,7 +489,9 @@ and :ref:`proteomes`.
 Proteome entry page
 *******************
 The proteome entry page displays general information provided by `UniProt <https://www.uniprot.org/>`_: its ID, strain, 
-and a descrption of the organism. It also provides a link to the corresponding :ref:`taxonomy page <taxonomy_page>`.
+and a description of the organism. It also provides a link to the corresponding :ref:`taxonomy page <taxonomy_page>`.
+
+On the right-hand side, external links to the proteome page in UniProt and the genome page in `Rfam <https://rfam.org/>`_ are provided, when available.
 
 The following tabs may be available: :ref:`entries`, :ref:`proteins` and :ref:`structures`.
 
@@ -495,14 +501,14 @@ The following tabs may be available: :ref:`entries`, :ref:`proteins` and :ref:`s
 
     Proteome entry page for `UP000001940 <https://www.ebi.ac.uk/interpro/proteome/uniprot/UP000001940/>`_.
 
-The image shows the proteome page for *C. elegans*, whose proteome ID is UP000001940, and as you can see from the counters 
-in the tabs, has 10K related InterPro entries, 27K proteins and 469 structures. Links to the 
-corresponding proteome pages in UniProt and Rfam can be found at the right hand side and a description of the organism 
-(provided by UniProt) is displayed below. Notice this data is for InterPro version 99.0, and it is used here just as an example.
+.. The image above shows the proteome page for *C. elegans*, whose proteome ID is UP000001940, and as you can see from the 
+.. counters in the tabs, has 10K related InterPro entries, 27K proteins and 469 structures. Links to the corresponding 
+.. proteome pages in UniProt and Rfam can be found at the right hand side and a description of the organism 
+.. (provided by UniProt) is displayed below. Notice this data is for InterPro version 99.0, and it is used here just as an example.
 
-When selecting the tab **Entries**, a list of the InterPro entries matching any sequence in the proteome is displayed. The list 
-of entries of any of the member databases is shown instead by selecting the database (provided it contains any instance) in the 
-dropdown list that appears after clicking the box on top of the list.
+When clicking on the **Entries** tab, the list of InterPro entries matching any sequence in the proteome is displayed. 
+By clicking on the dropdown menu in the table header, the list of entries from a member database can be 
+displayed instead by selecting the database of interest.
 
 .. _set_page:
 

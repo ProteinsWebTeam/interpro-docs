@@ -53,7 +53,7 @@ A. **Colour By** allows to change the colours in which the InterPro entries and 
 
 B. The labels on the right side of the viewer can be customised. The **Accession** labels are shown by default. To see names and/or short names along with accession, the name/short name checkboxes should be ticked or if the user prefers to see the names/short names alone, the respective options should be selected.
 
-C. **Snapshot** has two options: **Save as image** allows to take a snapshot of the viewer and is saved as an image (.png).
+C. **Save as image** allows to take a snapshot of the viewer and is saved as an image (.png).
 
 D. **Collapse All** allows to collapse all the signatures bars displayed in the viewer at once to only display the InterPro entries bars. 
 

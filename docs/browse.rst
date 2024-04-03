@@ -66,8 +66,8 @@ entries is available in the :ref:`favourite` in the homepage. More information a
 On the right hand side, the **Add your annotation** button allows the user to suggest updates to the InterPro annotation and the page member 
 databases contributing signatures to the entry are shown in a box. Below, the **Contributing Member Database Entry** or entries integrated into 
 the InterPro entry are listed with links to the corresponding :ref:`member database pages <memberdb_page>`. At the bottom of this column, if 
-any experimentally solved structure is available, a **Representative structure** shows a small static 3D representation, the corresponding PDB ID and name and a link to the 
-:ref:`structure entry page <structure_page>`.
+any experimentally solved structure is available, a **Representative structure** shows a small static 3D representation, the corresponding PDB ID 
+and name, and a link to the :ref:`structure entry page <structure_page>`.
 
 :ref:`Overlapping homologous superfamilies <overlapping>` and/or :ref:`Relationships to other entries <relationship>` are indicated where available. 
 
@@ -80,8 +80,8 @@ the data is available. Types of data that may be available in the menu of an Int
 
 Althought most InterPro entries remain carefully reviewed by our curators, some type Family entries are AI-generated from PANTHER, NCBIfam or CATH-Gene3D 
 signatures which cover approximately the whole protein length. For these entries, the name, short-name and description have been generated automatically 
-using a Large Language Model. All AI-generated content is flagged as such with an |AI_tag| tag. Please consider this content has been subjected to curator
-review when interpreting related results. More information on AI-generated content can be found in :doc:`AI-generated content </llm_descriptions>`.
+using a Large Language Model. All AI-generated content is flagged as such with an |AI_tag| tag. Please consider this content has not been subjected to 
+curator review when interpreting related results. More information on AI-generated content can be found in :doc:`AI-generated content </llm_descriptions>`.
 
 .. |AI_tag| image:: images/browse_pages/ai_tag.png
   :alt: AI tag
@@ -99,7 +99,7 @@ review when interpreting related results. More information on AI-generated conte
 Proteins
 ========
 List of proteins that are included in this entry displayed in a table.
-There is an the option to display only proteins that have been manually curated in UniprotKB (**reviewed**), 
+There is an option to display only proteins that have been manually curated in UniprotKB (**reviewed**), 
 only proteins that have been automatically annotated (**unreviewed**), or all proteins (**both**, default).
 
 For each protein, the table displays the UniProt ID, name, corresponding gene, the organism where it is found, 
@@ -485,7 +485,7 @@ and :ref:`proteomes`.
 Proteome entry page
 *******************
 The proteome entry page displays general information provided by `UniProt <https://www.uniprot.org/>`_: its ID, strain, 
-and a link to the related species. 
+and a descrption of the organism. It also provides a link to the corresponding :ref:`taxonomy page <taxonomy_page>`.
 
 The following tabs may be available: :ref:`entries`, :ref:`proteins` and :ref:`structures`.
 

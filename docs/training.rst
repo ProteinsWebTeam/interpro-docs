@@ -2,6 +2,14 @@
 Upcoming courses and webinars
 #############################
 
+******************************************
+Structural bioinformatics course (virtual)
+******************************************
+
+| **Date**:  4 - 8 November 2024
+| **Venue**:  Virtual - EMBL-EBI
+| `Programme details and registration <https://www.ebi.ac.uk/training/events/structural-bioinformatics-3/>`_ (application deadline: 8th July)
+
 If you would like us to train employees/students from your company/institution, `contact us <https://www.ebi.ac.uk/support/interpro>`_.
 
 ################
@@ -13,7 +21,7 @@ Structural bioinformatics course (in person)
 ********************************************
 
 | **Date**:  2 - 6 October 2023
-| **Venue**:  Virtual - EMBL-EBI
+| **Venue**:  EMBL-EBI
 | `Programme details <https://www.ebi.ac.uk/training/events/structural-bioinformatics-1/>`_
 
 ******************************************************

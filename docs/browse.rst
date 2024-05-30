@@ -56,7 +56,7 @@ site based on one or more signatures provided by the :doc:`InterPro member datab
 
     InterPro entry page for `IPR000562 <https://www.ebi.ac.uk/interpro/entry/InterPro/IPR000562/>`_.
 
-InterPro entry pages give a brief description of the entry, name and unique InterPro identifier. 
+InterPro entry pages give a brief description of the entry, name and unique InterPro accession. 
 The InterPro entry type (homologous superfamily, family, domain, repeat or site) is also indicated by an 
 icon (e.g. a D with a green background for a domain). 
 
@@ -83,12 +83,25 @@ the data is available. Types of data that may be available in the menu of an Int
 :ref:`taxonomy`, :ref:`proteomes`, :ref:`structures`, :ref:`alphafold1`, :ref:`pathways` and :ref:`interactions`.
 
 Although most InterPro entries remain carefully reviewed by our curators, some type Family entries containing signatures from PANTHER, NCBIfam or CATH-Gene3D which cover approximately the whole protein length are AI-generated. For these entries, the name, short-name and description have been generated automatically 
-using a Large Language Model. All AI-generated content is flagged as such with an |AI_tag| tag. Please consider that this content has not been subjected to 
-curator review when interpreting related results. More information on AI-generated content can be found in :doc:`AI-generated content </llm_descriptions>`.
+using a Large Language Model. All AI-generated content is flagged as such with an |AI_tag| tag. Please note that this content may not have been subjected to 
+curator review when interpreting related results. When the content has been reviewed the |AI_tag| 
+status tag is updated accordingly. The possible status are:
+
+- Unreviewed (default): the entry hasn't been verified by a curator
+- Reviewed: the entry has been verified by a curator
+- Reviewed and updated: the entry has been verified and updated by a curator
+
+The AI status is highlighted on the entry page in the tooltip when hovering over the |AI_tag| tag next to the entry name and short name, and next to the |AI_gen_tag| tag above the entry descriptions
+
+More information on AI-generated content can be found in the :doc:`AI-generated content </llm_descriptions>` section.
 
 .. |AI_tag| image:: images/icons/ai_tag.png
   :alt: AI tag
   :width: 18pt
+
+.. |AI_gen_tag| image:: images/icons/ai_generated_tag.png
+  :alt: AI generated tag
+  :width: 68pt
 
 .. figure:: images/browse_pages/interpro_AI-generated_entry_page.png
     :alt: InterPro AI-generated entry page
@@ -186,9 +199,9 @@ Clicking on a residue induces a zoom in effect and displays contacts with surrou
 around the structure zooms out.
 
 The protein accession and organism are displayed on the left hand side, together with links to the corresponding 
-`AlphaFold <https://alphafold.ebi.ac.uk/>`_ and `UniProt <https://www.uniprot.org>`_ websites. The model confidence
-colour scale, determined using the plDDT score, is also displayed, varying from dark blue (very high confidence) to 
-orange (very low confidence).
+`AlphaFold <https://alphafold.ebi.ac.uk/>`_, `UniProt <https://www.uniprot.org>`_ and `Foldseek Server <https://search.foldseek.com/search>`_ websites. 
+The model confidence colour scale, determined using the plDDT score, is also displayed, varying from dark blue 
+(very high confidence) to orange (very low confidence).
 
 The data can be downloaded in PDB or mmCIF format, by clicking on the corresponding buttons below the 3D viewer.
 
@@ -239,7 +252,7 @@ that have not yet been, or can't be, integrated into InterPro (:ref:`unintegrate
     InterPro member database page for NCBIfam signature `NF012196 <https://www.ebi.ac.uk/interpro/entry/integrated/ncbifam/NF012196/>`_.
 
 Member database signature entries provide information about which database the signature is from, the 
-signature identifier, the type of entry as defined by the member database (e.g. family, domain or site), 
+signature accession, the type of entry as defined by the member database (e.g. family, domain or site), 
 and the short name given to the entry by the member database. 
 
 Some member databases provide a description giving information about the family/domain or site function, 
@@ -276,7 +289,7 @@ on the member database's website when available. At the bottom of this column, i
 structure** shows a small static 3D representation, the corresponding PDB ID and name and a link to the :ref:`structure entry page <structure_page>`. 
 For Pfam signatures, the **Add your annotation** button allows the user to suggest updates to the Pfam annotation.
 
-For signatures provided by the Pfam member database, a short extract of the wikipedia page is also displayed
+For signatures provided by the Pfam member database, a short extract of one or more Wikipedia pages are also displayed
 when available to complete the description.
 
 .. figure:: images/browse_pages/member_db_page.png
@@ -434,7 +447,7 @@ Structure entry page
 ********************
 InterPro provides entries for all the structures available in the `Protein Data Bank in Europe (PDBe) 
 <https://www.ebi.ac.uk/pdbe/>`_. A structure search can be performed by clicking on a structure provided 
-in a results list or by entering the protein structure identifier in the :ref:`quick_search` 
+in a results list or by entering the protein structure accession in the :ref:`quick_search` 
 box (magnifying glass symbol) or by performing a :ref:`text_search`.
  
 At the top of the structure page, general information about the structure is displayed: the structure's 

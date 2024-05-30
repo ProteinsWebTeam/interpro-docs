@@ -14,13 +14,6 @@ A common element on several InterPro website pages is the protein sequence viewe
 bar) and member database signatures matches to the protein or structure
 being looked at, represented by the grey bar at the top of the viewer, categorised by :ref:`entry_types`. 
 
-.. The purple/grey bar below the amino acids indicates the predicted hydrophobicity of the sequence residues. 
-.. When zoomed in at the residue level and hovering, a tooltip shows hydrophobicity score, using the 
-.. `Wimley–White whole residue hydropathy scale <https://en.wikipedia.org/wiki/Hydrophobicity_scales>`_  
-.. (the more positive the value, the more hydrophobic is the amino acid). 
-.. The colour scale varies from -3 (coloured as bright blue) for hydrophilic residues and 3 (coloured as 
-.. bright yellow) for hydrophobic ones.
-
 The *AlphaFold confidence* track is displayed in the protein sequence viewer in the :ref:`protein page <protein_page>` 
 and in the :ref:`AlphaFold subpage <alphafold1>` when a predicted structure is available.
 
@@ -55,15 +48,7 @@ B. The labels on the right side of the viewer can be customised. The **Accession
 
 C. **Save as image** allows to take a snapshot of the viewer and is saved as an image (.png).
 
-D. **Collapse All** allows to collapse all the signatures bars displayed in the viewer at once to only display the InterPro entries bars. 
-
-.. .. figure:: images/protein_viewer/pv_collapsed_tracks.png
-..   :alt: Protein sequence viewer collapsed
-..   :width: 800px
-
-..   Collapsed categories view.
-
-E. The tooltips are shown when hovering over each bar. They can be disabled by unchecking the **Tooltip Active** option.
+D. The tooltips are shown when hovering over each bar. They can be disabled by unchecking the **Tooltip Active** option.
 
 .. figure:: images/protein_viewer/pv_tooltip.png
   :alt: Protein sequence viewer tooltip
@@ -103,7 +88,7 @@ Available data include:
 - Signal peptide regions from `SignalP <https://services.healthtech.dtu.dk/service.php?SignalP-5.0>`_ and/or Phobius
 - Spurious protein from :doc:`AntiFam </antifam>`
 - `CATH-FunFams <https://github.com/UCLOrengoGroup/cath-funfam-docs>`_ is an automatically generated profile HMM database, with FunFams entries segregated by an entropy-based approach  that distinguishes different patterns of conserved residues, corresponding to differences in functional determinants
-- `Pfam-N annotations <https://xfam.wordpress.com/2022/10/20/a-new-version-of-pfam-n-is-available>`_ result from a deep learning methodology developed by the Google Research team led by Dr Lucy Colwell to increase the Pfam coverage of protein sequences
+- `Pfam-N annotations <hxfam.wordpress.com/2024/05/31/pfam-n-version-3-enhancing-pfam-coverage-of-uniprot-with-computer-vision-deep-learning-techniques/>`_ result from a deep learning methodology developed by the Google Research team led by Dr Lucy Colwell to increase the Pfam coverage of protein sequences
 - Eukaryotic linear motifs from `ELM <http://elm.eu.org/>`_
 
 For some proteins, we also have annotations that are fetched directly from the resource API.
@@ -118,4 +103,15 @@ category is collapsed. Available data include:
   :alt: Protein sequence viewer External Sources for the protein O75069
   :width: 800px
 
-  Protein sequence viewer External Sources for `O75069 <https://www.ebi.ac.uk/interpro/protein/UniProt/O75069//>`_
+  Protein sequence viewer External Sources for `O75069 <https://www.ebi.ac.uk/interpro/protein/UniProt/O75069/>`_
+
+For some proteins, information about pathogenic and likely pathogenic residue variants in 
+protein sequences is available under the **Clinical Significance: Pathogenic And Likely 
+Pathogenic Variants** category of the viewer. Please note that the data can differ from the  data provided on the UniProt website as we are applying a *Clinical significance* filter,  
+which is different from the one used by UniProt. 
+
+.. figure:: images/protein_viewer/pv_variants.png
+  :alt: Protein sequence viewer Clinical Significance: Pathogenic And Likely Pathogenic Variants for the protein P99999
+  :width: 800px
+
+  Protein sequence viewer Clinical Significance: Pathogenic And Likely Pathogenic Variants for `P99999 <https://www.ebi.ac.uk/interpro/protein/UniProt/P99999/>`_

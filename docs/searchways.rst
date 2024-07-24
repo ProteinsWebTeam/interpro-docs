@@ -217,7 +217,7 @@ Below we describe how to use the browse search feature:
 1. Select a data type
 
 The browse page opens up with **7 data types** to allow browsing of InterPro entries, Member databases signatures, 
-Proteins, Structures, Taxonomies, Proteomes or Sets.
+Proteins, Structures, Taxonomies, Proteomes or Clan/Sets.
 
 .. figure:: images/browse/tabs.png
   :alt: Data types
@@ -226,6 +226,16 @@ Proteins, Structures, Taxonomies, Proteomes or Sets.
 2. Select any additional filters
 
 The filters options displayed for each data type will vary as appropriate.
+
+3. Sort by accession
+
+.. figure:: images/browse/sort_by_accesion.png
+  :alt: Sort by accesion
+  :width: 50px
+  :align: left
+
+The tables can be ordered by accession in ascendent or descendent order by clicling on the arrow at the right side of the column title
+**Accession** when browsing by **InterPro**, **Member DB** and **Clan/Set**.
 
 .. _memberdbFilter:
 
@@ -279,10 +289,11 @@ InterPro entry filters
   :width: 200px
   :align: left
 
-When **Browse by InterPro** is selected, two filter types can be applied:
+When **Browse by InterPro** is selected, three filter types can be applied:
 
 - **InterPro Type**: limits the data in the :ref:`data views <data_views>` to the selected :ref:`entry_types`.
-- **Go Terms**: filters by selected Go terms from `InterPro2GO <https://www.ebi.ac.uk/GOA/InterPro2GO>`_.
+- **GO Terms**: filters by selected GO terms from `InterPro2GO <https://www.ebi.ac.uk/GOA/InterPro2GO>`_.
+- **New entries**: shows only the entries created and made available or modified in the most recent release.
 
 |
 |

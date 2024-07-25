@@ -63,14 +63,16 @@ icon (e.g. a D with a green background for a domain).
 Clicking on the star symbol next to the entry name will save the entry as a Favourite. The full list of saved
 entries is available in the :ref:`favourite` in the homepage. More information about the data provided in an 
 
-On the right hand side, the **Provide feedback** button links to a **Feedback** subpage, which allows the user to suggest 
-updates to the InterPro entry annotation. Below, the **Contributing Member Database Entry** signatures integrated into 
-the InterPro entry are shown in a box with links to the corresponding :ref:`member database pages <memberdb_page>`. 
-At the bottom of this column, if any experimentally solved structure is available, a **Representative structure** shows 
-a small static 3D representation, the corresponding PDB ID and name, and a link to the :ref:`structure entry page <structure_page>`. 
-The chosen representative structure is picked from structures that match the entry and have a resolution of less than 2 Angstroms. 
-In this refined dataset, the representative structure is identified as the one exhibiting the highest coverage ratio for the entry, 
-where a minimum of 50% of the residues in the structure are covered by the entry.
+On the right hand side, the **Provide feedback** button links to a **Feedback** page, which allows the user to suggest updates to the InterPro entry annotation. 
+Below, the **Contributing Member Database Entry/ies** integrated into 
+the InterPro entry are listed with links to the corresponding :ref:`member database pages <memberdb_page>`. 
+At the bottom of this column, if any experimentally solved structure is available, a **Representative structure** shows a small static 3D representation, the corresponding PDB ID 
+and name, and a link to the :ref:`structure entry page <structure_page>`. 
+The chosen representative structure is picked from structures that match the entry and have a 
+resolution of less than 2 Angstroms. 
+In this refined dataset, the representative structure is identified as the one exhibiting the 
+highest coverage ratio for the entry, where a minimum of 50% of the residues in the structure 
+are covered by the entry.
 
 
 :ref:`Overlapping homologous superfamilies <overlapping>` and/or :ref:`Relationships to other entries <relationship>` are indicated where available. 
@@ -233,8 +235,10 @@ the `MetaCyc Metabolic Pathway Database <https://metacyc.org/>`_ and the `Reacto
 
 Interactions
 ============
-List of proteins characterised in experimentally proven data in which the proteins matching an entry are 
-involved in protein:protein interactions. For every molecule pair, links to IntAct and EuropePMC are available.
+List of proteins characterised in experimentally proven data in which the proteins matching an 
+entry are involved in protein:protein interactions. For each molecule pair, links to 
+`IntAct <https://www.ebi.ac.uk/intact/home>`_` and `EuropePMC <https://europepmc.org/>` are 
+available.
 
 .. _memberdb_page:
 
@@ -266,11 +270,10 @@ displayed.
     InterPro member database page for CATH-Gene3D signature `G3DSA:1.10.10.10 <https://www.ebi.ac.uk/interpro/entry/cathgene3d/G3DSA:1.10.10.10/>`_.
 
 
-To address the absence of annotations for certain member database signatures that are not integrated 
-into any InterPro entry, we've employed AI to automatically generate descriptions by extracting information 
+To address the absence of annotations for certain member database signatures that are not 
+integrated into any InterPro entry, we've employed AI to automatically generate descriptions by extracting information 
 from Swiss-Prot. It's important to note that these descriptions have not undergone curator review, and we 
-advise regarding them as preliminary sources of information. The user can click on **Provide feedback**, 
-which links to a google form with some general questions, or 
+advise regarding them as preliminary sources of information. **Provide feedback** links to a **Feedback** page, which allows the user to suggest updates to the annotation. 
 :doc:`Read more on description generation. </llm_descriptions>`
 
 .. figure:: images/browse_pages/member_db_page_AI_desc.png
@@ -288,8 +291,8 @@ belongs to is indicated.
 The right hand side of the page provides links to the InterPro entry in which this signature has been integrated, and an external link to the signature 
 on the member database's website when available. At the bottom of this column, if any experimentally solved structure is available, a **Representative 
 structure** shows a small static 3D representation, the corresponding PDB ID and name and a link to the :ref:`structure entry page <structure_page>`. 
-For Pfam signatures, the **Provide feedback** button links to a **Feedback** subpage, which allows the user to suggest 
-updates to the Pfam annotation.
+For Pfam signatures, the **Provide feedback** button links to a **Feedback** page, which allows 
+the user to suggest updates to the Pfam annotation.
 
 For signatures provided by the Pfam member database, a short extract of one or more Wikipedia pages are also displayed
 when available to complete the description.

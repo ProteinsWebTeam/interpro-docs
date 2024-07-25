@@ -237,7 +237,7 @@ Interactions
 ============
 List of proteins characterised in experimentally proven data in which the proteins matching an 
 entry are involved in protein:protein interactions. For each molecule pair, links to 
-`IntAct <https://www.ebi.ac.uk/intact/home>`_` and `EuropePMC <https://europepmc.org/>` are 
+`IntAct <https://www.ebi.ac.uk/intact/home>`_ and `EuropePMC <https://europepmc.org/>`_ are 
 available.
 
 .. _memberdb_page:

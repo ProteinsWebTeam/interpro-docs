@@ -274,7 +274,7 @@ To address the absence of annotations for certain member database signatures tha
 integrated into any InterPro entry, we've employed AI to automatically generate descriptions by extracting information 
 from Swiss-Prot. It's important to note that these descriptions have not undergone curator review, and we 
 advise regarding them as preliminary sources of information. **Provide feedback** links to a **Feedback** page, which allows the user to suggest updates to the annotation. 
-:doc:`Read more on description generation. </llm_descriptions>`
+:doc:`Read more about AI-generated content. </llm_descriptions>`
 
 .. figure:: images/browse_pages/member_db_page_AI_desc.png
     :alt: Member database page using AI-generated content

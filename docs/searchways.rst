@@ -46,9 +46,11 @@ corresponding :doc:`InterPro page </browse>` under the **Browse** tab in the :re
 Sequence search
 ***************
 
-A sequence or a batch of sequences can be submitted in FASTA format in the dedicated text area or by uploading a fasta file. 
-The “**Advanced options**” allows users to select the InterPro member databases of interest to search 
-against (by default they are all selected). The sequence search is performed using the 
+A sequence or a batch of sequences of nucleotides or amino acids can be submitted in FASTA format in the 
+dedicated text area or by uploading a fasta file. The “**Advanced options**” allows users to select the 
+sequence type (protein -amino acids-, or RNA/DNA -nucleotides-), the InterPro member databases and other 
+sequence features of interest 
+to search against (by default they are all selected). The sequence search is performed using the 
 :doc:`InterProScan software </interproscan>`. While the sequence search is running, the user can continue 
 to navigate through the website, other browser tabs or applications and will get a pop-up notification 
 when the job has been completed (this requires the browser notifications to be allowed).
@@ -63,7 +65,7 @@ when the job has been completed (this requires the browser notifications to be a
 Sequence search results
 =======================
 Results of a protein sequence search are available under the **Results** tab in the navigation menu under 
-**Your InterProScan Searches** section. This page displays the protein sequence searches you have 
+**Your InterProScan Searches** section. This page displays the sequence searches you have 
 performed in the last seven days, with the most recent one being displayed at the top. The status 
 column gives an indication of whether or not the search has completed (green tick symbol / searching), if the 
 search has been saved locally (the results will still be available even after the seven days limit set up on 

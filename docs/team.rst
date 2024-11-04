@@ -18,7 +18,7 @@ Team members
 - `Emma Hobbs <https://www.embl.org/people/person/CP-60043055/>`_ - Bioinformatics Developer
 - `Beatriz Lazaro Pinto <http://www.ebi.ac.uk/about/people/beatriz-lazaro-pinto>`_ - Biocurator
 - `Typhaine Paysan-Lafosse <http://www.ebi.ac.uk/about/people/typhaine-paysan-lafosse>`_ - Curation Project Leader
-- `Gustavo Salazar-Orejuela <http://www.ebi.ac.uk/about/people/gustavo-salazar-orejuela>`_ - Senior Software Developer
+- `Agostino Alessandro Polignano <https://www.ebi.ac.uk/people/person/alessandro-polignano/>`_ Full Stack Web Developer
 
 *********************
 Previous contributors
@@ -28,6 +28,7 @@ Previous contributors
 - Sarah Hunter - Team Leader
 - Nicky Mulder - Team Leader
 - Rolf Apweiler - Team Leader
+- Gustavo Salazar-Orejuela - Senior Software Developer
 - Luis Sanchez Pulido - Biocurator
 - Swaathi Kandasaamy - Web Developer
 - Matloob Qureshi - Lead Web Developer

@@ -33,10 +33,9 @@ entry page it appears in. Most entry data tabs will be described within the :ref
 - :ref:`alphafold1`
 - :ref:`interactions`
 - :ref:`pathways`
-- :ref:`signature`
+- :ref:`profile_hmm`
 - :ref:`subfamilies`
 - :ref:`alignment`
-- :ref:`curation`
 - :ref:`entries`
 - :ref:`sequence`
 - :ref:`similar_proteins`
@@ -77,7 +76,7 @@ are covered by the entry.
 
 :ref:`Overlapping homologous superfamilies <overlapping>` and/or :ref:`Relationships to other entries <relationship>` are indicated where available. 
 
-InterPro entry page can be found in the :doc:`InterPro Entries : essential information </entries_info>` section 
+InterPro entry page can be found in the :doc:`InterPro Entries: essential information </entries_info>` section 
 of the documentation. 
 
 Additional tabs in the left-hand side menu provide further information about the entry, and are displayed when 
@@ -307,22 +306,23 @@ In addition to the :ref:`proteins`, :ref:`taxonomy`, :ref:`proteomes` and :ref:`
 pages may also display information in the following additional tabs: :ref:`ida`, :ref:`alphafold1`, :ref:`signature`, :ref:`alignment` 
 and :ref:`curation`. 
 
-.. _signature:
+.. _profile_hmm:
 
-Signature
-=========
-The signature representing the model that defines the entry is visualised in this page as a logo, 
-using `Skylign <http://www.skylign.org/>`_. The logo data is displayed for the NCBIfam, Pfam, PANTHER, 
-PIRSF, and SFLD member databases.
+Profile HMM
+===========
+Profile HMM information are available for the NCBIfam, Pfam, PANTHER, PIRSF and SFLD member databases.
+At the top of the page, general HMM information about the HMM are displayed, including the HMM build 
+commands and Threshold used, and offers the possibility to download the HMM profile defining the signature.
 
-
+The profile HMM representing the model that defines the entry is visualised in this page as a logo, 
+using `Skylign <http://www.skylign.org/>`_.
 The visualisation displays the amino acid conservation for each residue in the model. To navigate large 
 logos, the user can drag the rendered area to a desired position. Alternatively, the user can input a 
 residue number to be viewed. When selecting a particular residue in the logo, the probabilities of each 
 amino acid are displayed in the bottom part.
 
-.. figure:: images/browse_pages/signature_tab.png
-    :alt: Member database signature tab 
+.. figure:: images/browse_pages/profile_hmm_tab.png
+    :alt: Member database profile hmm tab 
     :width: 800px
 
 .. _alignment:
@@ -346,20 +346,6 @@ Scrolling up/down allows to move other sequences in the alignment into the visib
 
 .. figure:: images/browse_pages/alignment_tab.png
     :alt: Member database alignment tab 
-    :width: 800px
-
-.. _curation:
-
-Curation
-========
-This section provides information about the curation of the signature. Currently, it is only available for the Pfam member database. 
-It is divided into 2 subsections:
-
-- **Curation**: details about Pfam curators and Sequence ontology
-- **HMM information**: displays the HMM building command used and offers the possibility to download the HMM profile defining the signature
-
-.. figure:: images/browse_pages/curation.png
-    :alt: Member database curation tab 
     :width: 800px
 
 .. _subfamilies:
@@ -459,8 +445,9 @@ At the top of the structure page, general information about the structure is dis
 accession number (PDB ID), resolution, release date, the method used to determine the structure 
 (e.g. "Xray") and the chains composing the structure. External links to  `PDBe <https://www.ebi.ac.uk/pdbe/>`_, 
 `RCSB PDB <https://www.rcsb.org/>`_, `PDBsum <http://www.ebi.ac.uk/thornton-srv/databases/pdbsum/>`_, `CATH <https://cath-org.co.uk/>`_, 
-`SCOP <https://scop.mrc-lmb.cam.ac.uk/>`_, `ECOD <http://prodata.swmed.edu/ecod/>`_ and 
-`Proteopedia <https://proteopedia.org/wiki/index.php/Main_Page>`_ are provided on the right hand side of the page.
+`SCOP <https://scop.mrc-lmb.cam.ac.uk/>`_, `ECOD <http://prodata.swmed.edu/ecod/>`_, 
+`Proteopedia <https://proteopedia.org/wiki/index.php/Main_Page>`_ and `Foldseek <https://search.foldseek.com/search>`_ 
+are provided on the right hand side of the page.
 
 Following, the general information section, a 3D viewer (powered by `Mol* <https://molstar.org/>`_) shows an interactive view 
 of the 3D structure. Hovering over a residue displays the name of the entry, the chain and residue information below the viewer. 
@@ -509,7 +496,7 @@ Proteome entry page
 The proteome entry page displays general information provided by `UniProt <https://www.uniprot.org/>`_: its ID, strain, 
 and a description of the organism. It also provides a link to the corresponding :ref:`taxonomy page <taxonomy_page>`.
 
-On the right-hand side, external links to the proteome page in UniProt and the genome page in `Rfam <https://rfam.org/>`_ are provided, when available.
+On the right-hand side, external links to the proteome page in `UniProt <https://www.uniprot.org>`_ and the genome page in `Rfam <https://rfam.org/>`_ are provided, when available.
 
 The following tabs may be available: :ref:`entries`, :ref:`proteins` and :ref:`structures`.
 

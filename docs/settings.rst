@@ -27,8 +27,8 @@ Notification settings
 .. figure:: images/settings/settings-3-notifications.png
   :alt: The Notification settings
 
-- **Browser notifications**: this type of notifications are native to your browser, they allow the display of a notification outside the page. It is useful, for example, to let you know when an InterProScan search is completed. You can enable them by clicking the "Enable notifications" button. Unfortunately, we are not able to show a disable button because that change needs to be done from the setting of your browser directly.
-- **Help tooltips**: in-page tooltip notifications try to make more visible parts or functions of the website that we think are not so obvious like this setting page, for example. These parameters allow you a granular selection of which tips will be enabled or disabled.
+- **Browser notifications**: this type of notifications are native to your browser, they allow the display of a notification outside the page. It is useful, for example, to let you know when an InterProScan search is completed.
+- **Help Links**: in-page tooltip notifications, accessible through the (i) icon, try to make more visible parts or functions of the website that we think are not so obvious like this setting page, for example. These parameters allow you a granular selection of which tips will be enabled or disabled.
 
 
 User interface settings
@@ -57,7 +57,6 @@ Cache settings
 
 In order to speed up the website we keep a local cache in your browser. It includes the API responses, since the last release of InterPro, and it gets dropped when a new version is released. You can disable the cache or clear it if, for instance, you think it is corrupted and is not displaying the latest data.
 
-|
 
 Server settings
 ===============

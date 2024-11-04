@@ -47,7 +47,7 @@ Sequence search
 ***************
 
 A sequence or a batch of sequences of nucleotides or amino acids can be submitted in FASTA format in the 
-dedicated text area or by uploading a fasta file. The “**Advanced options**” allows users to select the 
+dedicated text area or by uploading a fasta file. The **Advanced options** allows users to select the 
 sequence type (protein -amino acids-, or RNA/DNA -nucleotides-), the InterPro member databases and other 
 sequence features of interest 
 to search against (by default they are all selected). The sequence search is performed using the 
@@ -65,65 +65,81 @@ when the job has been completed (this requires the browser notifications to be a
 Sequence search results
 =======================
 Results of a protein sequence search are available under the **Results** tab in the navigation menu under 
-**Your InterProScan Searches** section. This page displays the sequence searches you have 
-performed in the last seven days, with the most recent one being displayed at the top. The status 
+**Your InterProScan Searches** section. This page displays the sequence searches that have been
+performed in the last seven days, with the most recent one being displayed at the top. The *Status* 
 column gives an indication of whether or not the search has completed (green tick symbol / searching), if the 
 search has been saved locally (the results will still be available even after the seven days limit set up on 
-InterPro servers), or if the results have been imported (file symbol). 
-Clicking on the job id or on the text in the results column opens a page where the results are summarised in a 
-protein sequence viewer (more detailed information is provided for the :doc:`/protein_viewer`).
+InterPro servers), or if the results have been imported (file symbol). Searches can be deleted or saved locally 
+by clicking on the bin or file icon in the *Action* column, respectively.
 
 Previously ran searches can be imported either by typing the job ID in the **Import** text box, for searches 
 performed in the last seven days on our servers, or by uploading an :doc:`InterProScan </interproscan>` output 
-file in JSON format, the job is added to the Results table. If the second option is choosen and InterProScan was 
+file in JSON format, the job is added to the table. If the second option is chosen and InterProScan was 
 run using nucleotide sequences, a job result is created for each Open Reading Frame (ORF) and ORFs from the same 
-nucleotide sequence are grouped accordingly. 
+nucleotide sequence are grouped accordingly.
 This import feature can be used by users requiring to have InterProScan graphic output formats for publications 
 and other uses.
 
-When a search has been run using a previous version of InterProScan, it can be re-run using the latest 
-version of the software.
-When a batch of sequences has been submitted, group actions allow to Delete All, Re-run All, and Download All the 
-submitted sequences at once. If the search has been run in the last seven days, the results can be downloaded in JSON, XML
-and TSV formats, thereafter, if the search has been saved locally, the results are only available in JSON format.
-
-.. figure:: images/search/InterPro_rtd_list_jobs.png
-  :alt: Sequence search result
+.. figure:: images/search/interpro_rtd_list_jobs.png
+  :alt: Sequence search list
   :width: 800px
 
-  Summary of sequence searches jobs.
+  Summary of sequence searches.
+
+Clicking on the job ID or on the text in the *Results* column opens a page summarising the search, including the 
+sequence type, number of sequences, status and expiry date (see figure below).
+When a search has been run using a previous version of InterProScan, it can be re-run using the latest 
+version of the software by clicking on the **Resubmit All** button. If the search has been run in the last seven 
+days, the results can be saved in the browser to be able to access them once the seven days limit has been reached 
+by clicking on the **Save results in Browser** button.
+The results can be downloaded by clicking on the **Download** button. If the search has been run in the last seven days
+the results can be downloaded in TSV, JSON, XML and GFF formats, thereafter, if the search has been saved locally, 
+the results are only available in JSON format.
+
+.. figure:: images/search/interpro_rtd_seq_list.png
+  :alt: InterProScan search results (Sequences) page
+  :width: 800px
+
+  InterProScan search results (Sequences) page.
+
+All the submitted sequences are listed in a table. Clicking on the name in the **Sequence** column allows to 
+access the results summarised in a protein sequence viewer (see figure below).
 
 .. figure:: images/search/sequence_search_result.png
   :alt: Sequence search viewer
   :width: 800px
 
-  Example of protein sequence viewer as displayed in the search result page.
+  Example of protein sequence viewer as displayed on the InterProScan search results page.
 
 .. Example protein used: P02936
 
-On the search results page, some general information on the submitted sequence is provided, 
+On the results page, some general information about the submitted sequence is provided, 
 followed by the predicted InterPro protein family membership when available ([1] in the figure above).
-The search can be saved by clicking on the **Save in Browser** button. The status will be changed to "**Imported file**".
-This means that the results will be available behind the usual seven days limit on the browser and machine the save 
-has been done, and will only be deleted if the user deletes the job by clicking on the bin icon.
 
 The sequence submitted is shown in its full length at the top of the protein sequence viewer (grey bar) [2]. 
-This is followed by a summary of the representative domains composing the protein, when available [3]. 
-InterPro entries and signatures matches are displayed in categories classified by :ref:`entry_types`. 
-Each coloured bar represents a domain, protein family, or important site that has been 
+InterPro entries and signatures matches are displayed in categories: Families, Domains, Conserved residues, Unintegrated 
+and Other features.
+Each coloured bar represents a protein family, a domain or important site that has been 
 matched to part or all the length of the submitted protein sequence. 
 
-- The top coloured bar represents the InterPro entry [4a, 5a].
-- Directly below the InterPro entry, additional coloured bars display the member database signatures that contributed to that InterPro entry [4b, 5b]. 
+On the right-hand side of the match, if a signature has been integrated in an InterPro entry, the later is shown [3a, 5a].
+Directly below the InterPro entry, the member database signatures that contributed to that InterPro entry are shown [3b, 5b]. 
 
-In the example above, four InterPro entries (1 family and 3 domain entries) have been found matching the 
-submitted sequence. The first InterPro entry is for a protein family [4a], containing two member database 
-signatures, in this case from Prosite (PR01022) and HAMAP (MF_00842)[4b]. The following three InterPro matches are domains. 
-The top InterPro domain entry [5a] contains signatures from 3 member databases (Pfam, CDD and Prosite) 
-[5b] which all represent the same domain. The remaining two InterPro domains contain one member database signature.
+In the Domains category, representative domains are displayed at the top [4].
 
-Looking at the **Other features** section, we also learn that the protein has a signal peptide at its N-terminal end.
-CDD also provides per residue annotations which are displayed in the corresponding category at the bottom of the viewer [6].
+In the example above, seven InterPro entries (2 families, 3 domains, 2 homologous superfamilies entries) have been found matching the 
+submitted sequence. The first InterPro entry is for a protein family [3a], containing two member database 
+signatures, in this case from Prosite (PR01022) and HAMAP (MF_00842)[3b], the other family contains 1 PANTHER signature. 
+The following 2 InterPro matches are Homologous superfamilies, containing 1 and two member database signatures, respectively.
+The last 3 InterPro matches are domains. The first two InterPro domains contain one member database signature each. 
+The last InterPro domain entry [5a] contains signatures from 3 member databases (Pfam, CDD and Prosite) [5b] which all represent the 
+same domain. 
+
+Member database signatures not integrated in InterPro entries are displayed under the **Unintegrated** category.
+
+CDD also provides per residue annotations which are displayed in the **Conserved residues** category [6].
+Looking at the **Other features** category, we also learn that the protein has a signal peptide at its N-terminal end.
+
 
 Additionally to the InterPro matches, information about the GO terms associated to the InterPro entries and PANTHER signatures matching the protein 
 are displayed below the sequence viewer when available. The GO terms are assigned manually to InterPro entries using on 
@@ -135,7 +151,7 @@ the `Gene Ontology <http://geneontology.org/>`_ and reflect the Biological proce
 Text search
 ***********
 
-The text search is available by selecting the “By Text**” section under the **Search** tab in the website menu. 
+The text search is available by selecting the “By Text” section under the **Search** tab in the website menu. 
 The text search allows to search the following information in the database:
 
 - Name or keyword (e.g. `Afadin <https://www.ebi.ac.uk/interpro/search/text/Afadin/?page=1#table>`_)
@@ -212,7 +228,7 @@ The browse search page can be accessed by clicking on the Browse tab in the :ref
 The browse search provides a powerful functionality to select subsets of data available in InterPro by 
 selecting filters according to the results required. For example, this page can be used to browse all 
 entries which have a contributing signature from a particular member database e.g. HAMAP, or to retrieve 
-all proteins from a certain taxon, e.g. *Escherichia coli*, that contain a specific domain eg OmpA-like domain.
+all proteins from a certain taxon, e.g. *Escherichia coli*, that contain a specific domain e.g. OmpA-like domain.
 
 Below we describe how to use the browse search feature:
 
@@ -296,11 +312,14 @@ When **Browse by InterPro** is selected, three filter types can be applied:
 - **InterPro Type**: limits the data in the :ref:`data views <data_views>` to the selected :ref:`entry_types`.
 - **GO Terms**: filters by selected GO terms from `InterPro2GO <https://www.ebi.ac.uk/GOA/InterPro2GO>`_.
 - **New entries**: shows all the entries or only the entries created or made available in the most recent release.
+- **Curation status**, show all the entries or show:
 
-|
-|
-|
-|
+  - **Curated**: entries that have been created by an InterPro curator
+  - **AI-generated (unreviewed)**: entries that have been created automatically by Artificial Intelligence
+  - **AI-generated (reviewed)**: entries that have been created automatically by Artificial Intelligence for which the content has been verified by an InterPro curator
+
+:doc:`More information about AI-generated content on the InterPro website. <llm_descriptions>`
+
 |
 |
 |
@@ -328,15 +347,14 @@ Member database filters
 When **Browse by Member DB** is selected and a member database has been chosen, subsequent filters can be applied:
 
 - **Member Database Entry Type**: select the types of signatures required. This is dependent on the database type selected. For example, if a database contains both domains and family signatures you can filter the results for a specific type.
-- **InterPro state**: select all signatures from the selected database or only those signatures that have been integrated into InterPro. 
+- **InterPro state**: select all signatures from the selected database or only those signatures that have been integrated into InterPro.
+- **Curation status**, show all the signatures or show:
 
-|
-|
-|
-|
-|
-|
-|
+  - **Curated**: signatures for which the name and description have been created by a scientific curator.
+  - **AI-generated (unreviewed)**: signatures for which the name and description have been created automatically by Artificial Intelligence.
+
+:doc:`More information about AI-generated content on the InterPro website. <llm_descriptions>`
+
 |
 |
 |

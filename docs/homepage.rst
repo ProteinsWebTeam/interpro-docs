@@ -84,8 +84,9 @@ The search section (section 2 in the figure above) shows a multifunctional searc
 which allows the selection of one of the five types of search supported by InterPro. More 
 details about searching are available on the :doc:`/searchways` section.
 
-.. figure:: images/homepage/homepage_search.png
-..   :alt: Homepage search component
+.. figure:: images/search/seq.png
+  :alt: Sequence search component
+  :width: 800px
 
 .. _Data:
 

@@ -26,8 +26,8 @@ in the :ref:`navigation menu <navigation_menu>`. This page is divided into multi
 Export button
 *************
 
-.. figure:: images/browse/export.png
-    :alt: Export data 
+.. figure:: images/browse/download.png
+    :alt: Download data 
     :width: 200px
     :align: left
 
@@ -35,9 +35,9 @@ The export button, found on various entry pages in InterPro, is located next to 
 :ref:`text filter <text_filter>` at the top of result tables. It allows data to be 
 downloaded as JSON or Tab Separated Values (TSV). The data sent from the :ref:`api` to 
 populate the table can also be viewed using this component.
-When the file to generate is too big (bigger than 10K entities) we recommend to use a 
-script to get the information from the API. See :ref:`your_downloads` for more information 
-on how to generate a script.
+When the file to generate is too big (bigger than 10K entities) we recommend to use 
+the `Script generator <https://www.ebi.ac.uk/interpro/result/download/#/entry/InterPro/|accession>`_ 
+described in the section below to get the information from the API.
 
 |
 
@@ -82,8 +82,8 @@ page will start the downloading.
 
 Programming scripts
 ===================
-The script can be generated in 4 different languages: Python 2, Python 3, JavaScript and 
-Perl, it allows the download of the filtered data directly from the :ref:`InterPro API <api>` 
+The script can be generated in 4 different languages: Python 3, Perl and JavaScript, 
+it allows the download of the filtered data directly from the :ref:`InterPro API <api>` 
 and can be integrated in the users own program.
 
 .. _api:

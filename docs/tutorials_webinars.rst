@@ -35,4 +35,3 @@ Recorded webinars related to InterPro are available online:
 - `Understanding InterPro families, domains and functions <https://www.ebi.ac.uk/training/events/understanding-interpro-families-domains-and-functions/>`_
 - `Using the InterPro website in your research <https://www.ebi.ac.uk/training/events/using-interpro-website-your-research/>`_
 - `Accessing InterPro programmatically <https://www.ebi.ac.uk/training/events/accessing-interpro-programmatically/>`_
-- `InterProScan <https://www.ebi.ac.uk/training/events/interproscan/>`_

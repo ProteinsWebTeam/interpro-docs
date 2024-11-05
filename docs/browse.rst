@@ -303,8 +303,7 @@ when available to complete the description.
     InterPro member database page for Pfam signature `PF00040 <https://www.ebi.ac.uk/interpro/entry/pfam/PF00040/>`_.
 
 In addition to the :ref:`proteins`, :ref:`taxonomy`, :ref:`proteomes` and :ref:`structures` tabs, member database 
-pages may also display information in the following additional tabs: :ref:`ida`, :ref:`alphafold1`, :ref:`signature`, :ref:`alignment` 
-and :ref:`curation`. 
+pages may also display information in the following additional tabs: :ref:`ida`, :ref:`alphafold1`, :ref:`profile_hmm` and :ref:`alignment`. 
 
 .. _profile_hmm:
 
@@ -535,7 +534,7 @@ provides literature references, when available.
     Set entry page for `cl00011 <https://www.ebi.ac.uk/interpro/set/all/cl00011/>`_ (CDD)
 
 The following tabs may be available: :ref:`set_entries`, :ref:`proteins`, :ref:`structures`, 
-:ref:`taxonomy`, :ref:`proteomes` and :ref:`alignment_clan`.
+:ref:`taxonomy` and :ref:`proteomes`.
 
 .. _set_entries:
 

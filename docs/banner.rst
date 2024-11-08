@@ -26,8 +26,7 @@ The navigation banner contains:
 Navigation menu tabs
 ====================
 :doc:`Home </homepage>`, :doc:`Search </searchways>`, :ref:`Browse <browse_feature>`, 
-:ref:`Results <sequence_search_results>`, :doc:`/release_notes`, :ref:`Download <bulk_download>`, 
-Help, About and Contact us.
+:ref:`Results <sequence_search_results>`, :doc:`/release_notes`, :ref:`Download <bulk_download>` and Help.
 
 Quick search box
 ================

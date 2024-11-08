@@ -41,7 +41,7 @@ Translation
 ===========
 
 We are looking for volunteers to help us translate the game in different languages to increase its accessibility.
-Please `contact us <typhaine@ebi.ac.uk>`_ if this is something you'd like to do.
+Please `contact us <https://www.ebi.ac.uk/about/contact/support/interpro>`_ if this is something you'd like to do.
 
 *************************
 Understanding the biology

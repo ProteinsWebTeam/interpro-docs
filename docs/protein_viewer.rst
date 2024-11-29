@@ -51,7 +51,7 @@ Various options, make it easy to work with (as illustrated in the figure above):
   b. Dragging the grey scale at the top to the desired positions on both left and right sides
   c. Pressing the [Ctrl] key and scroll through the viewer 
 
-3. The viewer can be expended to display all the annotations by clicking on **Show all annotations** (you can try it for `P05067 <https://www.ebi.ac.uk/interpro/protein/UniProt/P05067/>`_ shown in the figure above). Data include, when available:
+3. The viewer can be collapsed or expended to display a summary (default) or the full list of annotations by selecting the relevant option under **Feature Display Mode**. The selected view preference is saved in your browser settings, ensuring consistent display throughout the website (you can try it for `P05067 <https://www.ebi.ac.uk/interpro/protein/UniProt/P05067/>`_ shown in the figure above). Data included in the Full view, when available:
 
 - Expended view of the Families and Domains matches
 - Conserved sites

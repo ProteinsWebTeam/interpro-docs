@@ -69,7 +69,7 @@ Overlapping entries
 *******************
 Relationships between homologous superfamilies and either family or domain entries are generated automatically using the 
 Jaccard and containment indexes. These relationships are shown in the Overlapping homologous superfamilies/Overlapping 
-entries section on the InterPro entry pages. More information is available in the corresponding `train online section <https://www.ebi.ac.uk/training/online/course/genome3d-annotations-interpro/homologous-superfamily-entry-type-in-interpro/what-are-overlapping-entries/>`_.
+entries section on the InterPro entry pages. More information is available in the corresponding `train online section <https://www.ebi.ac.uk/training/online/courses/interpro-functional-and-structural-analysis/what-is-an-interpro-entry/overlapping-homologous-superfamilies/>`_.
 
 **********
 Ontologies

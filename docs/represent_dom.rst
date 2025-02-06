@@ -20,7 +20,7 @@ The selection of representative domains follows a systematic approach that begin
 
 The next step groups candidate domain and repeat signatures that overlap along the protein sequence.
 
-Within each group of overlapping signatures, the system selects the longest signature as the representative domain. The length is determined by calculating the number of positions the signature covers on the protein sequence. This approach ensures that the most comprehensive domain annotation is chosen to represent each region.
+Within each group of overlapping signatures, we first narrow down the candidates to the top 20 domains based on the extent of protein coverage. Then, we explore different ways to combine these domains, allowing only combinations where domains either do not overlap or overlap by less than 30% of the shorter domain’s length. Each potential combination is evaluated by the total number of unique residue positions it covers across the protein sequence. The combination that covers the most unique residue positions is then marked as the representative set of domains.
 
 .. note::
     It's important to note that the representative domain selection is protein-specific, meaning that the same signature might be selected as representative in one protein but not in another. This dynamic selection ensures the most appropriate representation for each specific protein context, taking into account the unique characteristics and structure of each protein.

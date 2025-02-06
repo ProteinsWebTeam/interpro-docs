@@ -64,86 +64,73 @@ when the job has been completed (this requires the browser notifications to be a
 
 Sequence search results
 =======================
-Results of a protein sequence search are available under the **Results** tab in the navigation menu under 
-**Your InterProScan Searches** section. This page displays the sequence searches that have been
-performed in the last seven days, with the most recent one being displayed at the top. The *Status* 
-column gives an indication of whether or not the search has completed (green tick symbol / searching), if the 
-search has been saved locally (the results will still be available even after the seven days limit set up on 
-InterPro servers), or if the results have been imported (file symbol). Searches can be deleted or saved locally 
-by clicking on the bin or file icon in the *Action* column, respectively.
 
-Previously ran searches can be imported either by typing the job ID in the **Import** text box, for searches 
-performed in the last seven days on our servers, or by uploading an :doc:`InterProScan </interproscan>` output 
-file in JSON format, the job is added to the table. If the second option is chosen and InterProScan was 
-run using nucleotide sequences, a job result is created for each Open Reading Frame (ORF) and ORFs from the same 
-nucleotide sequence are grouped accordingly.
-This import feature can be used by users requiring to have InterProScan graphic output formats for publications 
-and other uses.
+Accessing results
+-----------------
+Protein sequence search results can be found under the **Results** tab within the **Your InterProScan Searches** section of the navigation menu. This page presents sequence searches performed within the past seven days, with the most recent searches appearing at the top of the list.
+
+Search status and management
+----------------------------
+The **Status** column provides information about the search state through visual indicators. A green tick symbol indicates a completed search, whilst a searching symbol shows an in-progress search. A file symbol denotes either locally saved searches or imported results. Users can manage their searches through the **Action** column, which provides options to delete searches (bin icon) or save them locally (file icon).
 
 .. figure:: images/search/interpro_rtd_list_jobs.png
-  :alt: Sequence search list
-  :width: 800px
+   :alt: Sequence search list
+   :width: 800px
 
-  Summary of sequence searches.
+   Summary of sequence searches.
 
-Clicking on the job ID or on the text in the *Results* column opens a page summarising the search, including the 
-sequence type, number of sequences, status and expiry date (see figure below).
-When a search has been run using a previous version of InterProScan, it can be re-run using the latest 
-version of the software by clicking on the **Resubmit All** button. If the search has been run in the last seven 
-days, the results can be saved in the browser to be able to access them once the seven days limit has been reached 
-by clicking on the **Save results in Browser** button.
-The results can be downloaded by clicking on the **Download** button. If the search has been run in the last seven days
-the results can be downloaded in TSV, JSON, XML and GFF formats, thereafter, if the search has been saved locally, 
-the results are only available in JSON format.
+Importing previous searches
+---------------------------
+Users can import previous searches through two methods. The first method involves entering the job ID for searches conducted within the last seven days on InterPro servers. Alternatively, users can upload an InterProScan output file in JSON format. When importing nucleotide sequence searches, the system creates separate job results for each Open Reading Frame (ORF), with ORFs from the same sequence automatically grouped together. This feature is particularly useful for users requiring InterProScan graphic output formats for publications and other purposes.
+
+Search results summary
+----------------------
+Selecting a job ID or entry in the **Results** column reveals detailed information about the search, including the sequence type, number of sequences analysed, current status, and expiry date. Users can perform several actions on their search results. The **Resubmit All** button allows running searches again using the latest InterProScan version. To retain results beyond the standard seven-day period, users can select **Save results in Browser**.
 
 .. figure:: images/search/interpro_rtd_seq_list.png
-  :alt: InterProScan search results (Sequences) page
-  :width: 800px
+   :alt: InterProScan search results (Sequences) page
+   :width: 800px
 
-  InterProScan search results (Sequences) page.
+   InterProScan search results (Sequences) page.
 
-All the submitted sequences are listed in a table. Clicking on the name in the **Sequence** column allows to 
-access the results summarised in a protein sequence viewer (see figure below).
+Result export options
+---------------------
+Search results can be exported using the **Download** button. Within the first seven days, users can choose from multiple format options including TSV, JSON, XML, and GFF. For searches saved locally after the seven-day period, results remain available in JSON format only.
 
-.. figure:: images/search/sequence_search_result.png
-  :alt: Sequence search viewer
-  :width: 800px
+Sequence viewer interface
+-------------------------
+The sequence viewer displays the full-length sequence as a grey bar at the top of the interface, followed by InterPro matches organised into categories such as Families, Domains, and Conserved residues. Users can choose between two display modes: Summary View and Full View. The Summary View presents a condensed overview showing Families, a simplified domain representation, and Conserved sites, whilst the Full View reveals all available annotations.
 
-  Example of protein sequence viewer as displayed on the InterProScan search results page.
+Match visualisation
+-------------------
+Each match in the viewer is represented by colour-coded bars indicating protein families, domains, or important sites. When a signature has been integrated into an InterPro entry, the entry appears above its contributing database signatures, on the right-hand side of the viewer. Non-integrated database signatures have the **Unintegrated** label displayed on the right-hand side of the viewer. InterProScan does not specify signature types for unintegrated signatures. When a signature lacks a consistent type and is not integrated into an InterPro entry, it is displayed in the **Unintegrated** category.
+
+Additional features and annotations
+-----------------------------------
+The viewer includes conserved residue annotations, signal peptide and Transmembrane region information when available. Below the sequence viewer, users can find GO terms associated with matching InterPro entries and PANTHER signatures. The GO terms are assigned manually to InterPro entries using on the `Gene Ontology <http://geneontology.org/>`_ and provide insights into the protein's biological process, molecular function, and cellular location.
+
+Example of a protein sequence analysis
+--------------------------------------
+Let's imagine you would like to analyse the following protein sequence:
 
 .. Example protein used: P02936
 
-On the results page, some general information about the submitted sequence is provided, 
-followed by the predicted InterPro protein family membership when available ([1] in the figure above).
+.. code-block:: json
 
-The sequence submitted is shown in its full length at the top of the protein sequence viewer (grey bar) [2]. 
-InterPro entries and signatures matches are displayed in categories: Families, Domains, Conserved residues, Unintegrated 
-and Other features.
-Each coloured bar represents a protein family, a domain or important site that has been 
-matched to part or all the length of the submitted protein sequence. 
+   >my_protein
+   MKKTAIAIAVALAGFATVAQAAPKDNTWYAGAKLGWSQYHDTGFIHNDGPTHENQLGAGAFGGYQVNPYVGFEMGYDWLG
+   RMPYKGDNINGAYKAQGVQLTAKLGYPITDDLDVYTRLGGMVWRADTKSNVPGGPSTKDHDTGVSPVFAGGIEYAITPEI
+   ATRLEYQWTNNIGDANTIGTRPDNGLLSVGVSYRFGQQEAAPVVAPAPAPAPEVQTKHFTLKSDVLFNFNKSTLKPEGQQ
+   ALDQLYSQLSNLDPKDGSVVVLGFTDRIGSDAYNQGLSEKRAQSVVDYLISKGIPSDKISARGMGESNPVTGNTCDNVKP
+   RAALIDCLAPDRRVEIEVKGVKDVVTQPQA
 
-On the right-hand side of the match, if a signature has been integrated in an InterPro entry, the later is shown [3a, 5a].
-Directly below the InterPro entry, the member database signatures that contributed to that InterPro entry are shown [3b, 5b]. 
+The sequence viewer reveals several InterPro entries including two families (F), three domains (D), and two homologous superfamilies (H). The first family entry contains signatures from both Prosite (PR01022) and HAMAP (MF_00842), whilst subsequent entries show various combinations of database signatures. The protein contains two domains: an N-terminal OmpA_membrane and a C-terminal OMPA_2. To learn more about each domain's function, hover over it to display a tooltip and click the InterPro accession. Additional features include N-terminal signal peptide identification and specific conserved residue annotations towards the C-terminal, provided by CDD.
 
-In the Domains category, representative domains are displayed at the top [4].
+.. figure:: images/search/sequence_search_result.png
+   :alt: Sequence search viewer
+   :width: 800px
 
-In the example above, seven InterPro entries (2 families, 3 domains, 2 homologous superfamilies entries) have been found matching the 
-submitted sequence. The first InterPro entry is for a protein family [3a], containing two member database 
-signatures, in this case from Prosite (PR01022) and HAMAP (MF_00842)[3b], the other family contains 1 PANTHER signature. 
-The following 2 InterPro matches are Homologous superfamilies, containing 1 and two member database signatures, respectively.
-The last 3 InterPro matches are domains. The first two InterPro domains contain one member database signature each. 
-The last InterPro domain entry [5a] contains signatures from 3 member databases (Pfam, CDD and Prosite) [5b] which all represent the 
-same domain. 
-
-Member database signatures not integrated in InterPro entries are displayed under the **Unintegrated** category.
-
-CDD also provides per residue annotations which are displayed in the **Conserved residues** category [6].
-Looking at the **Other features** category, we also learn that the protein has a signal peptide at its N-terminal end.
-
-
-Additionally to the InterPro matches, information about the GO terms associated to the InterPro entries and PANTHER signatures matching the protein 
-are displayed below the sequence viewer when available. The GO terms are assigned manually to InterPro entries using on 
-the `Gene Ontology <http://geneontology.org/>`_ and reflect the Biological process, Molecular function or Cellular location the protein may have.
+   Sequence viewer displaying the results of the sequence search.
 
 .. _text_search:
 

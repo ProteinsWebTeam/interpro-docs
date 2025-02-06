@@ -1,12 +1,6 @@
-***********************
+#######################
 Protein sequence viewer
-***********************
-
-.. :ref:sequence_search searchways.html#sequence-search
-.. :ref:protein_page browse.html#protein-page
-.. :ref:structure_page browse.html#structure-page
-.. :ref:entry_types entries_info.html#entry-types
-.. :ref:signature browse.html#signature
+#######################
 
 A common element on several InterPro website pages is the protein sequence viewer (in the 
 :ref:`sequence search result <sequence_search>`, on the :ref:`protein <protein_page>` and 
@@ -24,10 +18,8 @@ from `MobiDB <https://www.mobidb.org/>`_ [8],
 conserved residues provided by the CDD, SFLD and PIRSR databases [9] and pathogenic variants [10] are also displayed when available.
 
 The top line in the *Domains* track shows a summary of the domains that compose the protein. This representation is 
-generated automatically using the type of the member databases models, which might differ from the InterPro entries types. 
-When multiple models are overlapping, the representative domain is chosen by selecting the model covering the longest 
-region of the protein. Be aware that in case of models made of multiple fragments, not all the fragments are necessarily 
-chosen as representative, they are considered as individual entities for the selection.
+generated automatically using the type of the member databases models, which might differ from the InterPro entries types. More information about the selection process can be found in the :doc:`represent_dom` page.
+
 
 Information about pathogenic and likely pathogenic residue variants in protein sequences is available under the **Pathogenic And Likely 
 Pathogenic Variants** category of the viewer. Please note that the data can differ from the  data provided on the UniProt website as we 
@@ -57,6 +49,7 @@ Various options, make it easy to work with (as illustrated in the figure above):
 - Conserved sites
 - Coiled-coils from COILS, Signal peptides from `SignalP <https://services.healthtech.dtu.dk/service.php?SignalP-5.0>`_ and/or Phobius, Transmembrane regions from `Phobius <https://phobius.sbc.su.se/>`_ and/or `TMHMM <https://services.healthtech.dtu.dk/service.php?TMHMM-2.0>`_.
 - Cytoplasmic/non-cytoplasmic domains from Phobius
+- Post-translational modifications from `Pride <https://www.ebi.ac.uk/pride/>`_ and `Prosite <https://prosite.expasy.org/>`_
 - Spurious proteins from :doc:`AntiFam </antifam>`
 - `Pfam-N annotations <hxfam.wordpress.com/2024/05/31/pfam-n-version-3-enhancing-pfam-coverage-of-uniprot-with-computer-vision-deep-learning-techniques/>`_ result from a deep learning methodology developed by the Google Research team led by Dr Lucy Colwell to increase the Pfam coverage of protein sequences.
 - `Funfam <https://github.com/UCLOrengoGroup/cath-funfam-docs>`_, provided by CATH-Gene3D, is an automatically generated profile HMM database, with FunFams entries segregated by an entropy-based approach  that distinguishes different patterns of conserved residues, corresponding to differences in functional determinants.

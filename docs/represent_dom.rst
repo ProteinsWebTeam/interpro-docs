@@ -18,7 +18,7 @@ Selection process
 =================
 The selection of representative domains follows a systematic approach that begins with initial filtering of signatures. The system first narrows down the candidates by including only domain and repeat types from the eligible member databases listed above.
 
-The next step involves location-based grouping of the signatures. For each protein, the system sorts signatures according to their locations on the protein sequence. Signatures that share any positions on the protein sequence are considered overlapping and are grouped together for further processing.
+The next step groups candidate domain and repeat signatures that overlap along the protein sequence.
 
 Within each group of overlapping signatures, the system selects the longest signature as the representative domain. The length is determined by calculating the number of positions the signature covers on the protein sequence. This approach ensures that the most comprehensive domain annotation is chosen to represent each region.
 

@@ -368,9 +368,8 @@ The protein page provides the protein accession, the short name (identifier) giv
 of the protein sequence, species in which the protein is found, the proteome it belongs to, the gene encoding for the protein and a brief 
 description of the protein's function where known. All the :ref:`InterPro family entries <entry_types>` 
 this protein is matching are listed under "**Protein family membership**". An external link to the protein 
-entry in `Uniprot <https://www.uniprot.org/>`_, as well as the export of the matches in TSV format and the possibility 
-to perform a `HMMER search <https://www.ebi.ac.uk/Tools/hmmer/search/phmmer>`_ or an `InterProScan search <https://www.ebi.ac.uk/interpro/search/sequence/>`_
-are provided on the right hand side of the page.
+entry in `Uniprot <https://www.uniprot.org/>`_, as well as the export of the matches in TSV format and the possibility an `InterProScan search <https://www.ebi.ac.uk/interpro/search/sequence/>`_ for the full length or part of the protein sequence 
+is provided on the right hand side of the page.
 
 .. figure:: images/browse_pages/protein_entry_page.png
     :alt: Protein entry page 
@@ -415,10 +414,8 @@ This functionality is available for all the tables presenting InterPro entries i
 Sequence
 ========
 This tab shows the protein FASTA sequence. The full sequence or part of the sequence (by selecting the region 
-of interest) can be used to perform two types of search, available on the right side of the screen: 
-`InterProScan search <https://www.ebi.ac.uk/interpro/search/sequence/>`_ or 
-`HMMER search <https://www.ebi.ac.uk/Tools/hmmer/search/phmmer>`_, which redirects to the corresponding 
-pages.
+of interest) can be used to perform an
+`InterProScan search <https://www.ebi.ac.uk/interpro/search/sequence/>`_.
 
 .. _similar_proteins:
 
@@ -525,7 +522,7 @@ related, called sets/clans. This page offers an overview of a specific set/clan 
 it includes a short description and an interactive view of the signatures included in the set/clan. 
 For the interactive view, different label types can be chosen through the **Label Content** menu: 
 Accession, Name and Short name. For clans provided by the Pfam member database, an additional section 
-provides literature references, when available.
+provides literature references and/or Wikipedia articles, when available.
 
 .. figure:: images/browse_pages/set_page.png
     :alt: Set entry page 

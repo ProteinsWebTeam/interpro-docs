@@ -13,8 +13,6 @@ InterPro Documentation
 
   /interpro
   /citing
-  /tutorials_webinars
-  /training
   /entries_info
 
 .. toctree::
@@ -25,6 +23,7 @@ InterPro Documentation
   /homepage
   /searchways
   /protein_viewer
+  /represent_dom
   /browse
   /download
   /release_notes

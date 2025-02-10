@@ -17,6 +17,7 @@ Team members
 - `Tiago Grego <http://www.ebi.ac.uk/about/people/tiago-grego>`_ - Software Developer
 - `Emma Hobbs <https://www.embl.org/people/person/CP-60043055/>`_ - Bioinformatics Developer
 - `Beatriz Lazaro Pinto <http://www.ebi.ac.uk/about/people/beatriz-lazaro-pinto>`_ - Biocurator
+- `Nicole Morveli Flores <https://www.ebi.ac.uk/people/person/nicole-morveli/>`_ - Biocurator
 - `Typhaine Paysan-Lafosse <http://www.ebi.ac.uk/about/people/typhaine-paysan-lafosse>`_ - Curation Project Leader
 - `Agostino Alessandro Polignano <https://www.ebi.ac.uk/people/person/alessandro-polignano/>`_ Full Stack Web Developer
 

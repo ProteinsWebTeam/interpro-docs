@@ -449,7 +449,9 @@ Following, the general information section, a 3D viewer (powered by `Mol* <https
 of the 3D structure. Hovering over a residue displays the name of the entry, the chain and residue information below the viewer. 
 Clicking on a residue in the viewer induces a zoom in effect and displays contacts with surrounding residues, 
 clicking on the blank area around the structure zooms out.
-Below it, the :doc:`protein sequence viewer </protein_viewer>` with the InterPro matches is displayed for each chain. It has an extra category representing the secondary structure 
+Below it, the :doc:`protein sequence viewer </protein_viewer>` with the InterPro matches is displayed for each unique chain 
+(to avoid redundancy, if a structure contain several chains that are identical copies of the same protein, only one protein 
+sequence viewer will be displayed for this specific protein). This protein viewer has an extra category representing the secondary structure 
 information. Hovering over one of the tracks highlights the corresponding region of the protein structure 
 in the 3D structure viewer.
 

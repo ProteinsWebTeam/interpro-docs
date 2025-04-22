@@ -95,6 +95,25 @@ Representative Families selection
 
 The process for selecting representative families follows similar principles to domain selection, but considers signatures of type 'family' instead of 'domain', 'repeat' or 'homologous superfamily'. Like domain selection, it uses the signature type from member databases rather than the InterPro entry type. Representative families are selected from the following member databases: Pfam, PIRSF, PANTHER, NCBIfam, HAMAP and SFLD. When signatures overlap, the longest one is selected as representative, ensuring comprehensive coverage of the protein sequence.
 
+InterPro-N
+**********
+The presence of InterPro-N entries in the representative domains and families will depend on the **display matches** mode selected under the 
+**Options** dropdown on top of the protein sequence viewer:
+    - Default/Stacked. If InterPro matches are available, they are used for representative. If only InterPro-N matches are available, they are used for representative.
+    - InterPro only. InterPro is always used for representative.
+    - InterPro-N only. InterPro-N is always used for representative.
+
+InterPro-N annotations are distinguished by a leading sparkles icon (|sparkles_icon|) on the right hand label in the protein sequence viewer and by a top right 
+superscript (|InterPro-N_tag|) on the InterPro or member database accession number in the tooltip.
+
+.. |sparkles_icon| image:: images/icons/sparkles_icon.png
+  :alt: sparkles icon
+  :width: 18pt
+
+.. |InterPro-N_tag| image:: images/icons/InterPro-N_tag.png
+  :alt: InterPro-N tag
+  :width: 70pt
+
 Technical corner
 ****************
 

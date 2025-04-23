@@ -1,5 +1,5 @@
 Representative Domain and Family selection
-###############################
+##########################################
 
 InterPro selects representative domains and families from protein signatures to provide a non-redundant view of protein features. This section describes the selection criteria and process.
 
@@ -23,7 +23,7 @@ The next step groups candidate domain, repeat and homologous superfamily signatu
 Within each group of overlapping signatures, we first narrow down the candidates to the top 20 domains based on the extent of protein coverage. Then, we explore different ways to combine these domains, allowing only combinations where domains either do not overlap or overlap by less than 30% of the shorter domain’s length. Each potential combination is evaluated by the total number of unique residue positions it covers across the protein sequence. The combination that covers the most unique residue positions is then marked as the representative set of domains.
 
 .. note::
-    It's important to note that the representative domain selection is protein-specific, meaning that the same signature might be selected as representative in one protein but not in another. This dynamic selection ensures the most appropriate representation for each specific protein context, taking into account the unique characteristics and structure of each protein.
+    The representative domain selection is protein-specific, meaning that the same signature might be selected as representative in one protein but not in another. This dynamic selection ensures the most appropriate representation for each specific protein context, taking into account the unique characteristics and structure of each protein.
 
 Key considerations
 ==================
@@ -97,20 +97,21 @@ The process for selecting representative families follows similar principles to 
 
 InterPro-N
 **********
-The presence of InterPro-N entries in the representative domains and families will depend on the **display matches** mode selected under the 
+The presence of InterPro-N entries in the representative domains and families will depend on the **Display matches** mode selected under the 
 **Options** dropdown on top of the protein sequence viewer:
-    - Default/Stacked. If InterPro matches are available, they are used for representative. If only InterPro-N matches are available, they are used for representative.
-    - InterPro only. InterPro is always used for representative.
-    - InterPro-N only. InterPro-N is always used for representative.
+
+    - Default/Stacked: if InterPro or InterPro-N matches are used for representative.
+    - InterPro only: InterPro matches are used for representative.
+    - InterPro-N only: InterPro-N are used for representative.
 
 InterPro-N annotations are distinguished by a leading sparkles icon (|sparkles_icon|) on the right hand label in the protein sequence viewer and by a top right 
-superscript (|InterPro-N_tag|) on the InterPro or member database accession number in the tooltip.
+superscript (|interpro-n_tag|) on the InterPro or member database accession number in the tooltip.
 
 .. |sparkles_icon| image:: images/icons/sparkles_icon.png
   :alt: sparkles icon
   :width: 18pt
 
-.. |InterPro-N_tag| image:: images/icons/InterPro-N_tag.png
+.. |interpro-n_tag| image:: images/icons/interpro-n_tag.png
   :alt: InterPro-N tag
   :width: 70pt
 

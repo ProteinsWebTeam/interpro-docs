@@ -82,7 +82,7 @@ of the documentation.
 
 Additional tabs in the left-hand side menu provide further information about the entry, and are displayed when 
 the data is available. Types of data that may be available in the menu of an InterPro entry page include: :ref:`proteins`, :ref:`ida`, 
-:ref:`taxonomy`, :ref:`proteomes`, :ref:`structures`, :ref:`alphafold1`, :ref:`pathways` and :ref:`interactions`.
+:ref:`taxonomy`, :ref:`proteomes`, :ref:`structures`, :ref:`alphafold1`, , :ref:`pBFVD`, :ref:`pathways` and :ref:`interactions`.
 
 Although most InterPro entries remain carefully reviewed by our curators, some type Family entries containing signatures from PANTHER, NCBIfam or CATH-Gene3D which cover approximately the whole protein length are AI-generated. For these entries, the name, short-name and description have been generated automatically 
 using a Large Language Model. All AI-generated content is flagged as such with an |AI_tag| tag. Please note that this content may not have been subjected to 
@@ -167,7 +167,7 @@ In the table views, for each organism, the taxonomy identifier and protein count
 - View the taxonomy information in the :ref:`taxonomy_page`
 
 If the first option is selected, a table with all the corresponding proteins is displayed. For each protein, we can see the UniProt ID, name, corresponding 
-gene, the organism where it is found, a link to the protein :ref:`AlphaFold structure prediction <alphafold1>` and a small protein viewer that highlights 
+gene, the organism where it is found, a link to the protein structure prediction (:ref:`alphafold1` or :ref:`pBFVD`) and a small protein viewer that highlights 
 the region of the protein matched by the InterPro entry.
 
 .. _proteomes:
@@ -323,7 +323,7 @@ when available to complete the description.
     InterPro member database page for Pfam signature `PF00040 <https://www.ebi.ac.uk/interpro/entry/pfam/PF00040/>`_.
 
 In addition to the :ref:`proteins`, :ref:`taxonomy`, :ref:`proteomes` and :ref:`structures` tabs, member database 
-pages may also display information in the following additional tabs: :ref:`ida`, :ref:`alphafold1`, :ref:`profile_hmm` and :ref:`alignment`. 
+pages may also display information in the following additional tabs: :ref:`ida`, :ref:`alphafold1`, :ref:`pBFVD`, :ref:`profile_hmm` and :ref:`alignment`. 
 
 .. _profile_hmm:
 
@@ -413,8 +413,8 @@ GO terms provide information about Biological processes, Molecular function and 
   :alt: Split icon
   :width: 15pt
 
-The following tabs may be available: :ref:`entries`, :ref:`structures`, :ref:`sequence`, :ref:`similar_proteins` 
-and :ref:`alphafold1`.
+The following tabs may be available: :ref:`entries`, :ref:`structures`, 
+:ref:`sequence`, :ref:`similar_proteins`, :ref:`alphafold1` and :ref:`pBFVD`.
 
 .. _entries:
 
@@ -445,7 +445,7 @@ List of proteins that have the same domain architecture as this protein, includi
 for each domain.
 The list can be filtered to either show all the protein matches or only the reviewed proteins from 
 `UniProt <https://www.uniprot.org/>`_. For each protein the UniProt ID, name, length, corresponding gene, the 
-organism where it is found and a link to the protein :ref:`AlphaFold structure prediction page <alphafold1>`.
+organism where it is found and a link to the protein structure prediction page (:ref:`alphafold1` or :ref:`pBFVD`).
 
 .. _structure_page:
 

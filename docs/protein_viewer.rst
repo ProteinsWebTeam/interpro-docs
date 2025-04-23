@@ -14,7 +14,7 @@ and in the :ref:`AlphaFold subpage <alphafold1>` or :ref:`BFVD subpage <pBFVD>` 
 By default, a summarised view of the InterPro entries (IPR) and member database signatures matches is displayed.
 It provides information about the protein family membership in the Families category ([6] in the figure below, only 
 the representative families are shown), the different domains that compose the protein in the Domains category (both 
-the representative domains  and the `TED domains <https://ted.cathdb.info/>`_ are shown) [7], Intrinsically disordered regions from 
+the representative domains and the `TED domains <https://ted.cathdb.info/>`_ are shown) [7], Intrinsically disordered regions from 
 `MobiDB-lite <https://www.mobidb.org/>`_ and `DisProt <https://www.disprot.org/>`_ [8], conserved residues provided by 
 the CDD, SFLD and PIRSR databases [9] and pathogenic variants [10] are also displayed when available.
 

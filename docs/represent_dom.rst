@@ -1,5 +1,5 @@
 Representative Domain and Family selection
-###############################
+##########################################
 
 InterPro selects representative domains and families from protein signatures to provide a non-redundant view of protein features. This section describes the selection criteria and process.
 
@@ -8,22 +8,22 @@ Representative Domain selection
 
 Member database type filtering
 ==============================
-The selection process begins by filtering protein signatures based on their signature type in the member database. Only signatures classified as domains or repeats are considered for representative domain selection, while other types such as families and sites are excluded from this process. It's important to note that this signature type may differ from the InterPro entry type in which the signature has been integrated. The representative domain selection strictly uses the original signature type from the member database, not the InterPro entry type. This approach maximizes the coverage of protein length by considering all eligible signatures, including those that haven't been integrated into InterPro entries.
+The selection process begins by filtering protein signatures based on their signature type in the member database. Only signatures classified as domains, repeats or homologous superfamily are considered for representative domain selection, while other types such as families and sites are excluded from this process. It's important to note that this signature type may differ from the InterPro entry type in which the signature has been integrated. The representative domain selection strictly uses the original signature type from the member database, not the InterPro entry type. This approach maximizes the coverage of protein length by considering all eligible signatures, including those that haven't been integrated into InterPro entries.
 
 Eligible member databases
 =========================
-Representative domains are selected exclusively from a specific set of member databases: Pfam, CDD, PROSITE profiles, SMART, and NCBIfam. These databases have been chosen based on their reliability and coverage of domain annotations.
+Representative domains are selected exclusively from a specific set of member databases: Pfam, CDD, PROSITE profiles, SMART, NCBIfam, CATH-Gene3D and SUPERFAMILY. These databases have been chosen based on their reliability and coverage of domain annotations.
 
 Selection process
 =================
-The selection of representative domains follows a systematic approach that begins with initial filtering of signatures. The system first narrows down the candidates by including only domain and repeat types from the eligible member databases listed above.
+The selection of representative domains follows a systematic approach that begins with initial filtering of signatures. The system first narrows down the candidates by including only domain, repeat and homologous superfamily types from the eligible member databases listed above.
 
-The next step groups candidate domain and repeat signatures that overlap along the protein sequence.
+The next step groups candidate domain, repeat and homologous superfamily signatures that overlap along the protein sequence.
 
 Within each group of overlapping signatures, we first narrow down the candidates to the top 20 domains based on the extent of protein coverage. Then, we explore different ways to combine these domains, allowing only combinations where domains either do not overlap or overlap by less than 30% of the shorter domain’s length. Each potential combination is evaluated by the total number of unique residue positions it covers across the protein sequence. The combination that covers the most unique residue positions is then marked as the representative set of domains.
 
 .. note::
-    It's important to note that the representative domain selection is protein-specific, meaning that the same signature might be selected as representative in one protein but not in another. This dynamic selection ensures the most appropriate representation for each specific protein context, taking into account the unique characteristics and structure of each protein.
+    The representative domain selection is protein-specific, meaning that the same signature might be selected as representative in one protein but not in another. This dynamic selection ensures the most appropriate representation for each specific protein context, taking into account the unique characteristics and structure of each protein.
 
 Key considerations
 ==================
@@ -93,7 +93,27 @@ The diagram above illustrates how overlapping domains are grouped and representa
 Representative Families selection
 *********************************
 
-The process for selecting representative families follows similar principles to domain selection, but considers signatures of type 'family' instead of 'domain' or 'repeat'. Like domain selection, it uses the signature type from member databases rather than the InterPro entry type. Representative families are selected from the following member databases: Pfam, PIRSF, PANTHER, NCBIfam, HAMAP and SFLD. When signatures overlap, the longest one is selected as representative, ensuring comprehensive coverage of the protein sequence.
+The process for selecting representative families follows similar principles to domain selection, but considers signatures of type 'family' instead of 'domain', 'repeat' or 'homologous superfamily'. Like domain selection, it uses the signature type from member databases rather than the InterPro entry type. Representative families are selected from the following member databases: Pfam, PIRSF, PANTHER, NCBIfam, HAMAP and SFLD. When signatures overlap, the longest one is selected as representative, ensuring comprehensive coverage of the protein sequence.
+
+InterPro-N
+**********
+The presence of InterPro-N entries in the representative domains and families will depend on the **Display matches** mode selected under the 
+**Options** dropdown on top of the protein sequence viewer:
+
+    - Default/Stacked: if InterPro or InterPro-N matches are used for representative.
+    - InterPro only: InterPro matches are used for representative.
+    - InterPro-N only: InterPro-N are used for representative.
+
+InterPro-N annotations are distinguished by a leading sparkles icon (|sparkles_icon|) on the right hand label in the protein sequence viewer and by a top right 
+superscript (|interpro-n_tag|) on the InterPro or member database accession number in the tooltip.
+
+.. |sparkles_icon| image:: images/icons/sparkles_icon.png
+  :alt: sparkles icon
+  :width: 18pt
+
+.. |interpro-n_tag| image:: images/icons/interpro-n_tag.png
+  :alt: InterPro-N tag
+  :width: 70pt
 
 Technical corner
 ****************

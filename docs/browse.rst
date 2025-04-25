@@ -387,9 +387,12 @@ accession from the :ref:`proteins` tab in an entry page.
 The protein page provides the protein accession, the short name (identifier) given to the protein by Uniprot, the length 
 of the protein sequence, species in which the protein is found, the proteome it belongs to, the gene encoding for the protein and a brief 
 description of the protein's function where known. All the :ref:`InterPro family entries <entry_types>` 
-this protein is matching are listed under "**Protein family membership**". An external link to the protein 
-entry in `Uniprot <https://www.uniprot.org/>`_, as well as the export of the matches in TSV format and the possibility an `InterProScan search <https://www.ebi.ac.uk/interpro/search/sequence/>`_ for the full length or part of the protein sequence 
-is provided on the right hand side of the page.
+this protein is matching are listed under "**Protein family membership**". On the right hand side of the page, 
+external links to the protein entry in the `Uniprot <https://www.uniprot.org/>`_, `AlphaFold <https://alphafold.ebi.ac.uk/>`_ and/or 
+'BFVD <https://bfvd.foldseek.com/>`_ websites (depending on availability); and the possibility to start a 
+search in 'Foldseek <https://search.foldseek.com/search/>`_, perform an `InterProScan search <https://www.ebi.ac.uk/interpro/search/sequence/>`_ 
+for the full length or part of the protein sequence, download the sequence in FASTA fomat and export 
+the matches in TSV format are provided.
 
 .. figure:: images/browse_pages/protein_entry_page.png
     :alt: Protein entry page 

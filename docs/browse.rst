@@ -89,11 +89,12 @@ using a Large Language Model. All AI-generated content is flagged as such with a
 curator review when interpreting related results. When the content has been reviewed the |AI_tag| 
 status tag is updated accordingly. The possible status are:
 
-- Unreviewed (default): the entry hasn't been verified by a curator
-- Reviewed: the entry has been verified by a curator
-- Reviewed and updated: the entry has been verified and updated by a curator
+- AI-generated Unreviewed (default): the entry hasn't been verified by a curator
+- AI-generated Reviewed and updated: the entry has been verified and sligthly updated by a curator (e.g. literature references have been added and grammar, style and other minor issues corrected)
+- Curated (the |AI_tag| tag is no longer visible): the entry has been verified and updated by a curator
 
-The AI status is highlighted on the entry page in the tooltip when hovering over the |AI_tag| tag next to the entry name and short name, and next to the |AI_gen_tag| tag above the entry descriptions
+The AI status is highlighted on the entry page in the tooltip when hovering over the |AI_tag| tag next to the entry name and short name, 
+and with the |AI_unreviewed_tag| or |AI_reviewed_tag| tags above the entry descriptions
 
 More information on AI-generated content can be found in the :doc:`AI-generated content </llm_descriptions>` section.
 
@@ -101,9 +102,13 @@ More information on AI-generated content can be found in the :doc:`AI-generated 
   :alt: AI tag
   :width: 18pt
 
-.. |AI_gen_tag| image:: images/icons/ai_generated_tag.png
-  :alt: AI generated tag
-  :width: 68pt
+.. |AI_unreviewed_tag| image:: images/icons/ai_unreviewed_tag.png
+  :alt: AI-generated unreviewed tag
+  :width: 140pt
+
+.. |AI_reviewed_tag| image:: images/icons/ai_reviewed_tag.png
+  :alt: AI-generated reviewed tag
+  :width: 190pt
 
 .. figure:: images/browse_pages/interpro_AI-generated_entry_page.png
     :alt: InterPro AI-generated entry page

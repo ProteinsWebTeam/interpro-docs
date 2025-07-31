@@ -93,6 +93,7 @@ options should be selected.
 |
 |
 |
+.. _InterPro-N_display_modes:
 
 C. There are four alternative **display matches** modes:
 

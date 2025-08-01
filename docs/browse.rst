@@ -91,10 +91,11 @@ status tag is updated accordingly. The possible status are:
 
 - AI-generated Unreviewed (default): the entry hasn't been verified by a curator
 - AI-generated Reviewed and updated: the entry has been verified and sligthly updated by a curator (e.g. literature references have been added and grammar, style and other minor issues corrected)
-- Curated (the |AI_tag| tag is no longer visible): the entry has been verified and updated by a curator
 
 The AI status is highlighted on the entry page in the tooltip when hovering over the |AI_tag| tag next to the entry name and short name, 
-and with the |AI_unreviewed_tag| or |AI_reviewed_tag| tags above the entry descriptions
+and with the |AI_unreviewed_tag| or |AI_reviewed_tag| tags above the entry descriptions.
+
+If the AI-generated the entry has been verified and significantly updated by a curator, it will be marked as curated and the |AI_tag| tag will no longer be visible.
 
 More information on AI-generated content can be found in the :doc:`AI-generated content </llm_descriptions>` section.
 

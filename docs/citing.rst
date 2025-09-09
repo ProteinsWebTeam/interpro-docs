@@ -22,9 +22,15 @@ Françoise Thibaud-Nissen, Paul D Thomas, Silvio C E Tosatto, Cathy H Wu, Alex B
 InterProScan
 ============
 `InterProScan 5: genome-scale protein function classification <https://doi.org/10.1093/bioinformatics/btu031>`_
-Philip Jones, David Binns, Hsin-Yu Chang, Matthew Fraser, Weizhong Li, Craig McAnulla, Hamish McWilliam, John Maslen, Alex Mitchell, Gift Nuka, Sebastien Pesseat, Antony F. Quinn, Amaia Sangrador-Vegas, Maxim Scheremetjew, Siew-Yit Yong, Rodrigo Lopez, Sarah Hunter
+Philip Jones, David Binns, Hsin-Yu Chang, Matthew Fraser, Weizhong Li, Craig McAnulla, Hamish McWilliam, John Maslen, Alex Mitchell, Gift Nuka, Sebastien Pesseat, Antony F. Quinn, Amaia Sangrador-Vegas, Maxim Scheremetjew, Siew-Yit Yong, Rodrigo Lopez, Sarah Hunter,
 Bioinformatics (2014), PMID: `24451626 <https://europepmc.org/article/MED/24451626>`_
 
+
+InterPro-N
+==========
+**InterPro-N: predicted InterPro annotations of the 13 member databases using a computer vision-inspired segmentation method**
+Laetitia Meng-Papaxanthos, Felipe Llinares-Lopez, Typhaine Paysan-Lafosse, Matthias Blum, Antonina Andreeva, Delphine Baratin, Peer Bork, Alan Bridge, Farideh Chitsaz, Sara Rocio Chuguransky, Elisabeth Coudert, Andreea Gane, Noreen R. Gonzales, Julian Gough, Daniel Haft, Hongzhan Huang, Ivica Letunic, Gabriele H. Marchler, Aron Marchler-Bauer, Huaiyu Mi, Darren Natale, Christine Orengo, Ankur Parikh, Ivo Pedruzzi, Beatriz Lazaro Pinto, Vignesh Ram Somnath, Nicole Redaschi, Catherine Rivoire, Christian Sigrist, James S. Song, Francois Thibaud-Nissen, Paul Thomas, C. R. Vinayaka, Vaishali Waman, Cathy Wu, Roxanne A. Yamashita, Chanjuan Zheng, Alex Bateman, Lucy Colwell,
+2025, Download: `interpro-n.xml.gz <https://ftp.ebi.ac.uk/pub/databases/interpro/releases/105.0/interpro-n.xml.gz>`_
 
 *************************
 All previous publications

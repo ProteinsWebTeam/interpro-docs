@@ -229,7 +229,7 @@ entry for which structure predictions have been generated is shown. For each pro
 On a protein entry page, below the 3D viewer, the :doc:`protein sequence viewer </protein_viewer>` displays the member database 
 signatures and InterPro entries matching the protein. Hovering over a match highlights the corresponding section in the 
 predicted structure 3D view. Besides, on the left hand side of the protein structure viewer there is a drop-down list that 
-allows the user to colour the structure according to the alphafold model confidence (default) or the predicted TED domains.
+allows the user to colour the structure according to the AlphaFold model confidence (default) or the predicted TED domains.
 
 .. figure:: images/browse_pages/TED_dom_colouring.png
     :alt: Protein entry page, AlphaFold tab

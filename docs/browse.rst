@@ -214,7 +214,7 @@ The model confidence colour scale, determined using the plDDT score, is also dis
 The data can be downloaded in PDB or mmCIF format, by clicking on the corresponding buttons below the 3D viewer.
 
 .. figure:: images/browse_pages/alphafold_page.png
-    :alt: AlphaFold page
+    :alt: InterPro entry page, AlphaFold tab
     :width: 800px
 
     AlphaFold structure predictions tab for `IPR000562, UniProt O60449 <https://www.ebi.ac.uk/interpro/entry/InterPro/IPR000562/alphafold/?search=O60449#table>`_.
@@ -224,11 +224,18 @@ entry for which structure predictions have been generated is shown. For each pro
 
 - Access the :ref:`protein_page` by clicking on the UniProt accession or name
 - Access the :ref:`taxonomy_page` by clicking on the species
-- Display the structure prediction on the current page by clicking on the **Show prediction** button
+- Display the structure prediction on the current page by clicking on the **Show prediction** button. 
 
 On a protein entry page, below the 3D viewer, the :doc:`protein sequence viewer </protein_viewer>` displays the member database 
 signatures and InterPro entries matching the protein. Hovering over a match highlights the corresponding section in the 
-predicted structure 3D view.
+predicted structure 3D view. Besides, on the left hand side of the protein structure viewer there is a drop-down list that 
+allows the user to colour the structure according to the alphafold model confidence (default) or the predicted TED domains.
+
+.. figure:: images/browse_pages/TED_dom_colouring.png
+    :alt: Protein entry page, AlphaFold tab
+    :width: 800px
+
+    AlphaFold structure prediction tab for `O60449 <https://www.ebi.ac.uk/interpro/protein/reviewed/O60449/alphafold/>`_.
 
 .. _pBFVD:
 

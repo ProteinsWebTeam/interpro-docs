@@ -85,7 +85,12 @@ Users can import previous searches through two methods. The first method involve
 
 Search results summary
 ----------------------
-Selecting a job ID or entry in the **Results** column reveals detailed information about the search, including the sequence type, number of sequences analysed, current status, and expiry date. Users can perform several actions on their search results. The **Resubmit All** button allows running searches again using the latest InterProScan version. To retain results beyond the standard seven-day period, users can select **Save results in Browser**.
+Selecting a job ID or entry in the **Results** column reveals detailed information 
+about the search, including the sequence type, number of sequences analysed, current 
+status, and expiry date. Users can perform several actions on their search results. 
+The **Resubmit All** button allows running searches again using the latest InterProScan 
+version. The search results can also be downloaded in different formats. Besides, job 
+results are automatically saved in the browser.
 
 .. figure:: images/search/interpro_rtd_seq_list.png
    :alt: InterProScan search results (Sequences) page

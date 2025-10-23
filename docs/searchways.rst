@@ -89,7 +89,7 @@ Selecting a job ID or entry in the **Results** column reveals detailed informati
 about the search, including the sequence type, number of sequences analysed, current 
 status, and expiry date. Users can perform several actions on their search results. 
 The **Resubmit All** button allows running searches again using the latest InterProScan 
-version. The search results can also be downloaded in different formats. Besides, job 
+version. The search results can also be downloaded in different formats. Besides, search 
 results are automatically saved in the browser.
 
 .. figure:: images/search/interpro_rtd_seq_list.png

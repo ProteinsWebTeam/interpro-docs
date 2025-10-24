@@ -71,7 +71,10 @@ Protein sequence search results can be found under the **Results** tab within th
 
 Search status and management
 ----------------------------
-The **Status** column provides information about the search state through visual indicators. A green tick symbol indicates a completed search, whilst a searching symbol shows an in-progress search. A file symbol denotes either locally saved searches or imported results. Users can manage their searches through the **Action** column, which provides options to delete searches (bin icon) or save them locally (file icon).
+The **Status** column provides information about the search state. 
+A completed search is indicated with the word 'Completed', whilst a searching symbol shows an 
+in-progress search. Users can delete their searches through the **Action** column (bin icon). 
+Search results are automatically saved in the browser. 
 
 .. figure:: images/search/interpro_rtd_list_jobs.png
    :alt: Sequence search list
@@ -89,8 +92,7 @@ Selecting a job ID or entry in the **Results** column reveals detailed informati
 about the search, including the sequence type, number of sequences analysed, current 
 status, and expiry date. Users can perform several actions on their search results. 
 The **Resubmit All** button allows running searches again using the latest InterProScan 
-version. The search results can also be downloaded in different formats. Besides, search 
-results are automatically saved in the browser.
+version. The search results can also be downloaded in different formats.
 
 .. figure:: images/search/interpro_rtd_seq_list.png
    :alt: InterProScan search results (Sequences) page

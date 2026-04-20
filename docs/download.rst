@@ -108,8 +108,7 @@ InterPro entries that match in the P99999 protein accession.
 
 For more information on how to use the InterPro API, you can watch `this recorded webinar 
 <https://www.ebi.ac.uk/training/online/course/accessing-interpro-programmatically>`_
-or continue with the guide below, adapted from the API documentation on our
-|github| `GitHub repository <https://github.com/ProteinsWebTeam/interpro7-api/tree/master/docs>`_.
+or continue with the guide below.
 
 .. toctree::
    :maxdepth: 2

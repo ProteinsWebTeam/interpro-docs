@@ -107,8 +107,13 @@ The combined URL **/entry/interpro/protein/uniprot/p99999** returns the list of 
 InterPro entries that match in the P99999 protein accession.
 
 For more information on how to use the InterPro API, you can watch `this recorded webinar 
-<https://www.ebi.ac.uk/training/online/course/accessing-interpro-programmatically>`_
-or have a look at the API documentation on our |github| `GitHub repository <https://github.com/ProteinsWebTeam/interpro7-api/tree/master/docs>`_.
+<https://www.ebi.ac.uk/training/events/accessing-interpro-programmatically/>`_
+or continue with the guide below.
+
+.. toctree::
+   :maxdepth: 2
+
+   /api
 
 .. |github| image:: images/icons/github.svg
   :alt: Github icon

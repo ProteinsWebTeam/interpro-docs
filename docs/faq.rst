@@ -269,12 +269,8 @@ Application Programming Interface (API)
 
 How do I get started using the REST API?
 ========================================
-Documentation for the API is available at our |github|
-`GitHub repository <https://github.com/ProteinsWebTeam/interpro7-api/tree/master/docs>`_.
-
-.. |github| image:: images/icons/github.svg
-  :alt: Github icon
-  :width: 15pt
+Documentation for the API is available in the :doc:`Using the InterPro API
+</api>` guide.
 
 If you'd like to see some example scripts in Perl, Python 3 or
 Javascript we have a script generator. Please follow the steps below:

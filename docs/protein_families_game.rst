@@ -11,31 +11,7 @@ The Protein families game contains 42 cards divided in 7 families (6 protein car
 of families by asking the other players for the protein cards you are missing in your hand to complete your families. The game logic 
 is similar to the Happy families and Go Fish games.
 
-The game is available to play online by clicking on the image below, or you can put a `request to organise the Protein families game activity in person <https://www.ebi.ac.uk/about/contact/support/interpro>`_.
-
-.. raw:: html
-
-  <div style="position: center; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-  <iframe src="https://tabletopia.com/games/protein-families/680x340" width="680" height="340" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
-  </div>
-
-|
-
-Game rules
-==========
-
-The game rules in English can be `downloaded <https://c.tabletopia.com/games/protein-families/rules/protein-families-game-rules-online/en>`_.
-
-The video below explains how to interact with the different objects in the online platform. 
-
-.. raw:: html
-
-
-  <div style="position: center; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/EjrKx9hLYR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </div>
-
-|
+You can download a printable version of the game (PDF) from this `link <https://drive.google.com/drive/folders/1aq2YytFCfP6k_mvHLhvuH-Kk7VKS5Opl>`_, or you can put in a `request to organise the Protein families game activity in person <https://www.ebi.ac.uk/about/contact/support/interpro>`_.
 
 Translation
 ===========

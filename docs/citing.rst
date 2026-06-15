@@ -18,9 +18,14 @@ Llinares-López, Aron Marchler-Bauer, Laetitia Meng-Papaxanthos, Huaiyu Mi, Darr
 Orengo, Arun P Pandurangan, Damiano Piovesan, Catherine Rivoire, Christian J A Sigrist, Narmada Thanki, 
 Françoise Thibaud-Nissen, Paul D Thomas, Silvio C E Tosatto, Cathy H Wu, Alex Bateman, Nucleic Acids Research (2024), gkae1082, PMID: `39565202 <https://europepmc.org/article/MED/39565202>`_ 
 
+InterProScan 6
+===============
+`InterProScan 6: a modern large-scale protein function annotation pipeline <https://doi.org/10.1093/bioadv/vbag141>`_
+Matthias Blum, Emma Hobbs, Laise Florentino, Alex Bateman. Bioinformatics Advances (2026), PMID: `42222668 <https://europepmc.org/article/MED/42222668>`_
 
-InterProScan
-============
+
+InterProScan 5
+===============
 `InterProScan 5: genome-scale protein function classification <https://doi.org/10.1093/bioinformatics/btu031>`_
 Philip Jones, David Binns, Hsin-Yu Chang, Matthew Fraser, Weizhong Li, Craig McAnulla, Hamish McWilliam, John Maslen, Alex Mitchell, Gift Nuka, Sebastien Pesseat, Antony F. Quinn, Amaia Sangrador-Vegas, Maxim Scheremetjew, Siew-Yit Yong, Rodrigo Lopez, Sarah Hunter,
 Bioinformatics (2014), PMID: `24451626 <https://europepmc.org/article/MED/24451626>`_

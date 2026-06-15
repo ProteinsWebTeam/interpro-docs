@@ -11,7 +11,7 @@ The Protein families game contains 42 cards divided in 7 families (6 protein car
 of families by asking the other players for the protein cards you are missing in your hand to complete your families. The game logic 
 is similar to the Happy families and Go Fish games.
 
-You can download a printable version of the game (PDF) from this `link <https://drive.google.com/drive/folders/1aq2YytFCfP6k_mvHLhvuH-Kk7VKS5Opl>`_, or you can put in a `request to organise the Protein families game activity in person <https://www.ebi.ac.uk/about/contact/support/interpro>`_.
+You can download a printable version of the game (PDF) from this `link <https://drive.google.com/drive/folders/1aq2YytFCfP6k_mvHLhvuH-Kk7VKS5Opl>`_.
 
 Translation
 ===========

@@ -212,7 +212,7 @@ The protein accession and organism are displayed on the left hand side, together
 `AlphaFold <https://alphafold.ebi.ac.uk/>`_ and `Foldseek Server <https://search.foldseek.com/search>`_ websites. 
 The model confidence colour scale, determined using the plDDT score, is also displayed, varying from dark blue 
 (very high confidence) to orange (very low confidence). Immediately below the protein structure viewer, a table shows the available 
-multimers (monomers -default-, homodimers and heterodimers) that can be chosen for display.
+multimer predictions (monomers -default-, homodimers and heterodimers) that can be chosen for display.
 
 The data can be downloaded in PDB or mmCIF format, by clicking on the corresponding buttons below the 3D viewer.
 

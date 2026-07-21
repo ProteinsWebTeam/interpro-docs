@@ -8,8 +8,8 @@ A common element on several InterPro website pages is the protein sequence viewe
 member database signatures matches to the protein or structure
 being looked at, represented by the grey bar at the top of the viewer. 
 
-The *AlphaFold or BFVD confidence* track is displayed in the protein sequence viewer in the :ref:`protein page <protein_page>` 
-and in the :ref:`AlphaFold subpage <alphafold1>` or :ref:`BFVD subpage <pBFVD>` when a predicted structure is available.
+The *AlphaFold confidence* track is displayed in the protein sequence viewer in the :ref:`protein page <protein_page>` 
+and in the :ref:`AlphaFold subpage <alphafold1>` when a predicted structure is available.
 
 By default, a summarised view of the InterPro entries (IPR) and member database signatures matches is displayed.
 It provides information about the protein family membership in the Families category ([6] in the figure below, only 

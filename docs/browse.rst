@@ -21,7 +21,7 @@ There are 8 categories of pages in InterPro:
 - :ref:`Taxonomy <taxonomy_page>`
 - :ref:`Proteome <proteome_page>`
 - :ref:`Set/Clan <set_page>`
-- :ref:`UniParc <uniparc>`
+- :ref:`UniParc <uniparc_page>`
 
 The following entry data tabs are available when appropriate. We describe each in detail in the first 
 entry page it appears in. Most entry data tabs will be described within the :ref:`entry_page`.
@@ -449,7 +449,7 @@ The list can be filtered to either show all the protein matches or only the revi
 `UniProt <https://www.uniprot.org/>`_. For each protein the UniProt ID, name, length, corresponding gene, the 
 organism where it is found and a link to the protein structure prediction page (:ref:`alphafold1`).
 
-.. _uniparc:
+.. _uniparc_page:
 
 ************
 UniParc page

@@ -9,10 +9,10 @@ Browsing entries in the InterPro website
 .. :ref:quick_search searchways.html#quick-search
 
 You can get to entry pages in InterPro in lots of different ways. Commonly this will involve clicking on 
-a link to an entry from one of the :doc:`search methods </searchways>`.  This section describes the 
+a link to an entry from one of the :doc:`search methods </searchways>`. This section describes the 
 different types of entries and what you will find for each of their pages.
 
-There are 7 categories of entry pages in InterPro:
+There are 8 categories of pages in InterPro:
 
 - :ref:`InterPro entry <entry_page>`
 - :ref:`Member database signature <memberdb_page>`
@@ -21,6 +21,7 @@ There are 7 categories of entry pages in InterPro:
 - :ref:`Taxonomy <taxonomy_page>`
 - :ref:`Proteome <proteome_page>`
 - :ref:`Set/Clan <set_page>`
+- :ref:`UniParc <uniparc>`
 
 The following entry data tabs are available when appropriate. We describe each in detail in the first 
 entry page it appears in. Most entry data tabs will be described within the :ref:`entry_page`.
@@ -447,6 +448,8 @@ for each domain.
 The list can be filtered to either show all the protein matches or only the reviewed proteins from 
 `UniProt <https://www.uniprot.org/>`_. For each protein the UniProt ID, name, length, corresponding gene, the 
 organism where it is found and a link to the protein structure prediction page (:ref:`alphafold1`).
+
+.. _uniparc:
 
 ************
 UniParc page

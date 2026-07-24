@@ -407,7 +407,7 @@ When available, GO terms associated to InterPro entries and PANTHER families are
 GO terms provide information about Biological processes, Molecular function and Cellular components.
 
 The following tabs may be available: :ref:`entries`, :ref:`isoforms`, :ref:`structures`, :ref:`alphafold1`,
-:ref:`sequence`, :ref:`similar_proteins` and :ref:`alphafold1`.
+:ref:`sequence` and :ref:`similar_proteins`.
 
 .. _entries:
 

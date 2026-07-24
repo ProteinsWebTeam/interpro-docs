@@ -38,6 +38,7 @@ entry page it appears in. Most entry data tabs will be described within the :ref
 - :ref:`subfamilies`
 - :ref:`alignment`
 - :ref:`entries`
+- :ref:`isoforms`
 - :ref:`sequence`
 - :ref:`similar_proteins`
 
@@ -405,7 +406,7 @@ associated domains, sites etc.
 When available, GO terms associated to InterPro entries and PANTHER families are displayed at the bottom of the page. 
 GO terms provide information about Biological processes, Molecular function and Cellular components.
 
-The following tabs may be available: :ref:`entries`, :ref:`isoforms`,:ref:`structures`, 
+The following tabs may be available: :ref:`entries`, :ref:`isoforms`, :ref:`structures`, :ref:`alphafold1`,
 :ref:`sequence`, :ref:`similar_proteins` and :ref:`alphafold1`.
 
 .. _entries:

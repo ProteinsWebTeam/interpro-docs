@@ -572,7 +572,11 @@ relationships among Pfam models is displayed at the bottom of the page.
 
     Set entry page for `CL0219 <https://www.ebi.ac.uk/interpro/set/pfam/CL0219/>`_ (Pfam). In the 
     interactive viewer, the arrows/the mouse can be used to scroll in/out. Hovering the mouse over 
-    a Pfam entry (ellipse, circle, square or triangle) or structural relationship (line) shows details about it.
+    a Pfam entry (ellipse, circle, square or triangle) or relationship (line) shows details about it.
+    Here, the mouse is hovered over a structural relationship between the `Piwi domain <https://www.ebi.ac.uk/interpro/entry/pfam/PF02171/>`_ 
+    (integrated in `IPR003165 <https://www.ebi.ac.uk/interpro/entry/InterPro/IPR003165/>_`)
+    and the `Med13_C <https://www.ebi.ac.uk/interpro/entry/pfam/PF06333/>`_ (integrated into `IPR009401 <https://www.ebi.ac.uk/interpro/entry/InterPro/IPR009401/>``)
+    entries.
 
 The following tabs may be available: :ref:`set_entries`, :ref:`proteins`, :ref:`structures`, 
 :ref:`taxonomy` and :ref:`proteomes`.

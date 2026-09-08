@@ -572,7 +572,7 @@ relationships among Pfam models is displayed at the bottom of the page.
 
     Set entry page for `CL0219 <https://www.ebi.ac.uk/interpro/set/pfam/CL0219/>`_ (Pfam). In the 
     interactive viewer, the arrows/the mouse can be used to scroll in/out. Hovering the mouse over 
-    a Pfam entry (circle, square or triangle) or structural relationship (line) shows details about it.
+    a Pfam entry (ellipse, circle, square or triangle) or structural relationship (line) shows details about it.
 
 The following tabs may be available: :ref:`set_entries`, :ref:`proteins`, :ref:`structures`, 
 :ref:`taxonomy` and :ref:`proteomes`.

@@ -38,8 +38,15 @@ families, domains, important sites, perform a sequence search or browse through
 InterPro annotations. We have designed the website to be intuitive for new users 
 meaning it is not essential to read this documentation. However, in the following 
 sections you will find a wealth of specialised and powerful features that can be 
-easily overlooked. You may also want to check out our list of :doc:`training materials 
-and webinars </tutorials_webinars>`.
+easily overlooked. By clicking on the Docbot icon (|docbot_icon|) at the low right 
+corner, you can use our specialised AI-based chatbot to find answers to queries 
+about InterPro and the website based on this documentation. You may also want to check out our 
+list of `training materials and webinars 
+<https://www.ebi.ac.uk/training/search-results?query=interpro&domain=ebiweb_training&page=1&facets=>`_.
+
+.. |docbot_icon| image:: images/icons/docbot_icon.png
+  :alt: Docbot icon
+  :width: 30pt
 
 InterPro is updated approximately every 8 weeks. The `release notes page <https://www.ebi.ac.uk/interpro/release_notes/>`_ 
 contains information about what has changed in each release.

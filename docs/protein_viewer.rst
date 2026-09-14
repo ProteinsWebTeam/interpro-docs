@@ -134,4 +134,4 @@ superscript (|interpro-n_tag|) on the InterPro or member database accession numb
   :width: 70pt
 
 .. note::
-  InterPro-N predictions are not yet available for PDBe chain sequences, protein isoforms, or sequences submitted through the InterProScan web search.
+  InterPro-N predictions are not yet available for PDBe chain sequences or protein isoforms.

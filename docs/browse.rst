@@ -562,15 +562,21 @@ Set/Clan entry page
 Some :doc:`InterPro member databases </databases>` create groups of families that are evolutionary 
 related, called sets/clans. This page offers an overview of a specific set/clan provided by a member database, 
 it includes a short description and an interactive view of the signatures included in the set/clan. 
-For the interactive view, different label types can be chosen through the **Label Content** menu: 
-Accession, Name and Short name. For clans provided by the Pfam member database, an additional section 
-provides literature references and/or Wikipedia articles, when available.
+For clans provided by the Pfam member database, additional sections provide literature 
+references and/or Wikipedia articles when available, and an interactive view showing structural 
+relationships among Pfam models is displayed at the bottom of the page.
 
 .. figure:: images/browse_pages/set_page.png
     :alt: Set entry page 
     :width: 800px
 
-    Set entry page for `cl00011 <https://www.ebi.ac.uk/interpro/set/all/cl00011/>`_ (CDD)
+    Set entry page for `CL0219 <https://www.ebi.ac.uk/interpro/set/pfam/CL0219/>`_ (Pfam). In the 
+    interactive viewer, the arrows/the mouse can be used to scroll in/out. Hovering the mouse over 
+    a Pfam entry (ellipse, circle, square or triangle) or relationship (line) shows details about it.
+    Here, the mouse is hovered over a structural relationship between the `Piwi domain <https://www.ebi.ac.uk/interpro/entry/pfam/PF02171/>`_ 
+    (integrated in `IPR003165 <https://www.ebi.ac.uk/interpro/entry/InterPro/IPR003165/>_`)
+    and the `Med13_C <https://www.ebi.ac.uk/interpro/entry/pfam/PF06333/>`_ (integrated into `IPR009401 <https://www.ebi.ac.uk/interpro/entry/InterPro/IPR009401/>``)
+    entries.
 
 The following tabs may be available: :ref:`set_entries`, :ref:`proteins`, :ref:`structures`, 
 :ref:`taxonomy` and :ref:`proteomes`.

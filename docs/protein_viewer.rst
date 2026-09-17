@@ -68,7 +68,7 @@ figure above). Data included in the Full view, when available:
 - Conserved, Active and Binding sites
 - Conserved residues from CDD, SFLD and PIRSR
 - Pathogenic and likely pathogenic variants
-- Coiled-coils from COILS, Signal peptides from `SignalP <https://services.healthtech.dtu.dk/service.php?SignalP-5.0>`_ and/or Phobius, Transmembrane regions from `Phobius <https://phobius.sbc.su.se/>`_ and/or `TMHMM <https://services.healthtech.dtu.dk/service.php?TMHMM-2.0>`_.
+- Coiled-coils from COILS, Signal peptides from `SignalP <https://services.healthtech.dtu.dk/service.php?SignalP-6.0>`_ and/or Phobius, Transmembrane regions from `Phobius <https://phobius.sbc.su.se/>`_ and/or `TMbed <https://bio.tools/tmbed>`_.
 - Cytoplasmic/non-cytoplasmic domains from Phobius
 - Post-translational modifications from `Pride <https://www.ebi.ac.uk/pride/>`_ and `Prosite <https://prosite.expasy.org/>`_
 - Spurious proteins from :doc:`AntiFam </antifam>`

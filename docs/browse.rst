@@ -563,20 +563,32 @@ Some :doc:`InterPro member databases </databases>` create groups of families tha
 related, called sets/clans. This page offers an overview of a specific set/clan provided by a member database, 
 it includes a short description and an interactive view of the signatures included in the set/clan. 
 For clans provided by the Pfam member database, additional sections provide literature 
-references and/or Wikipedia articles when available, and an interactive view showing structural 
-relationships among Pfam models is displayed at the bottom of the page.
+references and/or Wikipedia articles when available, and an interactive view showing structural and profile 
+relationships among Pfam models is displayed at the bottom of the page. 
+
+In the interactive viewer, the mouse can be used to zoom in/out, nodes can be moved, and the buttons at the top 
+right corner of the viewer allow to customise the size of the nodes or the labels ('Show size controls'), 
+display the interactive legend on the left hand side ('Show Interactive Legend'), display the viewer 
+in the full screen ('Full screen'), and reset the view and the filters. Hovering the mouse over a Pfam 
+entry (ellipse, circle, square or triangle) or relationship (line) shows details about it on a tooltip located 
+in the bottom right corner. Pfam entries can be selected, which makes the corresponding tooltip static,
+highlights its relationships with other Pfam entries, and shows another button on the top right corner that 
+allows showing only the selected entry and its connections. The InterPro member database page for Pfam entries can 
+opened in a different tab by using ctrl/cmd+click on the node. On the top left corner, there is a 'Find an entry' 
+search box that allows searching for a specific Pfam accession or Pfam ID, selects it and zooms on it. Finally, in the 
+interactive legend, any element (clan membership, entry type or relationship threshold) can be toggled on/off 
+by clicking on it. 
 
 .. figure:: images/browse_pages/set_page.png
     :alt: Set entry page 
     :width: 800px
 
-    Set entry page for `CL0219 <https://www.ebi.ac.uk/interpro/set/pfam/CL0219/>`_ (Pfam). In the 
-    interactive viewer, the arrows/the mouse can be used to scroll in/out. Hovering the mouse over 
-    a Pfam entry (ellipse, circle, square or triangle) or relationship (line) shows details about it.
-    Here, the mouse is hovered over a structural relationship between the `Piwi domain <https://www.ebi.ac.uk/interpro/entry/pfam/PF02171/>`_ 
+    Set entry page for `CL0219 <https://www.ebi.ac.uk/interpro/set/pfam/CL0219/>`_ (Pfam). 
+    Here, the `Piwi domain <https://www.ebi.ac.uk/interpro/entry/pfam/PF02171/>`_ 
     (integrated in `IPR003165 <https://www.ebi.ac.uk/interpro/entry/InterPro/IPR003165/>_`)
-    and the `Med13_C <https://www.ebi.ac.uk/interpro/entry/pfam/PF06333/>`_ (integrated into `IPR009401 <https://www.ebi.ac.uk/interpro/entry/InterPro/IPR009401/>``)
-    entries.
+    was seached for in the 'Find an entry' search box, the 'Interactive legend' is shown, and 
+    both the Pfam entries belonging to 'Other clan' and the DALI structural relationships 
+    ('Predicted by') with a Z-score lower than 12 are toggled off.
 
 The following tabs may be available: :ref:`set_entries`, :ref:`proteins`, :ref:`structures`, 
 :ref:`taxonomy` and :ref:`proteomes`.

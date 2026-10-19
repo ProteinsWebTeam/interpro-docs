@@ -33,9 +33,9 @@ Bioinformatics (2014), PMID: `24451626 <https://europepmc.org/article/MED/244516
 
 InterPro-N
 ==========
-**InterPro-N: predicted InterPro annotations of the 13 member databases using a computer vision-inspired segmentation method**
+`InterPro-N: predicted InterPro annotations of the 13 member databases using a computer vision-inspired segmentation method <https://ftp.ebi.ac.uk/pub/databases/interpro/releases/105.0/interpro-n.html>`_
 Laetitia Meng-Papaxanthos, Felipe Llinares-Lopez, Typhaine Paysan-Lafosse, Matthias Blum, Antonina Andreeva, Delphine Baratin, Peer Bork, Alan Bridge, Farideh Chitsaz, Sara Rocio Chuguransky, Elisabeth Coudert, Andreea Gane, Noreen R. Gonzales, Julian Gough, Daniel Haft, Hongzhan Huang, Ivica Letunic, Gabriele H. Marchler, Aron Marchler-Bauer, Huaiyu Mi, Darren Natale, Christine Orengo, Ankur Parikh, Ivo Pedruzzi, Beatriz Lazaro Pinto, Vignesh Ram Somnath, Nicole Redaschi, Catherine Rivoire, Christian Sigrist, James S. Song, Francois Thibaud-Nissen, Paul Thomas, C. R. Vinayaka, Vaishali Waman, Cathy Wu, Roxanne A. Yamashita, Chanjuan Zheng, Alex Bateman, Lucy Colwell,
-2025, Download: `interpro-n.xml.gz <https://ftp.ebi.ac.uk/pub/databases/interpro/releases/105.0/interpro-n.xml.gz>`_
+Google DeepMind, 2025, URL `https://ftp.ebi.ac.uk/pub/databases/interpro/releases/105.0/interpro-n.html <https://ftp.ebi.ac.uk/pub/databases/interpro/releases/105.0/interpro-n.html>`_
 
 *************************
 All previous publications

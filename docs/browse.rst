@@ -41,6 +41,7 @@ entry page it appears in. Most entry data tabs will be described within the :ref
 - :ref:`isoforms`
 - :ref:`sequence`
 - :ref:`similar_proteins`
+- :ref:`genomic_context`
 
 .. _entry_page:
 
@@ -365,6 +366,21 @@ Scrolling up/down allows to move other sequences in the alignment into the visib
 
 .. figure:: images/browse_pages/alignment_tab.png
     :alt: Member database alignment tab 
+    :width: 800px
+
+.. _genomic_context:
+
+Genomic context
+===============
+This tab is only available for some Pfam entries. It provides information about the genomic context of 
+representative proteins matching this entry by showing contigs from the OpenGenome database with a gene 
+encoding a protein matching the Pfam model. Each contig (row) is aligned on the protein. Highlighted 
+lines and boxes represent retrieved matches and Rfam families respectively. Details are shown in a tooltip 
+by hovering the mouse over a gene. Besides, a link to the corresponding `Seqhub <https://seqhub.org/>`_ 
+site is provided in the top right corner.
+
+.. figure:: images/browse_pages/genomic_context_tab.png
+    :alt: Member database genomic context tab 
     :width: 800px
 
 .. _subfamilies:

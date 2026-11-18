@@ -372,16 +372,19 @@ Scrolling up/down allows to move other sequences in the alignment into the visib
 
 Genomic context
 ===============
-This tab is only available for some Pfam entries. It provides information about the genomic context of 
-representative proteins matching this entry by showing contigs from the OpenGenome database with a gene 
-encoding a protein matching the Pfam model. Each contig (row) is aligned on the protein. Highlighted 
-lines and boxes represent retrieved matches and Rfam families respectively. Details are shown in a tooltip 
-by hovering the mouse over a gene. Besides, a link to the corresponding `Seqhub <https://seqhub.org/>`_ 
-site is provided in the top right corner.
+This tab is available in the member database pages of some Pfam entries and in the protein pages of 
+prokaryotic proteins. It provides information about the genomic context of representative proteins 
+that are similar to the query (for protein pages) or match the model (for Pfam entries) by showing contigs 
+from the OpenGenome database with a gene encoding these proteins. Each contig (row) is aligned on the gene
+encoding a representative protein. Lines and boxes represent Pfam and Rfam familiy matches respectively. 
+Further details are shown in a tooltip by hovering the mouse over a gene. Besides, a link to the corresponding 
+`Seqhub <https://seqhub.org/>`_ site is provided in the top right corner.
 
 .. figure:: images/browse_pages/genomic_context_tab.png
-    :alt: Member database genomic context tab 
+    :alt: Genomic context tab.
     :width: 800px
+
+    Genomic context tab of a prokaryotic protein entry page (above) and a Pfam entry page (below).
 
 .. _subfamilies:
 
